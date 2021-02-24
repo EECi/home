@@ -24,7 +24,7 @@ The Energy Efficient Cities initiative [EECi] is a cross-disciplinary research p
 
 <script src="//d3js.org/d3.v3.min.js"></script>
 <script>
-var width = $("#d3div").width(),
+var width = 500,
     height = 500;
 var color = d3.scale.category20();
 var force = d3.layout.force()
