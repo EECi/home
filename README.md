@@ -10,3 +10,4 @@ The Energy Efficient Cities initiative [EECi] is a cross-disciplinary research p
 <!--<p>This is <a href="https://www.d3-graph-gallery.com">a link to the d3 graph gallery</a></p> -->
 <script src="https://d3js.org/d3.v6.min.js"></script>
 
+<script src="/home/scripts/try1.js"></script>
