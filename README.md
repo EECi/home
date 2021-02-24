@@ -10,31 +10,43 @@ The Energy Efficient Cities initiative [EECi] is a cross-disciplinary research p
 <!--<p>This is <a href="https://www.d3-graph-gallery.com">a link to the d3 graph gallery</a></p> -->
 <script src="https://d3js.org/d3.v6.min.js"></script>
 
+<div id='d3div'></div>
+
+<style>
+
+.node {
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+.link {
+  stroke: #999;
+  stroke-opacity: .6;
+}
+
+</style>
+
+
 <script>
-let dataset = [3,12,13,7,5,9,19,7];
-let svgHeight= 400, svgWidth = 500, barSpacing = 5;
-let totalBarWidth = (svgWidth/dataset.length);
-let barWidth = totalBarWidth-barSpacing
-let svg = d3.select('svg')
-            .attr('width', svgWidth)
-            .attr('height', svgHeight);
-let xScale = d3.scaleLinear()
-               .domain([0, d3.max(dataset)])
-               .range([0, svgWidth])
-let xAxis = d3.axisBottom().scale(xScale);
 
-let yScale = d3.scaleLinear()
-               .domain([0, d3.max(dataset)])
-               .range([svgHeight-30, 0])
-let yAxis = d3.axisLeft().scale(yScale);
+var width = $("#d3div").width(),
+    height = 500;
 
-svg.append('g')
-   .attr('transform','translate(50, 10)')
-   .call(yAxis);
+var color = d3.scale.category20();
 
-let xAxisTranslate = svgHeight - 20;
+var force = d3.layout.force()
+    .charge(-120)
+    .linkDistance(30)
+    .size([width, height]);
 
-svg.append('g')
-   .attr('transform',`translate(50,${xAxisTranslate})`)
-   .call(xAxis);
+var svg = d3.select("#d3div").append("svg")
+    .attr("width", width)
+    .attr("height", height);
+
+
+    node.attr("cx", function(d) { return d.x; })
+        .attr("cy", function(d) { return d.y; });
+  });
+});
+
 </script>
