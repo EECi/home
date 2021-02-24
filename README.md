@@ -32,7 +32,7 @@ The Energy Efficient Cities initiative [EECi] is a cross-disciplinary research p
 var width = 500,
     height = 500;
 
-var color = d3.scale.category20();
+var color = d3.scaleOrdinal(d3.schemeCategory20);
 
 var force = d3.layout.force()
     .charge(-120)
