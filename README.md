@@ -8,40 +8,83 @@ The Energy Efficient Cities initiative [EECi] is a cross-disciplinary research p
 
 
 <!--<p>This is <a href="https://www.d3-graph-gallery.com">a link to the d3 graph gallery</a></p> -->
+<div id="ca">
+</div>
 <script src="https://d3js.org/d3.v6.min.js"></script>
-
-<div id='d3div'></div>
-
-<style>
-
-.node {
-  stroke: #fff;
-  stroke-width: 1.5px;
-}
-
-.link {
-  stroke: #999;
-  stroke-opacity: .6;
-}
-
-</style>
-
 
 <script>
 
-var width = 500,
-    height = 500;
+const data = Object.values({
+  "LINE1": [
+    10,
+    11,
+    12,
+    15
+  ],
+  "LINE2": [
+    21,
+    22,
+    23,
+    32
+  ],
+  "LINE3": [
+    11,
+    12,
+    13,
+    15
+  ]
+});
 
-var color = d3.scaleOrdinal(d3.schemeCategory20);
+var line = d3.line()
+  .x((d, i) => x(i))
+  .y((d) => y(d));
 
-var force = d3.layout.force()
-    .charge(-120)
-    .linkDistance(30)
-    .size([width, height]);
+// set the dimensions and margins of the graph
+var margin = {
+    top: 50,
+    right: 100,
+    bottom: 130,
+    left: 120
+  },
+  width = 900 - margin.left - margin.right,
+  height = 400 - margin.top - margin.bottom;
 
-var svg = d3.select("#d3div").append("svg")
-    .attr("width", width)
-    .attr("height", height);
+// append the svg object to the body of the page
+var svg = d3.select("#ca")
+  .append("svg")
+  .attr("width", width + margin.left + margin.right)
+  .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+  .attr("transform", `translate(${margin.left}, ${margin.top})`);
+
+// Add X axis
+var x = d3.scaleLinear()
+  .domain([0, d3.max(data, (d) => d.length)])
+  .range([0, width]);
+
+svg.append("g")
+  .attr("transform", "translate(0," + height + ")")
+  .call(d3.axisBottom(x).ticks(5));
+
+// Add Y axis
+// I need help in this area, how can I get the min and max values set in the domain?
+var y = d3.scaleLinear()
+  .domain([0, d3.max(data, (d) => Math.max(...d))])
+  .range([height, 0]);
+
+svg.append("g")
+  .call(d3.axisLeft(y));
+
+// Draw the line
+// I need help in this area, how can I get the lines plotted, js gives error in this!
+svg.selectAll(".line")
+  .data(data)
+  .enter()
+  .append("path")
+  .attr("fill", "none")
+  .attr("stroke", "black")
+  .attr("stroke-width", 1.5)
+  .attr("d", (d) => line(d));
 
 
 </script>
