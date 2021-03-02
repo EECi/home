@@ -238,95 +238,95 @@ svg.append("text")
 **Test: Adding an individual map**
 
 <!DOCTYPE html>
-<html>
-<head>
 <meta charset="utf-8">
-<title>Point on a map D3</title>
+<style>
 
-<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
-<script src="http://d3js.org/topojson.v1.min.js"></script>
+.graticule {
+  fill: none;
+  stroke: #777;
+  stroke-opacity: .5;
+  stroke-width: .5px;
+}
 
-<style type="text/css">
-	.feature {
-		fill: none;
-		stroke: grey;
-		stroke-width: 1px;
-  		stroke-linejoin: round;
-	}
-	.mesh {
-		fill: none;
-  		stroke: lightgrey;
-  		stroke-width: 2px;
-  		stroke-linejoin: round;
-	}
-	h1 {
-		font-family: sans-serif;
-	}
+.land {
+  fill: #222;
+}
+
+.boundary {
+  fill: none;
+  stroke: #fff;
+  stroke-width: .5px;
+}
+
+circle {
+  fill: yellow;
+}
+
+.geopath {
+  fill: green;
+}
+
 </style>
-</head>
 <body>
-	<h1>Point in the north west part of SF</h1>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="http://d3js.org/topojson.v1.min.js"></script>
+<script>
 
+var width = 1200,
+    height = 720;
 
-<script type="text/javascript">
+var projection = d3.geo.mercator()
+    .scale(8000)
+    .precision(.1)
+    .center([13.320255,52.52831499])
+    .translate([width / 2, height / 2])
 
-var width = 950,
-    height = 550;
-
-// set projection
-var projection = d3.geo.mercator();
-
-// create path variable
 var path = d3.geo.path()
     .projection(projection);
 
+var graticule = d3.geo.graticule();
 
-d3.json("us.json", function(error, topo) { console.log(topo);
+var svg = d3.select("body").append("svg")
+    .attr("width", width)
+    .attr("height", height);
 
-  	states = topojson.feature(topo, topo.objects.states).features
+svg.append("path")
+    .datum(graticule)
+    .attr("class", "graticule")
+    .attr("d", path);
 
-  	// set projection parameters
-  	projection
-      .scale(1000)
-      .center([-106, 37.5])
-
-    // create svg variable
-    var svg = d3.select("body").append("svg")
-    				.attr("width", width)
-    				.attr("height", height);
-
-    // points
-    aa = [-122.490402, 37.786453];
-	bb = [-122.389809, 37.72728];
-
-	console.log(projection(aa),projection(bb));
-
-	// add states from topojson
-	svg.selectAll("path")
-      .data(states).enter()
-      .append("path")
-      .attr("class", "feature")
-      .style("fill", "steelblue")
+d3.json("world-50m.json", function(error, world) {
+  svg.insert("path", ".graticule")
+      .datum(topojson.feature(world, world.objects.land))
+      .attr("class", "land")
       .attr("d", path);
 
-    // put boarder around states 
-  	svg.append("path")
-      .datum(topojson.mesh(topo, topo.objects.states, function(a, b) { return a !== b; }))
-      .attr("class", "mesh")
+  svg.insert("path", ".graticule")
+      .datum(topojson.mesh(world, world.objects.countries, function(a, b) { return a !== b; }))
+      .attr("class", "boundary")
       .attr("d", path);
+});
 
-    // add circles to svg
-    svg.selectAll("circle")
-		.data([aa,bb]).enter()
-		.append("circle")
-		.attr("cx", function (d) { console.log(projection(d)); return projection(d)[0]; })
-		.attr("cy", function (d) { return projection(d)[1]; })
-		.attr("r", "8px")
-		.attr("fill", "red")
+d3.json("stops_berlin.geojson", function(error, data) {
+
+  // using d3.geo.path() which does all the work for you
+  svg.append("path")
+    .datum(data)
+    .classed("geopath", true)
+    .attr("d", path)
+
+  // or insert your own custom dots by hand
+  svg.append("g")
+    .selectAll("g")
+    .data(data.features)
+    .enter()
+      .append("g")
+      .attr("transform", function(d) { return "translate(" + projection(d.geometry.coordinates) + ")"; })
+      .append("circle")
+      .attr("r", 1)
 
 });
 
+d3.select(self.frameElement).style("height", height + "px");
+  
 </script>
-    
-</body>
-</html>
