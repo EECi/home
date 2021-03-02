@@ -234,7 +234,9 @@ svg.append("text")
 
 
 </script>
+
 **Test: Adding an individual map**
+
 <!DOCTYPE html>
 <html>
 <head>
