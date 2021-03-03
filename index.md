@@ -3,6 +3,9 @@ layout: default
 title: Home page
 nav_order: 2
 has_children: true
+header_pages:
+  - about.md
+  - portfolio.md
 ---
 
 # Energy Efficient Cities initiative
