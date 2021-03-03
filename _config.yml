@@ -1,3 +1,5 @@
 theme: minima
 name: Energy Efficient Cities Initiative
-
+header_pages:
+  - about.md
+  - projects.md
