@@ -2,8 +2,9 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
   {%- include head.html -%}
-
-  <body>
+  
+  <body data-spy="scroll" data-target="#toc">
+    {% include nav.html %}
 
     {%- include header.html -%}
     
