@@ -7,9 +7,16 @@ About the team
 
 Testing r
 
-```{r fig.cap="My Title", fig.id="f:snubble"}
-df <- data.frame(col1=c(1,2,3), col2=c(2,3,4))
-require(ggplot2)
-ggplot(df, aes(col1,col2))+geom_point()
 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+::: {#f:snubble}
+```{r pressure, echo=FALSE}
+plot(pressure)
 ```
