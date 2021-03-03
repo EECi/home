@@ -10,5 +10,7 @@ File with projects
 TO TEST navigation pane
 
 {% include_relative _people/mel.md %}
+{% include_relative _people/rebecca.md %}
+
 
 
