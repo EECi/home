@@ -5,7 +5,8 @@ nav_order: 2
 has_children: true
 header_pages:
   - about.md
-  - portfolio.md
+  - projects.md
+  - people.md
 ---
 
 # Energy Efficient Cities initiative
