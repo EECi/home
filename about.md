@@ -1,5 +1,6 @@
 ---
-Title: About
+layout: default
+title: About
 ---
 
 About the team
