@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Projects
 description: An overview of EECi projects
 last_modified_at: 2021-03-03
