@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your entire site, values
@@ -181,6 +182,11 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 
 # Conversion
+=======
+theme: minimal-mistakes-jekyll
+name: Energy Efficient Cities Initiative website
+title: Energy Efficient Cities Initiative
+>>>>>>> parent of 6e3e770... Update _config.yml
 markdown: kramdown
 highlighter: rouge
 lsi: false
