@@ -1,11 +1,9 @@
 ---
 layout: home
-title: Home page
-nav_order: 2
-has_children: true
+author_profile: true
 ---
 
-# Energy Efficient Cities initiative
+Welcome to our website!
 
 ![EECi Group Logo](/Images/Group Logo.png)
 
