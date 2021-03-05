@@ -1,7 +1,0 @@
-theme: minima
-name: Energy Efficient Cities Initiative
-name: Energy Efficient Cities Initiative website
-title: Energy Efficient Cities Initiative
-markdown: kramdown
-kramdown:
-  parse_block_html: true
