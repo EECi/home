@@ -3,7 +3,7 @@ main:
   - title: "People"
     url: /allpeople/
   - title: "Introduction"
-    url: https://meljsingh.github.io/intro/
+    url: /intro/
   - title: "Projects"
     url: /allprojects/
   # - title: "Sample Posts"
@@ -36,4 +36,11 @@ sidebar-projects:
     url: /docs/_projects/urbanfarming/
   - title: "Energy"
     url: /docs/_projects/energy/
-  
+    
+sidebar-people:
+  - title: "Mel"
+    url: /docs/_people/mel/
+  - title: "Rebecca"
+    url: /docs/_people/rebecca/
+  - title: "Monika"
+    url: /docs/_people/monikak/
