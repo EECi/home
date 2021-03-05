@@ -1,0 +1,39 @@
+# main links
+main:
+  - title: "People"
+    url: /allpeople/
+  - title: "Introduction"
+    url: https://meljsingh.github.io/intro/
+  - title: "Projects"
+    url: /allprojects/
+  # - title: "Sample Posts"
+  #   url: /year-archive/
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/
+
+
+# documentation links
+docs:
+  - title: Projects
+    children:
+      - title: "Urban Farming"
+        url: /docs/_projects/urbanfarming/
+      - title: "Energy"
+        url: /docs/_projects/energy/
+  - title: People
+    children:
+      - title: "Mel"
+        url: /docs/_people/mel/
+      - title: "Rebecca"
+        url: /docs/_people/rebecca/
+      - title: "Monika"
+        url: /docs/_people/monikak/
+
+sidebar-projects:
+  - title: "Urban Farming"
+    url: /docs/_projects/urbanfarming/
+  - title: "Energy"
+    url: /docs/_projects/energy/
+  
