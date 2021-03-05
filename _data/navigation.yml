@@ -17,12 +17,14 @@ main:
 # documentation links
 docs:
   - title: Projects
+    url: /allprojects/
     children:
       - title: "Urban Farming"
         url: /docs/_projects/urbanfarming/
       - title: "Energy"
         url: /docs/_projects/energy/
   - title: People
+    url: /allpeople/
     children:
       - title: "Mel"
         url: /docs/_people/mel/
