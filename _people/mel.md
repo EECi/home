@@ -1,3 +1,7 @@
+---
+theme: posts
+---
+
 # Melanie Jans-Singh {.tabset}
 
 ## Education
