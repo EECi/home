@@ -20,29 +20,29 @@ docs:
     url: /allprojects/
     children:
       - title: "Urban Farming"
-        url: /docs/_projects/urbanfarming/
+        url: /docs/projects/urbanfarming/
       - title: "Energy"
-        url: /docs/_projects/energy/
+        url: /docs/projects/energy/
   - title: People
     url: /allpeople/
     children:
       - title: "Mel"
-        url: /docs/_people/mel/
+        url: /docs/people/mel/
       - title: "Rebecca"
-        url: /docs/_people/rebecca/
+        url: /docs/people/rebecca/
       - title: "Monika"
-        url: /docs/_people/monikak/
+        url: /docs/people/monikak/
 
 sidebar-projects:
   - title: "Urban Farming"
-    url: /docs/_projects/urbanfarming/
+    url: /docs/projects/urbanfarming/
   - title: "Energy"
-    url: /docs/_projects/energy/
+    url: /docs/projects/energy/
     
 sidebar-people:
   - title: "Mel"
-    url: /docs/_people/mel/
+    url: /docs/people/mel/
   - title: "Rebecca"
-    url: /docs/_people/rebecca/
+    url: /docs/people/rebecca/
   - title: "Monika"
-    url: /docs/_people/monikak/
+    url: /docs/people/monikak/

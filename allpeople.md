@@ -12,9 +12,9 @@ sidebar:
 File with projects
 TO TEST navigation pane
 
-{% include_relative docs/_people/mel.md %}
+{% include_relative docs/people/mel.md %}
 
-{% include_relative docs/_people/rebecca.md %}
+{% include_relative docs/people/rebecca.md %}
 
-{% include_relative docs/_people/monikak.md %}
+{% include_relative docs/people/monikak.md %}
 
