@@ -7,6 +7,29 @@ last_modified_at: 2021-03-03
 ---
 
 
-File with people
-TO TEST navigation pane
+# Researchers
+
+## Ruchi Choudhary
+
+Ruchi is ...
+
+## Rebecca Ward
+
+## Monika Kreitmair
+
+## Nick
+
+
+
+# PhD students
+
+## Mingda
+
+## Andre
+
+# Visiting
+
+
+
+
 

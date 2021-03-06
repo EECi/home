@@ -1,11 +1,17 @@
-# Melanie Jans-Singh {.tabset}
+---
+layout: page
+title: Melanie Jans-Singh
+description: SHort bio
+last_modified_at: 2021-03-05
+---
 
-## Education
+Final year PhD student
 
-Bla
+CDT in Future Infrastructure and Built Environment
 
-## Research
+Topic: Energy Models and Digital twins for Urban Integrated Agriculture
 
-Bla bla
+Supervisor: Dr. Ruchi Choudhary
 
-# Rebecca Ward
+
+Email: mkj32@cam.ac.uk

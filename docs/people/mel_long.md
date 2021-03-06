@@ -22,3 +22,4 @@ More detail about the work I have carried out with collaborators can be found in
 
 ## Publications
 
+![Miles for MS](/Images/Miles for MS.gif)
