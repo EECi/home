@@ -22,7 +22,7 @@ has_toc: true
 File with projects
 TO TEST navigation pane
 
-{% include_relative docs/projects/energy.md %}
+{% include_relative energy.md %}
 
-{% include_relative docs/projects/urbanfarming.md %}
+{% include_relative urbanfarming.md %}
 
