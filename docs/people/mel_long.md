@@ -22,4 +22,6 @@ More detail about the work I have carried out with collaborators can be found in
 
 ## Publications
 
-![Miles for MS](/Images/Miles for MS.gif)
+
+
+{% include figure image_path="/Images/Miles for MS.gif" alt="this is a placeholder image" caption="This is a figure caption." %}

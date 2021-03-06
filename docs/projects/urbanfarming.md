@@ -2,13 +2,16 @@
 layout: splash
 title: Urban Farming
 header:
-  image: /Images/Images/infraredphotooftunnel.PNG
+  image: /Images/infraredphotooftunnel.PNG
   caption: "Photo credit: [**Growing Underground**](https://unsplash.com)"
 tags:
   - edge case
   - featured image
   - image
   - layout
+toc: true
+toc_label: "My Table of Contents"
+toc_icon: "cog"
 ---
 
 This project contains three sections
