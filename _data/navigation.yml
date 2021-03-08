@@ -10,8 +10,8 @@ main:
   #   url: /year-archive/
   # - title: "Sample Collections"
   #   url: /collection-archive/
-  - title: "Sitemap"
-    url: /sitemap/
+  - title: "Our team"
+    url: /our-team/
 
 
 # documentation links
@@ -24,7 +24,7 @@ docs:
       - title: "Energy"
         url: /docs/projects/energy/
   - title: People
-    url: /allpeople/
+    url: /docs/our-team/
     children:
       - title: "Mel"
         url: /docs/people/mel/
