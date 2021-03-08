@@ -1,5 +1,4 @@
 ---
-layout: splash
 title: Urban Farming
 header:
   image: /Images/infraredphotooftunnel.PNG
@@ -12,6 +11,10 @@ tags:
 toc: true
 toc_label: "My Table of Contents"
 toc_icon: "cog"
+author: melanie
+excerpt: "Presentation of urban farming project"
+last_modified_at: 2021-03-08
+toc: true
 ---
 
 This project contains three sections
