@@ -3,7 +3,8 @@ layout: single
 title: Rebecca Ward
 description: SHort bio
 last_modified_at: 2021-03-05
-author: Rebecca
+author: "Rebecca"
+author_profile: true
 ---
 
 

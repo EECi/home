@@ -95,7 +95,7 @@ analytics:
 # Site Author
 author:
   name             : "EECi"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/Images/EECi Logo.png"
   bio              : ""
   location         : "Department of Engineering, Cambridge"
   email            :
