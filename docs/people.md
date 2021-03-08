@@ -4,18 +4,19 @@ title: Our team
 #permalink: /docs/people/
 description: An overview of the team
 last_modified_at: 2021-03-03
-gallery2:
+faculty_gallery:
   - url: https://www.eeci.cam.ac.uk/directory/r-choudhary/
     image_path: https://www.eeci.cam.ac.uk/directory/r-choudhary/image_normal
     alt: "Ruchi Choudhary"
+ra_gallery:
   - url: https://www.eeci.cam.ac.uk/directory/m-kreitmair/
     image_path: https://www.eeci.cam.ac.uk/directory/m-kreitmair/image_normal
     alt: "Monika Kreitmair"
   - url: https://www.eeci.cam.ac.uk/directory/n-makasis/
-    image_path: https://www.eeci.cam.ac.uk/directory/m-janssingh/image_normal
+    image_path: https://www.eeci.cam.ac.uk/directory/n-makasis/image_normal
     alt: "Nick Makasis"
   - url: https://www.eeci.cam.ac.uk/directory/r-ward/
-    image_path: https://www.eeci.cam.ac.uk/directory/m-janssingh/image_normal
+    image_path: https://www.eeci.cam.ac.uk/directory/r-ward/image_normal
     alt: "Rebecca Ward"
   - url: https://www.eeci.cam.ac.uk/directory/z-xuereb-conti/
     image_path: https://www.eeci.cam.ac.uk/directory/z-xuereb-conti/image_normal
@@ -23,33 +24,29 @@ gallery2:
   - url: https://www.eeci.cam.ac.uk/directory/m-janssingh/
     image_path: https://www.eeci.cam.ac.uk/directory/m-janssingh/image_normal
     alt: "Melanie Jans-Singh"
+grad_student_gallery:
+  - url: https://www.eeci.cam.ac.uk/directory/j-kinch/
+    image_path: https://www.eeci.cam.ac.uk/directory/j-kinch/image_normal
+    alt: "James Kinch"
+  - url: https://www.eeci.cam.ac.uk/directory/a-neto-bradley
+    image_path: https://www.eeci.cam.ac.uk/directory/a-neto-bradley/image_normal
+    alt: "André Paul Neto-Bradley"
 ---
 
+## Faculty
 
-{% include gallery id="gallery2" caption="This is a second gallery example with images hosted externally." %}
-
-
-# Researchers
-
-## Ruchi Choudhary
-
-Ruchi is ...
-
-## Rebecca Ward
-
-## Monika Kreitmair
-
-## Nick
+{% include gallery id="faculty_gallery" caption="Faculty" %}
 
 
+## Research associates
 
-# PhD students
+{% include gallery id="ra_gallery" caption="Research associates" %}
 
-## Mingda
+## Graduate students
 
-## Andre
+{% include gallery id="grad_student_gallery" caption="Graduate students" %}
 
-# Visiting
+
 
 
 
