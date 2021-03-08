@@ -17,6 +17,9 @@ gallery2:
 ---
 
 
+{% include gallery id="gallery2" caption="This is a second gallery example with images hosted externally." %}
+
+
 # Researchers
 
 ## Ruchi Choudhary
