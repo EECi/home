@@ -16,6 +16,21 @@ Billy Rick:
 Melanie:
   name        : "Melanie Jans-Singh"
   bio         : "Research Associate, Urban farming"
+  avatar      : https://www.eeci.cam.ac.uk/directory/m-janssingh/image_normal
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:mkj32@cam.ac.uk"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://thewhip.com"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/meljanssingh"
+
+Rebecca:
+  name        : "Rebecca Ward"
+  bio         : "Research Associate, Urban farming"
   avatar      : "/Images/rmw.jpg"
   links:
     - label: "Email"
