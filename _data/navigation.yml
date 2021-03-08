@@ -12,6 +12,8 @@ main:
   #   url: /collection-archive/
   - title: "Our team"
     url: /our-team/
+  - title: "Latest posts"
+    url: /docs/posts/
 
 
 # documentation links
