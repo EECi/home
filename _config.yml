@@ -96,7 +96,7 @@ analytics:
 author:
   name             : "EECi"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  bio              : ""
   location         : "Department of Engineering, Cambridge"
   email            :
   links:
@@ -124,7 +124,7 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url:
+      url: https://twitter.com/EECi_Cambridge
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
