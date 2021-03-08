@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: single
 title: Monika Kreitmair
 description: SHort bio
 last_modified_at: 2021-03-05

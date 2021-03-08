@@ -13,7 +13,7 @@ main:
   - title: "Our team"
     url: /our-team/
   - title: "Latest posts"
-    url: /docs/posts/
+    url: /year-archive/
 
 
 # documentation links
@@ -29,7 +29,7 @@ docs:
     url: /docs/our-team/
     children:
       - title: "Mel"
-        url: /docs/people/mel/
+        url: /docs/people/mel_long/
       - title: "Rebecca"
         url: /docs/people/rebecca/
       - title: "Monika"

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: single
 title: Melanie Jans-Singh
 description: Personal website
 last_modified_at: 2021-03-05
