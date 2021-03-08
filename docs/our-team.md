@@ -8,34 +8,46 @@ faculty_gallery:
   - url: https://www.eeci.cam.ac.uk/directory/r-choudhary/
     image_path: https://www.eeci.cam.ac.uk/directory/r-choudhary/image_normal
     alt: "Ruchi Choudhary"
+    title: "Ruchi Choudhary"
 ra_gallery:
   - url: https://www.eeci.cam.ac.uk/directory/m-kreitmair/
     image_path: https://www.eeci.cam.ac.uk/directory/m-kreitmair/image_normal
+    title: "Monika Kreitmair"
     alt: "Monika Kreitmair"
   - url: https://www.eeci.cam.ac.uk/directory/n-makasis/
     image_path: https://www.eeci.cam.ac.uk/directory/n-makasis/image_normal
     alt: "Nick Makasis"
+    title: "Nick Makasis"
   - url: https://www.eeci.cam.ac.uk/directory/r-ward/
     image_path: https://www.eeci.cam.ac.uk/directory/r-ward/image_normal
     alt: "Rebecca Ward"
+    title: "Rebecca Ward"
   - url: https://www.eeci.cam.ac.uk/directory/z-xuereb-conti/
     image_path: https://www.eeci.cam.ac.uk/directory/z-xuereb-conti/image_normal
     alt: "Zach Xuereb Conti"
+    title: "Zach Xuereb Conti"
   - url: https://www.eeci.cam.ac.uk/directory/m-janssingh/
     image_path: https://www.eeci.cam.ac.uk/directory/m-janssingh/image_normal
+    title: "Melanie Jans-Singh"
     alt: "Melanie Jans-Singh"
 grad_student_gallery:
   - url: https://www.eeci.cam.ac.uk/directory/j-kinch/
     image_path: https://www.eeci.cam.ac.uk/directory/j-kinch/image_normal
-    alt: "James Kinch"
+    title: "James Kinch"
+    title: "James Kinch"
   - url: https://www.eeci.cam.ac.uk/directory/a-neto-bradley
     image_path: https://www.eeci.cam.ac.uk/directory/a-neto-bradley/image_normal
     alt: "André Paul Neto-Bradley"
+    title: "André Paul Neto-Bradley"
+
+sidebar:
+  title: "Meet the team"
+  nav: sidebar-people
 ---
 
 ## Faculty
 
-{% include gallery id="faculty_gallery" caption="Faculty" %}
+{% include gallery id="faculty_gallery" %}
 
 
 ## Research associates
