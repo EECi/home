@@ -4,7 +4,7 @@ title: Introduction
 permalink: /intro/
 header:
   image: /Images/Group Logo.png
-  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+  excerpt: 'We develop numerical tools to improve energy efficiency of cities'
 tags:
   - edge case
   - featured image
@@ -48,7 +48,6 @@ James Kinch, PhD Student, U. of Cambridge"
 
 # Energy Efficient Cities initiative
 
-![EECi Group Logo](/Images/Group Logo.png)
 
 **Who We Are**
 

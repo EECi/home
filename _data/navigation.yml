@@ -22,7 +22,7 @@ docs:
     children:
       - title: "Urban agriculture"
         url: /docs/urbanag/
-      - title: "Subsurface energy modelling"
+      - title: "Subsurface environments"
         url: /docs/subsurface/
       - title: "Stochastic energy modelling"
         url: /docs/stoch/

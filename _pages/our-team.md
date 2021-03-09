@@ -26,7 +26,7 @@ ra_gallery:
     image_path: https://www.eeci.cam.ac.uk/directory/z-xuereb-conti/image_normal
     alt: "Zach Xuereb Conti"
     title: "Zach Xuereb Conti"
-  - url: /docs/people/mel_long/
+  - url: /docs/people/mel/
     image_path: https://www.eeci.cam.ac.uk/directory/m-janssingh/image_normal
     title: "Melanie Jans-Singh"
     alt: "Melanie Jans-Singh"
