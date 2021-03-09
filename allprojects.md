@@ -1,11 +1,11 @@
 ---
-layout: posts
 title: All projects
 description: An overview of EECi projects
-last_modified_at: 2021-03-04
+last_modified_at: 2021-03-09
 sidebar:
-  title: "Project list"
+  title: "Sitemap"
   nav: "docs"
+toc: true
 ---
 
 <details open markdown="block">
@@ -17,11 +17,28 @@ sidebar:
 {:toc}
 </details>
 
+# Underground Energy systems
 
-File with projects
-TO TEST navigation pane
+Energy Systems and the Built Environment
 
-{% include_relative docs/projects/energy.md %}
+Modelling and Uncertainty Quantification of Underground Climate
 
-{% include_relative docs/projects/urbanfarming.md %}
 
+# Internal loads
+
+Representation of Internal Loads in Buildings for Energy Simulation
+
+Physics-Enhanced Machine Learning for Decarbonising Buildings
+
+Designing Energy Flexible Built Environments using Digital Twins
+
+
+# Urban energy systems
+
+Social Logic of Energy Transitions in Indian Households
+
+Mingda's project
+
+# Urban farming
+
+Energy Models and Digital twins for Urban Integrated Agriculture
