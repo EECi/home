@@ -42,3 +42,16 @@ Projects are stored in docs folder, and the navigation of docs is defined in _da
 ## Adding a post
 
 Posts are stored in _posts folder. The file name must start with date in this format YYYY-MM-DD-blogpostname. This will allow the most recent posts to always appear on the homepages. 
+
+# Repo organisation
+
+This section explains the repo organisation:
+
+* _layouts: contains file layouts
+* _includes: contains the little bits that are included in the layouts such as headers and footers
+* _pages: static pages which are accessible from menu bar, but also those that don't fit in any category such as our bespoke error page
+* _posts: news stories
+* _docs: documents sorted in folders, mainly our people and projects pages
+* Images: where we store the images for the main pages
+* assets: contains formatting css pics and logo in a separate image folder
+

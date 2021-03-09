@@ -18,23 +18,37 @@ feature_row:
     image_caption: "Fig by Andre"
     alt: "placeholder image 1"
     title: "Energy Planning"
-    excerpt: "Andre Neto-Bradley, PhD Student, U. of Cambridge
-Indian Institute of Human Settlements, India
+    excerpt: |
+     "Andre Neto-Bradley, PhD Student, U. of Cambridge
+     Indian Institute of Human Settlements, India
 
 Mingda Yuan, PhD Student, U. of Cambridge
-Andrea Perkins + Will (Innovate UK Secondment)
-"
+Andrea Perkins + Will (Innovate UK Secondment)"
   - image_path: /Images/ssenv/main_ssenv.jpg
     image_caption: "Image courtesy of Nick and Monika"
     alt: "placeholder image 2"
-    title: "Placeholder 2"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "#test-link"
+    title: "Subsurface environments"
+    excerpt:  "Dr. Monika Kreitmair, PDRA, U. of Cambridge, UK (July 2019) \n Dr. Nikolas Makasis, PDRA, U. of Cambridge, UK (May 2019) "
+    url: "/docs/subsurface/"
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: /Images/uag/main_uag.png
-    title: "Placeholder 3"
+    title: "Urban agriculture"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
+  - image_path: /Images/stoch/main_stoch.png
+    url: /docs/stoch/
+    image_caption: "Image courtesy of Rebecca"
+    alt: "placeholder image 2"
+    title: "Stochastic energy models"
+    excerpt: >
+    "Rebecca Ward, PhD Student, U. of Cambridge
+Dr. Zack Conti, PDRA, Alan Turing Institute
+Teresa Irigoyen Lopez, PhD Student, U. of Cambridge
+James Kinch, PhD Student, U. of Cambridge
+"
+    url: /docs/stoch/
+    btn_label: "Read More"
+    btn_class: "btn--primary"
 ---
 
 # Energy Efficient Cities initiative
