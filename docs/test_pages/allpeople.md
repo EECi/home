@@ -12,9 +12,12 @@ sidebar:
 File with projects
 TO TEST navigation pane
 
-{% include_relative docs/people/mel.md %}
+
+You can comment out using `<!---` and `--->` or `<!--` and `-->` works (view source by clicking "Raw")
+
+<!--- {% include_relative docs/people/mel.md %}
 
 {% include_relative docs/people/rebecca.md %}
 
-{% include_relative docs/people/monikak.md %}
+{% include_relative docs/people/monikak.md %} --->
 

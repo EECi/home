@@ -3,7 +3,7 @@ layout: splash
 title: Urban Farming
 header:
   image: /Images/infraredphotooftunnel.PNG
-  caption: "Photo credit: [**MJS**](/docs/people/mel_long)"
+  caption: "Photo credit: [**MJS**](/docs/people/mel)"
 tags:
   - urban farming
   - digital twin

@@ -23,7 +23,7 @@ Melanie:
       url: "mailto:mkj32@cam.ac.uk"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: /docs/people/mel_long/
+      url: /docs/people/mel/
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/meljanssingh"
@@ -31,7 +31,7 @@ Melanie:
 Rebecca:
   name        : "Rebecca Ward"
   bio         : "Research Associate, Urban farming"
-  avatar      : "/Images/rmw.jpg"
+  avatar      : "/Images/ppl/rmw.jpg"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -62,7 +62,7 @@ James:
 Monika:
   name        : "Monika"
   bio         : "Research Associate, Urban farming"
-  avatar      : https://www.eeci.cam.ac.uk/directory/j-kinch/image_normal
+  avatar      : https://www.eeci.cam.ac.uk/directory/m-kreitmair/image_normal
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"

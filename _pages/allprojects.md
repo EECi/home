@@ -1,13 +1,13 @@
 ---
 layout: single
+permalink: /projects/
 title: All projects
 description: An overview of EECi projects
 last_modified_at: 2021-03-09
 sidebar:
   title: "Sitemap"
   nav: "docs"
-toc: true
-# classes: wide
+classes: wide
 toc_sticky: true
 toc_icon: "columns"
 excerpt: "Overview of the EECi projects"
