@@ -1,6 +1,7 @@
 ---
 layout: splash
 title: Introduction
+permalink: /intro/
 header:
   image: /Images/Group Logo.png
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"

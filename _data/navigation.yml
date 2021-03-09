@@ -3,7 +3,7 @@ main:
   - title: "Introduction"
     url: /intro/
   - title: "Projects"
-    url: /allprojects/
+    url: /projects/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
@@ -19,22 +19,23 @@ main:
 # documentation links
 docs:
   - title: Projects
-    url: /allprojects/
+    url: /projects/
     children:
       - title: "Urban Farming"
         url: /docs/projects/urbanfarming/
       - title: "Energy"
         url: /docs/projects/energy/
   - title: People
-    url: /docs/our-team/
+    url: /our-team/
     children:
       - title: "Mel"
-        url: /docs/people/mel_long/
+        url: /docs/people/mel/
       - title: "Rebecca"
         url: /docs/people/rebecca/
       - title: "Monika"
         url: /docs/people/monikak/
 
+# This sidebar indicates the list of four projects
 sidebar-projects:
   - title: "Urban Farming"
     url: /docs/projects/urbanfarming/
@@ -43,9 +44,10 @@ sidebar-projects:
   - title: "Test figures"
     url: /docs/projects/test2/
     
+# This sidebar contains a list of all people's pages
 sidebar-people:
   - title: "Mel"
-    url: /docs/people/mel_long/
+    url: /docs/people/mel/
   - title: "Rebecca"
     url: /docs/people/rebecca/
   - title: "Monika"
