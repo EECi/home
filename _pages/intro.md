@@ -18,10 +18,8 @@ feature_row:
     image_caption: "Fig by Andre"
     alt: "placeholder image 1"
     title: "Energy Planning"
-    excerpt: |
-     "Andre Neto-Bradley, PhD Student, U. of Cambridge
+    excerpt: "Andre Neto-Bradley, PhD Student, U. of Cambridge
      Indian Institute of Human Settlements, India
-
 Mingda Yuan, PhD Student, U. of Cambridge
 Andrea Perkins + Will (Innovate UK Secondment)"
   - image_path: /Images/ssenv/main_ssenv.jpg
@@ -36,7 +34,6 @@ Andrea Perkins + Will (Innovate UK Secondment)"
     title: "Urban agriculture"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
   - image_path: /Images/stoch/main_stoch.png
-    url: "/docs/stoch/"
     image_caption: "Image courtesy of Rebecca"
     alt: "placeholder image 2"
     title: "Stochastic energy models"
@@ -45,7 +42,7 @@ Dr. Zack Conti, PDRA, Alan Turing Institute
 Teresa Irigoyen Lopez, PhD Student, U. of Cambridge
 James Kinch, PhD Student, U. of Cambridge"
     url: "/docs/stoch/"
-    btn_label: "Read More"
+    btn_label: "View page"
     btn_class: "btn--primary"
 ---
 
