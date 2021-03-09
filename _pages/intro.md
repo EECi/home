@@ -14,19 +14,25 @@ excerpt: 'We develop numerical tools to improve energy efficiency of cities'
 intro: 
   - excerpt: 'Welcome to our website. Centered with `type="center"`'
 feature_row:
-  - image_path: /Images/Group Logo.png
+  - image_path: /Images/eplan/main_eplan.jpg
+    image_caption: "Fig by Andre"
     alt: "placeholder image 1"
-    title: "Placeholder 1"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-  - image_path: /Images/Group Logo.png
-    image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
+    title: "Energy Planning"
+    excerpt: "Andre Neto-Bradley, PhD Student, U. of Cambridge
+Indian Institute of Human Settlements, India
+
+Mingda Yuan, PhD Student, U. of Cambridge
+Andrea Perkins + Will (Innovate UK Secondment)
+"
+  - image_path: /Images/ssenv/main_ssenv.jpg
+    image_caption: "Image courtesy of Nick and Monika"
     alt: "placeholder image 2"
     title: "Placeholder 2"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: /Images/Group Logo.png
+  - image_path: /Images/uag/main_uag.png
     title: "Placeholder 3"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
 ---
