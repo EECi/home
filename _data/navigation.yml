@@ -1,7 +1,5 @@
 # main links
 main:
-  - title: "People"
-    url: /allpeople/
   - title: "Introduction"
     url: /intro/
   - title: "Projects"
@@ -14,6 +12,8 @@ main:
     url: /our-team/
   - title: "Latest posts"
     url: /year-archive/
+  - title: "Urban Farming"
+    url: /docs/projects/urbanfarming/
 
 
 # documentation links
