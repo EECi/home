@@ -40,8 +40,7 @@ Andrea Perkins + Will (Innovate UK Secondment)"
     image_caption: "Image courtesy of Rebecca"
     alt: "placeholder image 2"
     title: "Stochastic energy models"
-    excerpt: >
-    "Rebecca Ward, PhD Student, U. of Cambridge
+    excerpt: "Rebecca Ward, PhD Student, U. of Cambridge
 Dr. Zack Conti, PDRA, Alan Turing Institute
 Teresa Irigoyen Lopez, PhD Student, U. of Cambridge
 James Kinch, PhD Student, U. of Cambridge"
