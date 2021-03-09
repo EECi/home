@@ -1,21 +1,22 @@
 ---
+layout: single
 title: Urban Farming
 header:
   image: /Images/infraredphotooftunnel.PNG
-  caption: "Photo credit: [**Growing Underground**](https://unsplash.com)"
+  caption: "Photo credit: [**MJS**](/docs/people/mel_long)"
 tags:
-  - edge case
-  - featured image
-  - image
-  - layout
-toc: true
-toc_label: "My Table of Contents"
-toc_icon: "cog"
+  - urban farming
+  - digital twin
 author: melanie
 excerpt: "Presentation of urban farming project"
-last_modified_at: 2021-03-08
+last_modified_at: 2021-03-09
 toc: true
+toc_sticky: true
+toc_icon: "columns"
+classes: wide
 ---
+
+
 
 This project contains three sections
 
