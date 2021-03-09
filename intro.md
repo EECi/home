@@ -9,6 +9,7 @@ tags:
   - featured image
   - image
   - layout
+excerpt: 'We develop numerical tools to improve energy efficiency of cities'
 intro: 
   - excerpt: 'Welcome to our website. Centered with `type="center"`'
 feature_row:
@@ -40,7 +41,13 @@ The Energy Efficient Cities initiative [EECi] is a cross-disciplinary research p
 
 ## Feature gallery
 
+This includes the intro text
+
 {% include feature_row id="intro" type="center" %}
+
+This includes the three placeholder figs which could send to different projects
+
+{% include feature_row %}
 
 
 ## Example graph

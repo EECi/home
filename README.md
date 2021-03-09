@@ -2,7 +2,9 @@
 
 This website uses the jekyll minimal mistakes template. Open the repo to find out how the website ought to be structured, or go on the website it creates to see what it should look like.
 
-repo:
+Most items are documented in "sample posts", so you can view how to modify a figure gallery, add a sidebar, an author etc.
+
+repo: https://github.com/mmistakes/minimal-mistakes
 website: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
 
 ## Figures
@@ -10,10 +12,12 @@ website: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
 Datawrapper is a rapid interactive way to make figures 
 https://app.datawrapper.de/edit/OEM92/publish
 
+D3 js gallery
 
-## Wbsite links
 
-- new website: https://github.com/mmistakes/minimal-mistakes
+## Website links
+
+- new website: https://eeci.github.io/home/ 
 - old website: https://www.eeci.cam.ac.uk/
 
 

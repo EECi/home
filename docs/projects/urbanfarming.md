@@ -12,8 +12,6 @@ excerpt: "Presentation of urban farming project"
 last_modified_at: 2021-03-09
 toc: true
 toc_sticky: true
-toc_icon: "columns"
-classes: wide
 ---
 
 
