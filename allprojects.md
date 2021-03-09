@@ -7,7 +7,7 @@ sidebar:
   title: "Sitemap"
   nav: "docs"
 toc: true
-classes: wide
+# classes: wide
 toc_sticky: true
 toc_icon: "columns"
 excerpt: "Overview of the EECi projects"
