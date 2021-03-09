@@ -44,8 +44,23 @@ Rebecca:
       url: "https://twitter.com/meljanssingh"
       
       
-  James:
+James:
   name        : "James Kinch"
+  bio         : "Research Associate, Urban farming"
+  avatar      : https://www.eeci.cam.ac.uk/directory/j-kinch/image_normal
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:mkj32@cam.ac.uk"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: /docs/people/mel_long/
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/meljanssingh"
+
+Monika:
+  name        : "Monika"
   bio         : "Research Associate, Urban farming"
   avatar      : https://www.eeci.cam.ac.uk/directory/j-kinch/image_normal
   links:
