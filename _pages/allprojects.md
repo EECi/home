@@ -22,6 +22,8 @@ excerpt: "Overview of the EECi projects"
 {:toc}
 </details>
 
+
+
 # Underground Energy systems
 
 Energy Systems and the Built Environment
