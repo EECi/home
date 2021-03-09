@@ -8,4 +8,8 @@
 @import "minimal-mistakes"; // main partials
 
 /* Our image classes */
-@import "_image_classes";
+/* Some sketchy CSS image classes */
+.img-gallery {
+	width:200px;
+  	height:200px;
+}
