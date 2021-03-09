@@ -1,7 +1,7 @@
 ---
 layout: splash
 title: Subsurface Energy Modelling
-permalink: /docs/subsurface
+permalink: /docs/subsurface/
 tags:
   - urban agriculture
   - digital twin

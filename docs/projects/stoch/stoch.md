@@ -1,7 +1,7 @@
 ---
 layout: splash
 title: Stochastic Energy Modelling
-permalink: /docs/stoch
+permalink: /docs/stoch/
 tags:
   - urban agriculture
   - digital twin

@@ -1,7 +1,7 @@
 ---
 layout: splash
 title: Energy Planning
-permalink: /docs/energyplanning
+permalink: /docs/energyplanning/
 tags:
   - urban agriculture
   - digital twin

@@ -25,9 +25,9 @@ docs:
       - title: "Subsurface energy modelling"
         url: /docs/subsurface/
       - title: "Stochastic energy modelling"
-        url: /docs/projects/stoch/
+        url: /docs/stoch/
       - title: "Energy planning"
-        url: /docs/projects/energyplanning/
+        url: /docs/energyplanning/
   - title: People
     url: /our-team/
     children:
