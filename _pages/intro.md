@@ -13,15 +13,7 @@ tags:
 excerpt: 'We develop numerical tools to improve energy efficiency of cities'
 intro: 
   - excerpt: 'Welcome to our website. Centered with `type="center"`'
-feature_row:
-  - image_path: /Images/eplan/main_eplan.jpg
-    image_caption: "Fig by Andre"
-    alt: "placeholder image 1"
-    title: "Energy Planning"
-    excerpt: "Andre Neto-Bradley, PhD Student, U. of Cambridge
-     Indian Institute of Human Settlements, India
-Mingda Yuan, PhD Student, U. of Cambridge
-Andrea Perkins + Will (Innovate UK Secondment)"
+feature_row1:
   - image_path: /Images/ssenv/main_ssenv.jpg
     image_caption: "Image courtesy of Nick and Monika"
     alt: "placeholder image 2"
@@ -33,6 +25,21 @@ Andrea Perkins + Will (Innovate UK Secondment)"
   - image_path: /Images/uag/main_uag.png
     title: "Urban agriculture"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    url: "/docs/urbanag/"
+    btn_label: "View page"
+    btn_class: "btn--primary"
+feature_row2:
+  - image_path: /Images/eplan/main_eplan.jpg
+    image_caption: "Fig by Andre"
+    alt: "placeholder image 1"
+    title: "Energy Planning"
+    excerpt: "Andre Neto-Bradley, PhD Student, U. of Cambridge
+     Indian Institute of Human Settlements, India
+Mingda Yuan, PhD Student, U. of Cambridge
+Andrea Perkins + Will (Innovate UK Secondment)"
+    url: "/docs/energyplanning/"
+    btn_label: "View page"
+    btn_class: "btn--primary"
   - image_path: /Images/stoch/main_stoch.png
     image_caption: "Image courtesy of Rebecca"
     alt: "placeholder image 2"
@@ -62,6 +69,7 @@ This includes the intro text
 
 This includes the three placeholder figs which could send to different projects
 
-{% include feature_row %}
+{% include feature_row id="feature_row2" %}
 
+{% include feature_row id="feature_row1" %}
 
