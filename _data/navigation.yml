@@ -40,6 +40,8 @@ sidebar-projects:
     url: /docs/projects/urbanfarming/
   - title: "Energy"
     url: /docs/projects/energy/
+  - title: "Test figures"
+    url: /docs/projects/test2/
     
 sidebar-people:
   - title: "Mel"

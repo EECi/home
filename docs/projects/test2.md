@@ -1,12 +1,3 @@
----
-layout: default
-title: TestNav
-parent: Projects
-nav_order: 2
----
-
-Test
-
 # Energy Efficient Cities initiative
 
 ![EECi Group Logo](/Images/Group Logo.png)
