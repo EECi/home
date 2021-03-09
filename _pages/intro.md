@@ -69,7 +69,7 @@ This includes the intro text
 
 This includes the three placeholder figs which could send to different projects
 
-{% include feature_row id="feature_row2" %}
+{% include feature_row id="feature_row2" type="center" %}
 
-{% include feature_row id="feature_row1" %}
+{% include feature_row id="feature_row1" type="center" %}
 
