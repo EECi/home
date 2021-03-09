@@ -9,7 +9,8 @@
 
 /* Our image classes */
 /* Some sketchy CSS image classes */
-.img-gallery {
-	width:200px;
-  	height:200px;
+img.teamgallery {
+	max-width:200px;
+  	max-height:200px;
+	object-position: center;
 }
