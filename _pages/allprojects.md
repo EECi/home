@@ -73,10 +73,30 @@ Energy Systems and the Built Environment
 
 Modelling and Uncertainty Quantification of Underground Climate
 
+Dr. Monika Kreitmair, PDRA, U. of Cambridge, UK (July 2019)
+Dr. Nikolas Makasis, PDRA, U. of Cambridge, UK (May 2019) 
 
-# Stochastics enegry modelling
+Dr. Asal Bidarmaghz, UNSW Sydney, Australia
+Dr. Kathrin Menberg, Karlsruhe Institute of Technology, Germany
+Professor Kenichi Soga, UC Berkeley, USA
+British Geological Survey, UK
+
+Funded by ASG + NSF/EPSRC Collaborative Grants; 2019-2022
+
+# Stochastic energy models
 
 {% include feature_row id="feature_stoch" type="right" %}
+
+Rebecca Ward, PhD Student, U. of Cambridge
+Dr. Zack Conti, PDRA, Alan Turing Institute
+Teresa Irigoyen Lopez, PhD Student, U. of Cambridge
+James Kinch, PhD Student, U. of Cambridge
+
+Dr. Bryn Pickering, ETH Zurich
+Dr. A. Chong, National University of Singapore
+Dr. C. Chong and Dr. Ramasamy, Inst. of Infocomm Research, Singapore
+
+Funded by EPSRC w/ Laing O’Rourke, ARUP, BP, and Bentley
 
 Representation of Internal Loads in Buildings for Energy Simulation
 
@@ -91,10 +111,25 @@ Designing Energy Flexible Built Environments using Digital Twins
 
 Social Logic of Energy Transitions in Indian Households
 
-Mingda's project
+
+Andre Neto-Bradley, PhD Student, U. of Cambridge
+Indian Institute of Human Settlements, India
+
+Mingda Yuan, PhD Student, U. of Cambridge
+Andrea Perkins + Will (Innovate UK Secondment)
+
 
 # Urban agriculture
 
 {% include feature_row id="feature_uag" type="right" %}
 
 Energy Models and Digital twins for Urban Integrated Agriculture
+
+Rebecca Ward, ASG Turing RA
+Melanie Jans-Singh, PhD Student, U. of Cambridge
+Dr. Kathryn Leeming, U. of Warwick
+Tomas Lazauskas, Alan Turing Institute
+Flora Roumpani, Alan Turing Institute 
+
+Growing Underground, UK
+
