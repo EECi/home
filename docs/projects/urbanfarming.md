@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: splash
 title: Urban Farming
 header:
   image: /Images/infraredphotooftunnel.PNG
@@ -10,14 +10,37 @@ tags:
 author: melanie
 excerpt: "Presentation of urban farming project"
 last_modified_at: 2021-03-09
-toc: true
-toc_sticky: true
+feature_row:
+  - image_path: /Images/Group Logo.png
+    alt: "placeholder image 1"
+    title: "Co-simulation"
+    excerpt: "Quantifying the effect of a hydroponic greenhouse in a building"
+    url: "/docs/projects/urbanfarming/cosim/"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+  - image_path: /Images/Group Logo.png
+    image_caption: "View of CROP"
+    alt: "placeholder image 2"
+    title: "Digital Twin of Growing Underground"
+    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    url: "/docs/projects/urbanfarming/digitaltwin/"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+  - image_path: /Images/Group Logo.png
+    title: "GES model"
+    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    url: "/docs/projects/urbanfarming/ges/"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
 ---
 
 
 
 This project contains three sections
 
+{% include feature_row %}
+
+    
 # Greenhouse Energy Simulator
 
 A GES model was developed
