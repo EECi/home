@@ -21,9 +21,9 @@ docs:
     url: /projects/
     children:
       - title: "Urban agriculture"
-        url: /docs/projects/urbanag/
+        url: /docs/urbanag/
       - title: "Subsurface energy modelling"
-        url: /docs/projects/subsurface/
+        url: /docs/subsurface/
       - title: "Stochastic energy modelling"
         url: /docs/projects/stoch/
       - title: "Energy planning"
