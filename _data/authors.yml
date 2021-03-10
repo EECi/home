@@ -42,3 +42,15 @@ Rebecca:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/meljanssingh"
+      
+Nick:
+  name        : "Nikolas Makasis"
+  bio         : "Research Associate, Subsurface environments"
+  avatar      : "/Images/ppl/NM.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:nm735@cam.ac.uk"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "/home/docs/people/nick/"
