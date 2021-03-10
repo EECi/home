@@ -18,20 +18,20 @@ Melanie:
   bio         : "Research Associate, Urban farming"
   avatar      : https://www.eeci.cam.ac.uk/directory/m-janssingh/image_normal
   links:
-    - label: "Email"
+    - label: "Email me"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:mkj32@cam.ac.uk"
-    - label: "Website"
+    - label: "About me"
       icon: "fas fa-fw fa-link"
       url: /docs/people/mel/
-    - label: "Twitter"
+    - label: "@meljanssingh"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/meljanssingh"
 
 Rebecca:
   name        : "Rebecca Ward"
   bio         : "Research Associate, Urban farming"
-  avatar      : "/Images/ppl/rmw.jpg"
+  avatar      : "/Images/rmw.jpg"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -39,37 +39,6 @@ Rebecca:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://thewhip.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/meljanssingh"
-      
-      
-James:
-  name        : "James Kinch"
-  bio         : "Research Associate, Urban farming"
-  avatar      : https://www.eeci.cam.ac.uk/directory/j-kinch/image_normal
-  links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:mkj32@cam.ac.uk"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: /docs/people/mel_long/
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/meljanssingh"
-
-Monika:
-  name        : "Monika"
-  bio         : "Research Associate, Urban farming"
-  avatar      : https://www.eeci.cam.ac.uk/directory/m-kreitmair/image_normal
-  links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:mkj32@cam.ac.uk"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: /docs/people/mel_long/
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/meljanssingh"
