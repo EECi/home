@@ -2,34 +2,34 @@
 layout: splash
 title: Urban Agriculture
 permalink: /docs/urbanag/
+excerpt: "Creating digital and methodological tools to optimise the resource use efficiency of urban agriculture"
 header:
-  image: /Images/infraredphotooftunnel.PNG
+  image_overlay: /Images/infraredphotooftunnel.PNG
   caption: "Photo credit: [**MJS**](/docs/people/mel)"
 tags:
   - urban agriculture
   - digital twin
-author: melanie
-excerpt: "Presentation of urban agriculture project"
+author: "Melanie"
 last_modified_at: 2021-03-09
 feature_row:
-  - image_path: /Images/Group Logo.png
+  - image_path: /Images/uag/sensor_network.png
     alt: "placeholder image 1"
     title: "Co-simulation"
     excerpt: "Quantifying the effect of a hydroponic greenhouse in a building"
     url: "/docs/projects/urbanag/cosim/"
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: /Images/Group Logo.png
+  - image_path: /Images/uag/crop_logo.png
     image_caption: "View of CROP"
     alt: "placeholder image 2"
     title: "Digital Twin of Growing Underground"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    excerpt: "Three stages of the development of a prototype digital twin."
     url: "/docs/projects/urbanag/digitaltwin/"
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: /Images/Group Logo.png
+  - image_path: /Images/uag/infraredphotooftunnel.PNG
     title: "GES model"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    excerpt: "Functions and structure of the Greenhouse Energy Simulator."
     url: "/docs/projects/urbanag/ges/"
     btn_label: "Read More"
     btn_class: "btn--primary"
