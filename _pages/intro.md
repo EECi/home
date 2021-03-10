@@ -2,15 +2,14 @@
 layout: splash
 title: Introduction
 permalink: /intro/
+excerpt: 'We develop numerical tools to improve energy efficiency of cities'
 header:
-  image: /Images/Group Logo.png
-  excerpt: 'We develop numerical tools to improve energy efficiency of cities'
+  overlay_image: /Images/Group Logo.png
 tags:
   - edge case
   - featured image
   - image
   - layout
-excerpt: 'We develop numerical tools to improve energy efficiency of cities'
 intro: 
   - excerpt: 'Welcome to our website. Centered with `type="center"`'
 feature_row1:
