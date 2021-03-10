@@ -23,7 +23,7 @@ Melanie:
       url: "mailto:mkj32@cam.ac.uk"
     - label: "About me"
       icon: "fas fa-fw fa-link"
-      url: /docs/people/mel/
+      url: "/home/docs/people/mel/"
     - label: "@meljanssingh"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/meljanssingh"
