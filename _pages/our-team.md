@@ -14,10 +14,10 @@ ra_gallery:
     image_path: https://www.eeci.cam.ac.uk/directory/m-kreitmair/image_normal
     title: "Monika Kreitmair"
     alt: "Monika Kreitmair"
-  - url: https://www.eeci.cam.ac.uk/directory/n-makasis/
+  - url: /docs/people/nick/
     image_path: https://www.eeci.cam.ac.uk/directory/n-makasis/image_normal
-    alt: "Nick Makasis"
-    title: "Nick Makasis"
+    alt: "Nikolas Makasis"
+    title: "Nikolas Makasis"
   - url: https://www.eeci.cam.ac.uk/directory/r-ward/
     image_path: https://www.eeci.cam.ac.uk/directory/r-ward/image_normal
     alt: "Rebecca Ward"
