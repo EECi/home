@@ -53,4 +53,15 @@ Nick:
       url: "mailto:nm735@cam.ac.uk"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "/home/docs/people/nick/"
+      url: "/home/docs/people/nick/"      
+      
+Teresa:
+  name        : "Teresa Irigoyen-López"
+  bio         : "Graduate Student, Urban energy systems"
+  avatar      : https://www.fibe-cdt.eng.cam.ac.uk/sites/www.fibe-cdt.eng.cam.ac.uk/files/styles/inline/public/media/profile/TeresaIrigoyenLopez.jpg?itok=kKxJRtpH 
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:ti281@cam.ac.uk"
+
+            
