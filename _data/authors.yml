@@ -58,7 +58,7 @@ Nick:
 Teresa:
   name        : "Teresa Irigoyen-López"
   bio         : "Graduate Student, Urban energy systems"
-  avatar      : https://www.fibe-cdt.eng.cam.ac.uk/sites/www.fibe-cdt.eng.cam.ac.uk/files/styles/inline/public/media/profile/TeresaIrigoyenLopez.jpg?itok=kKxJRtpH 
+  avatar      : "/Images/ppl/TIL.jpg"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
