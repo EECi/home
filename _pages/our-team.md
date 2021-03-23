@@ -39,6 +39,10 @@ grad_student_gallery:
     image_path: https://www.eeci.cam.ac.uk/directory/a-neto-bradley/image_normal
     alt: "André Paul Neto-Bradley"
     title: "André Paul Neto-Bradley"
+  - url: https://www.eeci.cam.ac.uk/directory/t-irigoyen-lopez
+    image_path: https://www.fibe-cdt.eng.cam.ac.uk/sites/www.fibe-cdt.eng.cam.ac.uk/files/styles/inline/public/media/profile/TeresaIrigoyenLopez.jpg?itok=kKxJRtpH
+    alt: "Teresa Irigoyen-López"
+    title: "Teresa Irigoyen-López"
 
 sidebar:
   title: "Meet the team"
