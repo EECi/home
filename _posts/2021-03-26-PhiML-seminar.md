@@ -1,6 +1,6 @@
 ---
 layout: single
-title: [NEW] Φ-ML Seminar Series
+title: Φ-ML Seminar Series
 last_modified_at: 2021-03-26
 author: "Zack"
 author_profile: true
