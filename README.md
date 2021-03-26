@@ -57,4 +57,4 @@ This section explains the repo organisation:
 
 # Resources
 
-- A [nice guide] (https://www.markdownguide.org/basic-syntax/) for markdown syntax
+- A [nice guide](https://www.markdownguide.org/basic-syntax/) for markdown syntax
