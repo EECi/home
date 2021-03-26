@@ -70,10 +70,10 @@ Zack:
   avatar      : "/Images/ppl/zxc.jpg"
   links:
     - label: "Email"
-    icon: "fas fa-fw fa-envelope-square"
-    url: "mailto:zxuerebconti@turing.ac.uk"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:zxuerebconti@turing.ac.uk"
     - label: "Website"
-    icon: "fas fa-fw fa-link"
-    url: "/home/docs/people/zack/"   
+      icon: "fas fa-fw fa-link"
+      url: "/home/docs/people/zack/"   
 
             
