@@ -14,6 +14,3 @@ My current research aims to build efficient tools for assisting the decarbonisat
 
 My doctoral research promotes human intelligence as the author of architectural design in the human-computer collaboration. The thesis work adopts ‘Bayesian inference’, to facilitate the interpretability of engineering responses from numerical analysis, with focus on finite element analysis.
 
-<p>
-<script src="https://bibbase.org/service/mendeley/8cc9e420-f114-33cc-9c3e-829cab873aa1/group/e7fafa87-580c-3bf9-a959-b58f94911f2b?jsonp=1" type="text/javascript"></script>
-</p>
