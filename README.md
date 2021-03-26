@@ -55,3 +55,6 @@ This section explains the repo organisation:
 * Images: where we store the images for the main pages
 * assets: contains formatting css pics and logo in a separate image folder
 
+# Resources
+
+- A [nice guide] (https://www.markdownguide.org/basic-syntax/) for markdown syntax
