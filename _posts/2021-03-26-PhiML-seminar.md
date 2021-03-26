@@ -18,4 +18,4 @@ Our very first seminar was held online last Thursday, 25th March 2020 and was a 
 
 A recording of the first seminar will be uploaded to the [seminar website](https://www.notion.so/ML-meets-Engineering-fa48aefc1a7f40e4b98cb6f861f766cd) shortly. *Please visit the seminar website to subscribe to the seminar series and to learn about upcoming seminars.*
 
-The seminar series is co-organised by [Andrea Pizzoferrato](https://www.turing.ac.uk/people/researchers/themistoklis-botsas), [Themis Botsas](https://www.andreapizzoferrato.com/) and [Zack Xuereb Conti](/home/docs/people/zack/).
+The seminar series is co-organised by [Andrea Pizzoferrato](https://www.andreapizzoferrato.com/), [Themis Botsas](https://www.turing.ac.uk/people/researchers/themistoklis-botsas) and [Zack Xuereb Conti](/home/docs/people/zack/).
