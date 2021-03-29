@@ -14,7 +14,7 @@ last_modified_at: 2021-03-29
 ---
 
 
-The Universities of Cambridge and California, Berkeley, in partnership with the [British Geological Survey](https://www.bgs.ac.uk/), are launching a joint project on Modelling and Monitoring of Urban Underground Climate Change. This project is run as part of the Data Centric Engineering Research Programme at the Alan Turing Institute and the Centre for Smart Infrastructure and Construction at the University of Cambridge.
+The Universities of Cambridge and California, Berkeley, in partnership with the [British Geological Survey](https://www.bgs.ac.uk/), are launching a joint project on Modelling and Monitoring of Urban Underground Climate Change. This project is run as part of the [Data Centric Engineering Research Programme](https://www.turing.ac.uk/research/research-programmes/data-centric-engineering) at the [Alan Turing Institute](https://www.turing.ac.uk/) and the [Centre for Smart Infrastructure and Construction](https://www-smartinfrastructure.eng.cam.ac.uk/) at the University of Cambridge.
 
 The objective of this NSF(US)-EPSRC(UK) funded research is to better understand impacts of urban underground infrastructure, such as basements and tunnels, on shallow subsurface temperature increase at city-scale.
 
@@ -32,12 +32,14 @@ The hypothesis of this research is that (a) the high ground temperature around t
 
 The project will develop a framework for monitoring and predicting temperature and groundwater distributions at high resolutions in the presence of underground heat sources and sinks. This can be achieved via a combination of numerical modelling, continuous temperature and groundwater monitoring and statistical analyses. The ultimate goal is for every city to generate reliable maps of underground climate, with the ability to understand the influence of future urbanization scenarios.
 
+
+![Subsurface temperature variations below Cardiff city centre](home/Images/ssenv/gif4Presentation_v9_C0_RH_RB_H_highTBase_khrev_rotation_xslice.gif)
  
 
 **Team**
 
-University of California, Berkeley: under the lead of Prof Kenichi Soga and Co-PI Dr Matthew Dejong, the Berkeley team consists of Postdoctoral Research Associates Dr Shenghan Zhang, and PhD students Alp Çinar, and Xiang Sun.
+University of California, Berkeley: under the lead of [Prof Kenichi Soga](https://ce.berkeley.edu/people/faculty/soga) and Co-PI [Dr Matthew Dejong](https://ce.berkeley.edu/people/faculty/dejong), the Berkeley team consists of Postdoctoral Research Associates Dr Shenghan Zhang, and PhD students Alp Çinar, and Xiang Sun.
 
-University of Cambridge: Dr Ruchi Choudhary, head of the Energy Efficient Cities Initiative, together with Co-PI Dr Giovanna Biscontin leads the Cambridge team consisting of Postdoctoral Research Associates Dr Monika Kreitmair and Dr Nikolas Makasis.
+University of Cambridge: [Dr Ruchi Choudhary](http://www.eng.cam.ac.uk/profiles/rc488), head of the Energy Efficient Cities Initiative, together with Co-PI [Dr Giovanna Biscontin](https://www-geo.eng.cam.ac.uk/directory/dr-giovanna-biscontin) leads the Cambridge team consisting of Postdoctoral Research Associates [Dr Monika Kreitmair](https://eeci.github.io/home/docs/people/monikak/) and [Dr Nikolas Makasis](https://eeci.github.io/home/docs/people/nick/).
 
-Other project partners include Dr Asal Bidarmaghz at the University of New South Wales, and Dr Kathrin Menberg at the Karlsruhe Institute of Technology.
+Other project partners include [Dr Asal Bidarmaghz](https://www.unsw.edu.au/engineering/our-people/asal-bidarmaghz) at the University of New South Wales, and [Dr Kathrin Menberg](https://www.agw.kit.edu/176_5131.php) at the Karlsruhe Institute of Technology.
