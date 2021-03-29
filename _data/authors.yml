@@ -58,7 +58,7 @@ Nick:
 Monika:
   name        : "Monika Kreitmair"
   bio         : "Research Associate, Subsurface environments"
-  avatar      : "/Images/ppl/MJK.jfif"
+  avatar      : "/Images/ppl/MJK_square.jfif"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -66,6 +66,7 @@ Monika:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "/home/docs/people/monikak/"        
+
 Teresa:
   name        : "Teresa Irigoyen-López"
   bio         : "Graduate Student, Urban energy systems"
