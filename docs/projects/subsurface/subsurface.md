@@ -8,7 +8,7 @@ tags:
   - shallow geothermal energy
   - underground climate
   - uncertainty quantification
-author: "Nick, Monika"
+author: "Nick", "Monika"
 excerpt: ""
 last_modified_at: 2021-03-29
 ---
@@ -16,7 +16,7 @@ last_modified_at: 2021-03-29
 
 The Universities of Cambridge and California, Berkeley, in partnership with the [British Geological Survey](https://www.bgs.ac.uk/), are launching a joint project on Modelling and Monitoring of Urban Underground Climate Change. This project is run as part of the [Data Centric Engineering Research Programme](https://www.turing.ac.uk/research/research-programmes/data-centric-engineering) at the [Alan Turing Institute](https://www.turing.ac.uk/) and the [Centre for Smart Infrastructure and Construction](https://www-smartinfrastructure.eng.cam.ac.uk/) at the University of Cambridge.
 
-The objective of this NSF(US)-EPSRC(UK) funded research is to better understand impacts of urban underground infrastructure, such as basements and tunnels, on shallow subsurface temperature increase at city-scale.
+The objective of this NSF (US)-EPSRC (UK) funded research is to better understand impacts of urban underground infrastructure, such as basements and tunnels, on shallow subsurface temperature increase at city-scale.
 
  
 
@@ -33,7 +33,8 @@ The hypothesis of this research is that (a) the high ground temperature around t
 The project will develop a framework for monitoring and predicting temperature and groundwater distributions at high resolutions in the presence of underground heat sources and sinks. This can be achieved via a combination of numerical modelling, continuous temperature and groundwater monitoring and statistical analyses. The ultimate goal is for every city to generate reliable maps of underground climate, with the ability to understand the influence of future urbanization scenarios.
 
 
-![Subsurface temperature variations below Cardiff city centre](/Images/ssenv/gif4Presentation_v9_C0_RH_RB_H_highTBase_khrev_rotation_xslice.gif)
+{% raw %}![Subsurface temperature variations below Cardiff city centre]({{ site.url }}{{ site.baseurl }}/Images/ssenv/gif4Presentation_v9_C0_RH_RB_H_highTBase_khrev_rotation_xslice.gif){% endraw %}
+<!---![Subsurface temperature variations below Cardiff city centre](/Images/ssenv/gif4Presentation_v9_C0_RH_RB_H_highTBase_khrev_rotation_xslice.gif) -->
  
 
 **Team**
