@@ -17,13 +17,13 @@ feature_subsurface:
     alt: "placeholder image 2"
     title: ""
     excerpt:  "The objective of this NSF(US)-EPSRC(UK) funded research is to better understand impacts of urban underground infrastructure, such as basements and tunnels, on shallow subsurface temperature increase at city-scale.
-               \n\n
-               Dr. Monika Kreitmair, PDRA, U. of Cambridge, UK (July 2019) \n
-               Dr. Nikolas Makasis, PDRA, U. of Cambridge, UK (May 2020) \n
-               Dr. Asal Bidarmaghz, UNSW Sydney, Australia \n
-               Dr. Kathrin Menberg, Karlsruhe Institute of Technology, Germany \n
-               Professor Kenichi Soga, UC Berkeley, USA \n
-               British Geological Survey, UK \n
+               <br/><br/>
+               Dr. Monika Kreitmair, PDRA, U. of Cambridge, UK (July 2019) <br/>
+               Dr. Nikolas Makasis, PDRA, U. of Cambridge, UK (May 2020) <br/>
+               Dr. Asal Bidarmaghz, UNSW Sydney, Australia <br/>
+               Dr. Kathrin Menberg, Karlsruhe Institute of Technology, Germany <br/>
+               Professor Kenichi Soga, UC Berkeley, USA <br/>
+               British Geological Survey, UK <br/>
                Funded by ASG + NSF/EPSRC Collaborative Grants; 2019-2022"
     url: "/docs/subsurface/"
     btn_label: "Read More"
