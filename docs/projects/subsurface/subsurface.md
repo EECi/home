@@ -8,7 +8,7 @@ tags:
   - shallow geothermal energy
   - underground climate
   - uncertainty quantification
-author: "Nick", "Monika"
+author: "Nick"
 excerpt: ""
 last_modified_at: 2021-03-29
 ---
