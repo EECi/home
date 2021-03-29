@@ -16,7 +16,7 @@ feature_subsurface:
     image_caption: "Image by Crossrail"
     alt: "placeholder image 2"
     title: ""
-    excerpt:  "The objective of this NSF(US)-EPSRC(UK) funded research is to better understand impacts of urban underground infrastructure, such as basements and tunnels, on shallow subsurface temperature increase at city-scale.
+    excerpt:  "The objective of this NSF (US)-EPSRC (UK) funded research is to better understand impacts of urban underground infrastructure, such as basements and tunnels, on shallow subsurface temperature increase at city-scale.
                <br/><br/>
                Dr. Monika Kreitmair, PDRA, U. of Cambridge, UK (July 2019) <br/>
                Dr. Nikolas Makasis, PDRA, U. of Cambridge, UK (May 2020) <br/>
