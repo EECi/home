@@ -33,8 +33,8 @@ The hypothesis of this research is that (a) the high ground temperature around t
 The project will develop a framework for monitoring and predicting temperature and groundwater distributions at high resolutions in the presence of underground heat sources and sinks. This can be achieved via a combination of numerical modelling, continuous temperature and groundwater monitoring and statistical analyses. The ultimate goal is for every city to generate reliable maps of underground climate, with the ability to understand the influence of future urbanization scenarios.
 
 
-{% raw %}![Subsurface temperature variations below Cardiff city centre]({{ site.url }}{{ site.baseurl }}/Images/ssenv/gif4Presentation_v9_C0_RH_RB_H_highTBase_khrev_rotation_xslice.gif){% endraw %}
-<!---![Subsurface temperature variations below Cardiff city centre](/Images/ssenv/gif4Presentation_v9_C0_RH_RB_H_highTBase_khrev_rotation_xslice.gif) -->
+<--{% raw %}![Subsurface temperature variations below Cardiff city centre]({{ site.url }}{{ site.baseurl }}/Images/ssenv/gif4Presentation_v9_C0_RH_RB_H_highTBase_khrev_rotation_xslice.gif){% endraw %} -->
+![Subsurface temperature variations below Cardiff city centre](/Images/ssenv/main_ssenv.jpg)
  
 
 **Team**
