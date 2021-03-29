@@ -18,12 +18,12 @@ feature_subsurface:
     title: ""
     excerpt:  "The objective of this NSF(US)-EPSRC(UK) funded research is to better understand impacts of urban underground infrastructure, such as basements and tunnels, on shallow subsurface temperature increase at city-scale.
                \n\n
-               Dr. Monika Kreitmair, PDRA, U. of Cambridge, UK (July 2019)\n
-               Dr. Nikolas Makasis, PDRA, U. of Cambridge, UK (May 2020)\n
-               Dr. Asal Bidarmaghz, UNSW Sydney, Australia\n
-               Dr. Kathrin Menberg, Karlsruhe Institute of Technology, Germany\n
-               Professor Kenichi Soga, UC Berkeley, USA\n
-               British Geological Survey, UK\n
+               Dr. Monika Kreitmair, PDRA, U. of Cambridge, UK (July 2019) \n
+               Dr. Nikolas Makasis, PDRA, U. of Cambridge, UK (May 2020) \n
+               Dr. Asal Bidarmaghz, UNSW Sydney, Australia \n
+               Dr. Kathrin Menberg, Karlsruhe Institute of Technology, Germany \n
+               Professor Kenichi Soga, UC Berkeley, USA \n
+               British Geological Survey, UK \n
                Funded by ASG + NSF/EPSRC Collaborative Grants; 2019-2022"
     url: "/docs/subsurface/"
     btn_label: "Read More"
@@ -72,24 +72,9 @@ James Kinch, PhD Student, U. of Cambridge"
 
 
 
-# Subsurface environment
+# Subsurface environments
 
 {% include feature_row id="feature_subsurface" type="left" %}
-
-
-Energy Systems and the Built Environment
-
-Modelling and Uncertainty Quantification of Underground Climate
-
-Dr. Monika Kreitmair, PDRA, U. of Cambridge, UK (July 2019)
-Dr. Nikolas Makasis, PDRA, U. of Cambridge, UK (May 2019) 
-
-Dr. Asal Bidarmaghz, UNSW Sydney, Australia
-Dr. Kathrin Menberg, Karlsruhe Institute of Technology, Germany
-Professor Kenichi Soga, UC Berkeley, USA
-British Geological Survey, UK
-
-Funded by ASG + NSF/EPSRC Collaborative Grants; 2019-2022
 
 # Stochastic energy models
 
