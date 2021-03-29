@@ -3,7 +3,7 @@ layout: posts
 title: Our team
 permalink: /our-team/
 description: An overview of the team
-last_modified_at: 2021-03-03
+last_modified_at: 2021-03-29
 faculty_gallery:
   - url: https://www.eeci.cam.ac.uk/directory/r-choudhary/
     image_path: https://www.eeci.cam.ac.uk/directory/r-choudhary/image_normal
@@ -14,6 +14,7 @@ ra_gallery:
     image_path: https://www.eeci.cam.ac.uk/directory/m-kreitmair/image_normal
     title: "Monika Kreitmair"
     alt: "Monika Kreitmair"
+    caption: "Monika Kreitmair"
   - url: /docs/people/nick/
     image_path: https://www.eeci.cam.ac.uk/directory/n-makasis/image_normal
     alt: "Nikolas Makasis"
