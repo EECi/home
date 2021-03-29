@@ -10,6 +10,9 @@ tags:
   - uncertainty quantification
 author: "Nick"
 excerpt: ""
+feature_row:
+  - image_path: /Images/ssenv/main_ssenv.jpg
+    alt: "Subsurface temperature variations below Cardiff city centre"
 last_modified_at: 2021-03-29
 ---
 
@@ -31,10 +34,8 @@ In dense urban areas, the underground is exploited for a variety of purposes, in
 The hypothesis of this research is that (a) the high ground temperature around tunnels and underground basements, (b) the observed temperature increase within the aquifer, and (c) inefficiency in ventilation of the underground railway networks, necessitate more detailed and reliable knowledge of urban underground thermal status.
 
 The project will develop a framework for monitoring and predicting temperature and groundwater distributions at high resolutions in the presence of underground heat sources and sinks. This can be achieved via a combination of numerical modelling, continuous temperature and groundwater monitoring and statistical analyses. The ultimate goal is for every city to generate reliable maps of underground climate, with the ability to understand the influence of future urbanization scenarios.
-
-{% raw %}![Subsurface temperature variations below Cardiff city centre v2]({{ site.url }}{{ site.baseurl }}/home/Images/ssenv/main_ssenv.jpg){% endraw %}
-![Subsurface temperature variations below Cardiff city centre](/Images/ssenv/main_ssenv.jpg)
  
+{% include feature_row %}
 
 **Team**
 
