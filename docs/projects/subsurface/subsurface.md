@@ -8,7 +8,7 @@ tags:
   - shallow geothermal energy
   - underground climate
   - uncertainty quantification
-author: "Nick"
+author: "Nick, Monika"
 excerpt: ""
 feature_row:
   - image_path: /Images/ssenv/main_ssenv.jpg
