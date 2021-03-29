@@ -55,6 +55,17 @@ Nick:
       icon: "fas fa-fw fa-link"
       url: "/home/docs/people/nick/"      
       
+Monika:
+  name        : "Monika Kreitmair"
+  bio         : "Research Associate, Subsurface environments"
+  avatar      : "/Images/ppl/MJK.jfif"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:mk2040@cam.ac.uk"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "/home/docs/people/monikak/"        
 Teresa:
   name        : "Teresa Irigoyen-López"
   bio         : "Graduate Student, Urban energy systems"
