@@ -3,7 +3,7 @@ layout: single
 permalink: /projects/
 title: All projects
 description: An overview of EECi projects
-last_modified_at: 2021-03-09
+last_modified_at: 2021-03-29
 sidebar:
   title: "Sitemap"
   nav: "docs"
@@ -13,10 +13,18 @@ toc_icon: "columns"
 excerpt: "Overview of the EECi projects"
 feature_subsurface:
   - image_path: /Images/ssenv/main_ssenv.jpg
-    image_caption: "Image courtesy of Nick and Monika"
+    image_caption: "Image by Crossrail"
     alt: "placeholder image 2"
-    title: "Subsurface environments"
-    excerpt:  "Dr. Monika Kreitmair, PDRA, U. of Cambridge, UK (July 2019) \n Dr. Nikolas Makasis, PDRA, U. of Cambridge, UK (May 2019) "
+    title: ""
+    excerpt:  "The objective of this NSF(US)-EPSRC(UK) funded research is to better understand impacts of urban underground infrastructure, such as basements and tunnels, on shallow subsurface temperature increase at city-scale.
+               \n\n
+               Dr. Monika Kreitmair, PDRA, U. of Cambridge, UK (July 2019)\n
+               Dr. Nikolas Makasis, PDRA, U. of Cambridge, UK (May 2020)\n
+               Dr. Asal Bidarmaghz, UNSW Sydney, Australia\n
+               Dr. Kathrin Menberg, Karlsruhe Institute of Technology, Germany\n
+               Professor Kenichi Soga, UC Berkeley, USA\n
+               British Geological Survey, UK\n
+               Funded by ASG + NSF/EPSRC Collaborative Grants; 2019-2022"
     url: "/docs/subsurface/"
     btn_label: "Read More"
     btn_class: "btn--primary"
