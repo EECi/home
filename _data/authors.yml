@@ -58,7 +58,7 @@ Nick:
 Monika:
   name        : "Monika Kreitmair"
   bio         : "Research Associate, Subsurface environments"
-  avatar      : "/Images/ppl/MJK2.jfif"
+  avatar      : "/Images/ppl/MJK.jfif"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
