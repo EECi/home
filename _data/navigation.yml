@@ -56,19 +56,21 @@ sidebar-projects:
     url: /docs/projects/urbanag/    
 # This sidebar contains a list of all people's pages
 sidebar-people:
-  - title: "Mel"
-    url: /docs/people/mel/
-  - title: "Rebecca"
-    url: /docs/people/rebecca/
+  - title: "Ruchi"
   - title: "Monika"
     url: /docs/people/monikak/
   - title: "Nick"
-    url: /docs/people/nick/
-  - title: "Teresa"
-    url: /docs/people/teresa/
+    url: /docs/people/nick/   
+  - title: "Rebecca"
+    url: /docs/people/rebecca/  
   - title: "Zack"
-    url: /docs/people/zack/
-    
+    url: /docs/people/zack/    
+  - title: "Mel"
+    url: /docs/people/mel/
+  - title: "James"
+  - title: "Andre"
+  - title: "Teresa"
+    url: /docs/people/teresa/    
 # Create your own sidebar
 sidebar-urbanag:
   - title: "Urban Agriculture"
