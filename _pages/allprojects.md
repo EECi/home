@@ -1,7 +1,10 @@
 ---
-layout: single
+layout: splash
 permalink: /projects/
 title: All projects
+excerpt: "We can fill this in with an image up here."
+header:
+  overlay_color: "#58585A"
 description: An overview of EECi projects
 last_modified_at: 2021-03-29
 sidebar:
