@@ -11,7 +11,7 @@ tags:
   - image
   - layout
 intro: 
-  - excerpt: 'Welcome to our website. Centered with `type="center"`'
+  - excerpt: 'Here are our featured projects. Click to find out more, or to find our all our projects past and present go to our projects page'
 feature_row1:
   - image_path: /Images/ssenv/main_ssenv.jpg
     image_caption: "Image courtesy of Nick and Monika"
@@ -20,13 +20,13 @@ feature_row1:
     excerpt:  "Dr. Monika Kreitmair, PDRA, U. of Cambridge, UK (July 2019) \n Dr. Nikolas Makasis, PDRA, U. of Cambridge, UK (May 2019) "
     url: "/docs/subsurface/"
     btn_label: "Read More"
-    btn_class: "btn--primary"
+    btn_class: "btn--light-outline"
   - image_path: /Images/uag/main_uag.png
     title: "Urban agriculture"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
     url: "/docs/urbanag/"
     btn_label: "View page"
-    btn_class: "btn--primary"
+    btn_class: "btn--light-outline"
 feature_row2:
   - image_path: /Images/eplan/main_eplan.jpg
     image_caption: "Fig by Andre"
