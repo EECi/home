@@ -20,13 +20,13 @@ feature_row1:
     excerpt:  "Dr. Monika Kreitmair, PDRA, U. of Cambridge, UK (July 2019) \n Dr. Nikolas Makasis, PDRA, U. of Cambridge, UK (May 2019) "
     url: "/docs/subsurface/"
     btn_label: "Read More"
-    btn_class: "btn--light-outline"
+    btn_class: "btn--inverse"
   - image_path: /Images/uag/main_uag.png
     title: "Urban agriculture"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
     url: "/docs/urbanag/"
     btn_label: "View page"
-    btn_class: "btn--light-outline"
+    btn_class: "btn--inverse"
 feature_row2:
   - image_path: /Images/eplan/main_eplan.jpg
     image_caption: "Fig by Andre"
@@ -38,7 +38,7 @@ Mingda Yuan, PhD Student, U. of Cambridge
 Andrea Perkins + Will (Innovate UK Secondment)"
     url: "/docs/energyplanning/"
     btn_label: "View page"
-    btn_class: "btn--primary"
+    btn_class: "btn--inverse"
   - image_path: /Images/stoch/main_stoch.png
     image_caption: "Image courtesy of Rebecca"
     alt: "placeholder image 2"
@@ -49,7 +49,7 @@ Teresa Irigoyen Lopez, PhD Student, U. of Cambridge
 James Kinch, PhD Student, U. of Cambridge"
     url: "/docs/stoch/"
     btn_label: "View page"
-    btn_class: "btn--primary"
+    btn_class: "btn--inverse"
 ---
 
 # Energy Efficient Cities initiative
