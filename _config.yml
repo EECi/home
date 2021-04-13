@@ -97,7 +97,7 @@ author:
   name             : "EECi"
   avatar           : "/Images/EECi Logo.png"
   bio              : ""
-  location         : " Engineering Dept, Trumpington St, Cambridge CB2 1PZ"
+  location         : " Engineering Dept <br> Trumpington St <br> Cambridge <br> CB2 1PZ"
   email            :
   links:
     - label: "Email"
