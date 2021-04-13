@@ -57,11 +57,11 @@ sidebar:
 
 ## Research associates
 
-{% include gallery id="ra_gallery" %}
+{% include gallery id="ra_gallery" layout="third"%}
 
 ## Graduate students
 
-{% include gallery id="grad_student_gallery" %}
+{% include gallery id="grad_student_gallery" layout="third" %}
 
 
 
