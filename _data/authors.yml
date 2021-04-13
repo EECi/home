@@ -90,7 +90,7 @@ Zack:
 James:
   name        : "James Kinch"
   bio         : "Graduate Student, Energy Flexibility and Digital Twins"
-  avatar      : "/Images/ppl/jik.jpg"
+  avatar      : "/Images/ppl/jik.jpeg"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
