@@ -1,11 +1,14 @@
 ---
-layout: home
+layout: single
+header:
+  image: /Images/Group Logo.png
+
 author_profile: true
 ---
 
 Welcome to our website!
 
-![EECi Group Logo](/Images/Group Logo.png)
+//![EECi Group Logo](/Images/Group Logo.png)
 
 **Who We Are**
 
