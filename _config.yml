@@ -97,7 +97,7 @@ author:
   name             : "EECi"
   avatar           : "/Images/EECi Logo.png"
   bio              : ""
-  location         : " Engineering Dept <br> Trumpington St <br> Cambridge <br> CB2 1PZ"
+  location         : "Engineering Dept <br> Trumpington St <br> Cambridge <br> CB2 1PZ"
   email            :
   links:
     - label: "Email"
@@ -114,7 +114,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/EECi"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -130,7 +130,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: https://github.com/EECi
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
