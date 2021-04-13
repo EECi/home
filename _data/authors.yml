@@ -87,5 +87,13 @@ Zack:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://www.xonti.co/"   
+James:
+  name        : "James Kinch"
+  bio         : "Graduate Student, Energy Flexibility and Digital Twins"
+  avatar      : "/Images/ppl/jik.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:jik30@cam.ac.uk"
 
             
