@@ -52,7 +52,7 @@ sidebar:
 
 ## Faculty
 
-{% include gallery id="faculty_gallery" %}
+{% include gallery id="faculty_gallery" layout="third" %}
 
 
 ## Research associates
