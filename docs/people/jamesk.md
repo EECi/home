@@ -1,7 +1,7 @@
 ---
 layout: single
 title: James Kinch
-description: Short bio
+description: Personal website
 last_modified_at: 2021-04-12
 author_profile: true
 author: "James"
