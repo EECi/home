@@ -11,6 +11,8 @@ tags:
   - image
   - layout
 feature_row1:
+
+feature_row2:
   - image_path: /Images/ssenv/main_ssenv.jpg
     image_caption: "Image courtesy of Nick and Monika"
     alt: "placeholder image 2"
@@ -19,7 +21,6 @@ feature_row1:
     url: "/docs/subsurface/"
     btn_label: "Read More"
     btn_class: "btn--inverse"
-feature_row2:
   - image_path: /Images/eplan/main_eplan.jpg
     image_caption: "Fig by Andre"
     alt: "placeholder image 1"
