@@ -43,6 +43,9 @@ docs:
         url: /docs/people/teresa/
       - title: "Zack"
         url: /docs/people/zack/
+      - title: "James"
+        url: /docs/people/jamesk/
+
 
 # This sidebar indicates the list of four projects
 sidebar-projects:
@@ -68,6 +71,7 @@ sidebar-people:
   - title: "Mel"
     url: /docs/people/mel/
   - title: "James"
+    url: /docs/people/jamesk/
   - title: "André"
   - title: "Teresa"
     url: /docs/people/teresa/    
