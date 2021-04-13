@@ -10,8 +10,6 @@ tags:
   - featured image
   - image
   - layout
-intro: 
-  - excerpt: 'Here are our featured projects. Click to find out more, or to find our all our projects past and present go to our projects page'
 feature_row1:
   - image_path: /Images/ssenv/main_ssenv.jpg
     image_caption: "Image courtesy of Nick and Monika"
@@ -20,12 +18,6 @@ feature_row1:
     excerpt:  "Dr. Monika Kreitmair, PDRA, U. of Cambridge, UK (July 2019) \n Dr. Nikolas Makasis, PDRA, U. of Cambridge, UK (May 2019) "
     url: "/docs/subsurface/"
     btn_label: "Read More"
-    btn_class: "btn--inverse"
-  - image_path: /Images/uag/main_uag.png
-    title: "Urban agriculture"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "/docs/urbanag/"
-    btn_label: "View page"
     btn_class: "btn--inverse"
 feature_row2:
   - image_path: /Images/eplan/main_eplan.jpg
@@ -37,6 +29,12 @@ feature_row2:
 Mingda Yuan, PhD Student, U. of Cambridge
 Andrea Perkins + Will (Innovate UK Secondment)"
     url: "/docs/energyplanning/"
+    btn_label: "View page"
+    btn_class: "btn--inverse"
+  - image_path: /Images/uag/main_uag.png
+    title: "Urban agriculture"
+    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    url: "/docs/urbanag/"
     btn_label: "View page"
     btn_class: "btn--inverse"
   - image_path: /Images/stoch/main_stoch.png
@@ -61,10 +59,6 @@ The Energy Efficient Cities initiative [EECi] is a cross-disciplinary research p
 
 
 ## Feature gallery
-
-This includes the intro text
-
-{% include feature_row id="intro" type="center" %}
 
 This includes the three placeholder figs which could send to different projects
 
