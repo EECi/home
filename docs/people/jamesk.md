@@ -5,8 +5,6 @@ description: Short bio
 last_modified_at: 2021-04-12
 ---
 
-# James Kinch
-
 Graduate Student
 
 ## Topic: Energy Flexibility and Digital Twins
