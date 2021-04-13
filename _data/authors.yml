@@ -95,5 +95,13 @@ James:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:jik30@cam.ac.uk"
+    - label: "@jamesikinch"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/jamesikinch"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin-in"
+      url: "https://www.linkedin.com/in/jamesikinch/"
+
+
 
             
