@@ -13,13 +13,13 @@
 img.teamgallery {
 	width:200px;
   	height:200px;
-	object-fit: none;
+	object-fit: cover;
 	object-position: center;
 }
 
 img.feature_crop {
-        height: 200px;
-	width: 400px;
+        height: 400px;
+	width: 600px;
         overflow: hidden;
 	object-fit: cover;
 	object-position: center;
