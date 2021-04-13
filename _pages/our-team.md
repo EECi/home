@@ -32,9 +32,9 @@ ra_gallery:
     title: "Melanie Jans-Singh"
     alt: "Melanie Jans-Singh"
 grad_student_gallery:
-  - url: https://www.eeci.cam.ac.uk/directory/j-kinch/
+  - url: /docs/people/jamesk/
     image_path: https://www.eeci.cam.ac.uk/directory/j-kinch/image_normal
-    title: "James Kinch"
+    alt: "James Kinch"
     title: "James Kinch"
   - url: https://www.eeci.cam.ac.uk/directory/a-neto-bradley
     image_path: https://www.eeci.cam.ac.uk/directory/a-neto-bradley/image_normal
