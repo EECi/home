@@ -35,6 +35,9 @@ feature_row:
 <h4>Scroll to see the sticky element <em>sticking</em></h4>
 <div class="extra"></div>
 <div id="wrapper">
+      <img src="/Images/eplan/LPG_Distributor.jpg"
+         alt="LPG Distributor in Bangalore"
+         caption="Photo credit: A Neto-Bradley">
   <div id="sticky">
     <img id="sticky"
          src="/Images/eplan/LPG_Distributor.jpg"
