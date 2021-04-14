@@ -31,13 +31,12 @@ feature_row:
     btn_label: "Read More"
     btn_class: "btn--primary"
 ---
-
+ <img src="/Images/eplan/LPG_Distributor.jpg"
+         alt="LPG Distributor in Bangalore"
+         caption="Photo credit: A Neto-Bradley">
 <h4>Scroll to see the sticky element <em>sticking</em></h4>
 <div class="extra"></div>
 <div id="wrapper">
-      <img src="/Images/eplan/LPG_Distributor.jpg"
-         alt="LPG Distributor in Bangalore"
-         caption="Photo credit: A Neto-Bradley">
   <div id="sticky">
     <img id="sticky"
          src="/Images/eplan/LPG_Distributor.jpg"
