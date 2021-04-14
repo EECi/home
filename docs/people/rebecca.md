@@ -7,9 +7,6 @@ author: "Rebecca"
 author_profile: true
 ---
 
-
-# Rebecca Ward
-
 # Research interests
 I am interested in how we can use numerical simulation in conjunction with monitored data to improve our understanding, design and operation of the built environment.
 
