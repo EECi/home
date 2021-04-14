@@ -36,7 +36,8 @@ feature_row:
 <div class="extra"></div>
 <div id="wrapper">
   <div id="sticky">
-    <img src="/Images/eplan/LPG_Distributor.jpg"
+    <img id="sticky"
+         src="/Images/eplan/LPG_Distributor.jpg"
          alt="LPG Distributor in Bangalore"
          caption="Photo credit: A Neto-Bradley">
   </div>
