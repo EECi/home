@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Rebecca Ward
-description: SHort bio
+description: Personal website
 last_modified_at: 2021-03-05
 author: "Rebecca"
 author_profile: true
