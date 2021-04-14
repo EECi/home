@@ -100,7 +100,7 @@ James:
       url: "https://twitter.com/jamesikinch"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin-in"
-      url: "https://www.linkedin.com/in/jamesikinch/
+      url: "https://www.linkedin.com/in/jamesikinch/"
       
 André:
   name        : "André Neto-Bradley"
@@ -113,7 +113,7 @@ André:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "/home/docs/people/andre/"
-    - label: "Twitter"
+    - label: "@A_Notabene"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/A_Notabene"
             
