@@ -1,5 +1,6 @@
 ---
 layout: splash
+classes: wide
 title: Urban Energy Planning
 permalink: /docs/energyplanning/
 tags:
