@@ -21,9 +21,9 @@ feature_row2:
     url: "/docs/subsurface/"
     btn_label: "Read More"
     btn_class: "btn--inverse"
-  - image_path: /Images/eplan/main_eplan.jpg
-    image_caption: "Fig by Andre"
-    alt: "placeholder image 1"
+  - image_path: /Images/eplan/Kochi_microsim.jpg
+    image_caption: "Figure by A Neto-Bradley"
+    alt: "Spatial microsimulation of LPG use"
     title: "Energy Planning"
     excerpt: "Andre Neto-Bradley, PhD Student, U. of Cambridge
      Indian Institute of Human Settlements, India
