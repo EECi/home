@@ -20,4 +20,9 @@ I joined the Energy Efficient Cities initiative in April 2011 under a Daphne Jac
 
 I am currently employed at the Alan Turing Institute as a Research Associate in the Data-Centric Engineering group.
 
+## Publications
+
+<div>
+<script src="https://bibbase.org/show?bib=https%3A%2F%2Feeci.soc.srcf.net%2FEECI_bib.bib&amp;jsonp=1&amp;filter=author_short:Ward&amp;folding=1" type="text/javascript"></script>
+</div>
 
