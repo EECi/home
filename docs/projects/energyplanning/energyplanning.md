@@ -1,13 +1,13 @@
 ---
 layout: splash
-title: Energy Planning
+title: Urban Energy Planning
 permalink: /docs/energyplanning/
 tags:
-  - urban agriculture
-  - digital twin
-author: "Melanie"
+  - residential energy use
+  - urban energy modelling
+author: "André"
 excerpt: "Presentation of urban agriculture project"
-last_modified_at: 2021-03-09
+last_modified_at: 2021-04-14
 feature_row:
   - image_path: /Images/Group Logo.png
     alt: "placeholder image 1"
@@ -32,3 +32,13 @@ feature_row:
     btn_class: "btn--primary"
 ---
 
+<h4>Scroll to see the sticky element <em>sticking</em></h4>
+<div class="extra"></div>
+<br />
+<div id="wrapper">
+  <div id="sticky">
+    sticky
+  </div>
+</div>
+<br />
+<div class="extra"></div>
