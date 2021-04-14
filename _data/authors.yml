@@ -31,7 +31,7 @@ Melanie:
 Rebecca:
   name        : "Rebecca Ward"
   bio         : "Research Associate, Urban farming"
-  avatar      : "/Images/rmw.jpg"
+  avatar      : "/Images/ppl/rmw.jpg"
   links:
     - label: "Email me"
       icon: "fas fa-fw fa-envelope-square"
