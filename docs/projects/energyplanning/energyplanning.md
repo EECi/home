@@ -36,7 +36,9 @@ feature_row:
 <div class="extra"></div>
 <div id="wrapper">
   <div id="sticky">
-    The sticky note
+    <img src="/Images/eplan/LPG_Distributor.jpg"
+         alt="Photo credit: A Neto-Bradley">
   </div>
 </div>
 <div class="extra"></div>
+
