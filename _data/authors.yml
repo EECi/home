@@ -33,15 +33,15 @@ Rebecca:
   bio         : "Research Associate, Urban farming"
   avatar      : "/Images/rmw.jpg"
   links:
-    - label: "Email"
+    - label: "Email me"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:mkj32@cam.ac.uk"
-    - label: "Website"
+      url: "mailto:rmw61@cam.ac.uk"
+    - label: "About me"
       icon: "fas fa-fw fa-link"
-      url: "https://thewhip.com"
-    - label: "Twitter"
+      url: "/home/docs/people/mel/"
+    - label: "@ibexward"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/meljanssingh"
+      url: "https://twitter.com/ibexward"
       
 Nick:
   name        : "Nikolas Makasis"
