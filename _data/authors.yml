@@ -112,7 +112,7 @@ André:
       url: "mailto:apn30@cam.ac.uk"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: ""
+      url: "/home/docs/people/andre/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/A_Notabene"
