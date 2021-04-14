@@ -34,11 +34,9 @@ feature_row:
 
 <h4>Scroll to see the sticky element <em>sticking</em></h4>
 <div class="extra"></div>
-<br />
 <div id="wrapper">
   <div id="sticky">
-    sticky
+    The sticky note
   </div>
 </div>
-<br />
 <div class="extra"></div>
