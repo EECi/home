@@ -31,7 +31,7 @@ Melanie:
 Rebecca:
   name        : "Rebecca Ward"
   bio         : "Research Associate, Urban farming"
-  avatar      : "/Images/ppl/rmw.jpg"
+  avatar      : "/Images/rmw.jpg"
   links:
     - label: "Email me"
       icon: "fas fa-fw fa-envelope-square"
@@ -100,8 +100,20 @@ James:
       url: "https://twitter.com/jamesikinch"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin-in"
-      url: "https://www.linkedin.com/in/jamesikinch/"
-
-
-
+      url: "https://www.linkedin.com/in/jamesikinch/
+      
+André:
+  name        : "André Neto-Bradley"
+  bio         : "Graduate Student, Residential Urban Energy Modelling"
+  avatar      : "/Images/ppl/apn.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:apn30@cam.ac.uk"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: ""
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/A_Notabene"
             
