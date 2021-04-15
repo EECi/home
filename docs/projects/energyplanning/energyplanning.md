@@ -32,7 +32,6 @@ feature_row:
     btn_label: "Read More"
     btn_class: "btn--primary"
 ---
-<h4>Scroll to see the sticky element <em>sticking</em></h4>
 <div class="extra"></div>
 <div id="wrapper">
   <div id="sticky">
@@ -41,7 +40,7 @@ feature_row:
          alt="LPG Distributor in Bangalore"
          caption="Photo credit: A Neto-Bradley">
   </div>
-  <h3>Overview of projects in this section before a feature row of links below</h3>
+  <body>Understanding factors that influence energy use in urban areas and how to best chracterise and model this is key to delivering clean and sustainable energy for the cities of today and tomorrow.<body>
 </div>
 <div class="extra"></div>
 
