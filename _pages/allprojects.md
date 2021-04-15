@@ -29,26 +29,23 @@ feature_subsurface:
                British Geological Survey, UK <br/>
                Funded by ASG + NSF/EPSRC Collaborative Grants; 2019-2022"
     url: "/docs/subsurface/"
-    btn_label: "Read More"
+    btn_label: "View this project"
     btn_class: "btn--primary"
 feature_uag:
   - image_path: /Images/uag/main_uag.png
     title: "Urban agriculture"
     excerpt: "Energy Models and Digital twins for Urban Integrated Agriculture"
     url: "/docs/urbanag/"
-    btn_label: "View page"
+    btn_label: "View this project"
     btn_class: "btn--primary"
 feature_eplan:
-  - image_path: /Images/eplan/main_eplan.jpg
-    image_caption: "Fig by Andre"
+  - image_path: /Images/eplan/Kochi_microsim.jpg
+    image_caption: "Figure by A Neto-Bradley"
     alt: "placeholder image 1"
-    title: "Energy Planning"
-    excerpt: "Andre Neto-Bradley, PhD Student, U. of Cambridge
-     Indian Institute of Human Settlements, India
-Mingda Yuan, PhD Student, U. of Cambridge
-Andrea Perkins + Will (Innovate UK Secondment)"
+    title: "Urban Energy Planning"
+    excerpt: "Exploring the use of data science tools to improve understanding and modelling of urban energy use."
     url: "/docs/energyplanning/"
-    btn_label: "View page"
+    btn_label: "View this project"
     btn_class: "btn--primary"
 feature_stoch:
   - image_path: /Images/stoch/main_stoch.png
@@ -60,7 +57,7 @@ Dr. Zack Conti, PDRA, Alan Turing Institute
 Teresa Irigoyen Lopez, PhD Student, U. of Cambridge
 James Kinch, PhD Student, U. of Cambridge"
     url: "/docs/stoch/"
-    btn_label: "View page"
+    btn_label: "View this project"
     btn_class: "btn--primary"
 ---
 
@@ -105,14 +102,6 @@ Designing Energy Flexible Built Environments using Digital Twins
 
 {% include feature_row id="feature_eplan" type="left" %}
 
-Social Logic of Energy Transitions in Indian Households
-
-
-Andre Neto-Bradley, PhD Student, U. of Cambridge
-Indian Institute of Human Settlements, India
-
-Mingda Yuan, PhD Student, U. of Cambridge
-Andrea Perkins + Will (Innovate UK Secondment)
 
 
 # Urban agriculture
