@@ -24,11 +24,12 @@
 }
 
 #stickyarticle {
+  width: 80%;
   background-image: linear-gradient(
     to bottom,
     transparent 50px,
-    #fff 50px,
-    #fff calc(100% - 50px),
+    #ffffff 50px,
+    #ffffff calc(100% - 50px),
     transparent 0
   );
   margin: auto auto 50px auto;
