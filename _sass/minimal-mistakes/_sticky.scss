@@ -17,6 +17,9 @@
   width: 100%;
   margin: auto;
   background-color: #fff;
+  position: -webkit-sticky;
+  position: sticky;
+  height: 50px;
 }
 #wrapper {
   min-height: 100vh;
