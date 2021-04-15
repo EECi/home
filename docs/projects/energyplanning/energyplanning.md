@@ -34,7 +34,7 @@ feature_row:
     btn_label: "Read More"
     btn_class: "btn--primary"
 ---
-<div class="emptyBlocks"><body>Understanding factors that influence energy use in urban areas and how to best chracterise and model this is key to delivering clean and sustainable energy for the cities of today and tomorrow.<body></div>
+<div class="wrapper"><body>Understanding factors that influence energy use in urban areas and how to best chracterise and model this is key to delivering clean and sustainable energy for the cities of today and tomorrow.<body></div>
 <div class="category">Society and Energy</div>
 <h1 class="title">Characterising heterogeneity in urban energy use</h1>
 <div id="wrapper">
@@ -46,5 +46,5 @@ feature_row:
   </div>
   <body>Understanding factors that influence energy use in urban areas and how to best chracterise and model this is key to delivering clean and sustainable energy for the cities of today and tomorrow.<body>
 </div>
-<div class="extra"></div>
+<div class="wrapper"></div>
 
