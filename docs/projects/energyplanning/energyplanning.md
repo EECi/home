@@ -36,7 +36,7 @@ feature_row:
 ---
 <div class="wrapper"><body>Understanding factors that influence energy use in urban areas and how to best chracterise and model this is key to delivering clean and sustainable energy for the cities of today and tomorrow.</body></div>
 <h1 class="category">Society and Energy</h1>
-<h2 class="title">Characterising heterogeneity in urban energy use</h1>
+<h2 class="title">Characterising heterogeneity in urban energy use</h2>
 <div id="wrapper">
   <div id="sticky">
     <img id="sticky"
@@ -47,7 +47,7 @@ feature_row:
   <body>Understanding factors that influence energy use in urban areas and how to best chracterise and model this is key to delivering clean and sustainable energy for the cities of today and tomorrow.</body>
 </div>
 <div class="wrapper">
-    <div id="sticky">
+  <div id="sticky">
     <img id="sticky"
          src="/home/Images/eplan/LPG_Distributor.jpg"
          alt="LPG Distributor in Bangalore"
