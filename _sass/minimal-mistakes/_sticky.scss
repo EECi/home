@@ -4,7 +4,7 @@
   background: #f83d23;
   width: 100%;
   height: 40vh;
-  top: 20px;
+  top: 50px;
   display: flex;
   box-shadow: 0 0 0px #000;
   object-fit: cover;
@@ -12,12 +12,12 @@
 }
 .extra,
 #wrapper {
-  width: 80%;
+  width: 100%;
   margin: auto;
   background-color: #fff;
 }
 #wrapper {
-  height: 800px;
+  min-height: 100vh;
 }
 .extra {
   height: 0px;
@@ -32,5 +32,54 @@ h4 {
 @media (min-height: 768px) {
   #wrapper{
     height: 2000px;
+  }
+}
+
+article {
+  margin: auto auto 50px auto;
+}
+.category,
+.title,
+.category {
+  top: 0;
+  font: h3;
+  color: primary-colour;
+  text-shadow: 0px 0px 0 #fff;
+}
+.title {
+  top: 0;
+  font: h2;
+  color: primary-colour ;
+  text-shadow: 0px 0px 0 #fff;
+  background-color: #fff;
+  margin: 5px;
+}
+body {
+}
+p {
+  margin: 10px;
+}
+.emptyBlocks {
+  background-color: #ccc;
+  height: 200px;
+  margin: 40px auto;
+}
+article,
+.emptyBlocks {
+  width: 80vw;
+  max-width: 420px;
+}
+@media (max-width: 420px) {
+  .category {
+    font: 24px/72px "Titan One";
+    text-align: center;
+  }
+  .footer {
+    font-size: 9pt;
+  }
+}
+@media (max-height: 946px){
+  .tallScreenText{
+    display: none;
   }
 }
