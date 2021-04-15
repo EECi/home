@@ -34,9 +34,9 @@ feature_row:
     btn_label: "Read More"
     btn_class: "btn--primary"
 ---
-<div class="wrapper"><body>Understanding factors that influence energy use in urban areas and how to best chracterise and model this is key to delivering clean and sustainable energy for the cities of today and tomorrow.<body></div>
-<div class="category">Society and Energy</div>
-<h1 class="title">Characterising heterogeneity in urban energy use</h1>
+<div class="wrapper"><body>Understanding factors that influence energy use in urban areas and how to best chracterise and model this is key to delivering clean and sustainable energy for the cities of today and tomorrow.</body></div>
+<h1 class="category">Society and Energy</h1>
+<h2 class="title">Characterising heterogeneity in urban energy use</h1>
 <div id="wrapper">
   <div id="sticky">
     <img id="sticky"
@@ -44,7 +44,15 @@ feature_row:
          alt="LPG Distributor in Bangalore"
          caption="Photo credit: A Neto-Bradley">
   </div>
-  <body>Understanding factors that influence energy use in urban areas and how to best chracterise and model this is key to delivering clean and sustainable energy for the cities of today and tomorrow.<body>
+  <body>Understanding factors that influence energy use in urban areas and how to best chracterise and model this is key to delivering clean and sustainable energy for the cities of today and tomorrow.</body>
 </div>
-<div class="wrapper"></div>
+<div class="wrapper">
+    <div id="sticky">
+    <img id="sticky"
+         src="/home/Images/eplan/LPG_Distributor.jpg"
+         alt="LPG Distributor in Bangalore"
+         caption="Photo credit: A Neto-Bradley">
+  </div>
+  <body>Understanding factors that influence energy use in urban areas and how to best chracterise and model this is key to delivering clean and sustainable energy for the cities of today and tomorrow.</body>
+</div>
 
