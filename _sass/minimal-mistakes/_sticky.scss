@@ -3,10 +3,10 @@
   position: -webkit-sticky;
   background: #f83d23;
   width: 100%;
-  min-height: 100vh;
+  height: 33vh;
   top: 0px;
   display: flex;
-  box-shadow: 0 0 1px #000;
+  box-shadow: 0 0 0px #000;
   object-fit: cover;
   color: #fff;
 }
@@ -14,7 +14,7 @@
 #wrapper {
   width: 100%;
   margin: auto;
-  background-color: #ccc;
+  background-color: #fff;
 }
 #wrapper {
   height: 800px;
