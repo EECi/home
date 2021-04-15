@@ -19,11 +19,11 @@ ra_gallery:
     image_path: https://www.eeci.cam.ac.uk/directory/n-makasis/image_normal
     alt: "Nikolas Makasis"
     title: "Nikolas Makasis"
-  - url: https://eeci.github.io/home/docs/people/rebecca/
+  - url: /docs/people/rebecca/
     image_path: /Images/ppl/rmw.jpg
     alt: "Rebecca Ward"
     title: "Rebecca Ward"
-  - url: https://www.eeci.cam.ac.uk/directory/z-xuereb-conti/
+  - url: /docs/people/zack/
     image_path: https://www.eeci.cam.ac.uk/directory/z-xuereb-conti/image_normal
     alt: "Zach Xuereb Conti"
     title: "Zach Xuereb Conti"
