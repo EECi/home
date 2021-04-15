@@ -26,3 +26,8 @@ I am currently employed at the Alan Turing Institute as a Research Associate in 
 <script src="https://bibbase.org/show?bib=https%3A%2F%2Feeci.soc.srcf.net%2FEECI_bib.bib&amp;jsonp=1&amp;filter=author_short:Ward&amp;folding=1" type="text/javascript"></script>
 </div>
 
+## Publications (github source)
+
+<div>
+<script src="https://bibbase.org/show?bib=https%3A%2F%2Fraw.githubusercontent.com%2FEECi%2Fhome%2Fmain%2Fdocs%2Fpublications%2FEECi_bib.bib&commas=true&jsonp=1&amp;filter=author_short:Ward&amp;folding=1"></script> 
+</div>
