@@ -12,7 +12,7 @@
 }
 .extra,
 #wrapper {
-  width: 80%;
+  width: 100%;
   margin: auto;
   height: 50px;
 }
@@ -44,10 +44,13 @@
 
 .category {
   top: 20pt;
+  colour: #58585A;
 }
 
 .title {
   top: 20pt;
+  background-color: #fff;
+  colour: #ED217B;
 }
 .footer{
   bottom: 100px;
