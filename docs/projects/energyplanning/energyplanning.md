@@ -1,6 +1,5 @@
 ---
 layout: splash
-classes: wide
 title: Urban Energy Planning
 permalink: /docs/energyplanning/
 header: 
@@ -37,7 +36,7 @@ feature_row:
 <div class="wrapper"><body>Understanding factors that influence energy use in urban areas and how to best chracterise and model this is key to delivering clean and sustainable energy for the cities of today and tomorrow.</body></div>
 <div id="stickyarticle">
 <h1 class="category">Society and Energy</h1>
-<h2 class="title">Characterising heterogeneity in urban energy use</h2>
+<h3 class="title">Characterising heterogeneity in urban energy use</h3>
 <div id="wrapper">
   <div id="sticky">
     <img id="sticky"
@@ -50,7 +49,7 @@ feature_row:
 </div>
 <div id="stickyarticle">
 <h1 class="category">Society and Energy</h1>
-<h2 class="title">Characterising heterogeneity in urban energy use</h2>
+<h3 class="title">Characterising heterogeneity in urban energy use</h3>
 <div id="wrapper">
   <div id="sticky">
     <img id="sticky"
