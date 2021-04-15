@@ -51,7 +51,7 @@ feature_row:
 <div id="stickyarticle">
 <h1 class="category">Society and Energy</h1>
 <h2 class="title">Characterising heterogeneity in urban energy use</h2>
-<div class="wrapper">
+<div id="wrapper">
   <div id="sticky">
     <img id="sticky"
          src="/home/Images/eplan/LPG_Distributor.jpg"
