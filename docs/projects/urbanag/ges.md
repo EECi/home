@@ -7,6 +7,7 @@ tags:
 author: "Rebecca"
 excerpt: "Modelling physics of Greenhouse"
 last_modified_at: 2021-03-09
+read_time: true
 toc: true
 toc_sticky: true
 ---
