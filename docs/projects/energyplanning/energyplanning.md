@@ -3,6 +3,8 @@ layout: splash
 classes: wide
 title: Urban Energy Planning
 permalink: /docs/energyplanning/
+header: 
+  overlay_image: /Images/eplan/Kochi_microsim.jpg
 tags:
   - residential energy use
   - urban energy modelling
@@ -32,7 +34,9 @@ feature_row:
     btn_label: "Read More"
     btn_class: "btn--primary"
 ---
-<div class="extra"></div>
+<div class="emptyBlocks"><body>Understanding factors that influence energy use in urban areas and how to best chracterise and model this is key to delivering clean and sustainable energy for the cities of today and tomorrow.<body></div>
+<div class="category">Society and Energy</div>
+<h1 class="title">Characterising heterogeneity in urban energy use</h1>
 <div id="wrapper">
   <div id="sticky">
     <img id="sticky"
