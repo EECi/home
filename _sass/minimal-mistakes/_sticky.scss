@@ -10,15 +10,16 @@
   object-fit: cover;
   color: #fff;
 }
-.extra,
 .category,
-.title,
-#wrapper {
-  width: 100%;
-  margin: auto;
+.title{
   background-color: #fff;
   position: -webkit-sticky;
   position: sticky;
+}
+.extra,
+#wrapper {
+  width: 100%;
+  margin: auto;
   height: 50px;
 }
 #wrapper {
@@ -29,14 +30,14 @@
 }
 .category {
   top: 0;
-  font: h3;
-  color: $primary-colour;
+  font-family: sans-serif;
+  color: primary-colour;
   text-shadow: 0px 0px 0 #fff;
 }
 .title {
   top: 0;
-  font: h2;
-  color: $primary-colour ;
+  font: sans-serif;
+  color: primary-colour ;
   text-shadow: 0px 0px 0 #fff;
   background-color: #fff;
   margin: 5px;
