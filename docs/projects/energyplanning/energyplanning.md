@@ -1,9 +1,7 @@
 ---
-layout: splash
+layout: single
 title: Urban Energy Planning
 permalink: /docs/energyplanning/
-header: 
-  overlay_image: /Images/eplan/Kochi_microsim.jpg
 tags:
   - residential energy use
   - urban energy modelling
@@ -33,7 +31,8 @@ feature_row:
     btn_label: "Read More"
     btn_class: "btn--primary"
 ---
-<div id="stickyarticle"><body>Understanding factors that influence energy use in urban areas and how to best chracterise and model this is key to delivering clean and sustainable energy for the cities of today and tomorrow.</body></div>
+Understanding factors that influence energy use in urban areas and how to best chracterise and model this is key to delivering clean and sustainable energy for the cities of today and tomorrow.
+
 <div id="stickyarticle">
 <h1 class="category">Society and Energy</h1>
 <h3 class="title">Characterising heterogeneity in urban energy use</h3>
@@ -48,14 +47,13 @@ feature_row:
 </div>
 </div>
 <div id="stickyarticle">
-<h1 class="category">Society and Energy</h1>
-<h3 class="title">Characterising heterogeneity in urban energy use</h3>
+<h3 class="title">Spatial Microsimulation</h3>
 <div id="wrapper">
   <div id="sticky">
     <img id="sticky"
-         src="/home/Images/eplan/LPG_Distributor.jpg"
-         alt="LPG Distributor in Bangalore"
-         caption="Photo credit: A Neto-Bradley">
+         src="/home/Images/eplan/Kochi_microsim.jpg"
+         alt="Spatial microsimulation of LPG use in Kochi, Kerala"
+         caption="Figure credit: A Neto-Bradley">
   </div>
   <body>Understanding factors that influence energy use in urban areas and how to best chracterise and model this is key to delivering clean and sustainable energy for the cities of today and tomorrow.</body>
 </div>
