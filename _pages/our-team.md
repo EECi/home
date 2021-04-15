@@ -20,7 +20,7 @@ ra_gallery:
     alt: "Nikolas Makasis"
     title: "Nikolas Makasis"
   - url: https://www.eeci.cam.ac.uk/directory/r-ward/
-    image_path: https://www.eeci.cam.ac.uk/directory/r-ward/image_normal
+    image_path: /Images/ppl/rmw.jpg
     alt: "Rebecca Ward"
     title: "Rebecca Ward"
   - url: https://www.eeci.cam.ac.uk/directory/z-xuereb-conti/
