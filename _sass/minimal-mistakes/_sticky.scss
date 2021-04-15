@@ -2,8 +2,8 @@
   position: sticky;
   position: -webkit-sticky;
   background: #f83d23;
-  width: max;
-  height: 300px;
+  width: 100%;
+  height: auto;
   top: 0px;
   display: flex;
   box-shadow: 0 0 1px #000;
@@ -12,7 +12,7 @@
 }
 .extra,
 #wrapper {
-  width: 75%;
+  width: 100%;
   margin: auto;
   background-color: #ccc;
 }
