@@ -31,7 +31,7 @@ A retrofit study of the buildings at the [Royal Botanic Gardens, Kew](https://ww
 
 This study was supported by the [Royal Academy of Engineering](https://www.raeng.org.uk/) and the [Daphne Jackson Trust](https://daphnejackson.org/). 
 
-## Model devlopments
+## Model developments
 An [EPSRC](https://epsrc.ukri.org/) funded Impact Acceleration grant enabled the simulation model used at RBG Kew to be extended to the case of edible crops, where crop yield is an important outcome, directly affected by the indoor environment of the greenhouse. This work was supported by [APS Salads](https://apsgroup.uk.com/), who provided extensive data for validation of the model.
 
 A TRNSYS module was developed in order to enable dynamic building energy simulation of building-integrated agriculture systems such as the Rooftop Greenhouse at [Seawater Greenhouse](https://seawatergreenhouse.com/) headquarters in Hackney, London.
