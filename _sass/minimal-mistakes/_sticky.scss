@@ -10,12 +10,6 @@
   object-fit: cover;
   color: #fff;
 }
-.category,
-.title{
-  background-color: #fff;
-  position: -webkit-sticky;
-  position: sticky;
-}
 .extra,
 #wrapper {
   width: 100%;
@@ -28,10 +22,27 @@
 .extra {
   height: 0px;
 }
+
+#stickyarticle{
+  background-image: linear-gradient(
+    to bottom,
+    transparent 50px,
+    #F5A623 50px,
+    #F5A623 calc(100% - 50px),
+    transparent 0
+  );
+  margin: auto auto 50px auto;
+}
+.category,
+.title {
+  background-color: #fff;
+  position: -webkit-sticky;
+  position: sticky;
+}
 .category {
   top: 2;
   font-family: sans-serif;
-  color: primary-colour;
+  color: primary-colour ;
   text-shadow: 0px 0px 0 #fff;
 }
 .title {
@@ -44,6 +55,7 @@
 }
 body {
   font-family: sans-serif;
+  width: 80%;
   height: 1000px;
 }
 h4 {
