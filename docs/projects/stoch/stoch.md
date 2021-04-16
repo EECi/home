@@ -11,9 +11,9 @@ last_modified_at: 2021-03-09
 feature_row:
   - image_path: /Images/Group Logo.png
     alt: "placeholder image 1"
-    title: "Image 1"
-    excerpt: "Temporary image 1"
-    url: "/docs/projects/stoch/fda/"
+    title: "Temporary Image 1"
+    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    url: "/docs/projects/stoch/FDA/"
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: /Images/Group Logo.png
@@ -21,13 +21,13 @@ feature_row:
     alt: "placeholder image 2"
     title: "Temporary image 2"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "/docs/projects/stoch/fda/"
+    url: "/docs/projects/stoch/FDA/"
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: /Images/Group Logo.png
     title: "Temporary image 3"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "/docs/projects/stoch/fda/"
+    url: "/docs/projects/stoch/FDA/"
     btn_label: "Read More"
     btn_class: "btn--primary"
 ---
