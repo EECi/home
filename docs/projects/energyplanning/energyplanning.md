@@ -58,7 +58,7 @@ Understanding factors that influence energy use in urban areas and how to best c
 
 
 <div id="stickyarticle">
-<h1 class="category">Urban Energy Planning Projects</h1>
+<h1 class="title">Urban Energy Planning Projects</h1>
 <div id="wrapper">
   <body> The EECi team is developing methods, models, and tools to facilitate urban energy planning. The portfolio of projects below highlights the work on this, exploring different applications and addressing diverse urban energy planning challenges.</body>
   {% include feature_row id="feature_row" %}
