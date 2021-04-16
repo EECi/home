@@ -87,7 +87,7 @@ sidebar-urbanag:
         url: /docs/projects/urbanag/ges/
       - title: "Digital twin"
         url: /docs/projects/urbanag/digitaltwin/
- sidebar-stoch:
+sidebar-stoch:
   - title: "Data-centric energy modelling"
     url: /docs/projects/stoch/
     children:
