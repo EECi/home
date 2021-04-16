@@ -16,7 +16,7 @@ feature_row:
     url: "docs/projects/energyplanning/microsimulation/"
     btn_label: "Find out more"
     btn_class: "btn--primary"
-  - image_path: /Images/eplan/LPG_Distributor.jpg
+  - image_path: /Images/eplan/Pathway_clustering.png
     image_caption: "View of CROP"
     alt: "placeholder image 2"
     title: "Identifying transition pathways"
