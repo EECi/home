@@ -17,6 +17,5 @@ toc_sticky: true
  
  # Generation of internal loads for BES using FDA
  
-
- 
- <iframe src="http://rmw61.pythonanywhere.com/" style="width: 500px; height: 130px; border: 0px" title="FDA design tool"> 
+ <iframe src="http://rmw61.pythonanywhere.com/" style="width: 1000px; height: 800px; border: 0px" title="FDA design tool"> 
+  
