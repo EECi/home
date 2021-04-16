@@ -9,32 +9,29 @@ author: "André"
 excerpt: "Presentation of urban agriculture project"
 last_modified_at: 2021-04-14
 feature_row:
-  - image_path: /Images/Group Logo.png
-    alt: "placeholder image 1"
-    title: "Co-simulation"
-    excerpt: "Quantifying the effect of a hydroponic greenhouse in a building"
-    url: "/docs/projects/urbanag/cosim/"
-    btn_label: "Read More"
+  - image_path: /Images/eplan/Kochi_microsim.jpg
+    alt: "City-scale microsimulation"
+    title: "City-scale microsimulation"
+    excerpt: "Developing spatial microsimulation models for urban residential energy use."
+    url: "docs/projects/energyplanning/microsimulation/"
+    btn_label: "Find out more"
     btn_class: "btn--primary"
-  - image_path: /Images/Group Logo.png
+  - image_path: /Images/eplan/LPG_Distributor.jpg
     image_caption: "View of CROP"
     alt: "placeholder image 2"
-    title: "Digital Twin of Growing Underground"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "/docs/projects/urbanag/digitaltwin/"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-  - image_path: /Images/Group Logo.png
-    title: "GES model"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "/docs/projects/urbanag/ges/"
-    btn_label: "Read More"
+    title: "Characterising residential transition pathways"
+    excerpt: "Use of clustering methods and mixed methods to identify and characterise energy transition pathways"
+    url:  "docs/projects/energyplanning/pathwayclusters/"
+    btn_label: "Find out more"
     btn_class: "btn--primary"
 ---
+
+# Introduction
+
 Understanding factors that influence energy use in urban areas and how to best chracterise and model this is key to delivering clean and sustainable energy for the cities of today and tomorrow.
 
 <div id="stickyarticle">
-<h1 class="category">Society and Energy</h1>
+<h1 class="category">Society and Energy in Cities</h1>
 <h3 class="title">Characterising heterogeneity in urban energy use</h3>
 <div id="wrapper">
   <div id="sticky">
@@ -47,7 +44,7 @@ Understanding factors that influence energy use in urban areas and how to best c
 </div>
 </div>
 <div id="stickyarticle">
-<h3 class="title">Spatial Microsimulation</h3>
+<h3 class="title">Modelling heterogeneity in urban energy use</h3>
 <div id="wrapper">
   <div id="sticky">
     <img id="sticky"
@@ -58,4 +55,10 @@ Understanding factors that influence energy use in urban areas and how to best c
   <body>Understanding factors that influence energy use in urban areas and how to best chracterise and model this is key to delivering clean and sustainable energy for the cities of today and tomorrow.</body>
 </div>
 </div>
+
+# Urban Energy Planning Projects
+
+The EECi team is developing methods, models, and tools to facilitate urban energy planning. The portfolio of projects below highlights the work on this, exploring different applications and addressing diverse urban energy planning challenges.
+
+{% include feature_row id="feature_row" %}
 
