@@ -19,7 +19,7 @@ feature_row:
   - image_path: /Images/eplan/LPG_Distributor.jpg
     image_caption: "View of CROP"
     alt: "placeholder image 2"
-    title: "Characterising residential transition pathways"
+    title: "Identifying transition pathways"
     excerpt: "Use of clustering methods and mixed methods to identify and characterise energy transition pathways"
     url:  "docs/projects/energyplanning/pathwayclusters/"
     btn_label: "Find out more"
@@ -32,7 +32,7 @@ Understanding factors that influence energy use in urban areas and how to best c
 
 <div id="stickyarticle">
 <h1 class="category">Society and Energy in Cities</h1>
-<h3 class="title">Characterising heterogeneity in urban energy use</h3>
+<h3 class="title">Society and Energy in Cities</h3>
 <div id="wrapper">
   <div id="sticky">
     <img id="sticky"
@@ -44,7 +44,7 @@ Understanding factors that influence energy use in urban areas and how to best c
 </div>
 </div>
 <div id="stickyarticle">
-<h3 class="title">Modelling heterogeneity in urban energy use</h3>
+<h3 class="title">Designing for a Sustainable Future</h3>
 <div id="wrapper">
   <div id="sticky">
     <img id="sticky"
@@ -56,9 +56,16 @@ Understanding factors that influence energy use in urban areas and how to best c
 </div>
 </div>
 
-# Urban Energy Planning Projects
 
-The EECi team is developing methods, models, and tools to facilitate urban energy planning. The portfolio of projects below highlights the work on this, exploring different applications and addressing diverse urban energy planning challenges.
+<div id="stickyarticle">
+<h1 class="category">Urban Energy Planning Projects</h1>
+<div id="wrapper">
+  <body> The EECi team is developing methods, models, and tools to facilitate urban energy planning. The portfolio of projects below highlights the work on this, exploring different applications and addressing diverse urban energy planning challenges.</body>
+  {% include feature_row id="feature_row" %}
+</div>
+</div>
 
-{% include feature_row id="feature_row" %}
+
+
+
 
