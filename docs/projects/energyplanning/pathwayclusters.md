@@ -35,7 +35,7 @@ Understanding factors that influence energy use in urban areas and how to best c
 <div id="wrapper">
   <div id="sticky">
     <img id="sticky"
-         src="/home/Images/eplan/LPG_Distributor.jpg"
+         src="/home/Images/eplan/Pathway_clustering.png"
          alt="LPG Distributor in Bangalore"
          caption="Photo credit: A Neto-Bradley">
   </div>
