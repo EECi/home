@@ -22,7 +22,7 @@ docs:
     children:
       - title: "Subsurface environments"
         url: /docs/subsurface/
-      - title: "Stochastic energy modelling"
+      - title: "Data-centric energy modelling"
         url: /docs/stoch/
       - title: "Energy planning"
         url: /docs/energyplanning/
@@ -51,7 +51,7 @@ docs:
 sidebar-projects:
   - title: "Subsurface energy modelling"
     url: /docs/projects/subsurface/
-  - title: "Stochastic energy modelling"
+  - title: "Data-centric energy modelling"
     url: /docs/projects/stoch/
   - title: "Energy planning"
     url: /docs/projects/energyplanning/
@@ -87,3 +87,13 @@ sidebar-urbanag:
         url: /docs/projects/urbanag/ges/
       - title: "Digital twin"
         url: /docs/projects/urbanag/digitaltwin/
+ sidebar-stoch:
+  - title: "Data-centric energy modelling"
+    url: /docs/projects/stoch/
+    children:
+      - title: "FDA"
+        url: /docs/projects/stoch/FDA/
+      - title: "FDA"
+        url: /docs/projects/stoch/FDA/
+      - title: "FDA"
+        url: /docs/projects/stoch/FDA/
