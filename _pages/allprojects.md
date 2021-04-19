@@ -34,7 +34,16 @@ feature_subsurface:
 feature_uag:
   - image_path: /Images/uag/main_uag.png
     title: "Urban agriculture"
-    excerpt: "Energy Models and Digital twins for Urban Integrated Agriculture"
+    excerpt: "Energy Models and Digital twins for Urban Integrated Agriculture
+    <br/><br/>
+    Rebecca Ward, ASG Turing RA  <br/>
+Dr. Melanie Jans-Singh, U. of Cambridge  <br/>
+Dr. Kathryn Leeming, U. of Warwick  <br/>
+Tomas Lazauskas, Alan Turing Institute  <br/>
+Flora Roumpani, Alan Turing Institute  <br/>
+ <br/>
+Growing Underground, UK 
+"
     url: "/docs/urbanag/"
     btn_label: "View this project"
     btn_class: "btn--primary"
@@ -108,13 +117,4 @@ Designing Energy Flexible Built Environments using Digital Twins
 
 {% include feature_row id="feature_uag" type="right" %}
 
-Energy Models and Digital twins for Urban Integrated Agriculture
-
-Rebecca Ward, ASG Turing RA
-Melanie Jans-Singh, PhD Student, U. of Cambridge
-Dr. Kathryn Leeming, U. of Warwick
-Tomas Lazauskas, Alan Turing Institute
-Flora Roumpani, Alan Turing Institute 
-
-Growing Underground, UK
 
