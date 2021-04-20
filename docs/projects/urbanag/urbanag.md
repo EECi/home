@@ -37,23 +37,13 @@ feature_row:
 
 
 
-The urban agriculture project investigates digital tools to optimise the resource use efficiency of developing greenhouses in cities. This concept is known as urban-integrated agriculture, vertical farming, controlled environment agriculture, and is gaining increasing traction  by investors, start-ups and city planners alike. While integrating a greenhouse in a city can provide multiple benefits, its high yields contribute to local food production, provide local employment with its year-round harvests, increases urban self-sufficiency; several issues need to be solved for further development. For instance, high yields come at a high energy cost. The increased resource demand of urban farming may require re-thinking of our food distribution systems, and delivery of water, nutrients and energy to cities.
+The urban agriculture project investigates various digital tools to optimise the resource use efficiency of integrating greenhouses in the built environment. 
 
-Digital tools can help answer some of these questions. By better understanding the complicated interdepencies between the built environment and greenhouses, we can predict energy demand, crop yields, and improve day to day operations of an operating farm. Indeed, as there are many unknowns still about these systems, data-centric methods provide an opportunity to learn about these novel systems, and provide decision-making assistance along the way. 
+Known as urban-integrated agriculture, vertical farming, controlled environment agriculture, this concept is gaining increasing traction  by investors, start-ups and city planners alike. Integrating a greenhouse in a city can provide multiple benefits: its high yields contribute to local food production, provide local employment with its year-round harvests, increases urban self-sufficiency. However, several issues need to be addressed for its further sustainable development. For instance, high yields come at a high energy cost. The increased resource demand of urban farming may require re-thinking of our food distribution systems, and delivery of water, nutrients and energy to cities.
 
+Digital tools can help answer some of these questions. By better understanding the complicated interdepencies between the built environment and plants, we can predict energy demand, crop yields, and improve day to day operational efficiency. Given the numerous unknowns about these systems, data-centric methods represent an opportunity to learn about these novel systems, and can provide decision-making assistance along the way too. 
+
+Click on the link of these three projects to find out more about the tools developed.
 
 {% include feature_row %}
 
-
-
-# Greenhouse Energy Simulator
-
-A GES model was developed
-
-# Digital twin of an urban farm
-
-We have been working in collaboration with ATI to develop a real-time digital twin of the farm.
-
-# Co-simulation of greenhouses in buildings
-
-Hydroponics can be a lot more efficient when conventional greenhouse agriculture, especially when developed in symbiosis with urban resources. To quantify this, we developed a co-simulation methodology. 
