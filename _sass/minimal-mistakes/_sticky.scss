@@ -61,9 +61,9 @@
   height: 200px;
   margin: 20px auto;
 }
-@media (min-height: 768px) {
+@media (min-height: auto) {
   #wrapper{
-    height: 2000px;
+    height: 500px;
   }
 }
 
