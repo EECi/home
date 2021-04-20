@@ -14,49 +14,31 @@ classes: wide
 toc_sticky: true
 toc_icon: "columns"
 excerpt: "Overview of the EECi projects"
-feature_subsurface:
+projects_current:
   - image_path: /Images/ssenv/main_ssenv.jpg
-    image_caption: "Image by Crossrail"
+    image_caption: "Image courtesy of Nick and Monika"
     alt: "placeholder image 2"
-    title: ""
-    excerpt:  "The objective of this NSF (US)-EPSRC (UK) funded research is to better understand impacts of urban underground infrastructure, such as basements and tunnels, on shallow subsurface temperature increase at city-scale.
-               <br/><br/>
-               Dr. Monika Kreitmair, PDRA, U. of Cambridge, UK (July 2019) <br/>
-               Dr. Nikolas Makasis, PDRA, U. of Cambridge, UK (May 2020) <br/>
-               Dr. Asal Bidarmaghz, UNSW Sydney, Australia <br/>
-               Dr. Kathrin Menberg, Karlsruhe Institute of Technology, Germany <br/>
-               Professor Kenichi Soga, UC Berkeley, USA <br/>
-               British Geological Survey, UK <br/>
-               Funded by ASG + NSF/EPSRC Collaborative Grants; 2019-2022"
+    title: "Subsurface environments"
+    excerpt:  "Dr. Monika Kreitmair, PDRA, U. of Cambridge, UK (July 2019) \n Dr. Nikolas Makasis, PDRA, U. of Cambridge, UK (May 2019) "
     url: "/docs/subsurface/"
     btn_label: "View this project"
-    btn_class: "btn--primary"
-feature_uag:
-  - image_path: /Images/uag/main_uag.png
-    title: "Urban agriculture"
-    excerpt: "Energy Models and Digital twins for Urban Integrated Agriculture
-    <br/><br/>
-    Rebecca Ward, ASG Turing RA  <br/>
-Dr. Melanie Jans-Singh, U. of Cambridge  <br/>
-Dr. Kathryn Leeming, U. of Warwick  <br/>
-Tomas Lazauskas, Alan Turing Institute  <br/>
-Flora Roumpani, Alan Turing Institute  <br/>
- <br/>
-Growing Underground, UK 
-"
-    url: "/docs/urbanag/"
-    btn_label: "View this project"
-    btn_class: "btn--primary"
-feature_eplan:
+    btn_class: "btn--inverse"
+    
   - image_path: /Images/eplan/Kochi_microsim.jpg
     image_caption: "Figure by A Neto-Bradley"
-    alt: "placeholder image 1"
-    title: "Urban Energy Planning"
+    alt: "Spatial microsimulation of LPG use"
+    title: "Energy Planning"
     excerpt: "Exploring the use of data science tools to improve understanding and modelling of urban energy use."
     url: "/docs/energyplanning/"
     btn_label: "View this project"
-    btn_class: "btn--primary"
-feature_stoch:
+    btn_class: "btn--inverse"
+    
+  - image_path: /Images/uag/main_uag.png
+    title: "Urban agriculture"
+    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    url: "/docs/urbanag/"
+    btn_label: "View this project"
+    btn_class: "btn--inverse"
   - image_path: /Images/stoch/main_stoch.png
     image_caption: "Image courtesy of Rebecca"
     alt: "placeholder image 2"
@@ -67,7 +49,18 @@ Teresa Irigoyen Lopez, PhD Student, U. of Cambridge
 James Kinch, PhD Student, U. of Cambridge"
     url: "/docs/stoch/"
     btn_label: "View this project"
-    btn_class: "btn--primary"
+    btn_class: "btn--inverse"
+    
+projects_past:
+  - image_path: /Images/bbem/bbem.png
+    image_caption: "Exergy analysis of building retrofit"
+    alt: "placeholder image 2"
+    title: "B.bem"
+    excerpt:  "B.bem project explored transforming conventional energy analysis processes to support the future energy management of existing non-domesting buildings"
+    url: "/docs/bbem/"
+    btn_label: "View this project"
+    btn_class: "btn--inverse"
+    
 ---
 
 <details open markdown="block">
@@ -80,41 +73,11 @@ James Kinch, PhD Student, U. of Cambridge"
 </details>
 
 
+# Current Projects
 
-# Subsurface environments
+{% include feature_row id="projects_current" %}
 
-{% include feature_row id="feature_subsurface" type="left" %}
+# Past Projects
 
-# Stochastic energy models
-
-{% include feature_row id="feature_stoch" type="right" %}
-
-Rebecca Ward, PhD Student, U. of Cambridge
-Dr. Zack Conti, PDRA, Alan Turing Institute
-Teresa Irigoyen Lopez, PhD Student, U. of Cambridge
-James Kinch, PhD Student, U. of Cambridge
-
-Dr. Bryn Pickering, ETH Zurich
-Dr. A. Chong, National University of Singapore
-Dr. C. Chong and Dr. Ramasamy, Inst. of Infocomm Research, Singapore
-
-Funded by EPSRC w/ Laing O’Rourke, ARUP, BP, and Bentley
-
-Representation of Internal Loads in Buildings for Energy Simulation
-
-Physics-Enhanced Machine Learning for Decarbonising Buildings
-
-Designing Energy Flexible Built Environments using Digital Twins
-
-
-# Urban energy systems
-
-{% include feature_row id="feature_eplan" type="left" %}
-
-
-
-# Urban agriculture
-
-{% include feature_row id="feature_uag" type="right" %}
-
+{% include feature_row id="projects_past"%}
 
