@@ -14,10 +14,9 @@
 #wrapper {
   width: 100%;
   margin: auto;
-  height: 50px;
 }
 #wrapper {
-  min-height: 100vh;
+  min-height: 50vh;
 }
 .extra {
   height: 0px;
@@ -61,9 +60,9 @@
   height: 200px;
   margin: 20px auto;
 }
-@media (min-height: 768px) {
+@media (min-height: auto) {
   #wrapper{
-    height: 2000px;
+    height: auto;
   }
 }
 

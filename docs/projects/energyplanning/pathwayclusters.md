@@ -11,7 +11,7 @@ excerpt: "Using clustering methods to combine qualitative and quantitative appro
 last_modified_at: 2021-04-16
 toc: true
 header:
-  overlay_image: /Images/eplan/Pathway_clustering.png
+  overlay_image: /Images/eplan/Fuel_Stacking_wide.jpg
 toc_sticky: true
 ---
 
@@ -35,7 +35,7 @@ Understanding urban residential energy use and clean energy transitions requires
 <div id="wrapper">
   <div id="sticky">
     <img id="sticky"
-         src="/home/Images/eplan/Pathway_clustering.png"
+         src="/home/Images/eplan/Pathway_clustering_wide.png"
          alt="LPG Distributor in Bangalore"
          caption="Photo credit: A Neto-Bradley">
   </div>
