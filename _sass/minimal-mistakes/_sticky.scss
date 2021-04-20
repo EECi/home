@@ -17,7 +17,7 @@
   height: 50px;
 }
 #wrapper {
-  min-height: 100vh;
+  min-height: 50vh;
 }
 .extra {
   height: 0px;
@@ -63,7 +63,7 @@
 }
 @media (min-height: auto) {
   #wrapper{
-    height: 100vh;
+    height: auto;
   }
 }
 
