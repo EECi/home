@@ -37,11 +37,15 @@ feature_row:
 
 
 
-This project contains three sections
+The urban agriculture project investigates digital tools to optimise the resource use efficiency of developing greenhouses in cities. This concept is known as urban-integrated agriculture, vertical farming, controlled environment agriculture, and is gaining increasing traction  by investors, start-ups and city planners alike. While integrating a greenhouse in a city can provide multiple benefits, its high yields contribute to local food production, provide local employment with its year-round harvests, increases urban self-sufficiency; several issues need to be solved for further development. For instance, high yields come at a high energy cost. The increased resource demand of urban farming may require re-thinking of our food distribution systems, and delivery of water, nutrients and energy to cities.
+
+Digital tools can help answer some of these questions. By better understanding the complicated interdepencies between the built environment and greenhouses, we can predict energy demand, crop yields, and improve day to day operations of an operating farm. Indeed, as there are many unknowns still about these systems, data-centric methods provide an opportunity to learn about these novel systems, and provide decision-making assistance along the way. 
+
 
 {% include feature_row %}
 
-    
+
+
 # Greenhouse Energy Simulator
 
 A GES model was developed

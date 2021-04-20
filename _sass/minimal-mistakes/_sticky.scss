@@ -1,36 +1,69 @@
 #sticky {
   position: sticky;
   position: -webkit-sticky;
-  background: #f83d23;
-  width: max;
-  height: auto;
-  top: 0px;
+  background: #fff;
+  width: 100%;
+  height: 40vh;
+  top: 70px;
   display: flex;
-  box-shadow: 0 0 1px #000;
+  box-shadow: 0 0 0px #000;
   object-fit: cover;
   color: #fff;
 }
 .extra,
 #wrapper {
-  width: 75%;
+  width: 100%;
   margin: auto;
-  background-color: #ccc;
+  height: 50px;
 }
 #wrapper {
-  height: 800px;
+  min-height: 100vh;
 }
 .extra {
-  height: 100px;
+  height: 0px;
 }
-body {
-  font-family: georgia;
-  height: 1000px;
+
+#stickyarticle {
+  width: 100%;
+  background-image: linear-gradient(
+    to bottom,
+    transparent 70px,
+    #ffffff 70px,
+    #ffffff calc(100% - 70px),
+    transparent 0
+  );
+  margin: auto auto 50px auto;
 }
-h4 {
-  text-align: center;
+.category,
+.title,
+.footer {
+  position: -webkit-sticky; /* Required for Safari */
+  position: sticky;
+  height: 50px;
+}
+
+.category {
+  top: 20pt;
+  color: #58585A;
+}
+
+.title {
+  top: 20pt;
+  background-color: #fff;
+  color: #ED217B;
+}
+.footer{
+  bottom: 100px;
+  z-index: -1;
+}
+.emptyBlocks {
+  background-color: #fff;
+  height: 200px;
+  margin: 20px auto;
 }
 @media (min-height: 768px) {
   #wrapper{
     height: 2000px;
   }
 }
+

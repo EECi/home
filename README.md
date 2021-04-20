@@ -7,7 +7,17 @@ Most items are documented in "sample posts", so you can view how to modify a fig
 repo: https://github.com/mmistakes/minimal-mistakes
 website: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
 
-## Figures
+# Figures
+
+## Gallery images
+
+These appear on the 'Our team' page and are by default cropped and resized to a square 1:1 ratio. This means any profile photos you wish to add should either have a 1:1 ratio (preferably at least 200px by 200px), or have the head and shoulders centred such that they are not cut off when square cropping is applied.
+
+## Feature row images
+
+These appear on any feature row and will by default be cropeed and resized to a rectangular 3:5 ratio. Any photos used in feature rows should have this ratio.
+
+## D3
 
 Datawrapper is a rapid interactive way to make figures 
 https://app.datawrapper.de/edit/OEM92/publish

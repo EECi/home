@@ -1,6 +1,5 @@
 ---
-layout: splash
-classes: wide
+layout: single
 title: Urban Energy Planning
 permalink: /docs/energyplanning/
 tags:
@@ -10,30 +9,30 @@ author: "André"
 excerpt: "Presentation of urban agriculture project"
 last_modified_at: 2021-04-14
 feature_row:
-  - image_path: /Images/Group Logo.png
-    alt: "placeholder image 1"
-    title: "Co-simulation"
-    excerpt: "Quantifying the effect of a hydroponic greenhouse in a building"
-    url: "/docs/projects/urbanag/cosim/"
-    btn_label: "Read More"
+  - image_path: /Images/eplan/Kochi_microsim.jpg
+    alt: "City-scale microsimulation"
+    title: "City-scale microsimulation"
+    excerpt: "Developing spatial microsimulation models for urban residential energy use."
+    url: "docs/projects/energyplanning/microsimulation/"
+    btn_label: "Find out more"
     btn_class: "btn--primary"
-  - image_path: /Images/Group Logo.png
+  - image_path: /Images/eplan/Pathway_clustering.png
     image_caption: "View of CROP"
     alt: "placeholder image 2"
-    title: "Digital Twin of Growing Underground"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "/docs/projects/urbanag/digitaltwin/"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-  - image_path: /Images/Group Logo.png
-    title: "GES model"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "/docs/projects/urbanag/ges/"
-    btn_label: "Read More"
+    title: "Identifying transition pathways"
+    excerpt: "Use of clustering methods and mixed methods to identify and characterise energy transition pathways"
+    url:  "docs/projects/energyplanning/pathwayclusters/"
+    btn_label: "Find out more"
     btn_class: "btn--primary"
 ---
-<h4>Scroll to see the sticky element <em>sticking</em></h4>
-<div class="extra"></div>
+
+# Introduction
+
+Understanding factors that influence energy use in urban areas and how to best chracterise and model this is key to delivering clean and sustainable energy for the cities of today and tomorrow. We are looking at use of novel methods and data to explore how we can improve our understanding of residential demand and factors influencing changes in household decisions and practices.
+
+<div id="stickyarticle">
+<h1 class="category">Challenges</h1>
+<h3 class="title">Understanding Heterogeneity in Cities</h3>
 <div id="wrapper">
   <div id="sticky">
     <img id="sticky"
@@ -41,7 +40,32 @@ feature_row:
          alt="LPG Distributor in Bangalore"
          caption="Photo credit: A Neto-Bradley">
   </div>
-  <h3>Overview of projects in this section before a feature row of links below</h3>
+  <body>Cites bring together people, ideas, and information to act as engines of creativity and innovation. But across a city there can be a great deal of variation across households in their socio-economic circumstances, and in turn their energy use. This heterogeneity can also be observed spatially, and energy use can be impacted by underlying spatial ineuqality. Characterising this heterogeneity at play in cities and how it impacts energy demand is key to better understanding and modelling urban residential energy demand. </body>
 </div>
-<div class="extra"></div>
+</div>
+<div id="stickyarticle">
+<h3 class="title">Modelling at High Resolution</h3>
+<div id="wrapper">
+  <div id="sticky">
+    <img id="sticky"
+         src="/home/Images/eplan/Kochi_microsim.jpg"
+         alt="Spatial microsimulation of LPG use in Kochi, Kerala"
+         caption="Figure credit: A Neto-Bradley">
+  </div>
+  <body>Modelling urban residential demand, and understanding differences in energy related decisions and practices of households involves modelling at a high resolution. Data is usually not available for all households in a given city due to reasons of privacy. We are using methods to synthetically generate populations of households to help us model energy use and practices at a hosehold scale across a city.</body>
+</div>
+</div>
+
+
+<div id="stickyarticle">
+<h1 class="title">Urban Energy Planning Projects</h1>
+<div id="wrapper">
+  <body> The EECi team is developing methods, models, and tools to facilitate urban energy planning. The portfolio of projects below highlights the work on this, exploring different applications and addressing diverse urban energy planning challenges.</body>
+  {% include feature_row id="feature_row" %}
+</div>
+</div>
+
+
+
+
 

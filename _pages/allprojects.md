@@ -23,17 +23,16 @@ projects_current:
     url: "/docs/subsurface/"
     btn_label: "View this project"
     btn_class: "btn--inverse"
+    
   - image_path: /Images/eplan/Kochi_microsim.jpg
     image_caption: "Figure by A Neto-Bradley"
     alt: "Spatial microsimulation of LPG use"
     title: "Energy Planning"
-    excerpt: "Andre Neto-Bradley, PhD Student, U. of Cambridge
-     Indian Institute of Human Settlements, India
-Mingda Yuan, PhD Student, U. of Cambridge
-Andrea Perkins + Will (Innovate UK Secondment)"
+    excerpt: "Exploring the use of data science tools to improve understanding and modelling of urban energy use."
     url: "/docs/energyplanning/"
     btn_label: "View this project"
     btn_class: "btn--inverse"
+    
   - image_path: /Images/uag/main_uag.png
     title: "Urban agriculture"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
@@ -61,6 +60,7 @@ projects_past:
     url: "/docs/bbem/"
     btn_label: "View this project"
     btn_class: "btn--inverse"
+    
 ---
 
 <details open markdown="block">
@@ -73,7 +73,6 @@ projects_past:
 </details>
 
 
-
 # Current Projects
 
 {% include feature_row id="projects_current" %}
@@ -81,6 +80,4 @@ projects_past:
 # Past Projects
 
 {% include feature_row id="projects_past"%}
-
-
 

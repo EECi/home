@@ -54,16 +54,22 @@ James Kinch, PhD Student, U. of Cambridge"
 # Energy Efficient Cities initiative
 
 
-**Who We Are**
+**About us**
 
-The Energy Efficient Cities initiative [EECi] is a cross-disciplinary research project at the University of Cambridge. The EECi aims to strengthen the UK's capacity to address energy demand reduction and environmental impact in cities, by research in building and transport technologies, district power systems, and urban planning. The three research themes we addressed during our original funding period were: City Planning and Design; Built Environment and Energy Systems; and Transport and Environment. This website covers ongoing work within the Built Environment and Energy Systems theme.
+The Energy Efficient Cities initiative [EECi] is a cross-disciplinary research project at the University of Cambridge. The EECi aims to strengthen the UK's capacity to address energy demand reduction and environmental impact in cities, by research in building and transport technologies, district power systems, and urban planning. EECi began in 2007 under the three broad themes of City Planning and Design; Built Environment and Energy Systems; and Transport and Environment. 
 
+Since then
 
-## Feature gallery
+**What we do**
+
+Our current research focuses on modelling energy consumption of large sets of buildings at multiple time and spatial resolution. These have resulted in two parallel investigations: one on using multi-scale multidisciplinary models in response to relevant questions pertaining to energy use in the built environment, and second, how to quantify uncertainties in model outcomes.
+
+We also investigate novel interactions with associated energy systems in cities outside traditional applications. Our current projects include: integration of food production in the urban environment, analysis of underground transport systems as energy sources, large-scale integration of ground source heat pumps and distributed energy networks.
+
+**Featured projects**
 
 This includes the three placeholder figs which could send to different projects
 
 {% include feature_row id="feature_row2" %}
 
-{% include feature_row id="feature_row1" %}
 
