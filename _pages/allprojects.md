@@ -57,7 +57,7 @@ projects_past:
     alt: "placeholder image 2"
     title: "B.bem"
     excerpt:  "B.bem project explored transforming conventional energy analysis processes to support the future energy management of existing non-domesting buildings"
-    url: "/docs/bbem/"docs/projects/bbem/bbem.md
+    url: "/docs/bbem/"
     btn_label: "View this project"
     btn_class: "btn--inverse"
     
