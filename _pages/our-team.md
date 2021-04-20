@@ -36,7 +36,7 @@ grad_student_gallery:
     image_path: https://www.eeci.cam.ac.uk/directory/j-kinch/image_normal
     alt: "James Kinch"
     title: "James Kinch"
-  - url: https://www.eeci.cam.ac.uk/directory/a-neto-bradley
+  - url: /docs/people/andre/
     image_path: https://www.eeci.cam.ac.uk/directory/a-neto-bradley/image_normal
     alt: "André Paul Neto-Bradley"
     title: "André Paul Neto-Bradley"
