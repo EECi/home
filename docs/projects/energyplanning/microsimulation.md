@@ -38,11 +38,13 @@ Understanding factors that influence energy use in urban areas and how to best c
          alt="LPG Distributor in Bangalore"
          caption="Photo credit: A Neto-Bradley">
   </div>
-  <body>Understanding factors that influence energy use in urban areas and how to best chracterise and model this is key to delivering clean and sustainable energy for the cities of today and tomorrow.</body>
+  <div id="stickybody">Understanding factors that influence energy use in urban areas and how to best chracterise and model this is key to delivering clean and sustainable energy for the cities of today and tomorrow.</div>
 </div>
 </div>
 
 # Team
-
+This is a part of the PhD project of André Neto-Bradley, supervised by Dr Ruchi Choudhary. Partners on this project at the Indian Institute of Human Settlements, Bangalore are Dr Amir Bazaz and Rishika Rangarajan.
 
 # Publications and Outputs
+
+
