@@ -1,3 +1,5 @@
+* { box-sizing: border-box; }
+
 #sticky {
   position: sticky;
   position: -webkit-sticky;
@@ -71,32 +73,24 @@
   margin-top: 50px;
 }
 
-#stickyhero-top {
-  display: flex;
-  position: sticky;
-  overflow: hidden;
-  top: 70px;
-  width: 100%;
-  height: 100%;
-  clip: rect(0, auto, auto, 0);
-  
-  @supports (-webkit-overflow-scrolling: touch) {
-    clip: unset;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-  }
-}
-
-#stickyhero-subseq {
+// Fixed background image element
+figure {
   display: flex;
   position: fixed;
-  overflow: hidden;
-  top: 70px;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
-  clip: rect(0, auto, auto, 0);
-  
-  @supports (-webkit-overflow-scrolling: touch) {
-    clip: unset;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-  }
+  background-size: cover;
 }
+
+// Sticky image scroll
+.sticky-img-container{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+
+
+
