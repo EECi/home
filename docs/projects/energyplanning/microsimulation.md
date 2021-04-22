@@ -27,7 +27,7 @@ toc_sticky: true
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: auto;
 }
 .parallax2 {
   /* The image used */
@@ -41,7 +41,7 @@ toc_sticky: true
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: auto;
 }
 </style>
 </head>
