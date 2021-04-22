@@ -71,8 +71,24 @@
   margin-top: 50px;
 }
 
-#stickyhero-inner {
+#stickyhero-top {
+  display: flex;
   position: sticky;
+  overflow: hidden;
+  top: 70px;
+  width: 100%;
+  height: 100%;
+  clip: rect(0, auto, auto, 0);
+  
+  @supports (-webkit-overflow-scrolling: touch) {
+    clip: unset;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+}
+
+#stickyhero-subseq {
+  display: flex;
+  position: fixed;
   overflow: hidden;
   top: 70px;
   width: 100%;
