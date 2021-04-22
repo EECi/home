@@ -14,20 +14,6 @@ header:
 toc_sticky: true
 ---
 
-
-<style type="text/css">
-.bgimg {
-  background-image: url('../Images/eplan/Kochi_Model_1.png');
-  display: flex;
-  position: sticky;
-  top: 70px;
-  left: auto;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-}
-</style>
-
 # Context
 
 Understanding factors that influence energy use in urban areas and how to best chracterise and model this is key to delivering clean and sustainable energy for the cities of today and tomorrow.
@@ -57,12 +43,8 @@ Understanding factors that influence energy use in urban areas and how to best c
 </div>
 
 <div id="stickyarticle">
-<h1 class="category">A simulated city-scale view</h1>
-<div id="sticky-img-container">
-    <div class="bgimg">Hello</div>
-  </div>
   <div id="sticky-img-container">
-    <div id="figure-sticky" style="background-image: /home/Images/eplan/Kochi_Model_2.png;">Hello again.</div>
+    <img id="figure-sticky" src="/home/Images/eplan/Kochi_Model_2.png;">Hello again.</img>
   </div>
 </div>
 
