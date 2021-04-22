@@ -52,6 +52,10 @@ Understanding factors that influence energy use in urban areas and how to best c
     <img src="/home/Images/eplan/Kochi_Model_2.png"
          caption="Figure credit: A Neto-Bradley">
   </section>
+    <section id="stickyhero-top">
+    <img src="/home/Images/eplan/Kochi_Model_3.png"
+         caption="Figure credit: A Neto-Bradley">
+  </section>
 </div>
 
 
