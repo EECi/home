@@ -13,6 +13,23 @@ header:
   overlay_image: /Images/eplan/Kochi_microsim.jpg
 toc_sticky: true
 ---
+<head>
+<style>
+.parallax {
+  /* The image used */
+  background-image: url("/home/Images/eplan/Kochi_Model_1.png");
+
+  /* Set a specific height */
+  min-height: 50vh; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
+</head>
 
 # Context
 
@@ -41,6 +58,8 @@ Understanding factors that influence energy use in urban areas and how to best c
   <div id="stickybody">Understanding factors that influence energy use in urban areas and how to best chracterise and model this is key to delivering clean and sustainable energy for the cities of today and tomorrow.</div>
 </div>
 </div>
+
+<div class="parallax"></div>
 
 <div class="sticky-img-container">
   <div id="sticky">
