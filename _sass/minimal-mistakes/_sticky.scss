@@ -71,14 +71,8 @@
   margin-top: 50px;
 }
 
-#stickyfeature{
-  position: relative;
-  width: auto;
-  height: 100vh;
-}
-
-.stickyhero-inner {
-  position: absolute;
+#stickyhero-inner {
+  position: sticky;
   overflow: hidden;
   width: 100%;
   height: 100%;
