@@ -72,9 +72,9 @@
 }
 
 // Fixed background image element
-figure-sticky {
+#figure-sticky {
   display: flex;
-  position: fixed;
+  position: sticky;
   top: 70px;
   left: auto;
   width: 100%;
