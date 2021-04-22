@@ -44,13 +44,19 @@ Understanding factors that influence energy use in urban areas and how to best c
 
 <div id="stickyarticle">
   <div id="sticky-img-container">
-    <img id="figure-sticky" src="/home/Images/eplan/Kochi_Model_2.png;">Hello again.</img>
+    <img id="figure-sticky" src="/home/Images/eplan/Kochi_Model_1.png;">
+  </div>
+    <div id="sticky-img-container">
+    <img id="figure-sticky" src="/home/Images/eplan/Kochi_Model_2.png;">
+  </div>
+    <div id="sticky-img-container">
+    <img id="figure-sticky" src="/home/Images/eplan/Kochi_Model_3.png;">
   </div>
 </div>
 
 
 # Team
-This is a part of the PhD project of André Neto-Bradley, supervised by Dr Ruchi Choudhary. Partners on this project at the Indian Institute of Human Settlements, Bangalore are Dr Amir Bazaz and Rishika Rangarajan.
+This is a part of the PhD project of André Neto-Bradley, supervised by Dr Ruchi Choudhary.
 
 # Publications and Outputs
 
