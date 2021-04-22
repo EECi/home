@@ -44,18 +44,14 @@ Understanding factors that influence energy use in urban areas and how to best c
 
 <div id="stickyarticle">
 <h1 class="category">A simulated city-scale view</h1>
-<div id="stickyfeature">
-  <div class="stickyhero-inner">
+<div id="stickyhero-inner">
     <img src="/home/Images/eplan/Kochi_Model_1.png"
          caption="Figure credit: A Neto-Bradley">
   </div>
-</div>
-  <div id="stickyfeature">
-  <div class="stickyhero-inner">
+  <div id="stickyhero-inner">
     <img src="/home/Images/eplan/Kochi_Model_2.png"
          caption="Figure credit: A Neto-Bradley">
   </div>
-</div>
 </div>
 
 
