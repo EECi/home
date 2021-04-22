@@ -20,28 +20,28 @@ toc_sticky: true
   background-image: url("/home/Images/eplan/Kochi_Model_1.png");
 
   /* Set a specific height */
-  height: 50vh;
+  height: 100vh;
   width: auto;
   
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 75vw auto;
+  background-size: 60vw auto;
 }
 .parallax2 {
   /* The image used */
   background-image: url("/home/Images/eplan/Kochi_Model_2.png");
 
   /* Set a specific height */
-  height: 50vh; 
+  height: 100vh; 
   width: auto;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 75vw auto;
+  background-size: 60vw auto;
 }
 </style>
 </head>
