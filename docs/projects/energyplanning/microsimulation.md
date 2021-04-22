@@ -44,11 +44,11 @@ Understanding factors that influence energy use in urban areas and how to best c
 
 <div id="stickyarticle">
 <h1 class="category">A simulated city-scale view</h1>
-<div class="sticky-img-container">
-    <div class="figure-sticky" src="/home/Images/eplan/Kochi_Model_1.png">Hello</div>
+<div id="sticky-img-container">
+    <div id="figure-sticky" src="/home/Images/eplan/Kochi_Model_1.png">Hello</div>
   </div>
-  <div class="sticky-img-container">
-    <div class="figure-sticky" style="background-image: /home/Images/eplan/Kochi_Model_2.png;"></div>
+  <div id="sticky-img-container">
+    <div id="figure-sticky" style="background-image: /home/Images/eplan/Kochi_Model_2.png;">Hello again.</div>
   </div>
 </div>
 
