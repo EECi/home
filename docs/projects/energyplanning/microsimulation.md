@@ -28,7 +28,7 @@ Understanding factors that influence energy use in urban areas and how to best c
          alt="LPG Distributor in Bangalore"
          caption="Photo credit: A Neto-Bradley">
   </div>
-  <body>Understanding factors that influence energy use in urban areas and how to best chracterise and model this is key to delivering clean and sustainable energy for the cities of today and tomorrow.</body>
+  <body></br>Understanding factors that influence energy use in urban areas and how to best chracterise and model this is key to delivering clean and sustainable energy for the cities of today and tomorrow.</body>
 </div>
   <h2 class="title">A Bayesian multilevel model</h2>
 <div id="wrapper">
