@@ -42,7 +42,7 @@ Understanding factors that influence energy use in urban areas and how to best c
 </div>
 </div>
 
-<div id="stickyarticle">
+<div class="sticky-img-container">
   <div id="sticky-img-container">
     <img src="/home/Images/eplan/Kochi_Model_1.png;">
   </div>
