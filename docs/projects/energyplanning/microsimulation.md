@@ -21,7 +21,7 @@ toc_sticky: true
 
   /* Set a specific height */
   height: 50vh;
-  width:auto
+  width: auto;
   
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -35,7 +35,7 @@ toc_sticky: true
 
   /* Set a specific height */
   height: 50vh; 
-  width:auto
+  width: auto;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
