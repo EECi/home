@@ -7,7 +7,7 @@ tags:
   - Residential energy use
 author: "André"
 excerpt: "Using spatial microsimulation and bayesian methods to model socio-cultural and spatial heterogeneity in residential clean energy transition in Indian cities"
-last_modified_at: 2021-04-16
+last_modified_at: 2021-04-22
 toc: true
 header:
   overlay_image: /Images/eplan/Kochi_microsim.jpg
@@ -44,17 +44,14 @@ Understanding factors that influence energy use in urban areas and how to best c
 
 <div id="stickyarticle">
 <h1 class="category">A simulated city-scale view</h1>
-<section id="stickyhero-top">
-    <img src="/home/Images/eplan/Kochi_Model_1.png"
-         caption="Figure credit: A Neto-Bradley">
+<section class="sticky-img-container">
+    <figure background-image="/home/Images/eplan/Kochi_Model_1.png"></figure>
   </section>
-  <section id="stickyhero-top">
-    <img src="/home/Images/eplan/Kochi_Model_2.png"
-         caption="Figure credit: A Neto-Bradley">
+  <section class="sticky-img-container">
+    <figure background-image="/home/Images/eplan/Kochi_Model_2.png"></figure>
   </section>
-    <section id="stickyhero-top">
-    <img src="/home/Images/eplan/Kochi_Model_3.png"
-         caption="Figure credit: A Neto-Bradley">
+    <section class="sticky-img-container">
+      <figure background-image="/home/Images/eplan/Kochi_Model_3.png"></figure>
   </section>
 </div>
 
