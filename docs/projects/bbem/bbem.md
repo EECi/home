@@ -15,7 +15,7 @@ tags:
 <h2 class="title">The Challenge</h2>
 <div id="wrapper">
   <div id="stickybody">One of the greatest challenges facing the built environment is how to reduce energy consumption attributable to existing buildings. Energy management focuses on the day-to-day operation and the impact of operational decisions on energy consumption can be difficult to forecast. In addition, building refurbishment may present an ideal opportunity to reduce the carbon footprint but the wealth of retrofit options available makes it almost impossible to be confident that the ‘right’ decisions are made. Our research aims to help the decision-making process by providing information about the risks associated with the decision-making in a format that is easily understood by the stakeholders. We are investigating uncertainty quantification in building simulation models and how the uncertainty may be propagated through the simulation to forecast risk.</div>
-
+  </div>
 <h2 class="title">What is B.bem?</h2>
 <div id="wrapper">
   <div id="stickybody">The ambition of the B.bem project is to transform conventional energy analysis processes to support the future energy management of existing non-domesting buildings – whether to assist in small-scale changes to building operations or deep energy retrofits. The aim is to quantify stochastic and operational uncertainties influencing building energy use, and to propagate those uncertainties through simulation models.  B.bem, the Bayesian building energy management portal, will use computer simulation of building energy consumption to help energy managers understand the risk associated with energy management decisions.
@@ -30,6 +30,7 @@ B.bem is being developed in a 3 year project, which started in October 2014, fun
          src="/home/Images/bbem/bbem_content_image.png"
          alt="B.bem Overview"
          caption="Photo credit: EECi">
+  </div>
   </div>
 <h3 class="title">Model 1: Occupant Services</h3>
 <div id="wrapper">
