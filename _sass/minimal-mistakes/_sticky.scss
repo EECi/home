@@ -50,7 +50,7 @@
 }
 .category,
 .title,
-.subtitle,
+.sub-title,
 .footer {
   position: -webkit-sticky; /* Required for Safari */
   position: sticky;
@@ -68,11 +68,13 @@
   background-color: #fff;
   color: #ED217B;
 }
-.subtitle {
+
+.sub-title {
   top: 70pt;
   background-color: #fff;
   color: #ED217B;
 }
+
 .footer{
   bottom: 100px;
   z-index: -1;
