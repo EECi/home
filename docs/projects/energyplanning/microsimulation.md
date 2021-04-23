@@ -21,7 +21,7 @@ toc_sticky: true
 
   /* Set a specific height */
   height: 100vh;
-  width: auto;
+  width: 100%;
   
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -35,7 +35,21 @@ toc_sticky: true
 
   /* Set a specific height */
   height: 100vh; 
-  width: auto;
+  width: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 60vw auto;
+}
+.parallax3 {
+  /* The image used */
+  background-image: url("/home/Images/eplan/Kochi_Model_3.png");
+
+  /* Set a specific height */
+  height: 100vh; 
+  width: 100%;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -78,11 +92,7 @@ Understanding factors that influence energy use in urban areas and how to best c
 
 <div class="parallax2"></div>
 
-<div class="sticky-img-container">
-    <div id="sticky">
-    <img src="/home/Images/eplan/Kochi_Model_3.png;">
-  </div>
-</div>
+<div class="parallax3"></div>
 
 
 # Team
