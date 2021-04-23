@@ -15,8 +15,8 @@
   position: sticky;
   position: -webkit-sticky;
   background: #fff;
-  width: 100%;
-  height: auto;
+  width: auto;
+  height: 40vh;
   top: 100px;
   display: flex;
   box-shadow: 0 0 0px #000;
@@ -68,9 +68,8 @@
   background-color: #fff;
   color: #ED217B;
 }
-
 .subtitle {
-  top: 70pt;
+  margin-top: 70pt;
   background-color: #fff;
   color: #ED217B;
 }
