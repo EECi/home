@@ -59,6 +59,43 @@ Initial results are encouraging; for the limited study considered so far the sim
   </div>
   <div id="stickybody">The hybrid ground-source heat pump system of the Architecture Design Studio building is used as a case study to develop and test a comprehensive framework for uncertainty quantification, sensitivity analysis and Bayesian calibration for energy supply system models. </div>
 </div>
+<h4 class="sub-title">Sensitivity analysis</h4>
+<div id="wrapper">
+  <div id="stickyflex">
+    <img id="stickyflex"
+         src="/home/Images/bbem/Sensitivity_results.png"
+         alt="Sensitivity analysis results"
+         caption="Photo credit: EECi">
+  </div>
+  <div id="stickybody">As large uncertainty ranges and non-linear behavior can cause unstable results, an alternative sensitivity measure was developed that allows robust evaluation of parameter importance at low computational costs. In addition, an extension to Morris method for the estimation of parameter interaction effects was devised. </div>
+</div>
+<h4 class="sub-title">Model Calibration</h4>
+<div id="wrapper">
+  <div id="stickyflex">
+    <img id="stickyflex"
+         src="/home/Images/bbem/Bayesian_inference.png"
+         alt="Bayesian inference"
+         caption="Photo credit: EECi">
+  </div>
+  <div id="stickybody">In the next step, the prior expectations about the uncertainty of these important model parameters, based on expect knowledge and technical information, are combined with measured data from the system and computer model outputs in a Bayesian calibration approach. This approach is being adapted for the use of energy system data that suffers from outliers and data gaps, and enables inference of posterior probability distributions of parameters.</div>
+  <div id="stickyflex">
+    <img id="stickyflex"
+         src="/home/Images/bbem/calibration_results.png"
+         alt="Calibration Results"
+         caption="Photo credit: EECi">
+  </div>
+  <div id="stickybody">The resulting posterior distributions represent an update of our knowledge about the real values of uncertain model parameters, and are fed back into the system model to produce more accurate prediction results. </div>
+  <h4 class="sub-title">Exergy analysis</h4>
+<div id="wrapper">
+  <div id="stickyflex">
+    <img id="stickyflex"
+         src="/home/Images/bbem/bbem.png"
+         alt="Exergy Analysis"
+         caption="Photo credit: EECi">
+  </div>
+  <div id="stickybody">In addition, a thermodynamic model of the system is being developed to study the detailed energy and exergy flows through the individual system components, such as the heat pump or the heat exchanger. This flow can be visualized by an exergy flow diagram, which shows the decrease in exergy content in the supply fluid from the source to the system output as part of the exergy content is consumed within each system component. </div>
+</div>
+</div>
 </div>
 
 
