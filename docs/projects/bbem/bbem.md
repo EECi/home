@@ -49,7 +49,7 @@ Using functional Principal Component Analysis the diversity can be described mat
 Initial results are encouraging; for the limited study considered so far the simulation results compare well against the monitored data for key parameters of interest including the timing of the daily peak demand.  </div>
 </div>
 <h3 class="title">Model 3: Energy Supply Systems</h3>
-<h4 class="subtitle">Ground-source heat pump systems</h4>
+<h4 class="sub-title">Ground-source heat pump systems</h4>
 <div id="wrapper">
   <div id="stickyflex">
     <img id="stickyflex"
