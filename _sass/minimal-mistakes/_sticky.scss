@@ -16,7 +16,7 @@
   position: -webkit-sticky;
   background: #fff;
   width: auto;
-  height: auto;
+  max-height: 45vh;
   top: 50px;
   display: block;
   box-shadow: 0 0 0px #000;
@@ -43,9 +43,9 @@
   width: 100%;
   background-image: linear-gradient(
     to bottom,
-    transparent 70px,
-    #ffffff 70px,
-    #ffffff calc(100% - 70px),
+    transparent 50px,
+    #ffffff 50px,
+    #ffffff calc(100% - 50px),
     transparent 0
   );
   margin: auto auto 50px auto;
