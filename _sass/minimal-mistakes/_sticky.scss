@@ -4,7 +4,20 @@
   background: #fff;
   width: 100%;
   height: 40vh;
-  top: 70px;
+  top: 100px;
+  display: flex;
+  box-shadow: 0 0 0px #000;
+  margin-bottom: 0px;
+  object-fit: cover;
+  color: #fff;
+}
+#stickyflex {
+  position: sticky;
+  position: -webkit-sticky;
+  background: #fff;
+  width: 100%;
+  height: auto;
+  top: 100px;
   display: flex;
   box-shadow: 0 0 0px #000;
   margin-bottom: 0px;
@@ -37,6 +50,7 @@
 }
 .category,
 .title,
+.subtitle,
 .footer {
   position: -webkit-sticky; /* Required for Safari */
   position: sticky;
@@ -44,12 +58,19 @@
 }
 
 .category {
-  top: 20pt;
+  margin-top: 20pt;
+  background-color: #fff;
   color: #58585A;
 }
 
 .title {
-  top: 20pt;
+  margin-top: 20pt;
+  background-color: #fff;
+  color: #ED217B;
+}
+
+.subtitle {
+  top: 70pt;
   background-color: #fff;
   color: #ED217B;
 }
