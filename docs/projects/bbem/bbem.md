@@ -18,12 +18,6 @@ tags:
 
 <h2 class="title">What is B.bem?</h2>
 <div id="wrapper">
-  <div id="sticky">
-    <img id="sticky"
-         src="/home/Images/eplan/LPG_Distributor.jpg"
-         alt="LPG Distributor in Bangalore"
-         caption="Photo credit: A Neto-Bradley">
-  </div>
   <div id="stickybody">The ambition of the B.bem project is to transform conventional energy analysis processes to support the future energy management of existing non-domesting buildings – whether to assist in small-scale changes to building operations or deep energy retrofits. The aim is to quantify stochastic and operational uncertainties influencing building energy use, and to propagate those uncertainties through simulation models.  B.bem, the Bayesian building energy management portal, will use computer simulation of building energy consumption to help energy managers understand the risk associated with energy management decisions.
 
 B.bem is being developed in a 3 year project, which started in October 2014, funded by the Engineering and Physical Sciences Research Council (EPSRC) as part of the Energy Management in Non-domestic Buildings programme.</div>
@@ -39,8 +33,8 @@ B.bem is being developed in a 3 year project, which started in October 2014, fun
   </div>
 <h3 class="title">Model 1: Occupant Services</h3>
 <div id="wrapper">
-  <div id="sticky">
-    <img id="sticky"
+  <div id="stickyflex">
+    <img id="stickyflex"
          src="/home/Images/bbem/fda_approach.png"
          alt="FDA Approach"
          caption="Photo credit: EECi">
@@ -53,9 +47,17 @@ Using functional Principal Component Analysis the diversity can be described mat
 
 Initial results are encouraging; for the limited study considered so far the simulation results compare well against the monitored data for key parameters of interest including the timing of the daily peak demand.  </div>
 </div>
+<h3 class="title">Model 3: Energy Supply Systems</h3>
+<h4 class="subtitle">Ground-source heat pump systems</h4>
+<div id="wrapper">
+  <div id="stickyflex">
+    <img id="stickyflex"
+         src="/home/Images/bbem/System_overview.png"
+         alt="GSHP System Overview"
+         caption="Photo credit: EECi">
+  </div>
+  <div id="stickybody">The hybrid ground-source heat pump system of the Architecture Design Studio building is used as a case study to develop and test a comprehensive framework for uncertainty quantification, sensitivity analysis and Bayesian calibration for energy supply system models. </div>
+</div>
 </div>
 
-### Model 3: Energy Supply Systems
-**Ground-source heat pump systems
 
-The hybrid ground-source heat pump system of the Architecture Design Studio building is used as a case study to develop and test a comprehensive framework for uncertainty quantification, sensitivity analysis and Bayesian calibration for energy supply system models. 
