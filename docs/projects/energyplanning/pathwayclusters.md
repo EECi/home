@@ -15,7 +15,7 @@ header:
 toc_sticky: true
 ---
 <!-- Load d3.js -->
-<script src="https://d3js.org/d3.v6.min.js"></script>
+<script src="https://d3js.org/d3.v4.js"></script>
 
 <!-- Graphic -->
 <script>
@@ -35,7 +35,7 @@ var svg = d3.select("#my_dataviz")
           "translate(" + margin.left + "," + margin.top + ")");
 
 // get the data
-d3.csv("https://raw.githubusercontent.com/EECi/home/main/data/d3_pathway_exp.csv", function(data) {
+d3.csv("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_dataset/1_OneNum.csv", function(data) {
 
   // add the x Axis
   var x = d3.scaleLinear()
@@ -54,7 +54,7 @@ d3.csv("https://raw.githubusercontent.com/EECi/home/main/data/d3_pathway_exp.csv
 
   // Compute kernel density estimation
   var kde = kernelDensityEstimator(kernelEpanechnikov(7), x.ticks(40))
-  var density =  kde( data.map(function(d){  return d.Biomass; }) )
+  var density =  kde( data.map(function(d){return d.price; }) )
 
   // Plot the area
   svg.append("path")
@@ -108,10 +108,7 @@ Understanding urban residential energy use and clean energy transitions requires
 </div>
   <h2 class="title">Identifying transition pathways</h2>
 <div id="wrapper">
-  <div id="stickyflex">
-    <div id="my_dataviz">
-    </div>
-  </div>
+  <div id="my_dataviz"></div>
   <body>Understanding factors that influence energy use in urban areas and how to best chracterise and model this is key to delivering clean and sustainable energy for the cities of today and tomorrow.</body>
 </div>
 </div>
