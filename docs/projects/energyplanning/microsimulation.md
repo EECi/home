@@ -27,7 +27,7 @@ toc_sticky: true
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: calc(100% - {$right-sidebar-width}) auto;
+  background-size: calc(100% - $right-sidebar-width) auto;
 }
 .parallax2 {
   /* The image used */
@@ -41,7 +41,7 @@ toc_sticky: true
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: calc(100% - {$right-sidebar-width}) auto;
+  background-size: calc(100% - $right-sidebar-width) auto;
 }
 .parallax3 {
   /* The image used */
@@ -55,7 +55,7 @@ toc_sticky: true
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: calc(100% - {$right-sidebar-width}) auto;
+  background-size: calc(100% - $right-sidebar-width) auto;
 }
 </style>
 </head>
