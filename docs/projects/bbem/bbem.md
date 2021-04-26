@@ -71,25 +71,19 @@ Initial results are encouraging; for the limited study considered so far the sim
 </div>
 <h4 class="sub-title">Model Calibration</h4>
 <div id="wrapper">
-  <div id="stickyflex">
-    <img id="stickyflex"
-         src="/home/Images/bbem/Bayesian_inference.png"
+    <img src="/home/Images/bbem/Bayesian_inference.png"
          alt="Bayesian inference"
          caption="Photo credit: EECi">
-  </div>
   <div id="stickybody">In the next step, the prior expectations about the uncertainty of these important model parameters, based on expect knowledge and technical information, are combined with measured data from the system and computer model outputs in a Bayesian calibration approach. This approach is being adapted for the use of energy system data that suffers from outliers and data gaps, and enables inference of posterior probability distributions of parameters.</div>
-  <div id="stickyflex">
-    <img id="stickyflex"
-         src="/home/Images/bbem/calibration_results.png"
+    <img src="/home/Images/bbem/calibration_results.png"
          alt="Calibration Results"
          caption="Photo credit: EECi">
-  </div>
   <div id="stickybody">The resulting posterior distributions represent an update of our knowledge about the real values of uncertain model parameters, and are fed back into the system model to produce more accurate prediction results. </div>
+  </div>
   <h4 class="sub-title">Exergy analysis</h4>
 <div id="wrapper">
   <div id="stickyflex">
-    <img id="stickyflex"
-         src="/home/Images/bbem/bbem.png"
+    <img src="/home/Images/bbem/bbem.png"
          alt="Exergy Analysis"
          caption="Photo credit: EECi">
   </div>
