@@ -68,7 +68,7 @@ var svg = d3.select("#my_dataviz")
           "translate(" + margin.left + "," + margin.top + ")");
 
 // get the data
-d3.csv("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_dataset/1_OneNum.csv", function(data) {
+d3.csv("https://raw.githubusercontent.com/EECi/home/main/data/d3_pathway_exp.csv", function(data) {
 
   // add the x Axis
   var x = d3.scaleLinear()
@@ -87,7 +87,7 @@ d3.csv("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_data
 
   // Compute kernel density estimation
   var kde = kernelDensityEstimator(kernelEpanechnikov(7), x.ticks(40))
-  var density =  kde( data.map(function(d){return d.price; }) )
+  var density =  kde( data.map(function(d){return d.Biomass; }) )
 
   // Plot the area
   svg.append("path")
