@@ -73,7 +73,7 @@ var svg = d3.select("#my_dataviz")
 d3.csv("https://raw.githubusercontent.com/EECi/home/main/data/d3_pathway_exp.csv", function(data) {
 
   // List of groups (here I have one group per column)
-  var allGroup = d3.map(data, function(d){return(d.clust.num)}).keys()
+  var allGroup = d3.map(data, function(d){return(d.Cluster)}).keys()
 
   // add the options to the button
   d3.select("#selectButton")
@@ -85,10 +85,10 @@ d3.csv("https://raw.githubusercontent.com/EECi/home/main/data/d3_pathway_exp.csv
     .attr("value", function (d) { return d; }) // corresponding value returned by the button
 
 
-  // add the x Axis
+    // add the x Axis
   var x = d3.scaleLinear()
-            .domain([0, 1000])
-            .range([0, width]);
+    .domain([0, 12])
+    .range([0, width]);
   svg.append("g")
       .attr("transform", "translate(0," + height + ")")
       .call(d3.axisBottom(x));
@@ -96,19 +96,21 @@ d3.csv("https://raw.githubusercontent.com/EECi/home/main/data/d3_pathway_exp.csv
   // add the y Axis
   var y = d3.scaleLinear()
             .range([height, 0])
-            .domain([0, 0.03]);
+            .domain([0, 0.4]);
   svg.append("g")
       .call(d3.axisLeft(y));
 
   // Compute kernel density estimation for the first group called Setosa
   var kde = kernelDensityEstimator(kernelEpanechnikov(3), x.ticks(140))
   var density =  kde( data
-    .filter(function(d){ return d.clust.num == "1"})
+    .filter(function(d){ return d.Cluster == "1"})
     .map(function(d){  return +d.Biomass; })
   )
   
   // Plot the area
-  svg.append("path")
+  var curve = svg
+    .append('g')
+    .append("path")
       .attr("class", "mypath")
       .datum(density)
       .attr("fill", "#69b3a2")
@@ -127,7 +129,7 @@ d3.csv("https://raw.githubusercontent.com/EECi/home/main/data/d3_pathway_exp.csv
    // recompute density estimation
     kde = kernelDensityEstimator(kernelEpanechnikov(3), x.ticks(40))
     var density =  kde( data
-      .filter(function(d){ return d.clust.num == selectedGroup})
+      .filter(function(d){ return d.Cluster == selectedGroup})
       .map(function(d){  return +d.Biomass; })
     )
 
