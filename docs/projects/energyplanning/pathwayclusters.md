@@ -20,7 +20,7 @@ toc_sticky: true
 
 // set the dimensions and margins of the graph
 var margin = {top: 30, right: 30, bottom: 30, left: 50},
-    width = 460 - margin.left - margin.right,
+    width = 600 - margin.left - margin.right,
     height = 400 - margin.top - margin.bottom;
 
 // append the svg object to the body of the page
@@ -33,7 +33,7 @@ var svg = d3.select("#my_dataviz")
           "translate(" + margin.left + "," + margin.top + ")");
 
 // get the data
-d3.csv("https://github.com/EECi/home/blob/1cbb3ea7a646ebd7f655f45963ea433058583ef9/data/d3_pathway_exp.csv", function(data) {
+d3.csv("https://raw.githubusercontent.com/EECi/home/main/data/d3_pathway_exp.csv", function(data) {
 
   // add the x Axis
   var x = d3.scaleLinear()
@@ -106,8 +106,9 @@ Understanding urban residential energy use and clean energy transitions requires
 </div>
   <h2 class="title">Identifying transition pathways</h2>
 <div id="wrapper">
-  <div class="sticky" id="my_dataviz">
-  </div>
+  <div id="sticky">
+    <div id="my_dataviz">
+    </div>
   </div>
   <body>Understanding factors that influence energy use in urban areas and how to best chracterise and model this is key to delivering clean and sustainable energy for the cities of today and tomorrow.</body>
 </div>
