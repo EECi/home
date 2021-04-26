@@ -38,6 +38,8 @@ Understanding urban residential energy use and clean energy transitions requires
   <h2 class="title">Identifying transition pathways</h2>
 <div id="wrapper">
   <div id="stickyflex">
+  <!-- Initialize a select button -->
+  <select id="selectButton"></select>
   <div id="my_dataviz"></div>
   </div>
   <body>Understanding factors that influence energy use in urban areas and how to best chracterise and model this is key to delivering clean and sustainable energy for the cities of today and tomorrow.</body>
@@ -70,6 +72,19 @@ var svg = d3.select("#my_dataviz")
 // get the data
 d3.csv("https://raw.githubusercontent.com/EECi/home/main/data/d3_pathway_exp.csv", function(data) {
 
+  // List of groups (here I have one group per column)
+  var allGroup = d3.map(data, function(d){return(d.clust.num)}).keys()
+
+  // add the options to the button
+  d3.select("#selectButton")
+    .selectAll('myOptions')
+    .data(allGroup)
+    .enter()
+    .append('option')
+    .text(function (d) { return d; }) // text showed in the menu
+    .attr("value", function (d) { return d; }) // corresponding value returned by the button
+
+
   // add the x Axis
   var x = d3.scaleLinear()
             .domain([0, 1000])
@@ -85,10 +100,13 @@ d3.csv("https://raw.githubusercontent.com/EECi/home/main/data/d3_pathway_exp.csv
   svg.append("g")
       .call(d3.axisLeft(y));
 
-  // Compute kernel density estimation
-  var kde = kernelDensityEstimator(kernelEpanechnikov(7), x.ticks(40))
-  var density =  kde( data.map(function(d){return d.Biomass; }) )
-
+  // Compute kernel density estimation for the first group called Setosa
+  var kde = kernelDensityEstimator(kernelEpanechnikov(3), x.ticks(140))
+  var density =  kde( data
+    .filter(function(d){ return d.clust.num == "1"})
+    .map(function(d){  return +d.Biomass; })
+  )
+  
   // Plot the area
   svg.append("path")
       .attr("class", "mypath")
@@ -103,6 +121,33 @@ d3.csv("https://raw.githubusercontent.com/EECi/home/main/data/d3_pathway_exp.csv
           .x(function(d) { return x(d[0]); })
           .y(function(d) { return y(d[1]); })
       );
+      
+   // A function that update the chart when slider is moved?
+  function updateChart(selectedGroup) {
+   // recompute density estimation
+    kde = kernelDensityEstimator(kernelEpanechnikov(3), x.ticks(40))
+    var density =  kde( data
+      .filter(function(d){ return d.clust.num == selectedGroup})
+      .map(function(d){  return +d.Biomass; })
+    )
+
+   // update the chart
+    curve
+      .datum(density)
+      .transition()
+      .duration(1000)
+      .attr("d",  d3.line()
+        .curve(d3.curveBasis)
+          .x(function(d) { return x(d[0]); })
+          .y(function(d) { return y(d[1]); })
+      );
+  }
+
+  // Listen to the slider?
+  d3.select("#selectButton").on("change", function(d){
+    selectedGroup = this.value
+    updateChart(selectedGroup)
+  })
 
 });
 
