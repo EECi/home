@@ -15,7 +15,9 @@ header:
 toc_sticky: true
 ---
 <!-- Load d3.js -->
-<script src="https://d3js.org/d3.v4.js"></script>
+<script src="https://d3js.org/d3.v6.min.js"></script>
+
+<!-- Graphic -->
 <script>
 
 // set the dimensions and margins of the graph
@@ -52,7 +54,7 @@ d3.csv("https://raw.githubusercontent.com/EECi/home/main/data/d3_pathway_exp.csv
 
   // Compute kernel density estimation
   var kde = kernelDensityEstimator(kernelEpanechnikov(7), x.ticks(40))
-  var density =  kde( data.map(function(d){  return d.Biomass; }) )
+  var density =  kde( data.map(function(d){  return d."Biomass"; }) )
 
   // Plot the area
   svg.append("path")
