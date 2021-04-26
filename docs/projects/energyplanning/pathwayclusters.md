@@ -52,7 +52,7 @@ d3.csv("https://github.com/EECi/home/blob/1cbb3ea7a646ebd7f655f45963ea433058583e
 
   // Compute kernel density estimation
   var kde = kernelDensityEstimator(kernelEpanechnikov(7), x.ticks(40))
-  var density =  kde( data.map(function(d){  return d.price; }) )
+  var density =  kde( data.map(function(d){  return d.Biomass; }) )
 
   // Plot the area
   svg.append("path")
