@@ -61,6 +61,15 @@ projects_past:
     btn_label: "View this project"
     btn_class: "btn--inverse"
     
+    - image_path: /Images/cimo/cimo_1.png
+    image_caption: "CiMo Model"
+    alt: "placeholder image 2"
+    title: "CiMo"
+    excerpt:  "A bottom-up engineering model of energy demand, supply, and emissions from buildings and surface transport at the city scale."
+    url: "/docs/cimo/"
+    btn_label: "View this project"
+    btn_class: "btn--inverse"
+    
 ---
 
 
