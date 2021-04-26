@@ -19,7 +19,7 @@ toc_sticky: true
 
 <!-- Graphic -->
 <script>
-
+  
 // set the dimensions and margins of the graph
 var margin = {top: 30, right: 30, bottom: 30, left: 50},
     width = 600 - margin.left - margin.right,
@@ -54,7 +54,7 @@ d3.csv("https://raw.githubusercontent.com/EECi/home/main/data/d3_pathway_exp.csv
 
   // Compute kernel density estimation
   var kde = kernelDensityEstimator(kernelEpanechnikov(7), x.ticks(40))
-  var density =  kde( data.map(function(d){  return d."Biomass"; }) )
+  var density =  kde( data.map(function(d){  return d.Biomass; }) )
 
   // Plot the area
   svg.append("path")
@@ -108,7 +108,7 @@ Understanding urban residential energy use and clean energy transitions requires
 </div>
   <h2 class="title">Identifying transition pathways</h2>
 <div id="wrapper">
-  <div id="sticky">
+  <div id="stickyflex">
     <div id="my_dataviz">
     </div>
   </div>
