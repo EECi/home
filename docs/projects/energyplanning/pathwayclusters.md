@@ -81,7 +81,7 @@ d3.csv("https://raw.githubusercontent.com/EECi/home/main/data/d3_pathway_exp.csv
   // add the y Axis
   var y = d3.scaleLinear()
             .range([height, 0])
-            .domain([0, 0.01]);
+            .domain([0, 0.03]);
   svg.append("g")
       .call(d3.axisLeft(y));
 
