@@ -60,8 +60,7 @@ projects_past:
     url: "/docs/bbem/"
     btn_label: "View this project"
     btn_class: "btn--inverse"
-    
-    - image_path: /Images/cimo/cimo_1.png
+  - image_path: /Images/cimo/cimo_1.png
     image_caption: "CiMo Model"
     alt: "placeholder image 2"
     title: "CiMo"
