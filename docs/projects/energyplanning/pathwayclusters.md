@@ -87,7 +87,7 @@ d3.csv("https://raw.githubusercontent.com/EECi/home/main/data/d3_pathway_exp.csv
 
     // add the x Axis
   var x = d3.scaleLinear()
-    .domain([0, 12])
+    .domain([0, 600])
     .range([0, width]);
   svg.append("g")
       .attr("transform", "translate(0," + height + ")")
@@ -96,7 +96,7 @@ d3.csv("https://raw.githubusercontent.com/EECi/home/main/data/d3_pathway_exp.csv
   // add the y Axis
   var y = d3.scaleLinear()
             .range([height, 0])
-            .domain([0, 0.4]);
+            .domain([0, 0.3]);
   svg.append("g")
       .call(d3.axisLeft(y));
 
