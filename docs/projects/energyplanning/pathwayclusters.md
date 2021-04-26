@@ -17,12 +17,43 @@ toc_sticky: true
 <!-- Load d3.js -->
 <script src="https://d3js.org/d3.v4.js"></script>
 
+
+
+# Context
+
+Understanding urban residential energy use and clean energy transitions requires understanding and characterising heterogeneity across households arising due to differences in socio-economic and cultural context. This research has looks into the use of mixed data and clustering methods to identify distinct typologies or pathways for transition to clean cooking fuel use by low-income households in urban India.
+
+<div id="stickyarticle">
+<h1 class="category">Clustering with mixed methods</h1>
+<h2 class="title">Using qualitative and quantitative data</h2>
+<div id="wrapper">
+  <div id="sticky">
+    <img id="sticky"
+         src="/home/Images/eplan/LPG_Distributor.jpg"
+         alt="LPG Distributor in Bangalore"
+         caption="Photo credit: A Neto-Bradley">
+  </div>
+  <body>Understanding factors that influence energy use in urban areas and how to best chracterise and model this is key to delivering clean and sustainable energy for the cities of today and tomorrow.</body>
+</div>
+  <h2 class="title">Identifying transition pathways</h2>
+<div id="wrapper">
+  <div id="my_dataviz"></div>
+  <body>Understanding factors that influence energy use in urban areas and how to best chracterise and model this is key to delivering clean and sustainable energy for the cities of today and tomorrow.</body>
+</div>
+</div>
+
+# Team
+
+
+# Publications and Outputs
+
+
 <!-- Graphic -->
 <script>
   
 // set the dimensions and margins of the graph
 var margin = {top: 30, right: 30, bottom: 30, left: 50},
-    width = 600 - margin.left - margin.right,
+    width = 700 - margin.left - margin.right,
     height = 400 - margin.top - margin.bottom;
 
 // append the svg object to the body of the page
@@ -89,31 +120,3 @@ function kernelEpanechnikov(k) {
 }
 
 </script>
-
-# Context
-
-Understanding urban residential energy use and clean energy transitions requires understanding and characterising heterogeneity across households arising due to differences in socio-economic and cultural context. This research has looks into the use of mixed data and clustering methods to identify distinct typologies or pathways for transition to clean cooking fuel use by low-income households in urban India.
-
-<div id="stickyarticle">
-<h1 class="category">Clustering with mixed methods</h1>
-<h2 class="title">Using qualitative and quantitative data</h2>
-<div id="wrapper">
-  <div id="sticky">
-    <img id="sticky"
-         src="/home/Images/eplan/LPG_Distributor.jpg"
-         alt="LPG Distributor in Bangalore"
-         caption="Photo credit: A Neto-Bradley">
-  </div>
-  <body>Understanding factors that influence energy use in urban areas and how to best chracterise and model this is key to delivering clean and sustainable energy for the cities of today and tomorrow.</body>
-</div>
-  <h2 class="title">Identifying transition pathways</h2>
-<div id="wrapper">
-  <div id="my_dataviz"></div>
-  <body>Understanding factors that influence energy use in urban areas and how to best chracterise and model this is key to delivering clean and sustainable energy for the cities of today and tomorrow.</body>
-</div>
-</div>
-
-# Team
-
-
-# Publications and Outputs
