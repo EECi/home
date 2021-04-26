@@ -37,7 +37,9 @@ Understanding urban residential energy use and clean energy transitions requires
 </div>
   <h2 class="title">Identifying transition pathways</h2>
 <div id="wrapper">
+  <div id="stickyflex">
   <div id="my_dataviz"></div>
+  </div>
   <body>Understanding factors that influence energy use in urban areas and how to best chracterise and model this is key to delivering clean and sustainable energy for the cities of today and tomorrow.</body>
 </div>
 </div>
