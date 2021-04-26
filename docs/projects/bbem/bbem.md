@@ -90,6 +90,6 @@ Initial results are encouraging; for the limited study considered so far the sim
   <div id="stickybody">In addition, a thermodynamic model of the system is being developed to study the detailed energy and exergy flows through the individual system components, such as the heat pump or the heat exchanger. This flow can be visualized by an exergy flow diagram, which shows the decrease in exergy content in the supply fluid from the source to the system output as part of the exergy content is consumed within each system component. </div>
 </div>
 </div>
-</div>
+
 
 
