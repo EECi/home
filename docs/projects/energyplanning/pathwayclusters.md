@@ -174,26 +174,37 @@ d3.csv("https://raw.githubusercontent.com/EECi/home/main/data/d3_pathway_exp2.cs
     }
   }
 
- // Add brushing
-  svg
-    .call( d3.brush()                 // Add the brush feature using the d3.brush function
-      .extent( [ [0,0], [width,height] ] ) // initialise the brush area: start at 0,0 and finishes at width,height: it means I select the whole graph area
-      .on("start brush", updateChart) // Each time the brush selection changes, trigger the 'updateChart' function
-    )
+   // create a tooltip
+  var Tooltip = d3.select("#my_dataviz")
+    .append("div")
+    .style("opacity", 0)
+    .attr("class", "tooltip")
+    .style("background-color", "white")
+    .style("border", "solid")
+    .style("border-width", "2px")
+    .style("border-radius", "5px")
+    .style("padding", "5px")
 
-  // Function that is triggered when brushing is performed
-  function updateChart() {
-    extent = d3.event.selection
-    myCircle.classed("selected", function(d){ return isBrushed(extent, x(d.Sepal_Length), y(d.Petal_Length) ) } )
+  // Three function that change the tooltip when user hover / move / leave a cell
+  var mouseover = function(d) {
+    Tooltip
+      .style("opacity", 1)
+    d3.select(this)
+      .style("stroke", "black")
+      .style("opacity", 1)
   }
-
-  // A function that return TRUE or FALSE according if a dot is in the selection or not
-  function isBrushed(brush_coords, cx, cy) {
-       var x0 = brush_coords[0][0],
-           x1 = brush_coords[1][0],
-           y0 = brush_coords[0][1],
-           y1 = brush_coords[1][1];
-      return x0 <= cx && cx <= x1 && y0 <= cy && cy <= y1;    // This return TRUE or FALSE depending on if the points is in the selected area
+  var mousemove = function(d) {
+    Tooltip
+      .html("The exact biomass use of<br>this cell is: " + d.Biomass)
+      .style("left", (d3.mouse(this)[0]+70) + "px")
+      .style("top", (d3.mouse(this)[1]) + "px")
+  }
+  var mouseleave = function(d) {
+    Tooltip
+      .style("opacity", 0)
+    d3.select(this)
+      .style("stroke", "none")
+      .style("opacity", 0.8)
   }
 
 })
