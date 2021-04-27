@@ -127,9 +127,7 @@ Understanding factors that influence energy use in urban areas and how to best c
 var pi = Math.PI,
     tau = 2 * pi;
 
-var svg = d3.select("svg"),
-    width = +svg.attr("width"),
-    height = +svg.attr("height");
+var svg = d3.select("#tiles")
 
 // Initialize the projection to fit the world in a 1×1 square centered at the origin.
 var projection = d3.geoMercator()
