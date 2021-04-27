@@ -99,8 +99,11 @@ Understanding factors that influence energy use in urban areas and how to best c
   </div>
   <div id="stickybody">Understanding factors that influence energy use in urban areas and how to best chracterise and model this is key to delivering clean and sustainable energy for the cities of today and tomorrow.</div>
 </div>
-  <div id="tiles" style="width: 100%; height: 80vh"></div>
+  <h2 class="title">City Simulation</h2>
+<div id="wrapper">
+  <div id="tiles" style="width: 100%; height: 70vh"></div>
   <svg width="760" height="600"></svg>
+</div>
 </div>
 
 <!-- <div class="parallax"></div> -->
