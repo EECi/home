@@ -113,7 +113,6 @@ d3.csv("https://raw.githubusercontent.com/EECi/home/main/data/d3_pathway_exp2.cs
       svg.append("g")
          .attr("class", "myXaxis")   // Note that here we give a class to the X axis, to be able to call it later and modify it
          .attr("transform", "translate(0," + height + ")")
-         .call(d3.axisBottom(x))
          .attr("opacity", "0")
 
    // Add Y Scale of each graph
@@ -146,9 +145,8 @@ d3.csv("https://raw.githubusercontent.com/EECi/home/main/data/d3_pathway_exp2.cs
           .attr("fill", function(d){ return color(d.Cluster)})
 
   // new X axis
- xextent = d3.extent(data, function(d) { return +d[var1] })
-      var x = d3.scaleLinear()
-        .domain(xextent).nice()
+  xextent = d3.extent(data, function(d) { return +d[var1] })
+  x.domain(xextent).nice()
   svg.select(".myXaxis")
     .transition()
     .duration(2000)
