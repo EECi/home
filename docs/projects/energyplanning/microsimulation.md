@@ -100,7 +100,10 @@ Understanding factors that influence energy use in urban areas and how to best c
     <script type="text/javascript">
     var w = 1400;
     var h = 700;
-    var svg = d3.select("div#container").append("svg").attr("preserveAspectRatio", "xMinYMin meet").style("background-color","#c9e8fd")
+    var svg = d3.select("div#container")
+    .append("svg")
+      .attr("preserveAspectRatio", "xMinYMin meet")
+      .style("background-color","#c9e8fd")
     .attr("viewBox", "0 0 " + w + " " + h)
     .classed("svg-content", true);
     var projection = d3.geoMercator().translate([w/2, h/2]).scale(2200).center([0,40]);
