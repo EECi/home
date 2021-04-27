@@ -31,10 +31,6 @@ The City of Westminster, within central London, was chosen for the first pilot a
 <h2 class="title">Buildings Analysis</h2>
 <div id="wrapper">
     <div id="stickybody">
-    <img id="stickybody"
-         src="/home/Images/bbem/bbem_content_image.png"
-         alt="B.bem Overview"
-         caption="Photo credit: EECi">
   The analysis of buildings capitalised on several recent developments: physical characteristics of individual buildings in the UK can now be inferred from new research literature and statistical data (e.g. EPC/DEC building performance certificate data since 2010), and three-dimensional geometries of individual buildings within Westminster are available from geographic databases. The result is that each individual building can be represented by a physical model.
   
   EECi researchers used the University of Cambridge’s Darwin High Performance Computing cluster to undertake annual, hourly energy simulations of each of the 100,000 representational building models in the City of Westminster.
@@ -43,7 +39,7 @@ The City of Westminster, within central London, was chosen for the first pilot a
 <div id="wrapper">
   <div id="stickyflex">
     <img id="stickyflex"
-         src="/home/Images/bbem/fda_approach.png"
+         src="/home/Images/cimo/cimo_1.png"
          alt="FDA Approach"
          caption="Photo credit: EECi">
   </div>
@@ -56,7 +52,7 @@ The researchers combined models of powertrains in conventional, hybridised and e
 <div id="wrapper">
   <div id="stickyflex">
     <img id="stickyflex"
-         src="/home/Images/bbem/System_overview.png"
+         src="/home/Images/cimo/cimo_2.png"
          alt="GSHP System Overview"
          caption="Photo credit: EECi">
   </div>
