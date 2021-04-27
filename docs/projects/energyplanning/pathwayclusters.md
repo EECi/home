@@ -17,14 +17,6 @@ toc_sticky: true
 <!-- Load d3.js -->
 <script src="https://d3js.org/d3.v4.js"></script>
 
-<!-- style of selected circles -->
-<style>
-.selected {
-  opacity: 1 !important;
-  stroke: black;
-  stroke-width: 1px;
-}
-</style>
 
 
 # Context
@@ -152,8 +144,6 @@ d3.csv("https://raw.githubusercontent.com/EECi/home/main/data/d3_pathway_exp2.cs
           .attr("cy", function(d){ return y(+d[var2]) })
           .attr("r", 3)
           .attr("fill", function(d){ return color(d.Cluster)})
-    }
-  }
 
   // new X axis
  xextent = d3.extent(data, function(d) { return +d[var1] })
@@ -171,6 +161,9 @@ d3.csv("https://raw.githubusercontent.com/EECi/home/main/data/d3_pathway_exp2.cs
     .duration(2000)
     .attr("cx", function (d) { return x(+d[var1]) } )
     .attr("cy", function (d) { return y(+d[var2])  } )
+    
+       }
+  }
 
   // ------------------------------- //
   // Add variable names = diagonal
