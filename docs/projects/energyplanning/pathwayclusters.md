@@ -56,7 +56,7 @@ Understanding urban residential energy use and clean energy transitions requires
 
 // Dimension of the whole chart. Only one size since it has to be square
 var marginWhole = {top: 10, right: 10, bottom: 10, left: 10},
-    sizeWhole = 640 - marginWhole.left - marginWhole.right
+    sizeWhole = 760 - marginWhole.left - marginWhole.right
 
 // Create the svg area
 var svg = d3.select("#my_dataviz")
