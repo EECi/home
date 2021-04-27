@@ -156,7 +156,7 @@ d3.csv("https://raw.githubusercontent.com/EECi/home/main/data/d3_pathway_exp2.cs
   x.domain(xextent).nice()
   tmp.select(".myXaxis")
     .transition()
-    .duration(2000)
+    .duration(3000)
     .attr("opacity", "1")
     .call(d3.axisBottom(x));
 
@@ -164,14 +164,14 @@ d3.csv("https://raw.githubusercontent.com/EECi/home/main/data/d3_pathway_exp2.cs
   y.domain(yextent).nice()
   tmp.select(".myYaxis")
     .transition()
-    .duration(2000)
+    .duration(3000)
     .attr("opacity", "1")
     .call(d3.axisBottom(y));
 
   tmp.selectAll("circle")
     .transition()
     .delay(function(d,i){return(i*3)})
-    .duration(2000)
+    .duration(3000)
     .attr("cx", function (d){ return x(+d[var1]) })
     .attr("cy", function (d){ return y(+d[var2]) })
     
