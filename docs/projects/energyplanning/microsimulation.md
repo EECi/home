@@ -58,7 +58,10 @@ toc_sticky: true
   background-size: 768px auto;
 }
 </style>
+<!-- Load d3.js -->
+<script src="https://d3js.org/d3.v4.js"></script>
 </head>
+
 
 # Context
 
