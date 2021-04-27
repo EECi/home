@@ -17,6 +17,13 @@ toc_sticky: true
 <!-- Load d3.js -->
 <script src="https://d3js.org/d3.v4.js"></script>
 
+<!-- style of selected circles -->
+<style>
+.selected {
+  stroke: black;
+  stroke-width: 1px;
+}
+</style>
 
 
 # Context
@@ -166,6 +173,26 @@ d3.csv("https://raw.githubusercontent.com/EECi/home/main/data/d3_pathway_exp2.cs
     }
   }
 
+// Add brushing
+d3.select("#dataviz_brushCSS")
+      .call( d3.brush()                 // Add the brush feature using the d3.brush function
+        .extent( [ [0,0], [700,700] ] ) // initialise the brush area: start at 0,0 and finishes at width,height: it means I select the whole graph area
+        .on("start brush", updateChart) // Each time the brush selection changes, trigger the 'updateChart' function
+      )
+
+// Function that is triggered when brushing is performed
+function updateChart() {
+
+  // Get the selection coordinate
+  extent = d3.event.selection   // looks like [ [12,11], [132,178]]
+
+  // Is the circle in the selection?
+  isBrushed = extent[0][0] <= myCircle.attr("cx") && extent[1][0] >= myCircle.attr("cx") && // Check X coordinate
+              extent[0][1] <= myCircle.attr("cy") && extent[1][1] >= myCircle.attr("cy")  // And Y coordinate
+
+  // Circle is green if in the selection, pink otherwise
+  myCircle.classed("selected", isBrushed)
+}
 
 })
 
