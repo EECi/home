@@ -18,10 +18,10 @@ toc_sticky: true
 <script src="//d3js.org/d3.v4.min.js"></script>
 <script src="//d3js.org/d3-tile.v0.0.min.js"></script>
 <style>
-  svg,
+svg,
 #tiles {
   width: 760px;
-  height: 80vh;
+  height: 600px;
   overflow: hidden;
 }
 .parallax {
@@ -128,7 +128,7 @@ Understanding factors that influence energy use in urban areas and how to best c
 
 
 <div id="tiles" style="width: 100%; height: 80vh"></div>
-<svg width=100% height=80vh"></svg>
+<svg width="760 height="600"></svg>
 <script>
 
 var pi = Math.PI,
