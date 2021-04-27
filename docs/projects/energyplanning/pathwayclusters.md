@@ -158,8 +158,8 @@ d3.csv("https://raw.githubusercontent.com/EECi/home/main/data/d3_pathway_exp2.cs
         .append('g')
         .attr("transform", "translate(" + position(var1) + "," + position(var2) + ")")
         .append('text')
-          .attr("x", size/3)
-          .attr("y", size/3)
+          .attr("x", size/2)
+          .attr("y", size/2)
           .text(var1)
           .attr("text-anchor", "middle")
 
