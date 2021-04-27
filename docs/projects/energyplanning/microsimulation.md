@@ -104,36 +104,26 @@ Understanding factors that influence energy use in urban areas and how to best c
 <!-- <div class="parallax2"></div> -->
 
 <!-- <div class="parallax3"></div> -->
-<div id="map" style="width: 100%; height: 80vh"></div>
-<script type="text/javascript">
-        var map = new L.Map(d3.select('div').node()).setView([35.678707, 139.739143], 12);
+<div id="map" style="width: 100%; height: 50vh"></div>
+  <script type="text/javascript">
+  
+        var map = L.map('map').setView([10.8306,78.7079], 12);
         mapLink = 
             '<a href="http://openstreetmap.org">OpenStreetMap</a>';
-/*    
+
         var Stamen_Toner = L.tileLayer('http://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}.{ext}', {
           attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
           subdomains: 'abcd',
-          minZoom: 0,
-          maxZoom: 20,
+          minZoom: 12,
+          maxZoom: 12,
           ext: 'png'
         });
+        
         Stamen_Toner.addTo(map);
-*/
-        var tile = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
-          attribution : '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-        });
-        tile.addTo(map);
+
         var svg = d3.select(map.getPanes().overlayPane).append("svg")
         var g = svg.append("g").attr("class", "leaflet-zoom-hide");
-    
-          　　
-    function mapPolygon(poly){
-      return poly.map(function(line){return mapLineString(line)})
-    }
-    function mapLineString(line){
-      return line.map(function(d){return [d[1],d[0]]})  
-    }
-  });
+
               
 </script>
 
