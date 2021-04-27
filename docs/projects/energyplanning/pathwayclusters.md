@@ -20,6 +20,7 @@ toc_sticky: true
 <!-- style of selected circles -->
 <style>
 .selected {
+  opacity: 1 !important;
   stroke: black;
   stroke-width: 1px;
 }
@@ -173,26 +174,27 @@ d3.csv("https://raw.githubusercontent.com/EECi/home/main/data/d3_pathway_exp2.cs
     }
   }
 
-// Add brushing
-d3.select("#dataviz_brushCSS")
-      .call( d3.brush()                 // Add the brush feature using the d3.brush function
-        .extent( [ [0,0], [700,700] ] ) // initialise the brush area: start at 0,0 and finishes at width,height: it means I select the whole graph area
-        .on("start brush", updateChart) // Each time the brush selection changes, trigger the 'updateChart' function
-      )
+ // Add brushing
+  svg
+    .call( d3.brush()                 // Add the brush feature using the d3.brush function
+      .extent( [ [0,0], [width,height] ] ) // initialise the brush area: start at 0,0 and finishes at width,height: it means I select the whole graph area
+      .on("start brush", updateChart) // Each time the brush selection changes, trigger the 'updateChart' function
+    )
 
-// Function that is triggered when brushing is performed
-function updateChart() {
+  // Function that is triggered when brushing is performed
+  function updateChart() {
+    extent = d3.event.selection
+    myCircle.classed("selected", function(d){ return isBrushed(extent, x(d.Sepal_Length), y(d.Petal_Length) ) } )
+  }
 
-  // Get the selection coordinate
-  extent = d3.event.selection   // looks like [ [12,11], [132,178]]
-
-  // Is the circle in the selection?
-  isBrushed = extent[0][0] <= myCircle.attr("cx") && extent[1][0] >= myCircle.attr("cx") && // Check X coordinate
-              extent[0][1] <= myCircle.attr("cy") && extent[1][1] >= myCircle.attr("cy")  // And Y coordinate
-
-  // Circle is green if in the selection, pink otherwise
-  myCircle.classed("selected", isBrushed)
-}
+  // A function that return TRUE or FALSE according if a dot is in the selection or not
+  function isBrushed(brush_coords, cx, cy) {
+       var x0 = brush_coords[0][0],
+           x1 = brush_coords[1][0],
+           y0 = brush_coords[0][1],
+           y1 = brush_coords[1][1];
+      return x0 <= cx && cx <= x1 && y0 <= cy && cy <= y1;    // This return TRUE or FALSE depending on if the points is in the selected area
+  }
 
 })
 
