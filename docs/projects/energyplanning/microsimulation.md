@@ -104,7 +104,7 @@ Understanding factors that influence energy use in urban areas and how to best c
 <!-- <div class="parallax2"></div> -->
 
 <!-- <div class="parallax3"></div> -->
-<div id="map" style="width: 100%; height: 50vh"></div>
+<!-- <div id="map" style="width: 100%; height: 50vh"></div>
   <script type="text/javascript">
   
         var map = L.map('map').setView([10.8306,78.7079], 12);
@@ -122,9 +122,69 @@ Understanding factors that influence energy use in urban areas and how to best c
         Stamen_Toner.addTo(map);
 
         var svg = d3.select(map.getPanes().overlayPane).append("svg")
-        var g = svg.append("g").attr("class", "leaflet-zoom-hide");
+        var g = svg.append("g").attr("class", "leaflet-zoom-hide");           
+        </script> -->
 
-              
+
+<div id="tiles"></div>
+<svg width="960" height="600"></svg>
+<script src="//d3js.org/d3.v4.min.js"></script>
+<script src="//d3js.org/d3-tile.v0.0.min.js"></script>
+<script src="//d3js.org/topojson.v1.min.js"></script>
+<script>
+
+var pi = Math.PI,
+    tau = 2 * pi;
+
+var svg = d3.select("svg"),
+    width = +svg.attr("width"),
+    height = +svg.attr("height");
+
+// Initialize the projection to fit the world in a 1×1 square centered at the origin.
+var projection = d3.geoMercator()
+    .scale(1 / tau)
+    .translate([0, 0]);
+
+// Compute the projected bounding box given a geographic bounding box (here, California).
+// This assumes parallels are horizontal and meridians are vertical…
+// but you could use path.bounds to handle arbitrary shapes.
+// Note that the y-dimension is flipped relative to latitude!
+var bounds = [[78.7, 10.8],[78.72, 10.87]],
+    p0 = projection([bounds[0][0], bounds[1][1]]),
+    p1 = projection([bounds[1][0], bounds[0][1]]);
+
+// Convert this to a scale k and translate tx, ty for the projection.
+// For crisp image tiles, clamp to the nearest power of two.
+var k = floor(0.95 / Math.max((p1[0] - p0[0]) / width, (p1[1] - p0[1]) / height)),
+    tx = (width - k * (p1[0] + p0[0])) / 2,
+    ty = (height - k * (p1[1] + p0[1])) / 2;
+
+projection
+    .scale(k / tau)
+    .translate([tx, ty]);
+
+// Lastly convert this to the corresponding tile.scale and tile.translate;
+// see http://bl.ocks.org/mbostock/4150951 for a related example.
+var tiles = d3.tile()
+    .size([width, height])
+    .scale(k)
+    .translate([tx, ty])
+    ();
+
+d3.select("#tiles")
+  .selectAll("img").data(tiles).enter().append("img")
+    .style("position", "absolute")
+    .attr("src", function(d, i) { return "https://stamen-tiles-" + "abc"[d[1] % 3] + ".a.ssl.fastly.net/toner/" + d[2] + "/" + d[0] + "/" + d[1] + ".png"; })
+    .style("left", function(d) { return (d[0] + tiles.translate[0]) * tiles.scale + "px"; })
+    .style("top", function(d) { return (d[1] + tiles.translate[1]) * tiles.scale + "px"; })
+    .attr("width", tiles.scale)
+    .attr("height", tiles.scale);
+
+
+function floor(k) {
+  return Math.pow(2, Math.floor(Math.log(k) / Math.LN2));
+}
+
 </script>
 
 # Team
