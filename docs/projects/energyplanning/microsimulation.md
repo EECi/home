@@ -14,6 +14,14 @@ header:
 toc_sticky: true
 ---
 <head>
+  
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.1.0/dist/leaflet.css"
+     integrity="sha512-wcw6ts8Anuw10Mzh9Ytw4pylW8+NAD4ch3lqm9lzAsTxg0GFeJgoAtxuCLREZSC5lUXdVyo/7yfsqFjQ4S+aKw=="
+     crossorigin=""/>
+  <script src="https://d3js.org/d3.v4.js"></script>
+  <script src="https://unpkg.com/leaflet@1.1.0/dist/leaflet.js"
+     integrity="sha512-mNqn2Wg7tSToJhvHcqfzLMU6J4mkOImSPTxVZAdo+lcPlk+GhZmYgACEe0x35K7YzW1zJ7XyJV/TT1MrdXvMcA=="
+     crossorigin=""></script>
 <style>
 .parallax {
   /* The image used */
@@ -58,9 +66,9 @@ toc_sticky: true
   background-size: 768px auto;
 }
 </style>
-<!-- Load d3.js -->
-<script src="https://d3js.org/d3.v4.js"></script>
 </head>
+
+<!-- Load d3.js -->
 
 
 # Context
@@ -96,54 +104,37 @@ Understanding factors that influence energy use in urban areas and how to best c
 <!-- <div class="parallax2"></div> -->
 
 <!-- <div class="parallax3"></div> -->
-<div id="container" class="svg-container"></div>
-    <script type="text/javascript">
-    var w = 1400;
-    var h = 700;
-    var svg = d3.select("div#container")
-    .append("svg")
-      .attr("preserveAspectRatio", "xMinYMin meet")
-      .style("background-color","#c9e8fd")
-    .attr("viewBox", "0 0 " + w + " " + h)
-    .classed("svg-content", true);
-    var projection = d3.geoMercator().translate([w/2, h/2]).scale(2200).center([0,40]);
-    var path = d3.geoPath().projection(projection);
-
-  // load data  
-var worldmap = d3.json("countries.geojson");
-var cities = d3.csv("cities.csv");
-
-Promise.all([worldmap, cities]).then(function(values){    
- // draw map
-    svg.selectAll("path")
-        .data(values[0].features)
-        .enter()
-        .append("path")
-        .attr("class","continent")
-        .attr("d", path),
- // draw points
-    svg.selectAll("circle")
-        .data(values[1])
-        .enter()
-        .append("circle")
-        .attr("class","circles")
-        .attr("cx", function(d) {return projection([d.Longitude, d.Lattitude])[0];})
-        .attr("cy", function(d) {return projection([d.Longitude, d.Lattitude])[1];})
-        .attr("r", "1px"),
- // add labels
-    svg.selectAll("text")
-        .data(values[1])
-        .enter()
-        .append("text")
-        .text(function(d) {
-                    return d.City;
-               })
-        .attr("x", function(d) {return projection([d.Longitude, d.Lattitude])[0] + 5;})
-        .attr("y", function(d) {return projection([d.Longitude, d.Lattitude])[1] + 15;})
-        .attr("class","labels");
-
-    });
-
+<div id="map" style="width: 100%; height: 80vh"></div>
+<script type="text/javascript">
+        var map = new L.Map(d3.select('div').node()).setView([35.678707, 139.739143], 12);
+        mapLink = 
+            '<a href="http://openstreetmap.org">OpenStreetMap</a>';
+/*    
+        var Stamen_Toner = L.tileLayer('http://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}.{ext}', {
+          attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+          subdomains: 'abcd',
+          minZoom: 0,
+          maxZoom: 20,
+          ext: 'png'
+        });
+        Stamen_Toner.addTo(map);
+*/
+        var tile = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+          attribution : '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+        });
+        tile.addTo(map);
+        var svg = d3.select(map.getPanes().overlayPane).append("svg")
+        var g = svg.append("g").attr("class", "leaflet-zoom-hide");
+    
+          　　
+    function mapPolygon(poly){
+      return poly.map(function(line){return mapLineString(line)})
+    }
+    function mapLineString(line){
+      return line.map(function(d){return [d[1],d[0]]})  
+    }
+  });
+              
 </script>
 
 # Team
