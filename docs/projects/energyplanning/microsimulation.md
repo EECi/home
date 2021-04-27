@@ -101,8 +101,10 @@ Understanding factors that influence energy use in urban areas and how to best c
 </div>
   <h2 class="title">City Simulation</h2>
 <div id="wrapper">
+    <div id="sticky">
   <div id="tiles" style="width: 100%; height: 70vh"></div>
   <svg width="760" height="600"></svg>
+  </div>
 </div>
 </div>
 
