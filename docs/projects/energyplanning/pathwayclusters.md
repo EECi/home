@@ -115,10 +115,14 @@ d3.csv("https://raw.githubusercontent.com/EECi/home/main/data/d3_pathway_exp2.cs
       if (var1 === var2) { continue; }
 
    // Add X Scale of each graph
-      xextent = d3.extent(data, function(d) { return +d[var1] })
       var x = d3.scaleLinear()
-        .domain(xextent).nice()
+        .domain([0, 0])
         .range([ 0, size-2*mar ]);
+      svg.append("g")
+         .attr("class", "myXaxis")   // Note that here we give a class to the X axis, to be able to call it later and modify it
+         .attr("transform", "translate(0," + height + ")")
+         .call(d3.axisBottom(x))
+         .attr("opacity", "0")
 
    // Add Y Scale of each graph
       yextent = d3.extent(data, function(d) { return +d[var2] })
@@ -151,6 +155,22 @@ d3.csv("https://raw.githubusercontent.com/EECi/home/main/data/d3_pathway_exp2.cs
     }
   }
 
+  // new X axis
+ xextent = d3.extent(data, function(d) { return +d[var1] })
+      var x = d3.scaleLinear()
+        .domain(xextent).nice()
+  svg.select(".myXaxis")
+    .transition()
+    .duration(2000)
+    .attr("opacity", "1")
+    .call(d3.axisBottom(x));
+
+  svg.selectAll("circle")
+    .transition()
+    .delay(function(d,i){return(i*3)})
+    .duration(2000)
+    .attr("cx", function (d) { return x(+d[var1]) } )
+    .attr("cy", function (d) { return y(+d[var2])  } )
 
   // ------------------------------- //
   // Add variable names = diagonal
@@ -172,39 +192,6 @@ d3.csv("https://raw.githubusercontent.com/EECi/home/main/data/d3_pathway_exp2.cs
           .attr("text-anchor", "middle")
 
     }
-  }
-
-   // create a tooltip
-  var Tooltip = d3.select("#my_dataviz")
-    .append("div")
-    .style("opacity", 0)
-    .attr("class", "tooltip")
-    .style("background-color", "white")
-    .style("border", "solid")
-    .style("border-width", "2px")
-    .style("border-radius", "5px")
-    .style("padding", "5px")
-
-  // Three function that change the tooltip when user hover / move / leave a cell
-  var mouseover = function(d) {
-    Tooltip
-      .style("opacity", 1)
-    d3.select(this)
-      .style("stroke", "black")
-      .style("opacity", 1)
-  }
-  var mousemove = function(d) {
-    Tooltip
-      .html("The exact biomass use of<br>this cell is: " + d.Biomass)
-      .style("left", (d3.mouse(this)[0]+70) + "px")
-      .style("top", (d3.mouse(this)[1]) + "px")
-  }
-  var mouseleave = function(d) {
-    Tooltip
-      .style("opacity", 0)
-    d3.select(this)
-      .style("stroke", "none")
-      .style("opacity", 0.8)
   }
 
 })
