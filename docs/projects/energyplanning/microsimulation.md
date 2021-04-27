@@ -128,7 +128,7 @@ Understanding factors that influence energy use in urban areas and how to best c
 
 
 <div id="tiles" style="width: 100%; height: 80vh"></div>
-<svg width="760 height="600"></svg>
+<svg width="760" height="600"></svg>
 <script>
 
 var pi = Math.PI,
