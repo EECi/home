@@ -61,8 +61,13 @@ var marginWhole = {top: 10, right: 10, bottom: 10, left: 10},
 // Create the svg area
 var svg = d3.select("#my_dataviz")
   .append("svg")
-    .attr("width", sizeWhole  + marginWhole.left + marginWhole.right)
-    .attr("height", sizeWhole  + marginWhole.top + marginWhole.bottom)
+     // Responsive SVG needs these 2 attributes and no width and height attr.
+    .attr("preserveAspectRatio", "xMinYMin meet")
+    .attr("viewBox", "0 0 760 760")
+   // Class to make it responsive.
+    .classed("svg-content-responsive", true)
+    //.attr("width", sizeWhole  + marginWhole.left + marginWhole.right)
+    //.attr("height", sizeWhole  + marginWhole.top + marginWhole.bottom)
   .append("g")
     .attr("transform", "translate(" + marginWhole.left + "," + marginWhole.top + ")");
 
@@ -107,19 +112,22 @@ d3.csv("https://raw.githubusercontent.com/EECi/home/main/data/d3_pathway_exp2.cs
       if (var1 === var2) { continue; }
 
    // Add X Scale of each graph
+     xextent = d3.extent(data, function(d) { return +d[var1] })
       var x = d3.scaleLinear()
         .domain([0, 0])
         .range([ 0, size-2*mar ]);
       svg.append("g")
-         .attr("class", "myXaxis")   // Note that here we give a class to the X axis, to be able to call it later and modify it
-         .attr("transform", "translate(0," + height + ")")
-         .attr("opacity", "0")
+        .attr("class", "myXaxis")   // Note that here we give a class to the X axis, to be able to call it later and modify it
+    
 
    // Add Y Scale of each graph
       yextent = d3.extent(data, function(d) { return +d[var2] })
       var y = d3.scaleLinear()
-        .domain(yextent).nice()
+        .domain([0,0])
         .range([ size-2*mar, 0 ]);
+      svg.append("g")
+        .attr("class", "myYaxis")   // Note that here we give a class to the X axis, to be able to call it later and modify it
+    
 
    // Add a 'g' at the right position
       var tmp = svg
@@ -145,20 +153,27 @@ d3.csv("https://raw.githubusercontent.com/EECi/home/main/data/d3_pathway_exp2.cs
           .attr("fill", function(d){ return color(d.Cluster)})
 
   // new X axis
-  xextent = d3.extent(data, function(d) { return +d[var1] })
   x.domain(xextent).nice()
-  svg.select(".myXaxis")
+  tmp.select(".myXaxis")
     .transition()
     .duration(2000)
     .attr("opacity", "1")
     .call(d3.axisBottom(x));
 
-  svg.selectAll("circle")
+      // new Y axis
+  y.domain(yextent).nice()
+  tmp.select(".myYaxis")
+    .transition()
+    .duration(2000)
+    .attr("opacity", "1")
+    .call(d3.axisBottom(y));
+
+  tmp.selectAll("circle")
     .transition()
     .delay(function(d,i){return(i*3)})
     .duration(2000)
-    .attr("cx", function (d) { return x(+d[var1]) } )
-    .attr("cy", function (d) { return y(+d[var2])  } )
+    .attr("cx", function (d){ return x(+d[var1]) })
+    .attr("cy", function (d){ return y(+d[var2]) })
     
        }
   }
