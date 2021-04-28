@@ -20,7 +20,6 @@ toc_sticky: true
 <style>
   svg,
 #tiles {
-  position: sticky;
   width: 760px;
   height: 760px;
   overflow: hidden;
