@@ -18,12 +18,6 @@ toc_sticky: true
 <script src="//d3js.org/d3.v4.min.js"></script>
 <script src="//d3js.org/d3-tile.v0.0.min.js"></script>
 <style>
-#tiles {
-  position: sticky;
-  width: 768px;
-  height: 80vh;
-  overflow: hidden;
-}
 .parallax {
   /* The image used */
   background-image: url("/home/Images/eplan/Kochi_Model_1.png");
@@ -102,6 +96,7 @@ Understanding factors that influence energy use in urban areas and how to best c
 <div id="wrapper">
     <div id="sticky">
   <div id="tiles" style="width: 100vw; height: 100vh"></div>
+      <svg width=100vw height=80vh></svg>
   </div>
 </div>
 </div>
