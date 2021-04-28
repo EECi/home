@@ -80,8 +80,8 @@ Understanding factors that influence energy use in urban areas and how to best c
 <h1 class="category">A microsimulation approach</h1>
 <h2 class="title">Generating synthetic populations for Indian cities</h2>
 <div id="wrapper">
-  <div id="sticky">
-    <img id="sticky"
+  <div id="stickyflex">
+    <img id="stickyflex"
          src="/home/Images/eplan/20210414_Microsim_Overview.png"
          alt="Microsimulation overview"
          caption="Figure credit: A Neto-Bradley">
@@ -90,8 +90,8 @@ Understanding factors that influence energy use in urban areas and how to best c
 </div>
   <h2 class="title">A Bayesian multilevel model</h2>
 <div id="wrapper">
-  <div id="sticky">
-    <img id="sticky"
+  <div id="stickyflex">
+    <img id="stickyflex"
          src="/home/Images/eplan/Bayesian_Micro_Slim.png"
          alt="Multilevel model components"
          caption="Figure credit: A Neto-Bradley">
