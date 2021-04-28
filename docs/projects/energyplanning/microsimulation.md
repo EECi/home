@@ -20,6 +20,7 @@ toc_sticky: true
 <style>
   svg,
 #tiles {
+  position: sticky
   width: 760px;
   height: 760px;
   overflow: hidden;
@@ -90,13 +91,10 @@ Understanding factors that influence energy use in urban areas and how to best c
 </div>
   <h2 class="title">A Bayesian multilevel model</h2>
 <div id="wrapper">
-  <div id="sticky">
-    <img id="sticky"
-         src="/home/Images/eplan/Bayesian_Micro_Slim.png"
+    <img src="/home/Images/eplan/Bayesian_Micro_Slim.png"
          alt="Multilevel model components"
          caption="Figure credit: A Neto-Bradley">
-  </div>
-  <div id="stickybody">Understanding factors that influence energy use in urban areas and how to best chracterise and model this is key to delivering clean and sustainable energy for the cities of today and tomorrow.</div>
+  <div id="stickybody">Previous work identifying clean cooking transition pathways amongst low-income households </div>
 </div>
   <h2 class="title">City Simulation</h2>
 <div id="wrapper">
