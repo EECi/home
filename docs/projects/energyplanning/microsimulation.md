@@ -19,7 +19,7 @@ toc_sticky: true
 <script src="//d3js.org/d3-tile.v0.0.min.js"></script>
 <style>
   svg,
-#tiles {
+  #tiles {
   position: absolute;
   width: 760px;
   height: 760px;
@@ -100,7 +100,7 @@ Understanding factors that influence energy use in urban areas and how to best c
 <div id="wrapper">
     <div id="stickyflex">
       <div id="tiles"></div>
-      <svg height=500 width=500></svg>
+      <svg height=10 width=10></svg>
   </div>
 </div>
 </div>
