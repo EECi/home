@@ -18,6 +18,13 @@ toc_sticky: true
 <script src="//d3js.org/d3.v4.min.js"></script>
 <script src="//d3js.org/d3-tile.v0.0.min.js"></script>
 <style>
+  svg,
+#tiles {
+  position: sticky;
+  width: 960px;
+  height: 600px;
+  overflow: hidden;
+}
 .parallax {
   /* The image used */
   background-image: url("/home/Images/eplan/Kochi_Model_1.png");
@@ -96,7 +103,7 @@ Understanding factors that influence energy use in urban areas and how to best c
 <div id="wrapper">
     <div id="sticky">
   <div id="tiles" style="width: 100vw; height: 100vh"></div>
-      <svg></svg>
+      <svg height=760 width=760></svg>
   </div>
 </div>
 </div>
@@ -134,9 +141,9 @@ Understanding factors that influence energy use in urban areas and how to best c
 var pi = Math.PI,
     tau = 2 * pi;
 
-var svg = d3.select("svg");//,
-    //width = +svg.attr("width"),
-    //height = +svg.attr("height");
+var svg = d3.select("svg"),
+    width = +svg.attr("width"),
+    height = +svg.attr("height");
     
 // Initialize the projection to fit the world in a 1×1 square centered at the origin.
 var projection = d3.geoMercator()
