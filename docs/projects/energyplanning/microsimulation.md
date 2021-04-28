@@ -90,8 +90,8 @@ Understanding factors that influence energy use in urban areas and how to best c
 </div>
   <h2 class="title">A Bayesian multilevel model</h2>
 <div id="wrapper">
-  <div id="stickyflex">
-    <img id="stickyflex"
+  <div id="sticky">
+    <img id="sticky"
          src="/home/Images/eplan/Bayesian_Micro_Slim.png"
          alt="Multilevel model components"
          caption="Figure credit: A Neto-Bradley">
