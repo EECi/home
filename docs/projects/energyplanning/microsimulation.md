@@ -21,8 +21,8 @@ toc_sticky: true
   svg,
 #tiles {
   position: absolute;
-  width: 500px;
-  height: 500px;
+  width: 760px;
+  height: 760px;
   overflow: hidden;
 }
 .parallax {
@@ -100,7 +100,7 @@ Understanding factors that influence energy use in urban areas and how to best c
 <div id="wrapper">
     <div id="stickyflex">
       <div id="tiles"></div>
-      <svg height=400 width=400></svg>
+      <svg height=500 width=500></svg>
   </div>
 </div>
 </div>
