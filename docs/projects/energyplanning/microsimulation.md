@@ -82,9 +82,9 @@ Understanding factors that influence energy use in urban areas and how to best c
 <div id="wrapper">
   <div id="sticky">
     <img id="sticky"
-         src="/home/Images/eplan/LPG_Distributor.jpg"
-         alt="LPG Distributor in Bangalore"
-         caption="Photo credit: A Neto-Bradley">
+         src="/home/Images/eplan/20210414_Microsim_Overview.png"
+         alt="Microsimulation overview"
+         caption="Figure credit: A Neto-Bradley">
   </div>
   <div id="stickybody">Understanding factors that influence energy use in urban areas and how to best chracterise and model this is key to delivering clean and sustainable energy for the cities of today and tomorrow.</div>
 </div>
@@ -92,9 +92,9 @@ Understanding factors that influence energy use in urban areas and how to best c
 <div id="wrapper">
   <div id="sticky">
     <img id="sticky"
-         src="/home/Images/eplan/LPG_Distributor.jpg"
-         alt="LPG Distributor in Bangalore"
-         caption="Photo credit: A Neto-Bradley">
+         src="/home/Images/eplan/Bayesian_Micro_Slim.png"
+         alt="Multilevel model components"
+         caption="Figure credit: A Neto-Bradley">
   </div>
   <div id="stickybody">Understanding factors that influence energy use in urban areas and how to best chracterise and model this is key to delivering clean and sustainable energy for the cities of today and tomorrow.</div>
 </div>
