@@ -94,7 +94,9 @@ Understanding factors that influence energy use in urban areas and how to best c
     <img src="/home/Images/eplan/Bayesian_Micro_Slim.png"
          alt="Multilevel model components"
          caption="Figure credit: A Neto-Bradley">
-  <div id="stickybody">Previous work identifying clean cooking transition pathways amongst low-income households </div>
+  <div id="stickybody">Previous work identifying clean cooking transition pathways amongst low-income households showed that different typologies of household wth distinct barriers to transition were influenced by effects at three different levels. Firstly energy use was shaped by intrinsic features of the household and resulting energy use practices of the household. Secondly, local socio-cultural context of the neighbourhood the household is in was found to influence energy use. Finally city-wide policy and economic context also played a role in dteermining the barriers to access faced by a given household. </br>
+  
+  Using a bayesian multilevel model with household level and city ward level components to account for these three levels of factor our model reflected the nature of social influence on heterogeneity of energy use across households in a city.</div>
 </div>
   <h2 class="title">City Simulation</h2>
 <div id="wrapper">
