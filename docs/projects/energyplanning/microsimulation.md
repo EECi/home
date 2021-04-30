@@ -100,7 +100,7 @@ Understanding factors that influence energy use in urban areas and how to best c
 <div id="wrapper">
     <div id="stickyflex">
       <div id="tiles"></div>
-      <svg height=10 width=10></svg>
+      <svg height=500 width=760></svg>
   </div>
 </div>
 </div>
