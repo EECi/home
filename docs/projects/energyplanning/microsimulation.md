@@ -87,7 +87,7 @@ Understanding factors that influence energy use in urban areas and how to best c
          alt="Microsimulation overview"
          caption="Figure credit: A Neto-Bradley">
   </div>
-  <div id="stickybody">Understanding factors that influence energy use in urban areas and how to best chracterise and model this is key to delivering clean and sustainable energy for the cities of today and tomorrow.</div>
+  <div id="stickybody">Urban energy models tailored to the data availability and circumstances of the Global South are lacking, and India is no exception to this. Given the rapid rate of growth in cities, ,odels that accurately reflect the heterogeneity across households and spatial ineuqality will be key to improving provision of clean and reliable energy.</div>
 </div>
   <h2 class="title">A Bayesian multilevel model</h2>
 <div id="wrapper">
@@ -95,8 +95,8 @@ Understanding factors that influence energy use in urban areas and how to best c
          alt="Multilevel model components"
          caption="Figure credit: A Neto-Bradley">
   <div id="stickybody">Previous work identifying clean cooking transition pathways amongst low-income households showed that different typologies of household wth distinct barriers to transition were influenced by effects at three different levels. Firstly energy use was shaped by intrinsic features of the household and resulting energy use practices of the household. Secondly, local socio-cultural context of the neighbourhood the household is in was found to influence energy use. Finally city-wide policy and economic context also played a role in dteermining the barriers to access faced by a given household. <br>
-  
-  Using a bayesian multilevel model with household level and city ward level components to account for these three levels of factor our model reflected the nature of social influence on heterogeneity of energy use across households in a city.</div>
+  <br>
+  Using a Bayesian multilevel model with household level and city ward level components to account for these three levels of factor our model reflected the nature of social influence on heterogeneity of energy use across households in a city.</div>
 </div>
   <h2 class="title">City Simulation</h2>
 <div id="wrapper">
