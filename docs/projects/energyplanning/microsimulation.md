@@ -202,7 +202,7 @@ d3.json("https://raw.githubusercontent.com/EECi/home/main/data/trichy_json.geojs
 // Load external data and boot
 d3.queue()
   .defer(d3.json, "https://raw.githubusercontent.com/EECi/home/main/data/trichy_json.geojson")
-  .defer(d3.csv, "https://raw.githubusercontent.com/EECi/home/main/data/trichy_json.csv", function(d) { data.set(d.id, +d.mean); })
+  .defer(d3.csv, "https://raw.githubusercontent.com/EECi/home/main/data/trichy_json.csv", function(d) { data.set(d.zone, +d.mean); })
   .await(ready);
   
 function ready(error, topo) {
@@ -219,7 +219,7 @@ function ready(error, topo) {
       )
       // set the color of each country
       .attr("fill", function (d) {
-        d.total = data.get(d.id) || 0;
+        d.total = data.get(d.zone) || 0;
         return colorScale(d.total);
       });
     }
