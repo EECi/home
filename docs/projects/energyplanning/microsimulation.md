@@ -18,6 +18,7 @@ toc_sticky: true
 <script src="//d3js.org/d3.v4.min.js"></script>
 <script src="//d3js.org/d3-tile.v0.0.min.js"></script>
 <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.min.js"></script>
 <style>
   svg,
   #tiles {
@@ -192,11 +193,18 @@ function floor(k) {
 
 // Data and color scale
 var data = d3.map();
-var colorScale = d3.scaleThreshold()
-  .domain([20, 40, 60, 80, 100, 120])
-  .range(["#5a0008","#96000e","#ca7f86","#ffffff","#cceae7","#7fcac3","#009688"]);
+var colorScale = d3.scaleLinear()
+  .domain([0,80,140])
+  .range(["#96000e","#ffffff","#7fcac3"]);
 //d3.schemeBlues[7]
 
+var legend = d3.legendColor()
+    .scale(colorScale)
+    .orient("vertical")
+    .title("Mean LPG ")
+    .shapePadding(5)
+    .cells(8);
+    
 // Load external data and boot
 d3.queue()
   .defer(d3.json, "https://raw.githubusercontent.com/EECi/home/main/data/trichy_json.geojson")
@@ -249,6 +257,10 @@ let mouseLeave = function(d) {
       .style("stroke", "transparent")
   }
 
+  svg.append("g")
+    .attr("transform", "translate(650,500)")
+    .call(legend);
+    
   // Draw the map
   svg.append("g")
     .selectAll("path")
