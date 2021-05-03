@@ -189,6 +189,21 @@ function floor(k) {
   return Math.pow(2, Math.floor(Math.log(k) / Math.LN2));
 }
 
+// Load external data and boot
+d3.json("https://raw.githubusercontent.com/EECi/home/main/data/trichy_json.geojson", function(data){
+
+   // Draw the map
+    svg.append("g")
+        .selectAll("path")
+        .data(data.features)
+        .enter().append("path")
+            .attr("fill", "#69b3a2")
+            .attr("d", d3.geoPath()
+                .projection(projection)
+            )
+            .style("stroke", "#fff")
+})
+
 </script>
 
 # Team
