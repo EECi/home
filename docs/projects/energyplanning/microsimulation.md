@@ -196,6 +196,7 @@ var colorScale = d3.scaleThreshold()
   .domain([20, 40, 60, 80, 100, 120])
   .range(d3.schemeBlues[7]);
 
+
 // Load external data and boot
 d3.queue()
   .defer(d3.json, "https://raw.githubusercontent.com/EECi/home/main/data/trichy_json.geojson")
@@ -203,6 +204,50 @@ d3.queue()
   .await(ready);
 
 function ready(error, topo) {
+// create a tooltip
+  var Tooltip = d3.select("svg")
+    .append("svg")
+    .attr("class", "tooltip")
+    .style("opacity", 0)
+    .style("background-color", "white")
+    .style("border", "solid")
+    .style("border-width", "2px")
+    .style("border-radius", "5px")
+    .style("padding", "5px")
+
+
+let mouseOver = function(d) {
+   Tooltip.style("opacity", 1)
+   d3.selectAll(".Country")
+      .transition()
+      .duration(200)
+      .style("opacity", .5)
+   d3.select(this)
+      .transition()
+      .duration(1000)
+      .style("opacity", 1)
+      .style("stroke", "black")
+  }
+
+let mouseMove = function(d) {
+    Tooltip
+      .html("The mean LPG use of<br>ward" + d.properties.zone + "is: " + d.properties.mean)
+      .style("left", (d3.mouse(this)[0]+70) + "px")
+      .style("top", (d3.mouse(this)[1]) + "px")
+  }
+
+let mouseLeave = function(d) {
+     Tooltip
+      .style("opacity", 0)
+    d3.selectAll(".Country")
+      .transition()
+      .duration(1000)
+      .style("opacity", .8)
+    d3.select(this)
+      .transition()
+      .duration(200)
+      .style("stroke", "transparent")
+  }
 
   // Draw the map
   svg.append("g")
@@ -210,16 +255,23 @@ function ready(error, topo) {
     .data(topo.features)
     .enter()
     .append("path")
-      // draw each country
+      // draw each ward
       .attr("d", d3.geoPath()
         .projection(projection)
       )
-      // set the color of each country
+      // set the color of each ward
       .attr("fill", function (d) {
         d.total = data.get(d.properties.zone) || 0;
         return colorScale(d.total);
-      });
+      })
+      .style("stroke", "transparent")
+      .attr("class", function(d){ return "Country" } )
+      .style("opacity", .8)
+      .on("mouseover", mouseOver )
+      .on("mousemove", mouseMove )
+      .on("mouseleave", mouseLeave )
     }
+
 
 </script>
 
