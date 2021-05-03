@@ -17,6 +17,7 @@ toc_sticky: true
   
 <script src="//d3js.org/d3.v4.min.js"></script>
 <script src="//d3js.org/d3-tile.v0.0.min.js"></script>
+<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
 <style>
   svg,
   #tiles {
@@ -189,20 +190,39 @@ function floor(k) {
   return Math.pow(2, Math.floor(Math.log(k) / Math.LN2));
 }
 
-// Load external data and boot
-d3.json("https://raw.githubusercontent.com/EECi/home/main/data/trichy_json.geojson", function(data){
+// Data and color scale
+var data = d3.map();
+var colorScale = d3.scaleThreshold()
+  .domain([20, 40, 60, 80, 100, 120])
+  .range(d3.schemeBlues[7]);
 
-   // Draw the map
-    svg.append("g")
-        .selectAll("path")
-        .data(data.features)
-        .enter().append("path")
-            .attr("fill", "#69b3a2")
-            .attr("d", d3.geoPath()
-                .projection(projection)
-            )
-            .style("stroke", "#fff")
-})
+// Load external data and boot
+d3.json("https://raw.githubusercontent.com/EECi/home/main/data/trichy_json.geojson", function(d) { data.set(d.code, +d.pop); }
+
+// Load external data and boot
+d3.queue()
+  .defer(d3.json, "https://raw.githubusercontent.com/EECi/home/main/data/trichy_json.geojson")
+  .defer(d3.csv, "https://raw.githubusercontent.com/EECi/home/main/data/trichy_json.csv", function(d) { data.set(d.zone, +d.mean); })
+  .await(ready);
+  
+function ready(error, topo) {
+
+  // Draw the map
+  svg.append("g")
+    .selectAll("path")
+    .data(topo.features)
+    .enter()
+    .append("path")
+      // draw each country
+      .attr("d", d3.geoPath()
+        .projection(projection)
+      )
+      // set the color of each country
+      .attr("fill", function (d) {
+        d.total = data.get(d.id) || 0;
+        return colorScale(d.total);
+      });
+    }
 
 </script>
 
