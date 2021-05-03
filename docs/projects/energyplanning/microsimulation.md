@@ -153,7 +153,7 @@ var projection = d3.geoMercator()
 // This assumes parallels are horizontal and meridians are vertical…
 // but you could use path.bounds to handle arbitrary shapes.
 // Note that the y-dimension is flipped relative to latitude!
-var bounds = [[78.64, 10.75],[78.74, 10.87]],
+var bounds = [[78.64, 10.78],[78.74, 10.87]],
     p0 = projection([bounds[0][0], bounds[1][1]]),
     p1 = projection([bounds[1][0], bounds[0][1]]);
 
