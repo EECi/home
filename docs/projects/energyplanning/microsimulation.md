@@ -205,7 +205,7 @@ d3.queue()
 
 function ready(error, topo) {
 // create a tooltip
-  var Tooltip = d3.select("svg")
+  var Tooltip = d3.select("#tiles")
     .append("svg")
     .attr("class", "tooltip")
     .style("opacity", 0)
@@ -220,7 +220,7 @@ let mouseOver = function(d) {
    Tooltip.style("opacity", 1)
    d3.selectAll(".Country")
       .transition()
-      .duration(200)
+      .duration(1000)
       .style("opacity", .5)
    d3.select(this)
       .transition()
@@ -231,7 +231,7 @@ let mouseOver = function(d) {
 
 let mouseMove = function(d) {
     Tooltip
-      .html("The mean LPG use of<br>ward" + d.properties.zone + "is: " + d.properties.mean)
+      .html("<body>The mean LPG use of <br> ward </body>")
       .style("left", (d3.mouse(this)[0]+70) + "px")
       .style("top", (d3.mouse(this)[1]) + "px")
   }
@@ -245,7 +245,7 @@ let mouseLeave = function(d) {
       .style("opacity", .8)
     d3.select(this)
       .transition()
-      .duration(200)
+      .duration(1000)
       .style("stroke", "transparent")
   }
 
