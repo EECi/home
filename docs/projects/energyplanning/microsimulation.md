@@ -202,7 +202,7 @@ d3.json("https://raw.githubusercontent.com/EECi/home/main/data/trichy_json.geojs
 // Load external data and boot
 d3.queue()
   .defer(d3.json, "https://raw.githubusercontent.com/EECi/home/main/data/trichy_json.geojson")
-  .defer(d3.csv, "https://raw.githubusercontent.com/EECi/home/main/data/trichy_json.csv", function(d) { data.set(d.zone, +d.mean); })
+  .defer(d3.csv, "https://raw.githubusercontent.com/EECi/home/main/data/trichy_json.csv", function(d) { data.set(d.id, +d.mean); })
   .await(ready);
   
 function ready(error, topo) {
