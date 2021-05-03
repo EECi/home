@@ -197,14 +197,11 @@ var colorScale = d3.scaleThreshold()
   .range(d3.schemeBlues[7]);
 
 // Load external data and boot
-d3.json("https://raw.githubusercontent.com/EECi/home/main/data/trichy_json.geojson", function(d) { data.set(d.code, +d.pop); }
-
-// Load external data and boot
 d3.queue()
   .defer(d3.json, "https://raw.githubusercontent.com/EECi/home/main/data/trichy_json.geojson")
   .defer(d3.csv, "https://raw.githubusercontent.com/EECi/home/main/data/trichy_json.csv", function(d) { data.set(d.zone, +d.mean); })
   .await(ready);
-  
+
 function ready(error, topo) {
 
   // Draw the map
@@ -219,7 +216,7 @@ function ready(error, topo) {
       )
       // set the color of each country
       .attr("fill", function (d) {
-        d.total = data.get(d.zone) || 0;
+        d.total = data.get(d.properties.zone) || 0;
         return colorScale(d.total);
       });
     }
