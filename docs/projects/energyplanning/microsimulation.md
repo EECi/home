@@ -194,8 +194,8 @@ function floor(k) {
 var data = d3.map();
 var colorScale = d3.scaleThreshold()
   .domain([20, 40, 60, 80, 100, 120])
-  .range(d3.schemeBlues[7]);
-
+  .range(["#5a0008","#96000e","#ca7f86","#ffffff","#cceae7","#7fcac3","#009688"]);
+//d3.schemeBlues[7]
 
 // Load external data and boot
 d3.queue()
@@ -205,7 +205,7 @@ d3.queue()
 
 function ready(error, topo) {
 // create a tooltip
-  var Tooltip = d3.select("#tiles")
+  var Tooltip = d3.select("svg")
     .append("svg")
     .attr("class", "tooltip")
     .style("opacity", 0)
