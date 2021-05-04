@@ -33,7 +33,9 @@ Understanding urban residential energy use and clean energy transitions requires
          alt="LPG Distributor in Bangalore"
          caption="Photo credit: A Neto-Bradley">
   </div>
-  <body>Understanding factors that influence energy use in urban areas and how to best chracterise and model this is key to delivering clean and sustainable energy for the cities of today and tomorrow.</body>
+  <body>Understanding factors that influence energy use in urban areas involves characterising complex socio-economic and cultural factors and effects. Not all of these are easily captured or analysed using quantitative methods. Qualitative methods commonly used in the social sciences including the analysis of qualitative in-depth interviews can reveal nuances and important decision making context that cannot be identified through quantitative methods. However these qualitative methods can be difficult to scale up in the same way as quantitative analysis.<br>
+  <br>
+  We sought to combine the both quantitative and qualitative data in our approach to leverage the benefits of analysis of each individually. </body>
 </div>
   <h2 class="title">Identifying transition pathways</h2>
 <div id="wrapper">
