@@ -202,7 +202,7 @@ var legend = d3.legendColor()
     .scale(colorScale)
     .orient("vertical")
     .title("Mean LPG ")
-    .shapePadding(5)
+    .shapePadding(0)
     .cells(8);
     
 // Load external data and boot
