@@ -102,7 +102,7 @@ Understanding factors that influence energy use in urban areas and how to best c
 </div>
   <h2 class="title">City Simulation</h2>
 <div id="wrapper">
-    <div id="stickyflex">
+    <div id="stickyd3">
       <div id="tiles"></div>
       <svg height=500 width=760></svg>
       The map above shows mean estimated monthly LPG consumption by ward in the city of Tiruchirappalli, Tamil Nadu.
