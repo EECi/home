@@ -47,7 +47,7 @@ Understanding urban residential energy use and clean energy transitions requires
 </div>
 
 # Team
-
+This is a part of the PhD project of André Neto-Bradley, supervised by Dr Ruchi Choudhary. This research was carried out in collaboration with the Indian Institute for Human Settlements (IIHS), with supervision from Dr Amir Bazaz and support from research associate Rishika Rangarajan.
 
 # Publications and Outputs
 
