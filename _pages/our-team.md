@@ -5,7 +5,7 @@ permalink: /our-team/
 description: An overview of the team
 last_modified_at: 2021-03-29
 faculty_gallery:
-  - url: https://www.eeci.cam.ac.uk/directory/r-choudhary/
+  - url: /docs/people/ruchi/
     image_path: /Images/ppl/ruchi.jpg
     alt: "Ruchi Choudhary"
     title: "Ruchi Choudhary"
