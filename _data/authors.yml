@@ -102,7 +102,7 @@ James:
       icon: "fab fa-fw fa-linkedin-in"
       url: "https://www.linkedin.com/in/jamesikinch/"
       
-      Ruchi:
+Ruchi:
   name        : "Ruchi Choudhary"
   bio         : "Reader of Architectural Engineering"
   avatar      : "/Images/ppl/ruchi.jpg"
@@ -115,7 +115,7 @@ James:
       url: "/home/docs/people/ruchi/"
     - label: "@RuchiChoudhary_"
       icon: "fab fa-fw fa-twitter-square"
-      url: ""/home/docs/people/ruchi/"  "
+      url: "/home/docs/people/ruchi/"
       
 André:
   name        : "André Neto-Bradley"
