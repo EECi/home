@@ -62,6 +62,7 @@ sidebar-projects:
 # This sidebar contains a list of all people's pages
 sidebar-people:
   - title: "Ruchi"
+    url: /docs/people/ruchi/
   - title: "Monika"
     url: /docs/people/monikak/
   - title: "Nick"
