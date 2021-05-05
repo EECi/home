@@ -6,7 +6,7 @@ description: An overview of the team
 last_modified_at: 2021-03-29
 faculty_gallery:
   - url: /docs/people/ruchi/
-    image_path: /Images/ppl/ruchi.jpg
+    image_path: /Images/ppl/Ruchi.png
     alt: "Ruchi Choudhary"
     title: "Ruchi Choudhary"
 ra_gallery:
