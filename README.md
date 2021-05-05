@@ -36,7 +36,7 @@ D3 js gallery
 ## Adding an author
 
 - Add yourself to _data/authors.yml: to create an author avatar which you can sign off posts you write
-- Add yourself to docs/our-team in the gallery to have a profile on the main page
+- Add yourself to _pages/our-team in the gallery to have a profile on the main page
 - Create a long page for yourself in docs/people/yourname.md, where you can add a bibliography, publications etc
 - Link yourself in the navigation in _data/navigation.yml
 
