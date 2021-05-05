@@ -31,6 +31,8 @@ docs:
   - title: People
     url: /our-team/
     children:
+      - title: "Ruchi"
+        url: /docs/people/ruchi/
       - title: "Mel"
         url: /docs/people/mel/
       - title: "Rebecca"
