@@ -102,6 +102,21 @@ James:
       icon: "fab fa-fw fa-linkedin-in"
       url: "https://www.linkedin.com/in/jamesikinch/"
       
+      Ruchi:
+  name        : "Ruchi Choudhary"
+  bio         : "Reader of Architectural Engineering"
+  avatar      : "/Images/ppl/ruchi.jpg"
+  links:
+    - label: "Email me"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:rc488@cam.ac.uk"
+    - label: "About me"
+      icon: "fas fa-fw fa-link"
+      url: "/home/docs/people/ruchi/"
+    - label: "@RuchiChoudhary_"
+      icon: "fab fa-fw fa-twitter-square"
+      url: ""/home/docs/people/ruchi/"  "
+      
 André:
   name        : "André Neto-Bradley"
   bio         : "Graduate Student, Residential Urban Energy Modelling"
