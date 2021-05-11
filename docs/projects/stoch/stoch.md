@@ -11,8 +11,8 @@ last_modified_at: 2021-03-09
 feature_row:
   - image_path: /Images/Group Logo.png
     alt: "placeholder image 1"
-    title: "Temporary Image 1"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    title: "Functional Data Analysis"
+    excerpt: "This project is about Functional Data Analysis..."
     url: "/docs/projects/stoch/FDA/"
     btn_label: "Read More"
     btn_class: "btn--primary"
