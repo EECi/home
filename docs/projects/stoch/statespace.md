@@ -5,9 +5,7 @@ tags:
   - state space modeling
 author: "Zack"
 excerpt: ""
-feature_row:
-  - image_path: /Images/ssenv/main_stoch.jpg
-    alt: "Phase portrait trajectories at varying wall thicknesses"
+toc:true
 last_modified_at: 2021-05-11
 ---
  
