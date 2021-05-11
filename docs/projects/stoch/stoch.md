@@ -20,7 +20,7 @@ feature_row:
     image_caption: "Image 2"
     alt: "placeholder image 2"
     title: "State Space Transformations"
-    excerpt: "Preserving the underlying structure of heat transfer in buildings for reuse in the efficient modeling of subsequent systems."
+    excerpt: "Preserving the structure of heat transfer phenomenon in building components for reuse in the efficient modeling of subsequent components."
     url: "/docs/projects/stoch/statespace/"
     btn_label: "Read More"
     btn_class: "btn--primary"
