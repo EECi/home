@@ -1,12 +1,15 @@
 ---
 layout: single
-title: State Space Transformations
+title: FDA
 tags:
-  - state space modeling
-author: "Zack"
-excerpt: ""
-toc:true
-last_modified_at: 2021-05-11
+  - data-centric energy modelling
+  - internal loads
+author: "Rebecca"
+excerpt: "Internal load modelling using Functional Data Analysis"
+last_modified_at: 2021-03-09
+read_time: true
+toc: true
+toc_sticky: true
 ---
 
 **Overview**
