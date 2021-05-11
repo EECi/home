@@ -1,7 +1,6 @@
 ---
 layout: single
 title: State Space Transformations
-permalink: /docs/stoch/
 tags:
   - state space modeling
 author: "Zack"
