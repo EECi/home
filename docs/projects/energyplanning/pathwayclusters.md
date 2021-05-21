@@ -48,7 +48,7 @@ Understanding urban residential energy use and clean energy transitions requires
 <div id="wrapper">
   <!-- Initialize a select button -->
   <!-- <select id="selectButton"></select> -->
-  <div id="my_dataviz2"></div>
+  <div id="my_dataviz_2"></div>
   <body>Understanding factors that influence energy use in urban areas and how to best chracterise and model this is key to delivering clean and sustainable energy for the cities of today and tomorrow.</body>
 </div>
 </div>
@@ -222,7 +222,7 @@ var margin = {top: 10, right: 30, bottom: 90, left: 40},
     height = 450 - margin.top - margin.bottom;
 
 // append the svg object to the body of the page
-var svg = d3.select("#my_dataviz2")
+var svg = d3.select("#my_dataviz_2")
   .append("svg")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
