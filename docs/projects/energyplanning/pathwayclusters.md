@@ -49,8 +49,8 @@ Understanding urban residential energy use and clean energy transitions requires
   <!-- Initialize a select button -->
   <!-- <select id="selectButton"></select> -->
   <!-- Add 2 buttons -->
-<button onclick="update('var1')">Variable 1</button>
-<button onclick="update('var2')">Variable 2</button>
+<btn onclick="update('var1')">Variable 1</button>
+<btn onclick="update('var2')">Variable 2</button>
 
 <!-- Create a div where the graph will take place -->
 <div id="my_dataviz_2"></div>
