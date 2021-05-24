@@ -124,7 +124,7 @@ d3.csv("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_data
   // Three function that change the tooltip when user hover / move / leave a cell
   var mouseover = function(d) {
     Tooltip.style("opacity", 1)
-    d3.selectAll(".myArea").style("opacity", .2)
+    d3.selectAll(".myLine").style("opacity", .2)
     d3.select(this)
       .style("stroke", "black")
       .style("opacity", 1)
@@ -135,7 +135,7 @@ d3.csv("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_data
   }
   var mouseleave = function(d) {
     Tooltip.style("opacity", 0)
-    d3.selectAll(".myArea").style("opacity", 1).style("stroke", "none")
+    d3.selectAll(".myLine").style("opacity", 1).style("stroke", "none")
    }
   
   // Draw the line
@@ -144,6 +144,7 @@ d3.csv("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_data
       .enter()
       .append("path")
         .attr("fill", "none")
+        .attr("class, "myLine")
         .attr("stroke", function(d){ return color(d.key) })
         .attr("stroke-width", 1.5)
         .attr("d", function(d){
@@ -177,10 +178,9 @@ var svgGroups = d3.select("#my_dataviz_2")
     .append("g")
       .attr("transform", "translate(" + marginWhole2.left + "," + marginWhole2.top + ")");
   
-  d3.csv("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/barplot_change_data.csv", function(data) {
+
 // Initialize the X axis
 var x = d3.scaleBand()
-   x.domain(data.map(function(d) { return d.group; }))
   .range([ 0, sizeWide ])
   .padding(0.2);
 var xAxis = svgGroups.append("g")
@@ -191,7 +191,6 @@ var y = d3.scaleLinear()
   .range([ sizeHigh, 0]);
 var yAxis = svgGroups.append("g")
   .attr("class", "myYaxis")
-})
 
 // A function that create / update the plot for a given variable:
 function update(selectedVar) {
