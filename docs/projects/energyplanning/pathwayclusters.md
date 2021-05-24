@@ -111,8 +111,7 @@ d3.csv("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_data
   var res = sumstat.map(function(d){ return d.key }) // list of group names
   var color = d3.scaleOrdinal()
     .domain(res)
-    .range(['#e41a1c','#377eb8','#4daf4a','#984ea3','#ff7f00','#ffff33','#a65628','#f781bf','#999999'])
-
+    .range(['#ed217b','#ee3788','#f04d95','#f263a2','#f479af','#f690bd','#f7a6ca','#f9bcd7','#fbd2e4'])
 
   // create a tooltip
 // create a tooltip
@@ -233,7 +232,7 @@ function update(selectedVar) {
         .attr("y", function(d) { return y(d[selectedVar]); })
         .attr("width", x.bandwidth())
         .attr("height", function(d) { return sizeHigh - y(d[selectedVar]); })
-        .attr("fill", "#69b3a2")
+        .attr("fill", "#ed217b")
   })
 
 }
