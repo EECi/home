@@ -129,7 +129,7 @@ d3.csv("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_data
       .style("stroke", "black")
       .style("opacity", 1)
   }
-  var mousemove = function(d,i) {
+  var mousemove = function(res,i) {
     grp = res[i]
     Tooltip.text(grp)
   }
@@ -143,8 +143,8 @@ d3.csv("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_data
       .data(sumstat)
       .enter()
       .append("path")
-        .attr("fill", "none")
         .attr("class, "myLine")
+        .attr("fill", "none")
         .attr("stroke", function(d){ return color(d.key) })
         .attr("stroke-width", 1.5)
         .attr("d", function(d){
@@ -152,9 +152,9 @@ d3.csv("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_data
             .x(function(d) { return x(d.year); })
             .y(function(d) { return y(+d.n); })
             (d.values)
-       .on("mouseover", mouseover)
-      .on("mousemove", mousemove)
-      .on("mouseleave", mouseleave)
+        .on("mouseover", mouseover)
+        .on("mousemove", mousemove)
+        .on("mouseleave", mouseleave)
         })
 
 })
