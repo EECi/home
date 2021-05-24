@@ -141,8 +141,8 @@ d3.csv("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_data
    }
 
  
-  //Line generator
-    // Draw the line
+
+  // Draw the line
   svg.selectAll(".line")
       .data(sumstat)
       .enter()
@@ -151,26 +151,24 @@ d3.csv("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_data
         .attr("fill", "none")
         .attr("stroke", function(d){ return color(d.key) })
         .attr("stroke-width", 1.5)
+        .on("mouseover", mouseover)
+        .on("mousemove", mousemove)
+        .on("mouseleave", mouseleave)
         .attr("d", function(d){
           return d3.line()
             .x(function(d) { return x(d.year); })
             .y(function(d) { return y(0); })
             (d.values)
         })
-    .on("mouseover", mouseover)
-    .on("mousemove", mousemove)
-    .on("mouseleave", mouseleave)
-
-
-  svg.selectAll("path")
-    .transition()
-    .duration(1000)
-    .attr("d", function(d){
+        .transition()
+        .duration(1200)
+        .attr("d", function(d){
           return d3.line()
             .x(function(d) { return x(d.year); })
             .y(function(d) { return y(d.n); })
             (d.values)
         })
+
 })
 
 </script>
@@ -230,7 +228,7 @@ function update(selectedVar) {
       .append("rect")
       .merge(u)
       .transition()
-      .duration(1000)
+      .duration(1200)
         .attr("x", function(d) { return x(d.group); })
         .attr("y", function(d) { return y(d[selectedVar]); })
         .attr("width", x.bandwidth())
