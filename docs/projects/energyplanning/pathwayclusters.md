@@ -228,16 +228,13 @@ d3.csv("https://raw.githubusercontent.com/EECi/home/main/data/d3_pathway_exp2.cs
 
 // append the svg object to the body of the page
 var svgGroups = d3.select("#my_dataviz_2")
-  .append("svg")
+    .append("svg")
     // Responsive SVG needs these 2 attributes and no width and height attr.
-    .attr("preserveAspectRatio", "xMinYMin meet")
-    .attr("viewBox", "0 0 760 400")
-   // Class to make it responsive.
-    .classed("svg-content-responsive", true)
-    //.attr("width", sizeWide  + marginWhole2.left + marginWhole2.right)
-    //.attr("height", sizeHigh  + marginWhole2.top + marginWhole2.bottom)
-  .append("g")
-    .attr("transform", "translate(" + marginWhole2.left + "," + marginWhole2.top + ")");
+      .attr("preserveAspectRatio", "xMinYMin meet")
+      .attr("viewBox", "0 0 400 760")
+     .classed("svg-content-responsive", true)
+    .append("g")
+      .attr("transform", "translate(" + marginWhole2.left + "," + marginWhole2.top + ")");
 
 // Initialize the X axis
 var x = d3.scaleBand()
