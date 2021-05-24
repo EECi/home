@@ -177,12 +177,10 @@ var svgGroups = d3.select("#my_dataviz_2")
     .append("g")
       .attr("transform", "translate(" + marginWhole2.left + "," + marginWhole2.top + ")");
   
-d3.csv("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/barplot_change_data.csv", function(data) {
-
-  
+  d3.csv("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/barplot_change_data.csv", function(data) {
 // Initialize the X axis
 var x = d3.scaleBand()
-  .domain(data.map(function(d) { return d.group; }))
+   x.domain(data.map(function(d) { return d.group; }))
   .range([ 0, sizeWide ])
   .padding(0.2);
 var xAxis = svgGroups.append("g")
@@ -202,7 +200,7 @@ function update(selectedVar) {
   d3.csv("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/barplot_change_data.csv", function(data) {
 
     // X axis
-    //x.domain(data.map(function(d) { return d.group; }))
+    x.domain(data.map(function(d) { return d.group; }))
     xAxis.transition().duration(1000).call(d3.axisBottom(x))
 
     // Add Y axis
