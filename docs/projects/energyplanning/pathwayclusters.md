@@ -67,10 +67,10 @@ This is a part of the PhD project of André Neto-Bradley, supervised by Dr Ruchi
 
 <!-- Graphic -->
 
-<script>
+ <script>
 
 // set the dimensions and margins of the graph
-var margin = {top: 10, right: 30, bottom: 30, left: 60},
+var margin = {top: 30, right: 30, bottom: 30, left: 60},
     width = 760 - margin.left - margin.right,
     height = 400 - margin.top - margin.bottom;
 
@@ -113,13 +113,14 @@ d3.csv("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_data
     .domain(res)
     .range(['#e41a1c','#377eb8','#4daf4a','#984ea3','#ff7f00','#ffff33','#a65628','#f781bf','#999999'])
 
- 
+
   // create a tooltip
+// create a tooltip
   var Tooltip = svg
     .append("text")
-    .attr("x", 0)
+    .attr("x", 10)
     .attr("y", 0)
-    .style("opacity", 0)
+    .style("opacity", 1)
     .style("font-size", 17)
 
   // Three function that change the tooltip when user hover / move / leave a cell
@@ -131,34 +132,35 @@ d3.csv("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_data
       .style("opacity", 1)
   }
   var mousemove = function(d,i) {
-    grp = d.key[i]
+    grp = res[i]
     Tooltip.text(grp)
   }
   var mouseleave = function(d) {
     Tooltip.style("opacity", 0)
     d3.selectAll(".myArea").style("opacity", 1).style("stroke-width", "1.5")
    }
-  
+
+ 
   //Line generator
-  var linegen = d3.line()
-            .x(function(d) { return x(d.year); })
-            .y(function(d) { return y(+d.n); })
-            (d.values);
   
   // Draw the line
   svg.selectAll(".line")
       .data(sumstat)
       .enter()
       .append("path")
-        .attr("class","myArea)
-//        .attr("fill", "none")
+        .attr("class","myArea")
+        .attr("fill", "none")
         .attr("stroke", function(d){ return color(d.key) })
         .attr("stroke-width", 1.5)
-        .attr("d", linegen)
+        .attr("d", function(d){
+          return d3.line()
+            .x(function(d) { return x(d.year); })
+            .y(function(d) { return y(+d.n); })
+            (d.values)
+        })
         .on("mouseover", mouseover)
         .on("mousemove", mousemove)
         .on("mouseleave", mouseleave)
-
 })
 
 </script>
