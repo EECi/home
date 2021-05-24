@@ -152,10 +152,10 @@ d3.csv("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_data
             .x(function(d) { return x(d.year); })
             .y(function(d) { return y(+d.n); })
             (d.values)
-        .on("mouseover", mouseover)
-        .on("mousemove", mousemove)
-        .on("mouseleave", mouseleave)
         })
+       .on("mouseover", mouseover)
+       .on("mousemove", mousemove)
+       .on("mouseleave", mouseleave)
 
 })
 
