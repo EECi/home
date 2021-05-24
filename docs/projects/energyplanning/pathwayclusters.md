@@ -71,17 +71,18 @@ This is a part of the PhD project of André Neto-Bradley, supervised by Dr Ruchi
 
 // set the dimensions and margins of the graph
 var margin = {top: 10, right: 30, bottom: 30, left: 60},
-    width = 460 - margin.left - margin.right,
+    width = 760 - margin.left - margin.right,
     height = 400 - margin.top - margin.bottom;
 
 // append the svg object to the body of the page
 var svg = d3.select("#my_dataviz")
   .append("svg")
-    .attr("width", width + margin.left + margin.right)
-    .attr("height", height + margin.top + margin.bottom)
-  .append("g")
-    .attr("transform",
-          "translate(" + margin.left + "," + margin.top + ")");
+    // Responsive SVG needs these 2 attributes and no width and height attr.
+      .attr("preserveAspectRatio", "xMinYMin meet")
+      .attr("viewBox", "0 0 760 400")
+     .classed("svg-content-responsive", true)
+    .append("g")
+      .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 //Read the data
 d3.csv("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_dataset/5_OneCatSevNumOrdered.csv", function(data) {
@@ -112,6 +113,31 @@ d3.csv("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_data
     .domain(res)
     .range(['#e41a1c','#377eb8','#4daf4a','#984ea3','#ff7f00','#ffff33','#a65628','#f781bf','#999999'])
 
+  // create a tooltip
+  var Tooltip = svg
+    .append("text")
+    .attr("x", 0)
+    .attr("y", 0)
+    .style("opacity", 0)
+    .style("font-size", 17)
+
+  // Three function that change the tooltip when user hover / move / leave a cell
+  var mouseover = function(d) {
+    Tooltip.style("opacity", 1)
+    d3.selectAll(".myArea").style("opacity", .2)
+    d3.select(this)
+      .style("stroke", "black")
+      .style("opacity", 1)
+  }
+  var mousemove = function(d,i) {
+    grp = res[i]
+    Tooltip.text(grp)
+  }
+  var mouseleave = function(d) {
+    Tooltip.style("opacity", 0)
+    d3.selectAll(".myArea").style("opacity", 1).style("stroke", "none")
+   }
+  
   // Draw the line
   svg.selectAll(".line")
       .data(sumstat)
@@ -125,6 +151,9 @@ d3.csv("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_data
             .x(function(d) { return x(d.year); })
             .y(function(d) { return y(+d.n); })
             (d.values)
+       .on("mouseover", mouseover)
+      .on("mousemove", mousemove)
+      .on("mouseleave", mouseleave)
         })
 
 })
@@ -149,6 +178,7 @@ var svgGroups = d3.select("#my_dataviz_2")
       .attr("transform", "translate(" + marginWhole2.left + "," + marginWhole2.top + ")");
   
 d3.csv("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/barplot_change_data.csv", function(data) {
+
   
 // Initialize the X axis
 var x = d3.scaleBand()
@@ -163,7 +193,7 @@ var y = d3.scaleLinear()
   .range([ sizeHigh, 0]);
 var yAxis = svgGroups.append("g")
   .attr("class", "myYaxis")
-}
+})
 
 // A function that create / update the plot for a given variable:
 function update(selectedVar) {
