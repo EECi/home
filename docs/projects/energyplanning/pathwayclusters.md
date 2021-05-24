@@ -119,7 +119,6 @@ d3.csv("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_data
       .data(sumstat)
       .enter()
       .append("path")
-        .attr("class, "myLine")
         .attr("fill", "none")
         .attr("stroke", function(d){ return color(d.key) })
         .attr("stroke-width", 1.5)
