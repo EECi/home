@@ -113,31 +113,7 @@ d3.csv("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_data
     .domain(res)
     .range(['#e41a1c','#377eb8','#4daf4a','#984ea3','#ff7f00','#ffff33','#a65628','#f781bf','#999999'])
 
-  // create a tooltip
-  var Tooltip = svg
-    .append("text")
-    .attr("x", 0)
-    .attr("y", 0)
-    .style("opacity", 0)
-    .style("font-size", 17)
-
-  // Three function that change the tooltip when user hover / move / leave a cell
-  var mouseover = function(d) {
-    Tooltip.style("opacity", 1)
-    d3.selectAll(".myLine").style("opacity", .2)
-    d3.select(this)
-      .style("stroke", "black")
-      .style("opacity", 1)
-  }
-  var mousemove = function(res,i) {
-    grp = res[i]
-    Tooltip.text(grp)
-  }
-  var mouseleave = function(d) {
-    Tooltip.style("opacity", 0)
-    d3.selectAll(".myLine").style("opacity", 1).style("stroke", "none")
-   }
-  
+ 
   // Draw the line
   svg.selectAll(".line")
       .data(sumstat)
@@ -153,9 +129,6 @@ d3.csv("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_data
             .y(function(d) { return y(+d.n); })
             (d.values)
         })
-       .on("mouseover", mouseover)
-       .on("mousemove", mousemove)
-       .on("mouseleave", mouseleave)
 
 })
 
