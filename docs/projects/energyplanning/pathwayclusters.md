@@ -147,7 +147,9 @@ var svgGroups = d3.select("#my_dataviz_2")
      .classed("svg-content-responsive", true)
     .append("g")
       .attr("transform", "translate(" + marginWhole2.left + "," + marginWhole2.top + ")");
-
+  
+d3.csv("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/barplot_change_data.csv", function(data) {
+  
 // Initialize the X axis
 var x = d3.scaleBand()
   .domain(data.map(function(d) { return d.group; }))
@@ -161,7 +163,7 @@ var y = d3.scaleLinear()
   .range([ sizeHigh, 0]);
 var yAxis = svgGroups.append("g")
   .attr("class", "myYaxis")
-
+}
 
 // A function that create / update the plot for a given variable:
 function update(selectedVar) {
@@ -171,7 +173,7 @@ function update(selectedVar) {
 
     // X axis
     //x.domain(data.map(function(d) { return d.group; }))
-    //xAxis.transition().duration(1000).call(d3.axisBottom(x))
+    xAxis.transition().duration(1000).call(d3.axisBottom(x))
 
     // Add Y axis
     y.domain([0, d3.max(data, function(d) { return +d[selectedVar] }) ]);
