@@ -222,18 +222,22 @@ d3.csv("https://raw.githubusercontent.com/EECi/home/main/data/d3_pathway_exp2.cs
 <script>
 
 // set the dimensions and margins of the graph
-var margin = {top: 30, right: 30, bottom: 70, left: 60},
-    width = 460 - margin.left - margin.right,
-    height = 400 - margin.top - margin.bottom;
+  var marginWhole = {top: 30, right: 30, bottom: 70, left: 60},
+    sizeWide = 760 - marginWhole.left - marginWhole.right
+    sizeHigh = 400 - margin.top - margin.bottom;
 
 // append the svg object to the body of the page
 var svgGroups = d3.select("#my_dataviz_2")
   .append("svg")
-    .attr("width", width + margin.left + margin.right)
-    .attr("height", height + margin.top + margin.bottom)
+    // Responsive SVG needs these 2 attributes and no width and height attr.
+    .attr("preserveAspectRatio", "xMinYMin meet")
+    .attr("viewBox", "0 0 760 760")
+   // Class to make it responsive.
+    .classed("svg-content-responsive", true)
+    //.attr("width", sizeWhole  + marginWhole.left + marginWhole.right)
+    //.attr("height", sizeWhole  + marginWhole.top + marginWhole.bottom)
   .append("g")
-    .attr("transform",
-          "translate(" + margin.left + "," + margin.top + ")");
+    .attr("transform", "translate(" + marginWhole.left + "," + marginWhole.top + ")");
 
 // Initialize the X axis
 var x = d3.scaleBand()
