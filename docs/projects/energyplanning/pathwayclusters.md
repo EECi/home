@@ -222,7 +222,7 @@ d3.csv("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/ir
    // Add a tooltip div. Here I define the general feature of the tooltip: stuff that do not depend on the data point.
   // Its opacity is set to 0: we don't see it by default.
   var tooltip = d3.select("#my_datapoints")
-    .append("svg")
+    .append("div")
     .style("opacity", 0)
     .attr("class", "tooltip")
     .style("background-color", "white")
