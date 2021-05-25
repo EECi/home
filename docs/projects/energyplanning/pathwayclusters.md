@@ -37,21 +37,21 @@ Understanding urban residential energy use and clean energy transitions requires
   <br>
   We sought to combine the both quantitative and qualitative data in our approach to leverage the benefits of analysis of each individually. </body>
 </div>
-  <h2 class="title">Identifying transition pathways</h2>
+  <h2 class="title">Time Series Example</h2>
 <div id="wrapper">
   <!-- Initialize a select button -->
   <!-- <select id="selectButton"></select> -->
   <div id="my_dataviz"></div>
   <body>Understanding factors that influence energy use in urban areas and how to best chracterise and model this is key to delivering clean and sustainable energy for the cities of today and tomorrow.</body>
 </div>
-   <h2 class="title">Identifying transition pathways</h2>
+   <h2 class="title">XY Example</h2>
 <div id="wrapper">
   <!-- Initialize a select button -->
   <!-- <select id="selectButton"></select> -->
   <div id="my_datapoints"></div>
   <body>Understanding factors that influence energy use in urban areas and how to best chracterise and model this is key to delivering clean and sustainable energy for the cities of today and tomorrow.</body>
 </div>
-  <h2 class="title">Identifying transition pathways</h2>
+  <h2 class="title">Grouped Bar Chart Example</h2>
 <div id="wrapper">
   <!-- Initialize a select button -->
   <!-- <select id="selectButton"></select> -->
@@ -220,9 +220,37 @@ d3.csv("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/ir
     .range([ "#440154ff", "#21908dff", "#fde725ff"])
 
 
+   // Add a tooltip div. Here I define the general feature of the tooltip: stuff that do not depend on the data point.
+  // Its opacity is set to 0: we don't see it by default.
+  var tooltip = d3.select("#my_dataviz")
+    .append("div")
+    .style("opacity", 0)
+    .attr("class", "tooltip")
+    .style("background-color", "white")
+    .style("border", "solid")
+    .style("border-width", "1px")
+    .style("border-radius", "5px")
+    .style("padding", "10px")
+
+
+
+
+
+  // A function that change this tooltip when the leaves a point: just need to set opacity to 0 again
+  var mouseleave = function(d) {
+    tooltip
+      .transition()
+      .duration(200)
+      .style("opacity", 0)
+  }
+
+  
   // Highlight the specie that is hovered
   var highlight = function(d){
 
+    tooltip
+      .style("opacity", 1)
+  
     selected_specie = d.Species
 
     d3.selectAll(".dot")
@@ -238,6 +266,14 @@ d3.csv("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/ir
       .attr("r", 7)
   }
 
+
+  var mousemove = function(d) {
+    tooltip
+      .html("The exact value of<br>is: " + d.Petal_Length)
+      .style("left", (d3.mouse(this)[0]+90) + "px") // It is important to put the +90: other wise the tooltip is exactly where the point is an it creates a weird effect
+      .style("top", (d3.mouse(this)[1]) + "px")
+  }
+  
   // Highlight the specie that is hovered
   var doNotHighlight = function(){
     d3.selectAll(".dot")
@@ -245,6 +281,11 @@ d3.csv("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/ir
       .duration(200)
       .style("fill", "lightgrey")
       .attr("r", 5 )
+  
+    tooltip
+      .transition()
+      .duration(200)
+      .style("opacity", 0)
   }
 
   // Add dots
@@ -259,6 +300,7 @@ d3.csv("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/ir
       .attr("r", 5)
       .style("fill", function (d) { return color(d.Species) } )
     .on("mouseover", highlight)
+    .on("mousemove", mousemove)
     .on("mouseleave", doNotHighlight )
 
 })
