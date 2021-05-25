@@ -297,12 +297,15 @@ d3.csv("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/ir
     .append("circle")
       .attr("class", function (d) { return "dot " + d.Species } )
       .attr("cx", function (d) { return x(d.Sepal_Length); } )
-      .attr("cy", function (d) { return y(d.Petal_Length); } )
+      .attr("cy", function (d) { return y(0); } )
       .attr("r", 5)
       .style("fill", function (d) { return color(d.Species) } )
     .on("mouseover", highlight)
     .on("mousemove", mousemove)
     .on("mouseleave", doNotHighlight )
+    .transition()
+    .duration(1200)
+      .attr("cy", function (d) { return y(d.Petal_Length); } )
 
 })
 
