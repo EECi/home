@@ -187,7 +187,7 @@ var margin = {top: 30, right: 30, bottom: 30, left: 60},
 
 // append the svg object to the body of the page
 var svgP = d3.select("#my_datapoints")
-  .append("svg")
+    .append("svg")
     // Responsive SVG needs these 2 attributes and no width and height attr.
       .attr("preserveAspectRatio", "xMinYMin meet")
       .attr("viewBox", "0 0 760 400")
@@ -232,7 +232,6 @@ d3.csv("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/ir
     .style("padding", "10px")
 
 
-  
   // Highlight the specie that is hovered
   var highlight = function(d){
 
