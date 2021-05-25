@@ -232,17 +232,6 @@ d3.csv("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/ir
     .style("padding", "10px")
 
 
-
-
-
-  // A function that change this tooltip when the leaves a point: just need to set opacity to 0 again
-  var mouseleave = function(d) {
-    tooltip
-      .transition()
-      .duration(200)
-      .style("opacity", 0)
-  }
-
   
   // Highlight the specie that is hovered
   var highlight = function(d){
@@ -265,8 +254,7 @@ d3.csv("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/ir
       .attr("r", 7)
   }
 
-
-  var mousemove = function(d) {
+ var mousemove = function(d) {
     tooltip
       .html("The exact value of<br>is: " + d.Petal_Length)
       .style("left", (d3.mouse(this)[0]+90) + "px") // It is important to put the +90: other wise the tooltip is exactly where the point is an it creates a weird effect
