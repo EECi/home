@@ -217,12 +217,11 @@ d3.csv("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/ir
   // Color scale: give me a specie name, I return a color
   var color = d3.scaleOrdinal()
     .domain(["setosa", "versicolor", "virginica" ])
-    .range([ "#440154ff", "#21908dff", "#fde725ff"])
-
+    .range([ "#ed217b", "#f479af", "#fbd2e4"])
 
    // Add a tooltip div. Here I define the general feature of the tooltip: stuff that do not depend on the data point.
   // Its opacity is set to 0: we don't see it by default.
-  var tooltip = d3.select("#my_dataviz")
+  var tooltip = d3.select("#my_datapoints")
     .append("div")
     .style("opacity", 0)
     .attr("class", "tooltip")
