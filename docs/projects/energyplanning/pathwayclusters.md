@@ -231,6 +231,7 @@ d3.csv("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/ir
     .append("div")
     .style("opacity", 0)
     .attr("class", "tooltip")
+    .attr("position", "absolute") 
     .style("background-color", "white")
     .style("border", "solid")
     .style("border-width", "1px")
