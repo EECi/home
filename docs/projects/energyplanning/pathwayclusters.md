@@ -224,7 +224,7 @@ d3.csv("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/ir
   var tooltip = d3.select("#my_datapoints")
     .append("g")
     .style("opacity", 0)
-//    .attr("class", "tooltip")
+    .attr("class", "tooltip")
     .style("background-color", "white")
     .style("border", "solid")
     .style("border-width", "1px")
