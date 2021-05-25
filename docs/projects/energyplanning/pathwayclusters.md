@@ -255,22 +255,8 @@ d3.csv("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/ir
   }
 
  var mousemove = function(d) {
-    selected_specie = d.Species
-
-    d3.selectAll(".dot")
-      .transition()
-      .duration(200)
-      .style("fill", "lightgrey")
-      .attr("r", 3)
-
-    d3.selectAll("." + selected_specie)
-      .transition()
-      .duration(200)
-      .style("fill", color(selected_specie))
-      .attr("r", 7)
-  
     tooltip
-      .html("Group: "+d.Species+"<br>The exact value of<br>this point is: " + d.Petal_Length)
+      .html("Group: " + d.Species + "<br>The exact value of<br>this point is: " + d.Petal_Length)
       .style("left", (d3.mouse(this)[0]+90) + "px") // It is important to put the +90: other wise the tooltip is exactly where the point is an it creates a weird effect
       .style("top", (d3.mouse(this)[1]) + "px")
   }
