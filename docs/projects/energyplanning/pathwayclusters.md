@@ -44,6 +44,13 @@ Understanding urban residential energy use and clean energy transitions requires
   <div id="my_dataviz"></div>
   <body>Understanding factors that influence energy use in urban areas and how to best chracterise and model this is key to delivering clean and sustainable energy for the cities of today and tomorrow.</body>
 </div>
+   <h2 class="title">Identifying transition pathways</h2>
+<div id="wrapper">
+  <!-- Initialize a select button -->
+  <!-- <select id="selectButton"></select> -->
+  <div id="my_datapoints"></div>
+  <body>Understanding factors that influence energy use in urban areas and how to best chracterise and model this is key to delivering clean and sustainable energy for the cities of today and tomorrow.</body>
+</div>
   <h2 class="title">Identifying transition pathways</h2>
 <div id="wrapper">
   <!-- Initialize a select button -->
@@ -171,6 +178,93 @@ d3.csv("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_data
 })
 
 </script>
+
+<script>
+// set the dimensions and margins of the graph
+var margin = {top: 30, right: 30, bottom: 30, left: 60},
+    width = 760 - margin.left - margin.right,
+    height = 400 - margin.top - margin.bottom;
+
+// append the svg object to the body of the page
+var svgP = d3.select("#my_datapoints")
+  .append("svg")
+    // Responsive SVG needs these 2 attributes and no width and height attr.
+      .attr("preserveAspectRatio", "xMinYMin meet")
+      .attr("viewBox", "0 0 760 400")
+     .classed("svg-content-responsive", true)
+    .append("g")
+      .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+
+//Read the data
+d3.csv("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/iris.csv", function(data) {
+
+  // Add X axis
+  var x = d3.scaleLinear()
+    .domain([4, 8])
+    .range([ 0, width ]);
+  svgP.append("g")
+    .attr("transform", "translate(0," + height + ")")
+    .call(d3.axisBottom(x));
+
+  // Add Y axis
+  var y = d3.scaleLinear()
+    .domain([0, 9])
+    .range([ height, 0]);
+  svgP.append("g")
+    .call(d3.axisLeft(y));
+
+  // Color scale: give me a specie name, I return a color
+  var color = d3.scaleOrdinal()
+    .domain(["setosa", "versicolor", "virginica" ])
+    .range([ "#440154ff", "#21908dff", "#fde725ff"])
+
+
+  // Highlight the specie that is hovered
+  var highlight = function(d){
+
+    selected_specie = d.Species
+
+    d3.selectAll(".dot")
+      .transition()
+      .duration(200)
+      .style("fill", "lightgrey")
+      .attr("r", 3)
+
+    d3.selectAll("." + selected_specie)
+      .transition()
+      .duration(200)
+      .style("fill", color(selected_specie))
+      .attr("r", 7)
+  }
+
+  // Highlight the specie that is hovered
+  var doNotHighlight = function(){
+    d3.selectAll(".dot")
+      .transition()
+      .duration(200)
+      .style("fill", "lightgrey")
+      .attr("r", 5 )
+  }
+
+  // Add dots
+  svgP.append('g')
+    .selectAll("dot")
+    .data(data)
+    .enter()
+    .append("circle")
+      .attr("class", function (d) { return "dot " + d.Species } )
+      .attr("cx", function (d) { return x(d.Sepal_Length); } )
+      .attr("cy", function (d) { return y(d.Petal_Length); } )
+      .attr("r", 5)
+      .style("fill", function (d) { return color(d.Species) } )
+    .on("mouseover", highlight)
+    .on("mouseleave", doNotHighlight )
+
+})
+
+</script>
+
 
 <script>
 
