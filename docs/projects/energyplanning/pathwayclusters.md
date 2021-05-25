@@ -133,7 +133,11 @@ d3.csv("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_data
   var mouseover = function(d) {
     Tooltip.style("opacity", 1)
     d3.selectAll(".myArea").style("opacity", .2)
+      .transition()
+      .duration(200)
     d3.select(this)
+      .transition()
+      .duration(200)
       .style("stroke-width", "3")
       .style("opacity", 1)
   }
@@ -144,6 +148,8 @@ d3.csv("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_data
   var mouseleave = function(d) {
     Tooltip.style("opacity", 0)
     d3.selectAll(".myArea").style("opacity", 1).style("stroke-width", "1.5")
+      .transition()
+      .duration(200)
    }
 
  
