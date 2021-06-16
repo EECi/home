@@ -30,6 +30,6 @@ I also have experience as a project engineer/consultant on shallow geothermal pr
 ## Publications
 
 <p>
-<script src="https://bibbase.org/service/mendeley/b56898ae-be91-3709-b6b9-d4db3e000556/group/2d190681-313a-3771-9232-53f98498c122?jsonp=1" type="text/javascript"></script>
+<script src="https://bibbase.org/service/mendeley/b56898ae-be91-3709-b6b9-d4db3e000556?jsonp=1"></script>
 </p>
 
