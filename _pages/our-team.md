@@ -31,6 +31,10 @@ ra_gallery:
     image_path: https://www.eeci.cam.ac.uk/directory/m-janssingh/image_normal
     title: "Melanie Jans-Singh"
     alt: "Melanie Jans-Singh"
+  - url: /docs/people/chaoqun/
+    image_path: /Images/ppl/CQZ.jpg
+    alt: "Chaoqun Zhuang"
+    title: "Chaoqun Zhuang"
 grad_student_gallery:
   - url: /docs/people/jamesk/
     image_path: https://www.eeci.cam.ac.uk/directory/j-kinch/image_normal
