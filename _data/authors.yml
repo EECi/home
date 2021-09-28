@@ -133,13 +133,13 @@ André:
       url: "https://twitter.com/A_Notabene"
             
 Chaoqun:
-	  name        : "Chaoqun Zhuang"
-	  bio         : "Research Associate, Stochastic Building Energy Modelling"
-	  avatar      : "/Images/ppl/CQZ.jpg" 
-	  links:
-	    - label: "Email"
-	      icon: "fas fa-fw fa-envelope-square"
-	      url: "mailto:czhuang@turing.ac.uk"
-	    - label: "Website"
-	      icon: "fas fa-fw fa-link"
-	      url: "https://www.linkedin.com/in/zhuangcq/
+  name        : "Chaoqun Zhuang"
+  bio         : "Research Associate, Stochastic Building Energy Modelling"
+  avatar      : "/Images/ppl/CQZ.jpg" 
+  links:
+   - label: "Email"
+     icon: "fas fa-fw fa-envelope-square"
+     url: "mailto:czhuang@turing.ac.uk"
+   - label: "Website"
+     icon: "fas fa-fw fa-link"
+     url: "https://www.linkedin.com/in/zhuangcq/
