@@ -101,5 +101,3 @@ sidebar-stoch:
         url: /docs/projects/stoch/FDA/
       - title: "State Space Transformations"
         url: /docs/projects/stoch/statespace/
-      - title: "FDA"
-        url: /docs/projects/stoch/FDA/
