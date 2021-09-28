@@ -12,7 +12,7 @@ feature_row:
   - image_path: /Images/Group Logo.png
     alt: "placeholder image 1"
     title: "Functional Data Analysis"
-    excerpt: "This project is about Functional Data Analysis..."
+    excerpt: "A Functional Data Analysis approach for generation of stochastic internal loads for input into building energy simulation"
     url: "/docs/projects/stoch/FDA/"
     btn_label: "Read More"
     btn_class: "btn--primary"
@@ -26,8 +26,12 @@ feature_row:
     btn_class: "btn--primary"
 ---
 
+# Data-centric Energy Modelling
 
+## Introduction
+Introduction here ...
 
-This project contains two sections
+## Challenges
 
+## Data-centric energy modelling projects
 {% include feature_row %}
