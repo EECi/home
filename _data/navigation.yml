@@ -47,7 +47,8 @@ docs:
         url: /docs/people/zack/
       - title: "James"
         url: /docs/people/jamesk/
-
+      - title: "Chaoqun"
+        url: /docs/people/chaoqun/
 
 # This sidebar indicates the list of four projects
 sidebar-projects:
@@ -78,7 +79,9 @@ sidebar-people:
   - title: "André"
     url: /docs/people/andre/
   - title: "Teresa"
-    url: /docs/people/teresa/    
+    url: /docs/people/teresa/  
+  - title: "Chaoqun"
+    url: /docs/people/chaoqun/  
 # Create your own sidebar
 sidebar-urbanag:
   - title: "Urban Agriculture"
