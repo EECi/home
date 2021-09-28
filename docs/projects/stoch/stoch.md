@@ -24,16 +24,10 @@ feature_row:
     url: "/docs/projects/stoch/statespace/"
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: /Images/Group Logo.png
-    title: "Temporary image 3"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "/docs/projects/stoch/FDA/"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
 ---
 
 
 
-This project contains three sections
+This project contains two sections
 
 {% include feature_row %}
