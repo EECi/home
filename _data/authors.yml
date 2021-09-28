@@ -137,9 +137,9 @@ Chaoqun:
   bio         : "Research Associate, Stochastic Building Energy Modelling"
   avatar      : "/Images/ppl/CQZ.jpg" 
   links:
-   - label: "Email"
-     icon: "fas fa-fw fa-envelope-square"
-     url: "mailto:czhuang@turing.ac.uk"
-   - label: "Website"
-     icon: "fas fa-fw fa-link"
-     url: "https://www.linkedin.com/in/zhuangcq/
+    - label:  "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:czhuang@turing.ac.uk"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://www.linkedin.com/in/zhuangcq"
