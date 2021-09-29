@@ -9,7 +9,7 @@ author: "Rebecca"
 excerpt: "Data-centric energy modelling"
 last_modified_at: 2021-03-09
 feature_row:
-  - image_path: /Images/stoch/FDA_logo.jpg
+  - image_path: /Images/stoch/FDA_logo_1.jpg
     alt: "placeholder image 1"
     title: "Functional Data Analysis"
     excerpt: "A Functional Data Analysis approach for generation of stochastic internal loads for input into building energy simulation"
