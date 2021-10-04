@@ -143,3 +143,18 @@ Chaoqun:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://www.linkedin.com/in/zhuangcq"
+
+Mingda Yuan:
+  name        : "Mingda Yuan"
+  bio         : "PhD Student"
+  avatar      : "/Images/ppl/YMD.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:my356@cam.ac.uk"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: " "
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: " "
