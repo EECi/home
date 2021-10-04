@@ -35,8 +35,8 @@ ra_gallery:
     image_path: /Images/ppl/CQZ.jpg
     alt: "Chaoqun Zhuang"
     title: "Chaoqun Zhuang"
-    - url: /docs/people/andre/
-    image_path: https://www.eeci.cam.ac.uk/directory/a-neto-bradley/image_normal
+  - url: /docs/people/andre/
+    image_path: /Images/ppl/apn.jpg
     alt: "André Paul Neto-Bradley"
     title: "André Paul Neto-Bradley"
 grad_student_gallery:
