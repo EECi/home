@@ -11,12 +11,12 @@ faculty_gallery:
     title: "Ruchi Choudhary"
 ra_gallery:
   - url: /docs/people/monikak/
-    image_path: https://www.eeci.cam.ac.uk/directory/m-kreitmair/image_normal
+    image_path: /Images/ppl/MJK.jfif
     title: "Monika Kreitmair"
     alt: "Monika Kreitmair"
     caption: "Monika Kreitmair"
   - url: /docs/people/nick/
-    image_path: https://www.eeci.cam.ac.uk/directory/n-makasis/image_normal
+    image_path: /Images/ppl/NM.jpg
     alt: "Nikolas Makasis"
     title: "Nikolas Makasis"
   - url: /docs/people/rebecca/
@@ -24,7 +24,7 @@ ra_gallery:
     alt: "Rebecca Ward"
     title: "Rebecca Ward"
   - url: /docs/people/zack/
-    image_path: https://www.eeci.cam.ac.uk/directory/z-xuereb-conti/image_normal
+    image_path: /Images/ppl/zxc.jpg
     alt: "Zach Xuereb Conti"
     title: "Zach Xuereb Conti"
   - url: /docs/people/mel/
@@ -41,11 +41,11 @@ ra_gallery:
     title: "André Paul Neto-Bradley"
 grad_student_gallery:
   - url: /docs/people/jamesk/
-    image_path: https://www.eeci.cam.ac.uk/directory/j-kinch/image_normal
+    image_path: /Images/ppl/jik.jpg
     alt: "James Kinch"
     title: "James Kinch"
   - url: https://www.eeci.cam.ac.uk/directory/t-irigoyen-lopez
-    image_path: https://www.fibe-cdt.eng.cam.ac.uk/sites/www.fibe-cdt.eng.cam.ac.uk/files/styles/inline/public/media/profile/TeresaIrigoyenLopez.jpg?itok=kKxJRtpH
+    image_path: /Images/ppl/TIL.jpg
     alt: "Teresa Irigoyen-López"
     title: "Teresa Irigoyen-López"
 
@@ -67,6 +67,8 @@ sidebar:
 
 {% include gallery id="grad_student_gallery" layout="third" %}
 
+
+## Collaborators
 
 
 
