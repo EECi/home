@@ -48,6 +48,10 @@ grad_student_gallery:
     image_path: /Images/ppl/TIL.jpg
     alt: "Teresa Irigoyen-López"
     title: "Teresa Irigoyen-López"
+  - url: /docs/people/mingda/
+    image_path: /Images/ppl/YMD.jpg
+    alt: "Mingda Yuan"
+    title: "Mingda Yuan"
 
 sidebar:
   title: "Meet the team"
