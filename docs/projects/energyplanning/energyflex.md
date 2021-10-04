@@ -1,13 +1,13 @@
 ---
 layout: single
-title: EnergyFlex: Towards A Flexible, Sustainable Urban Energy System
+title: EnergyFlex - Towards A Flexible, Sustainable Urban Energy System
 tags:
   - Energy inequality
   - Spatial modelling
   - Residential energy use
   - Bayesian calibration
 author: "André"
-excerpt: "Energy flexibility is key to delivering a reliable, sustainable energy system - this project will develop a new agent-based simulation that models the daily activities of people in urban areas to estimate when they are likely to be using energy."
+excerpt: "Energy flexibility is key to delivering a reliable, sustainable energy system. This project will develop a new agent-based simulation that models the daily activities of people in urban areas to estimate when they are likely to be using energy."
 last_modified_at: 2021-10-04
 toc: true
 header:
