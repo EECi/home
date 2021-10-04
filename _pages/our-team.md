@@ -27,10 +27,6 @@ ra_gallery:
     image_path: /Images/ppl/zxc.jpg
     alt: "Zach Xuereb Conti"
     title: "Zach Xuereb Conti"
-  - url: /docs/people/mel/
-    image_path: https://www.eeci.cam.ac.uk/directory/m-janssingh/image_normal
-    title: "Melanie Jans-Singh"
-    alt: "Melanie Jans-Singh"
   - url: /docs/people/chaoqun/
     image_path: /Images/ppl/CQZ.jpg
     alt: "Chaoqun Zhuang"
@@ -52,7 +48,11 @@ grad_student_gallery:
     image_path: /Images/ppl/YMD.jpg
     alt: "Mingda Yuan"
     title: "Mingda Yuan"
-
+alumni_gallery:
+  - url: /docs/people/mel/
+    image_path: https://www.eeci.cam.ac.uk/directory/m-janssingh/image_normal
+    title: "Melanie Jans-Singh"
+    alt: "Melanie Jans-Singh"
 sidebar:
   title: "Meet the team"
   nav: sidebar-people
@@ -74,6 +74,9 @@ sidebar:
 
 ## Collaborators
 
+## Alumni
+
+{% include gallery id="alumni_gallery" layout="third"%}
 
 
 
