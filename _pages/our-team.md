@@ -35,15 +35,15 @@ ra_gallery:
     image_path: /Images/ppl/CQZ.jpg
     alt: "Chaoqun Zhuang"
     title: "Chaoqun Zhuang"
+    - url: /docs/people/andre/
+    image_path: https://www.eeci.cam.ac.uk/directory/a-neto-bradley/image_normal
+    alt: "André Paul Neto-Bradley"
+    title: "André Paul Neto-Bradley"
 grad_student_gallery:
   - url: /docs/people/jamesk/
     image_path: https://www.eeci.cam.ac.uk/directory/j-kinch/image_normal
     alt: "James Kinch"
     title: "James Kinch"
-  - url: /docs/people/andre/
-    image_path: https://www.eeci.cam.ac.uk/directory/a-neto-bradley/image_normal
-    alt: "André Paul Neto-Bradley"
-    title: "André Paul Neto-Bradley"
   - url: https://www.eeci.cam.ac.uk/directory/t-irigoyen-lopez
     image_path: https://www.fibe-cdt.eng.cam.ac.uk/sites/www.fibe-cdt.eng.cam.ac.uk/files/styles/inline/public/media/profile/TeresaIrigoyenLopez.jpg?itok=kKxJRtpH
     alt: "Teresa Irigoyen-López"
