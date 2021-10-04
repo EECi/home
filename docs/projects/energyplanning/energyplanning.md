@@ -12,7 +12,7 @@ feature_row:
   - image_path: /Images/eplan/Kochi_microsim.jpg
     alt: "City-scale microsimulation"
     title: "City-scale microsimulation"
-    excerpt: "Developing spatial microsimulation models for urban residential energy use."
+    excerpt: "Developing spatial microsimulation models for urban residential energy use"
     url: "docs/projects/energyplanning/microsimulation/"
     btn_label: "Find out more"
     btn_class: "btn--primary"
@@ -22,6 +22,14 @@ feature_row:
     title: "Identifying transition pathways"
     excerpt: "Use of clustering methods and mixed methods to identify and characterise energy transition pathways"
     url:  "docs/projects/energyplanning/pathwayclusters/"
+    btn_label: "Find out more"
+    btn_class: "btn--primary"
+  - image_path: /Images/eplan/Pathway_clustering.png
+    image_caption: "View of Bayesian Modelling"
+    alt: "placeholder image 2"
+    title: "EnergyFlex"
+    excerpt: "Development of a micro-simulation agent-based approach to identifying opportunities for energy efficiency"
+    url:  "docs/projects/energyplanning/energyflex/"
     btn_label: "Find out more"
     btn_class: "btn--primary"
 ---
