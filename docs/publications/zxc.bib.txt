@@ -1,0 +1,130 @@
+@inproceedings{xuereb2015multi,
+  title={Multi-objective Optimisation of Building Geometry for Energy Consumption and View Quality},
+  author={Xuereb Conti, Zack and Shepherd, Paul and Richens, Paul},
+  booktitle={eCAADe 2015},
+  year={2015}
+}
+
+@inproceedings{kaijima2015parametric,
+  title={Parametric Finite Element Contact Analysis for Topologically Interlocking Joinery},
+  author={Kaijima, Sawako and Conti, Zack X and Dunn, Martin L},
+  booktitle={Proceedings of IASS Annual Symposia},
+  volume={2015},
+  number={24},
+  pages={1--12},
+  year={2015},
+  organization={International Association for Shell and Spatial Structures (IASS)}
+}
+
+@inproceedings{kaijima2016parametric,
+  title={Parametric Finite Element Contact Analysis and Optimization for Topologically Interlocking Joinery Using Design of Experiments},
+  author={Kaijima, Sawako and Xuereb Conti, Zack and Sakhaei, Amir Hosein and Dunn, Martin L},
+  booktitle={Proceedings of IASS Annual Symposia},
+  volume={2016},
+  number={8},
+  pages={1--10},
+  year={2016},
+  organization={International Association for Shell and Spatial Structures (IASS)}
+}
+
+@inproceedings{sakhaei2016integrating,
+  title={Integrating User-Defined Elements for Topologically Interlocking Joints and Application in Large Scale Structural Analysis},
+  author={Sakhaei, Amir Hosein and Kaijima, Sawako and Conti, Zack Xuereb and Dunn, Martin L},
+  booktitle={Proceedings of IASS Annual Symposia},
+  volume={2016},
+  number={17},
+  pages={1--10},
+  year={2016},
+  organization={International Association for Shell and Spatial Structures (IASS)}
+}
+
+@incollection{conti2018enabling,
+  title={Enabling inference in performance-driven design exploration},
+  author={Conti, Zack Xuereb and Kaijima, Sawako},
+  booktitle={Humanizing Digital Reality},
+  pages={177--188},
+  year={2018},
+  publisher={Springer, Singapore}
+}
+
+@inproceedings{kaijima2016design,
+  title={A Design Oriented Workflow to Prototype Functionally Graded Designs based on Solid Finite Element Analysis},
+  author={Kaijima, Sawako and Xuereb, Zack and Dunn, Martin L},
+  booktitle={Proceedings of IASS Annual Symposia},
+  volume={2016},
+  number={17},
+  pages={1--9},
+  year={2016},
+  organization={International Association for Shell and Spatial Structures (IASS)}
+}
+
+@inproceedings{anderson2018design,
+  title={Design processes of design automation practitioners},
+  author={Anderson, David and Perez, K Blake and Xuereb, Zack and Otto, Kevin and Wood, Kris},
+  booktitle={International Design Engineering Technical Conferences and Computers and Information in Engineering Conference},
+  volume={51845},
+  pages={V007T06A024},
+  year={2018},
+  organization={American Society of Mechanical Engineers}
+}
+
+@article{conti2018flexible,
+  title={A Flexible Simulation Metamodel for Exploring Multiple Design Spaces},
+  author={CONTI, Zack XUEREB and KAIJIMA, Sawako},
+  year={2018},
+  publisher={International Association for Shell and Spatial Structures (IASS) 2018, MIT~…}
+}
+
+@inproceedings{conti2017knowledge,
+  title={A Knowledge-oriented Approach to Performance-driven design Using Probabilistic Graphical Models},
+  author={Conti, Zack Xuereb and Kaijima, Sawako},
+  booktitle={Proceedings of IASS Annual Symposia},
+  volume={2017},
+  number={15},
+  pages={1--10},
+  year={2017},
+  organization={International Association for Shell and Spatial Structures (IASS)}
+}
+
+@inproceedings{wang2019optimization,
+  title={Optimization of Clay Mould for Concrete Casting Using Design of Experiments},
+  author={Wang, Sihan and Xuereb Conti, Zack and Raspall, Felix},
+  booktitle={CAADRIA Conference},
+  volume={2},
+  pages={283--292},
+  year={2019}
+}
+
+@article{budig2020computational,
+  title={Computational screening-LCA tools for early design stages},
+  author={Budig, Michael and Heckmann, Oliver and Hudert, Markus and Ng, Amanda Qi Boon and Xuereb Conti, Zack and Lork, Clement Jun Hao},
+  journal={International Journal of Architectural Computing},
+  pages={1478077120947996},
+  year={2020},
+  publisher={SAGE Publications Sage UK: London, England}
+}
+
+@inproceedings{heckmann2020user,
+  title={USER-DRIVEN PARCELLATION OF HIGH-RISE UNITS FOR FUTURE URBAN HABITATION},
+  author={HECKMANN, OLIVER and BUDIG, MICHAEL and XUEREB CONTI, ZACK and CHENG, RAY CHERN XI and TIAN, SKY LO TIAN},
+  booktitle={International Conference of the Association for Computer-Aided Architectural Design Research in Asia (CAADRIA)},
+  volume={1},
+  pages={751--760},
+  year={2020}
+}
+
+@phdthesis{xuereb2019bayesian,
+  title={Bayesian Network Metamodels for Inference-driven design space exploration},
+  author={Xuereb Conti, Zack},
+  year={2019},
+  school={Singapore University of Technology and Design}
+}
+
+@incollection{conti2021explainable,
+  title={Explainable ML: Augmenting the interpretability of numerical simulation using Bayesian networks},
+  author={Conti, Zack Xuereb and Kaijima, Sawako},
+  booktitle={The Routledge Companion to Artificial Intelligence in Architecture},
+  pages={315--335},
+  year={2021},
+  publisher={Routledge}
+}
