@@ -7,9 +7,9 @@ main:
   # - title: "Sample Posts"
   #   url: /year-archive/
   - title: "Our team"
-    url: /outputs/
+    url: /our-team/
   - title: "Publications & Outputs"
-    url: /collection-archive/
+    url: /outputs/
   - title: "Latest posts"
     url: /year-archive/
 
