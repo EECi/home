@@ -20,7 +20,5 @@ Prior to joining EECi, I was a postdoctoral fellow within the Architecture and S
 
 ## Publications
 
-<div>
-<script src="https://bibbase.org/show?bib=https://github.com/EECi/home/blob/c08b990f6d7560155c7e84e183c3256930124de8/docs/publications/zxc.bib&jsonp=1"></script>
-</div>
+<script src="https://bibbase.org/show?bib=https%3A%2F%2Fraw.githubusercontent.com%2FEECi%2Fhome%2Fmain%2Fdocs%2Fpublications%2Fzxc.bib&commas=true&jsonp=1"></script>
 
