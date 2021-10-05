@@ -17,6 +17,6 @@ My doctoral research promotes human intelligence as the author of architectural 
 ## Publications
 
 <div>
-<script src="https://bibbase.org/show?bib=[https://github.com/EECi/home/blob/c08b990f6d7560155c7e84e183c3256930124de8/docs/publications/zxc.bib]&jsonp=1"></script>
+<script src="https://bibbase.org/show?bib=https://github.com/EECi/home/blob/c08b990f6d7560155c7e84e183c3256930124de8/docs/publications/zxc.bib&jsonp=1"></script>
 </div>
 
