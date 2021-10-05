@@ -1,6 +1,6 @@
 ---
 layout: splash
-permalink: /projects/
+permalink: /outputs/
 title: Publications & Outputs
 excerpt: "We can fill this in with an image up here."
 header:
@@ -20,7 +20,11 @@ excerpt: "Overview of the EECi research outputs"
 
 
 # Presentations
+Online videos of presentations we have given on our work.
+
 
 # Publications
+
+<script src="https://bibbase.org/show?bib=https%3A%2F%2Fraw.githubusercontent.com%2FEECi%2Fhome%2Fmain%2Fdocs%2Fpublications%2FRC_citations&commas=true&jsonp=1"></script>
 
 # Other Outputs
