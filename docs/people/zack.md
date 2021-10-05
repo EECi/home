@@ -17,5 +17,6 @@ My doctoral research promotes human intelligence as the author of architectural 
 ## Publications
 
 <div>
-<script src="https://bibbase.org/show?bib=https%3A%2F%2Fraw.githubusercontent.com%2FEECi%2Fhome%2Fmain%2Fdocs%2Fpublications%2FEECi_bib.bib&commas=true&jsonp=1&amp;filter=author_short:Conti&amp;folding=1"></script> 
+<script src="https://bibbase.org/show?bib=[https://scholar.googleusercontent.com/citations?view_op=export_citations&user=XWkfm1AAAAAJ&citsig=AMD79ooAAAAAYV1XjvRrhfsGDty_pzVsNhnnJMRllcXA&hl=en]&jsonp=1"></script>
 </div>
+
