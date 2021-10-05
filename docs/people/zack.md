@@ -17,6 +17,6 @@ My doctoral research promotes human intelligence as the author of architectural 
 ## Publications
 
 <div>
-<script src="https://bibbase.org/show?bib=[https://scholar.googleusercontent.com/citations?view_op=export_citations&user=XWkfm1AAAAAJ&citsig=AMD79ooAAAAAYV1XjvRrhfsGDty_pzVsNhnnJMRllcXA&hl=en]&jsonp=1"></script>
+<script src="https://bibbase.org/show?bib=https://scholar.googleusercontent.com/citations?view_op=export_citations&user=XWkfm1AAAAAJ&citsig=AMD79ooAAAAAYV1XjvRrhfsGDty_pzVsNhnnJMRllcXA&hl=en&jsonp=1"></script>
 </div>
 
