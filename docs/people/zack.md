@@ -10,9 +10,13 @@ author: "Zack"
 
 ## Resarch interests
 
-My current research aims to build efficient tools for assisting the decarbonisation of buildings by combining governing heat transfer equations together with powerful Machine Learning tools. In its scope, a Physics-ML synthesis facilitates data-efficient energy representations while maintaining model fidelity and interpretability.
+I am passionate about multidisciplinary research that contributes to improving the built environment. My current work seeks improve the data-efficiency and interpretability of data-driven tools for assisting the decarbonisation of buildings, by combining governing heat transfer equations together with Machine Learning techniques. Incorporating Physics into data-driven techniques bypasses the need for exhaustive datasets while preserves mechanistic interpretability of the underlying dynamics. 
 
-My doctoral research promotes human intelligence as the author of architectural design in the human-computer collaboration. The thesis work adopts ‘Bayesian inference’, to facilitate the interpretability of engineering responses from numerical analysis, with focus on finite element analysis.
+Prior to my current work, my doctoral reseach focused on developing inference mechanisms to promote human intelligence at the interface of architecture and engineering in building design. More specifically, the work presented a novel inverse modeling approach using Bayesian networks to facilitate the interpretability of engineering responses from numerical analysis, with a focus on finite element analysis for structural engineering.
+
+## Background
+
+Prior to joining EECi, I was a postdoctoral fellow within the Architecture and Sustainable Design (ASD) pillar at the Singapore University of Technology and Design (SUTD). I completed my PhD from SUTD during which period I also conducted research at the Harvard Graduate School of Design. My PhD specialised in the application of Bayesian inference to the applications relating to architectural design and structural engineering. I hold an MPhil degree in Digital Architectonics from the University of Bath and a Bachelor's degree in Architecture and Civil Engineering from the University of Malta. I am also a registered architect and civil engineer and have practiced with several design offices in Malta. 
 
 ## Publications
 
