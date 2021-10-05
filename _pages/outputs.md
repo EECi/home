@@ -15,6 +15,15 @@ toc_sticky: true
 toc_icon: "columns"
 excerpt: "Overview of the EECi research outputs"
 
+presentations:
+  - image_path: "http://img.youtube.com/vi/LhShMl7kvmE/0.jpg"
+    image_caption: "EEAMO 21 Lightening Talk"
+    alt: "Youtube video"
+    title: "EAAMO 2021"
+    excerpt:  "Targeting Inequalities in access to Clean Cooking: A case study of Coimbatore - A Neto-Bradley"
+    url: "https://www.youtube.com/watch?v=LhShMl7kvmE"
+    btn_label: "View this video"
+    btn_class: "btn--inverse"
 ---
 
 
@@ -22,6 +31,7 @@ excerpt: "Overview of the EECi research outputs"
 # Presentations
 Online videos of presentations we have given on our work.
 
+{% include feature_row id="presentations" %}
 
 # Publications
 
