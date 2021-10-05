@@ -6,10 +6,10 @@ main:
     url: /projects/
   # - title: "Sample Posts"
   #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
   - title: "Our team"
-    url: /our-team/
+    url: /outputs/
+  - title: "Publications & Outputs"
+    url: /collection-archive/
   - title: "Latest posts"
     url: /year-archive/
 
