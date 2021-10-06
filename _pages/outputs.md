@@ -33,6 +33,15 @@ presentations:
     url: "https://youtu.be/VVGWweFJAhA?t=147"
     btn_label: "View this video"
     btn_class: "btn--inverse"
+    
+  - image_path: "https://cdn.slideslive.com/data/presentations/38942255/slideslive_alastair-gregory_mark-girolami_rebecca-ward_ruchi-choudhary_continuous-calibration-of-a-digital-twin-a-particle-filter-approach__medium.jpg?1606848388"
+    image_caption: "NeurIPS 2020"
+    alt: "SlidesLive recording"
+    title: "ML4Eng at NeurIPS 2020"
+    excerpt:  "Continuous calibration of a digital twin - R Ward"
+    url: "https://slideslive.com/38942255"
+    btn_label: "View this video"
+    btn_class: "btn--inverse"
 ---
 
 
