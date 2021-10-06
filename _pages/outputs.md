@@ -25,7 +25,7 @@ presentations:
     btn_label: "View this video"
     btn_class: "btn--inverse"
 
-  - image_path: "http://img.youtube.com/vi/LhShMl7kvmE/0.jpg"
+  - image_path: "https://img.youtube.com/vi/VVGWweFJAhA/0.jpg"
     image_caption: "AgriFoRwArds CDT"
     alt: "Youtube video"
     title: "AgriFoRwArds CDT Seminar 2021"
