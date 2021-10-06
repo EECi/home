@@ -24,6 +24,15 @@ presentations:
     url: "https://www.youtube.com/watch?v=LhShMl7kvmE"
     btn_label: "View this video"
     btn_class: "btn--inverse"
+
+  - image_path: "http://img.youtube.com/vi/LhShMl7kvmE/0.jpg"
+    image_caption: "AgriFoRwArds CDT"
+    alt: "Youtube video"
+    title: "AgriFoRwArds CDT Seminar 2021"
+    excerpt:  "Building-integrated agriculture - a physics based simulation approach - R Ward"
+    url: "https://www.youtube.com/watch?v=VVGWweFJAhA&t=2767s"
+    btn_label: "View this video"
+    btn_class: "btn--inverse"
 ---
 
 
