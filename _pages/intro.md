@@ -58,7 +58,6 @@ James Kinch, PhD Student, U. of Cambridge"
 
 The Energy Efficient Cities initiative [EECi] is a cross-disciplinary research project at the University of Cambridge. The EECi aims to strengthen the UK's capacity to address energy demand reduction and environmental impact in cities, by research in building and transport technologies, district power systems, and urban planning. EECi began in 2007 under the three broad themes of City Planning and Design; Built Environment and Energy Systems; and Transport and Environment. 
 
-Since then
 
 **What we do**
 
@@ -66,9 +65,9 @@ Our current research focuses on modelling energy consumption of large sets of bu
 
 We also investigate novel interactions with associated energy systems in cities outside traditional applications. Our current projects include: integration of food production in the urban environment, analysis of underground transport systems as energy sources, large-scale integration of ground source heat pumps and distributed energy networks.
 
-**Featured projects**
+To find out more about us, see the links below and on our Projects page.
 
-This includes the three placeholder figs which could send to different projects
+**Featured projects**
 
 {% include feature_row id="feature_row2" %}
 
