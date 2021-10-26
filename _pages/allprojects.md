@@ -15,7 +15,7 @@ toc_sticky: true
 toc_icon: "columns"
 excerpt: "Overview of the EECi projects"
 projects_current:
-  - image_path: /Images/ssenv/main_ssenv.jpg
+  - image_path: /Images/ssenv/ssenv_logo.png
     image_caption: "Image courtesy of Nick and Monika"
     alt: "placeholder image 2"
     title: "Subsurface environments"
@@ -40,7 +40,6 @@ projects_current:
     btn_label: "View this project"
     btn_class: "btn--inverse"
   - image_path: /Images/stoch/DCM_logo.png
-    image_caption: "Image courtesy of Rebecca"
     alt: "placeholder image 2"
     title: "Data-centric Energy Modeling"
     excerpt: "Rebecca Ward, PDRA, Alan Turing Institute
