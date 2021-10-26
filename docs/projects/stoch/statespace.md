@@ -8,7 +8,10 @@ tags:
   - eigenanalysis
 author: "Zack"
 excerpt: "Reuse of energy models via state space transformations"
-last_modified_at: 2021-05-11
+feature_row:
+  - image_path: /Images/stoch/phase_plot.jpg
+    alt: "Phase Space Transformations"
+last_modified_at: 2021-10-26
 read_time: true
 toc: true
 toc_sticky: true
