@@ -16,7 +16,6 @@ toc_icon: "columns"
 excerpt: "Overview of the EECi projects"
 projects_current:
   - image_path: /Images/ssenv/ssenv_logo.png
-    image_caption: "Image courtesy of Nick and Monika"
     alt: "placeholder image 2"
     title: "Subsurface environments"
     excerpt:  "Dr. Monika Kreitmair, PDRA, U. of Cambridge, UK (July 2019) \n Dr. Nikolas Makasis, PDRA, U. of Cambridge, UK (May 2019) "
