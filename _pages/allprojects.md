@@ -39,7 +39,7 @@ projects_current:
     url: "/docs/urbanag/"
     btn_label: "View this project"
     btn_class: "btn--inverse"
-  - image_path: /Images/stoch/main_stoch.png
+  - image_path: /Images/stoch/DCM_logo.png
     image_caption: "Image courtesy of Rebecca"
     alt: "placeholder image 2"
     title: "Data-centric Energy Modeling"
