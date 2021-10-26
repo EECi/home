@@ -9,7 +9,7 @@ tags:
 author: "Zack"
 excerpt: "Reuse of energy models via state space transformations"
 feature_row:
-  - image_path: /Images/stoch/phase_plot.jpg
+  - image_path: /Images/stoch/phase_plot.png
     alt: "Phase Space Transformations"
 last_modified_at: 2021-10-26
 read_time: true
