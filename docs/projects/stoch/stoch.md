@@ -17,7 +17,6 @@ feature_row:
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: /Images/stoch/phase_plot.png
-    image_caption: "Image 2"
     alt: "placeholder image 2"
     title: "State Space Transformations"
     excerpt: "Towards data-efficient and physically-interpretable energy modeling via State Space Adaptation."
