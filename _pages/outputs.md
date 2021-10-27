@@ -43,12 +43,12 @@ presentations:
 
 
 
-# Presentations
+## Presentations
 Online videos of presentations we have given on our work.
 
 {% include feature_row id="presentations" %}
 
-# In the Media
+## In the Media
 Our research covered in news and media.
 
 * **[Optimising the world’s first underground farm](https://www.turing.ac.uk/research/impact-stories/optimising-worlds-first-underground-farm)**, *Turing Institute website*, August 2021
@@ -69,6 +69,6 @@ Our research covered in news and media.
 
 * **Sustainable Energy**, *CNBC television*, March 2019
 
-# Publications
+## Publications
 
 <script src="https://bibbase.org/show?bib=https%3A%2F%2Fraw.githubusercontent.com%2FEECi%2Fhome%2Fmain%2Fdocs%2Fpublications%2FRC_citations&commas=true&jsonp=1"></script>
