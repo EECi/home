@@ -21,10 +21,10 @@
     {% if img.url %}
       <a href="{{ img.url | relative_url }}"
         title="{{ img.title }}">
+        <h4 class="archive__item-excerpt">{{ img.title | markdownify | remove: "<p>" | remove: "</p>" }}</h4>
           <img class="teamgallery"
                 src="{{ img.image_path | relative_url }}"
                 alt="{% if img.alt %}{{ img.alt }}{% endif %}">
-           <h4 class="archive__item-excerpt">{{ img.title | markdownify | remove: "<p>" | remove: "</p>" }}</h4>
       </a>
     {% else %}
       <img class="teamgallery"
