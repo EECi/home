@@ -1,5 +1,5 @@
 ---
-layout: splash
+layout: single
 title: Data-centric Energy Modelling
 permalink: /docs/stoch/
 tags:
