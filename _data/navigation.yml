@@ -65,6 +65,7 @@ sidebar-projects:
     url: /docs/projects/urbanag/    
 # This sidebar contains a list of all people's pages
 sidebar-people:
+children:
   - title: "Ruchi"
     url: /docs/people/ruchi/
   - title: "Monika"
