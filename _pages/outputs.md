@@ -51,6 +51,27 @@ Online videos of presentations we have given on our work.
 
 {% include feature_row id="presentations" %}
 
+# In the Media
+Our research covered in news and media.
+
+* **Optimising the world’s first underground farm**, *Turing Institute website*, August 2021
+
+* **Digital Twin of Underground Farm**, *Future Care Capital online news*, April 2021
+
+* **Growing Underground**, *Covered in University of Cambridge main landing page*, March 2021 
+
+* **Why India’s urban poor struggle to transition to clean cooking despite grave health impacts**, *The Conversation*, Feb 2021 
+
+* **Digital Twin to support the future of farming**, *Cambridge Network online news*, Feb 2021 
+
+* **Climate Change Series**, *Podcast, Mind over chatter, University of Cambridge,* December 2020
+
+* **Farming under London**, *The Naked Scientists, BBC Radio Cambridgeshire*, March 2020
+
+* **The Climate Crisis: Towards Zero Carbon**, *Youtube channel, Cambridge Zero*,  Feb 2020
+
+* **Sustainable Energy**, *CNBC television*, March 2019
+
 # Publications
 
 <script src="https://bibbase.org/show?bib=https%3A%2F%2Fraw.githubusercontent.com%2FEECi%2Fhome%2Fmain%2Fdocs%2Fpublications%2FRC_citations&commas=true&jsonp=1"></script>
