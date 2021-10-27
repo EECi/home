@@ -23,15 +23,17 @@
         title="{{ img.title }}">
           <img class="teamgallery"
                 src="{{ img.image_path | relative_url }}"
-               alt="{% if img.alt %}{{ img.alt }}{% endif %}">
+                alt="{% if img.alt %}{{ img.alt }}{% endif %}">
+           <figcaption>{{ img.caption | markdownify | remove: "<p>" | remove: "</p>" }}</figcaption>
       </a>
     {% else %}
       <img class="teamgallery"
-            src="{{ img.image_path | relative_url }}"
+           src="{{ img.image_path | relative_url }}"
            alt="{% if img.alt %}{{ img.alt }}{% endif %}">
     {% endif %}
-      {% if include.caption %}
+     
+  {% endfor %}
+   {% if include.caption %}
     <figcaption>{{ include.caption | markdownify | remove: "<p>" | remove: "</p>" }}</figcaption>
   {% endif %}
-  {% endfor %}
 </figure>
