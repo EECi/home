@@ -1,5 +1,5 @@
 ---
-layout: splash
+layout: single
 title: Urban Agriculture
 permalink: /docs/urbanag/
 excerpt: "Creating digital and methodological tools to optimise the resource use efficiency of urban agriculture"
