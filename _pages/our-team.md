@@ -58,6 +58,7 @@ collab_gallery:
     image_path: https://www.agw.kit.edu/img/Ingenieurgeologie/Foto_sw_2014_Katrin_Menbergjpg.jpg
     title: "Katrin Menberg"
     alt: "Katrin Menberg"
+    institute: "Karlsruhe Institute of Technology, Germany"
 sidebar:
   title: "Meet the team"
   nav: sidebar-people
