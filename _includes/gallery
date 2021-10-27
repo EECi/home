@@ -24,7 +24,7 @@
           <img class="teamgallery"
                 src="{{ img.image_path | relative_url }}"
                 alt="{% if img.alt %}{{ img.alt }}{% endif %}">
-           <h2 class="archive__item-title">{{ img.caption | markdownify | remove: "<p>" | remove: "</p>" }}</h2>
+           <h4 class="archive__item-excerpt">{{ img.caption | markdownify | remove: "<p>" | remove: "</p>" }}</h4>
       </a>
     {% else %}
       <img class="teamgallery"
