@@ -53,6 +53,11 @@ alumni_gallery:
     image_path: https://www.eeci.cam.ac.uk/directory/m-janssingh/image_normal
     title: "Melanie Jans-Singh"
     alt: "Melanie Jans-Singh"
+collab_gallery:
+  - url: https://www.agw.kit.edu/english/176_5131.php
+    image_path: https://www.agw.kit.edu/img/Ingenieurgeologie/Foto_sw_2014_Katrin_Menbergjpg.jpg
+    title: "Katrin Menberg"
+    alt: "Katrin Menberg"
 sidebar:
   title: "Meet the team"
   nav: sidebar-people
@@ -73,6 +78,7 @@ sidebar:
 
 
 ## Collaborators
+{% include gallery id="collab_gallery" layout="third"%}
 
 ## Alumni
 
@@ -150,7 +156,7 @@ sidebar:
 
 * Dr. Yohei Yamaguchi, *Assistant Professor, Urban Energy Systems, Osaka Univ., Japan, Dec 2012* 
 
-{% include gallery id="alumni_gallery" layout="third"%}
+
 
 
 
