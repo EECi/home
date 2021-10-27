@@ -68,3 +68,4 @@ This section explains the repo organisation:
 # Resources
 
 - A [nice guide](https://www.markdownguide.org/basic-syntax/) for markdown syntax
+- [Template](https://www.dropbox.com/s/wtsrw2113jjeo2t/EECi%20website_logo%20sketcher.xlsx?dl=0) for sketching project logos
