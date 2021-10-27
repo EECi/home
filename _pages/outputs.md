@@ -1,5 +1,5 @@
 ---
-layout: splash
+layout: single
 permalink: /outputs/
 title: Publications & Outputs
 excerpt: "We can fill this in with an image up here."
