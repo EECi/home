@@ -54,21 +54,21 @@ Online videos of presentations we have given on our work.
 # In the Media
 Our research covered in news and media.
 
-* **Optimising the world’s first underground farm**, *Turing Institute website*, August 2021
+* **[Optimising the world’s first underground farm](https://www.turing.ac.uk/research/impact-stories/optimising-worlds-first-underground-farm)**, *Turing Institute website*, August 2021
 
 * **Digital Twin of Underground Farm**, *Future Care Capital online news*, April 2021
 
-* **Growing Underground**, *Covered in University of Cambridge main landing page*, March 2021 
+* **[Growing Underground](https://www.cam.ac.uk/stories/growingunderground)**, *Covered in University of Cambridge main landing page*, March 2021 
 
-* **Why India’s urban poor struggle to transition to clean cooking despite grave health impacts**, *The Conversation*, Feb 2021 
+* **[Why India’s urban poor struggle to transition to clean cooking despite grave health impacts](https://theconversation.com/why-indias-urban-poor-struggle-to-transition-to-clean-cooking-despite-grave-health-impacts-153266)**, *The Conversation*, Feb 2021 
 
-* **Digital Twin to support the future of farming**, *Cambridge Network online news*, Feb 2021 
+* **[Digital Twin to support the future of farming](http://www.eng.cam.ac.uk/news/cambridge-engineers-unveil-digital-twin-support-future-farming)**, *Cambridge Network online news*, Feb 2021 
 
-* **Climate Change Series**, *Podcast, Mind over chatter, University of Cambridge,* December 2020
+* **[Climate Change Series](https://podcasts.apple.com/gb/podcast/welcome-to-mind-over-chatter-the-cambridge-university/id1450822598?i=1000501367763)**, *Podcast, Mind over chatter, University of Cambridge,* December 2020
 
-* **Farming under London**, *The Naked Scientists, BBC Radio Cambridgeshire*, March 2020
+* **[Farming under London](https://www.thenakedscientists.com/articles/interviews/farming-under-london)**, *The Naked Scientists, BBC Radio Cambridgeshire*, March 2020
 
-* **The Climate Crisis: Towards Zero Carbon**, *Youtube channel, Cambridge Zero*,  Feb 2020
+* **[The Climate Crisis: Towards Zero Carbon](https://www.cam.ac.uk/research/news/the-climate-crisis-towards-zero-carbon)**, *Youtube channel, Cambridge Zero*,  Feb 2020
 
 * **Sustainable Energy**, *CNBC television*, March 2019
 
