@@ -13,7 +13,7 @@ tags:
 feature_row1:
 
 feature_row2:
-  - image_path: /Images/ssenv/main_ssenv.jpg
+  - image_path: /Images/ssenv/ssenv_logo_v2.png
     image_caption: "Image courtesy of Nick and Monika"
     alt: "placeholder image 2"
     title: "Subsurface environments"
@@ -21,7 +21,7 @@ feature_row2:
     url: "/docs/subsurface/"
     btn_label: "Read More"
     btn_class: "btn--inverse"
-  - image_path: /Images/eplan/Kochi_microsim.jpg
+  - image_path: /Images/eplan/eplan_logo.png
     image_caption: "Figure by A Neto-Bradley"
     alt: "Spatial microsimulation of LPG use"
     title: "Energy Planning"
@@ -32,13 +32,13 @@ Andrea Perkins + Will (Innovate UK Secondment)"
     url: "/docs/energyplanning/"
     btn_label: "View page"
     btn_class: "btn--inverse"
-  - image_path: /Images/uag/main_uag.png
+  - image_path: /Images/uag/urbag_logo.png
     title: "Urban agriculture"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
     url: "/docs/urbanag/"
     btn_label: "View page"
     btn_class: "btn--inverse"
-  - image_path: /Images/stoch/main_stoch.png
+  - image_path: /Images/stoch/DCM_logo.png
     image_caption: "Image courtesy of Rebecca"
     alt: "placeholder image 2"
     title: "Stochastic energy models"
