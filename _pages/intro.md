@@ -14,7 +14,6 @@ feature_row1:
 
 feature_row2:
   - image_path: /Images/ssenv/ssenv_logo_v2.png
-    image_caption: "Image courtesy of Nick and Monika"
     alt: "placeholder image 2"
     title: "Subsurface environments"
     excerpt:  "Dr. Monika Kreitmair, PDRA, U. of Cambridge, UK (July 2019) \n Dr. Nikolas Makasis, PDRA, U. of Cambridge, UK (May 2019) "
@@ -22,7 +21,6 @@ feature_row2:
     btn_label: "Read More"
     btn_class: "btn--inverse"
   - image_path: /Images/eplan/eplan_logo.png
-    image_caption: "Figure by A Neto-Bradley"
     alt: "Spatial microsimulation of LPG use"
     title: "Energy Planning"
     excerpt: "Andre Neto-Bradley, PhD Student, U. of Cambridge
@@ -39,7 +37,6 @@ Andrea Perkins + Will (Innovate UK Secondment)"
     btn_label: "View page"
     btn_class: "btn--inverse"
   - image_path: /Images/stoch/DCM_logo.png
-    image_caption: "Image courtesy of Rebecca"
     alt: "placeholder image 2"
     title: "Stochastic energy models"
     excerpt: "Rebecca Ward, PhD Student, U. of Cambridge
