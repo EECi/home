@@ -59,6 +59,16 @@ collab_gallery:
     title: "Katrin Menberg"
     alt: "Katrin Menberg"
     institute: "Karlsruhe Institute of Technology, Germany"
+  - url: https://iihs.co.in/iihs-people/team/amir-bazaz/
+    image_path: https://iihs.co.in/wp-content/uploads/2017/11/Amir-Bezaz.jpg
+    title: "Amir Bazaz"
+    alt: "Amir Bazaz"
+    institute: "Indian Institute for Human Settlements, India"
+  - url: https://research.unsw.edu.au/people/dr-asal-bidarmaghz
+    image_path: https://research.unsw.edu.au/sites/default/files/styles/profile_small/public/images/profile/Bidarmaghz%2CAsal.png?itok=O8iDK59E
+    title: "Asal Bidarmaghz"
+    alt: "Asal Bidarmaghz"
+    institute: "UNSW Sydney, Australia"
 sidebar:
   title: "Meet the team"
   nav: sidebar-people
