@@ -15,7 +15,7 @@ toc_sticky: true
 toc_icon: "columns"
 excerpt: "Overview of the EECi projects"
 projects_current:
-  - image_path: /Images/ssenv/ssenv_logo.png
+  - image_path: /Images/ssenv/ssenv_logo_v2.png
     alt: "Sub-surface Environments Project"
     title: "Subsurface environments"
     excerpt:  "Dr. Monika Kreitmair, PDRA, U. of Cambridge, UK (July 2019) \n Dr. Nikolas Makasis, PDRA, U. of Cambridge, UK (May 2019) "
@@ -24,7 +24,6 @@ projects_current:
     btn_class: "btn--inverse"
     
   - image_path: /Images/eplan/eplan_logo.png
-    image_caption: "Figure by A Neto-Bradley"
     alt: "Urban Energy Planning"
     title: "Energy Planning"
     excerpt: "Exploring the use of data science tools to improve understanding and modelling of urban energy use."
@@ -32,12 +31,13 @@ projects_current:
     btn_label: "View this project"
     btn_class: "btn--inverse"
     
-  - image_path: /Images/uag/main_uag.png
+  - image_path: /Images/uag/urbag_logo.png
     title: "Urban agriculture"
     excerpt: "Understanding and Modelling Urban Agriculture"
     url: "/docs/urbanag/"
     btn_label: "View this project"
     btn_class: "btn--inverse"
+    
   - image_path: /Images/stoch/DCM_logo.png
     alt: "placeholder image 2"
     title: "Data-centric Energy Modeling"
