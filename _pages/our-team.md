@@ -69,6 +69,21 @@ collab_gallery:
     title: "Asal Bidarmaghz"
     alt: "Asal Bidarmaghz"
     institute: "UNSW Sydney, Australia"
+  - url: https://ce.berkeley.edu/people/faculty/soga
+    image_path: https://ce.berkeley.edu/sites/default/files/styles/headshot_120x180/public/faculty_headshots/Soga-2021.jpg?h=bb9be1af&itok=WLjmY3b5
+    title: "Kenichi Soga"
+    alt: "Kenichi Soga"
+    institute: "UC Berkeley, California, USA"
+  - url: https://blog.nus.edu.sg/adrianchong/about/
+    image_path: https://cpb-us-w2.wpmucdn.com/blog.nus.edu.sg/dist/8/9027/files/2017/12/profilePhoto-1b4tlzm.jpg
+    title: "Adrian Chong"
+    alt: "Adrian Chong"
+    institute: "National University of Singapore, Singapore"
+  - url: https://www.iis.u-tokyo.ac.jp/en/research/staff/ryozo-ooka/
+    image_path: https://www.iis.u-tokyo.ac.jp/media/cache/2016/06/b22339bf24f6fb7be78781c2bd4ffb012ea03e17-thumb-110x110-229.jpg?1635394979782
+    title: "Ryozo Ooka"
+    alt: "Ryozo Ooka"
+    institute: "The University of Tokyo, Japan"
 sidebar:
   title: "Meet the team"
   nav: sidebar-people
