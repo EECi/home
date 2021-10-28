@@ -41,6 +41,7 @@ Andrea Perkins + Will (Innovate UK Secondment)"
     title: "Stochastic energy models"
     excerpt: "Rebecca Ward, PhD Student, U. of Cambridge
 Dr. Zack Conti, PDRA, Alan Turing Institute
+Dr. Chaoqun Zhuang, PDRA, Alan Turing Institute
 Teresa Irigoyen Lopez, PhD Student, U. of Cambridge
 James Kinch, PhD Student, U. of Cambridge"
     url: "/docs/stoch/"
