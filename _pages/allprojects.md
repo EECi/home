@@ -43,6 +43,7 @@ projects_current:
     title: "Data-centric Energy Modeling"
     excerpt: "Rebecca Ward, PDRA, Alan Turing Institute
 Dr. Zack Conti, PDRA, Alan Turing Institute
+Dr. Chaoqun Zhuang, PDRA, Alan Turing Institute
 Teresa Irigoyen Lopez, PhD Student, U. of Cambridge
 James Kinch, PhD Student, U. of Cambridge"
     url: "/docs/stoch/"
