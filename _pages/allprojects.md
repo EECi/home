@@ -16,16 +16,16 @@ toc_icon: "columns"
 excerpt: "Overview of the EECi projects"
 projects_current:
   - image_path: /Images/ssenv/ssenv_logo.png
-    alt: "placeholder image 2"
+    alt: "Sub-surface Environments Project"
     title: "Subsurface environments"
     excerpt:  "Dr. Monika Kreitmair, PDRA, U. of Cambridge, UK (July 2019) \n Dr. Nikolas Makasis, PDRA, U. of Cambridge, UK (May 2019) "
     url: "/docs/subsurface/"
     btn_label: "View this project"
     btn_class: "btn--inverse"
     
-  - image_path: /Images/eplan/Kochi_microsim.jpg
+  - image_path: /Images/eplan/eplan_logo.png
     image_caption: "Figure by A Neto-Bradley"
-    alt: "Spatial microsimulation of LPG use"
+    alt: "Urban Energy Planning"
     title: "Energy Planning"
     excerpt: "Exploring the use of data science tools to improve understanding and modelling of urban energy use."
     url: "/docs/energyplanning/"
@@ -34,7 +34,7 @@ projects_current:
     
   - image_path: /Images/uag/main_uag.png
     title: "Urban agriculture"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    excerpt: "Understanding and Modelling Urban Agriculture"
     url: "/docs/urbanag/"
     btn_label: "View this project"
     btn_class: "btn--inverse"
