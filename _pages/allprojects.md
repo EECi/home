@@ -18,7 +18,7 @@ projects_current:
   - image_path: /Images/ssenv/ssenv_logo_v2.png
     alt: "Sub-surface Environments Project"
     title: "Subsurface environments"
-    excerpt:  "Dr. Monika Kreitmair, PDRA, U. of Cambridge, UK (July 2019) \n Dr. Nikolas Makasis, PDRA, U. of Cambridge, UK (May 2019) "
+    excerpt:  "Improving the effective and equitable utilisation of the shallow subsurface as a thermal resource by combining data and modelling."
     url: "/docs/subsurface/"
     btn_label: "View this project"
     btn_class: "btn--inverse"
