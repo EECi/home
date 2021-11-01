@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Towards data-efficient and interpretable predictive modeling of energy behaviour via State Space Alignment
+title: Towards data-efficient and interpretable predictive modeling of energy behaviour via State Space Adaptation
 tags:
   - data-centric energy modelling
   - physics-enhanced maching learning
