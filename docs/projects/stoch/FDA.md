@@ -20,6 +20,8 @@ The impact of building occupants on internal loads is critical to assessing the 
 
 {% include figure image_path="/Images/stoch/CompEngSgCaChUS_2.svg" alt="Typical office plug load schedules" caption="Typical office plug load schedules" size = 100 %}
 
+![](/Images/stoch/CompEngSgCaChUS_2.svg | width = 100)
+
 A new data-centric bottom-up model has been developed for the definition of occupant-related building internal loads (plug loads and lighting) for input into building energy simulation. This study focuses on non-domestic buildings; using monitored data from four sub-metered buildings across the Cambridge University building stock, a functional data analysis approach has been used to extract the underlying structure of the data in data in terms of a common mean function μ(t) and functional principal components ν(t) (PCs) that are the same across all data samples. Each data sample f(t) is characterised by a unique set of PC weightings or 'scores’, α that relate the PCs to the data sample, according to an equation of the form:
 
 f(t) = μ(t) + \Sigma \alpha_i \nu_i(t)
