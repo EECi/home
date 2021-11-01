@@ -12,8 +12,6 @@ toc: true
 toc_sticky: true
 ---
 
-# Overview
-
 No matter how efficient a building, it is occupants that drive energy consumption - whether for comfort or device operation. Building energy simulation offers a means to assess different options without requiring costly in-situ tests, provided the simulation demonstrably replicates the building performance.  This proves to be difficult not only pre-construction but even for operational demand, in part because individual and collective occupant behaviour is difficult to quantify. In addition, a key assumption is that the internal loads are in some way related to the activity that takes place in a building zone. This is problematic both because the definition of activity is indeterminate and because building sub-metering strategies rarely align with the specified activities.  A new approach is required.
 
 <div id="wrapper">
@@ -81,7 +79,8 @@ Clicking on 'Submit' will generate an hourly time history of demand for a period
 
  <iframe src="https://rmw61.pythonanywhere.com/" title="FDA design tool" width="800" height="500"></iframe>
  
- 
+
+
 # What next?
   
 A potential alternative to the activity-based deterministic approach would be to use an approach similar to that used for the specification of weather data - another stochastic input.  In future, one could create annual hourly stochastic samples of typical demand according to the expected variability.  These would be used with user-defined energy use intensities with scenarios for extreme demand in much the same way that typical and future weather scenarios are modelled.  The methodology presented here is one way to generate annual hourly stochastic sample data and provides an initial step towards the specification of typical load profiles.
