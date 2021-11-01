@@ -22,14 +22,21 @@ No matter how efficient a building, it is occupants that drive energy consumptio
     </div>
 
 Building energy simulation currently requires occupant-related internal loads to be defined via a deterministic schedule consisting of a peak daily demand and a diversity schedule that describes how the demand varies over a 24hr period. 
-
 </div>
+
 
 But a model must not only be able to generate good estimates of the key performance indicators with a measure of the uncertainty but must also be able to assimilate data, be able to simulate operational change and be straightforward to use. There is a rapidly increasing pool of monitored data at increasing time and spatial resolutions for non-domestic buildings. This increased monitoring generates a real opportunity for gaining an in-depth understanding of the nature of occupant-related internal loads.  The requirement for a model to be able to assimilate these data make a data-centric model a natural choice.  
 
 # A Functional Data Analysis approach
 
+<div id="wrapper">
+  <div id="sticky">
+    <img src="/home/Images/stoch/ScorePlots_2.png">
+    </div>
+  
 A new data-centric bottom-up model has been developed for the definition of occupant-related building internal loads (plug loads and lighting) for input into building energy simulation. This study focuses on non-domestic buildings; using monitored data from four sub-metered buildings across the Cambridge University building stock, a functional data analysis approach has been used to extract the underlying structure of the data in data in terms of a common mean function and functional principal components (PCs) that are the same across all data samples. Each data sample is characterised by a unique set of PC weightings or 'scores’, that relate the PCs to the data sample, according to a weighted sum.  The phase and amplitude of the data are analysed separately with separate PCs and scores. The score magnitude indicates the significance of the corresponding PC in the data sample. For example, in the figure above a high positive score for the first amplitude PC νy1 will tend to indicate a high load range. 
+</div>
+
 
 This facilitates generation of new data samples that encompass the observed behaviour without replication. A probability distribution is fitted to the set of scores for a specific building zone.  Sample scores are drawn at random from the probability distribution and the sample scores are used in conjunction with the PCs to generate new data samples. This can be done for different zones and different types of day - for example weekday and weekend – and an annual stochastic demand profile can be built up for use as input into building energy simulation. The beauty of this approach is that it is not necessary to analyse each building independently; given a set of PCs any new data can be projected onto these PCs in order to generate scores that may be compared directly against existing data samples and used to generate sample data. 
 
