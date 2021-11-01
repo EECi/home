@@ -5,7 +5,8 @@ tags:
   - data-centric energy modelling
   - physics-enhanced maching learning
   - state space modeling
-  - eigenanalysis
+  - subspace alignment
+  - dynamic mode decomposition
 author: "Zack"
 excerpt: "Reuse of energy models via state space transformations"
 feature_row:
@@ -17,22 +18,39 @@ toc: true
 toc_sticky: true
 ---
 
-**Overview**
+**Aim**
 
-The project aims to build efficient tools for assisting the decarbonization of buildings. 
+Towards data-efficient and interpretable modeling of energy behaviour in buildings.
 
-Typical energy model representaions are categorised into analytical models such as FEA, or fully data-driven models such as polynomial regression or neural network. Analytical models offer full interpretability but can be computationally demanding to compute. On the other hand, data-driven models are typically not interpretable and data-intensive. These factors impede on the practicality of such models in real-world engineering applications. 
+**Challenge**
 
-Thus, we are in need of better building energy modeling methods that are: **data-efficient**, and **interpretable**. 
+Machine learning-based methods have grown significaly popular across the physics-modeling communities mainly because they show promise in approximating complex behaviour very well directly from data with no expert knowledge about the underlying phenomenon. However, it is an established caveat that ML-based models suffer from generalisability beyond the dataset and from physical interpretability due to their black box nature. As a result, the combination of such factors often impedes on the implementability of ML-based prediction models for practical real-world engineering applications such as energy forecasting in model predictive control, what-if energy analysis and building design optimisation. 
 
-In response, this project adopts a Physics-enhanced Machine Learning approach (Phi-ML), where knowledge about the structure of observed phenomenon (eg. ODE, PDE, etc.) is supplied as a basis of a Machine learning framework. The marriage of the two implies less data needed to capture struture from data, while maintaining interpretability of such structure. In more detail, we represent the structure of energy transfer in building components in the form of State Space Models (SSM), which is a method from control theory, to simplify the representation of dynamic behavior as a set of lienar equations. Despite simplification, an SSM contains all the necessary information to describe all possible trajectories within the state space. In other words, SSMs provide data-effiency while, preserve the structure of the dynamic phenomenon hence, interpretability.
+**Hypothesis**
+
+This research highlights that model generalisability and interpretability may be improved by focusing modeling effort towards recovering the global dynamics underlying the observed system behaviour. A common approach is to construct models from large exhaustive datasets in an indirect attempt to capture governing dynamics, but the latter often depends on the size and quality (noise) of the dataset, which is not always feasible to guarantee, especially in the case of empirical scenarios where experimental conditions are not always easy to control. So, how can we improve model generalisability in a data-efficient and interpretable manner? 
+
+**Research Objective**
+
+This research works towards a Physics-informed data-driven approach which involves incorporating mechanistic models into the data-driven framework. Mechanistic models are derived from laws of Physics (in the form of ODEs, PDEs, etc.) and thus, their incorporation into the data-driven framework aims to bypass the need for exhaustive datasets while preserve physical interpretability of the underlying dynamics. 
+
+**Technical Approach**
+
+More specifically, the research marries low-rank (global) mechanistic models in the form of physcis-based State Space Models with unsupervised data-driven spectral-decomposition methods such as Dynamic Mode Decomposition, in a Subspace-alignment transfer learning framework. The goal is to apply DA techniques such as subspace alignment to adapt the interpretable mechanistic structure of the physics-based state space model (source) to the measured data (target) by aligning their respective subspaces. In other words, we aim to recover unknown governing the global state space field by adapting known physics knowledge-driven global state space fields to available data. 
+
+**State Space**
+
+The State Space can be described as a vector field whose vector diretions guide the fundamental trajectories underlying the behaviour of the physical system under observation. State spaces can be mathematically represented by state space models (SSM), which are an algebraic system of linear equations for mechanistically representing any dynamic system that can be described by ordinary differential equations. Thus, focusing efforts towards recovering the vector field underlying a thermal system, contributes towards achieving prediction generalisability for any combination of state initial conditions because any trajectory in the state space is described by the governing model, while preserving physical interpretability of the governing dynamics. The state space can also be described as a subspace, whose boundareies are defined by the Physics-oriented state varibles. 
 
 {% include figure image_path="/Images/stoch/phaseProfile_sinlgeWall_parametricThickness_3.gif" alt="Phase portrait trajectories at varying wall thicknesses" caption="Phase portrait trajectories at varying wall thicknesses" %}
 
+**Dynamic Mode Decomposition**
 
-The project aims to identify linear transformation maps between SSMs of independent building components as a way to reuse the structure of dynamic systems.
 
 **Team**
 
 University of Cambridge: [Dr Ruchi Choudhary](http://www.eng.cam.ac.uk/profiles/rc488), head of the Energy Efficient Cities Initiative.
 Alan Turing Institute: [Dr Zack Xuereb Conti](https://eeci.github.io/home/docs/people/zack/), postdoctoral researcher.
+
+**Collaborators**
+Alan Turing Institute, Imperial: [Dr Luca Magri](https://www.imperial.ac.uk/people/l.magri), Reader in data-driven Fluid mechanics.
