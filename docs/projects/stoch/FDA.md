@@ -79,9 +79,10 @@ The required input is an estimate of the median expected hourly base load and lo
 
 Clicking on 'Submit' will generate an hourly time history of demand for a period of 1 year, with weekends and bank holidays corresponding to the year 2019. This can be downloaded as the file 'SampleData.csv' by clicking on the 'Download' button.
 
-
  <iframe src="https://rmw61.pythonanywhere.com/" title="FDA design tool" width="800" height="500"> 
+ 
   
- # What next ?
   
-  A potential alternative to the activity-based deterministic approach would be to use an approach similar to that used for the specification of weather data - another stochastic input.  In future, one could create annual hourly stochastic samples of typical demand according to the expected variability.  These would be used with user-defined energy use intensities with scenarios for extreme demand in much the same way that typical and future weather scenarios are modelled.  The methodology presented here is one way to generate annual hourly stochastic sample data and provides an initial step towards the specification of typical load profiles.
+# What next ?
+  
+A potential alternative to the activity-based deterministic approach would be to use an approach similar to that used for the specification of weather data - another stochastic input.  In future, one could create annual hourly stochastic samples of typical demand according to the expected variability.  These would be used with user-defined energy use intensities with scenarios for extreme demand in much the same way that typical and future weather scenarios are modelled.  The methodology presented here is one way to generate annual hourly stochastic sample data and provides an initial step towards the specification of typical load profiles.
