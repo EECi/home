@@ -52,9 +52,15 @@ This can be done for different zones and different types of day - for example we
 
 A key assumption in simulation of non-domestic buildings is that the internal loads are directly related to the activity that takes place in a building zone. This is problematic both because the definition of activity is indeterminate and because building sub-metering strategies rarely align with the specified activities. The transformation of each data sample into a set of discrete values means that statistical techniques can be used for analysis of the similarities and differences between the data samples. Specifically, clustering of the scores - whereby the scores for different zones are grouped together depending on how similar they are - has been used to explore whether the zones that have similar score distributions also have similar nominal activities. The specific technique used is hierarchical clustering which starts by pairing the zones that are the most similar and then iteratively adding in the next closest zones. The dendrogram shows the result of clustering the scores for the plug loads; also shown are the zone nominal activities.
 
-The monitored demand profiles increase in variability from a regular weekday demand at the bottom of the dendrogram to a flat profile at the top of the dendrogram (server room). The zone activity shows some correlation with location in the dendrogram i.e. the office zones tend to have more regular demand profiles and be towards the bottom and the classrooms and laboratories tend to be towards the top – but this isn’t the case for all zones.
+<div id="wrapper">
+  <div id="sticky">
+    <img src="/home/Images/stoch/Dendrogram_Anon_Label_Plots_Monitored__jet_v2.svg">
+    </div>
 
-For plug loads the similarity in demand profiles between different building zones is more related to the variability of the data than the nominal zone activity. For lighting loads a similar approach reveals that zones within the same building are more similar than zones with the same nominal activity from different buildings.  This is likely due to the different buildings having different lighting control strategies.
+The monitored demand profiles increase in variability from a regular weekday demand at the bottom of the dendrogram to a flat profile at the top of the dendrogram (server room). The zone activity shows some correlation with location in the dendrogram i.e. the office zones tend to have more regular demand profiles and be towards the bottom and the classrooms and laboratories tend to be towards the top – but this isn’t the case for all zones.
+</div> 
+
+  For plug loads the similarity in demand profiles between different building zones is more related to the variability of the data than the nominal zone activity. For lighting loads a similar approach reveals that zones within the same building are more similar than zones with the same nominal activity from different buildings.  This is likely due to the different buildings having different lighting control strategies.
 
 Deconstruction of the data leads to the conclusion that activity per se is not a good indicator of internal loads. Instead, for plug loads it is the expected variability of the data that is important, whereas for lighting the control strategy of each individual building zone defines the stochasticity of the demand.  
 
