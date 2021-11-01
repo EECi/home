@@ -133,7 +133,7 @@ sidebar:
 * Adam Booth, *2009-2013. [now political activist and writer for Socialist Appeal, UK]* 
 
 
-### Past Reasearch Associates
+### Past Research Associates
 
 * Dr. Asal Bidarmaghz, *2017-2019 [now Asst. Prof. at UNSW Sydney, Australia]* 
 
