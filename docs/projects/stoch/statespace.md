@@ -33,9 +33,9 @@ This research highlights that model generalisability and interpretability may be
 This research works towards a Physics-informed data-driven approach which involves incorporating mechanistic models into the data-driven framework. Mechanistic models are derived from laws of Physics (in the form of ODEs, PDEs, etc.) and thus, their incorporation into the data-driven framework aims to bypass the need for exhaustive datasets while preserve physical interpretability of the underlying dynamics. 
 
 ## Technical Approach
-**_state space modeling meet dynamic mode decomposition (DMD)_**
+**_state space modeling meets dynamic mode decomposition (DMD)_**
 
-More specifically, the research marries low-rank (global) mechanistic models in the form of physcis-based State Space Models with unsupervised data-driven spectral-decomposition methods such as Dynamic Mode Decomposition, in a Subspace-alignment transfer learning framework. The goal is to apply DA techniques such as subspace alignment to adapt the interpretable mechanistic structure of the physics-based state space model (source) to the measured data (target) by aligning their respective subspaces. In other words, we aim to recover unknown governing the global state space field by adapting known physics knowledge-driven global state space fields to available data. 
+More specifically, the research marries low-rank (global) mechanistic models in the form of physcis-based State Space Models with unsupervised data-driven spectral-decomposition methods such as Dynamic Mode Decomposition, in a Subspace-alignment transfer learning framework. The goal is to adapt the interpretable mechanistic structure of the physics-based state space model (source) to the measured data (target) by aligning their respective underlying subspaces. Ultimately, we aim to recover the full governing state space field by adapting known physics knowledge-driven global state space fields to available data. 
 
 **_State Space_**
 
