@@ -33,7 +33,7 @@ This research highlights that model generalisability and interpretability may be
 This research works towards a Physics-informed data-driven approach which involves incorporating mechanistic models into the data-driven framework. Mechanistic models are derived from laws of Physics (in the form of ODEs, PDEs, etc.) and thus, their incorporation into the data-driven framework aims to bypass the need for exhaustive datasets while preserve physical interpretability of the underlying dynamics. 
 
 ## Technical Approach
-**_state space models meet dynamic mode decomposition_**
+**_state space modeling meet dynamic mode decomposition (DMD)_**
 
 More specifically, the research marries low-rank (global) mechanistic models in the form of physcis-based State Space Models with unsupervised data-driven spectral-decomposition methods such as Dynamic Mode Decomposition, in a Subspace-alignment transfer learning framework. The goal is to apply DA techniques such as subspace alignment to adapt the interpretable mechanistic structure of the physics-based state space model (source) to the measured data (target) by aligning their respective subspaces. In other words, we aim to recover unknown governing the global state space field by adapting known physics knowledge-driven global state space fields to available data. 
 
@@ -41,7 +41,7 @@ More specifically, the research marries low-rank (global) mechanistic models in 
 
 The State Space can be described as a vector field whose vector coordinates guide the fundamental trajectories underlying the behaviour of the physical system under observation. State spaces can be mathematically represented by state space models (SSM), which are an algebraic system of linear equations for mechanistically representing any dynamic system that can be described by ordinary differential equations. Thus, focusing efforts towards recovering the vector field underlying a thermal system, contributes towards achieving prediction generalisability for any combination of state initial conditions because any trajectory in the state space is described by the governing model, while preserving physical interpretability of the governing dynamics. A state space can also be described as a subspace, whose boundaries are defined by the state vectors. 
 
-{% include figure image_path="/Images/stoch/phaseProfile_sinlgeWall_parametricThickness_3.gif" alt="Phase portrait trajectories at varying wall thicknesses" caption="Phase portrait trajectories at varying wall thicknesses" %}
+{% include figure image_path="/Images/stoch/phaseProfile_sinlgeWall_parametricThickness_3.gif" alt="Phase portrait trajectories at varying wall thicknesses" caption="Overlayed state space trajectories of transient heat transfer through external walls of varying thicknesses." %}
 
 **_Dynamic Mode Decomposition_**
 
