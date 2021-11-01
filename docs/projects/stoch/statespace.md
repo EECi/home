@@ -1,6 +1,6 @@
 ---
 layout: single
-title: State Space Transformations
+title: Towards data-efficient and interpretable predictive modeling of energy behaviour via State Space Alignment
 tags:
   - data-centric energy modelling
   - physics-enhanced maching learning
@@ -17,11 +17,6 @@ read_time: true
 toc: true
 toc_sticky: true
 ---
-
-**Aim**
-
-Towards data-efficient and interpretable modeling of energy behaviour in buildings.
-
 **Challenge: generalisability and interpretability**
 
 Machine learning-based methods have grown significantly popular across predictive-modeling communities mainly because they show promise in approximating complex relationships underlying data, with no understanding of the observed phenomenon required. However, it is an established caveat that ML-based models suffer a) from generalisability beyond the bounds of the dataset and b) from physical interpretability due to their black box nature. As a result, the combination of such factors often impedes on the implementability of ML-based prediction models for practical real-world engineering applications such as energy forecasting in model predictive control, what-if energy analysis and building design optimisation. 
