@@ -21,12 +21,12 @@ Building energy simulation currently requires occupant-related internal loads to
 <div id="wrapper">
   <div id="sticky">
     <img id="sticky"
-         src="/Images/stoch/CompEngSgCaChUS_2.png">
+         src="/home/Images/stoch/CompEngSgCaChUS_2.png">
     </div>
-  </div>
+
 
 But a model must not only be able to generate good estimates of the key performance indicators with a measure of the uncertainty but must also be able to assimilate data, be able to simulate operational change and be straightforward to use. There is a rapidly increasing pool of monitored data at increasing time and spatial resolutions for non-domestic buildings. This increased monitoring generates a real opportunity for gaining an in-depth understanding of the nature of occupant-related internal loads.  The requirement for a model to be able to assimilate these data make a data-centric model a natural choice.  
-
+</div>
 # A Functional Data Analysis approach
 
 A new data-centric bottom-up model has been developed for the definition of occupant-related building internal loads (plug loads and lighting) for input into building energy simulation. This study focuses on non-domestic buildings; using monitored data from four sub-metered buildings across the Cambridge University building stock, a functional data analysis approach has been used to extract the underlying structure of the data in data in terms of a common mean function and functional principal components (PCs) that are the same across all data samples. Each data sample is characterised by a unique set of PC weightings or 'scores’, that relate the PCs to the data sample, according to a weighted sum.  The phase and amplitude of the data are analysed separately with separate PCs and scores. The score magnitude indicates the significance of the corresponding PC in the data sample. For example, in the figure above a high positive score for the first amplitude PC νy1 will tend to indicate a high load range. 
