@@ -25,8 +25,6 @@ feature_row:
     btn_class: "btn--primary"
 ---
 
-# Data-centric Energy Modelling
-
 ## Introduction
 Introduction here ...
 
