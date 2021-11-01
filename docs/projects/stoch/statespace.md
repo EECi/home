@@ -17,11 +17,13 @@ read_time: true
 toc: true
 toc_sticky: true
 ---
-**Challenge: generalisability and interpretability**
+# Challenge:
+**generalisability and interpretability**
 
 Machine learning-based methods have grown significantly popular across predictive-modeling communities mainly because they show promise in approximating complex relationships underlying data, with no understanding of the observed phenomenon required. However, it is an established caveat that ML-based models suffer a) from generalisability beyond the bounds of the dataset and b) from physical interpretability due to their black box nature. As a result, the combination of such factors often impedes on the implementability of ML-based prediction models for practical real-world engineering applications such as energy forecasting in model predictive control, what-if energy analysis and building design optimisation. 
 
-**Hypothesis: recovering governing global dynamics**
+# Hypothesis: 
+**recovering governing global dynamics**
 
 This research highlights that model generalisability and interpretability may be improved by focusing modeling effort towards recovering the global dynamics underlying the observed system behaviour. A common approach is to construct models from large exhaustive datasets in an indirect attempt to capture governing dynamics, but the latter often depends on the size and quality (noise) of the dataset, which is not always feasible to guarantee, especially in the case of empirical scenarios where experimental conditions are not always easy to control. So, how can we improve model generalisability in a data-efficient and interpretable manner? 
 
