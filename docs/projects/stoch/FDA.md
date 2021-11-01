@@ -38,8 +38,15 @@ A new data-centric bottom-up model has been developed for the definition of occu
 This study focuses on non-domestic buildings; using monitored data from four sub-metered buildings across the Cambridge University building stock, a functional data analysis approach has been used to extract the underlying structure of the data in data in terms of a common mean function, μ(t) and functional principal components (PCs), ν(t), that are the same across all data samples. Each data sample is characterised by a unique set of PC weightings or 'scores’, α, that relate the PCs to the data sample, according to the weighted sum f(t) = μ(t) + Σα<sub>j</sub>.ν<sub>j</sub>(t).  The phase and amplitude of the data are analysed separately with separate PCs and scores. The score magnitude indicates the significance of the corresponding PC in the data sample. For example, in the figure above a high positive score, α<sub>y1</sub> for the first amplitude PC ν<sub>y1</sub> will tend to indicate a high load range. 
 </div>
 
-</br>
-This facilitates generation of new data samples that encompass the observed behaviour without replication. A probability distribution is fitted to the set of scores for a specific building zone.  Sample scores are drawn at random from the probability distribution and the sample scores are used in conjunction with the PCs to generate new data samples. This can be done for different zones and different types of day - for example weekday and weekend – and an annual stochastic demand profile can be built up for use as input into building energy simulation. The beauty of this approach is that it is not necessary to analyse each building independently; given a set of PCs any new data can be projected onto these PCs in order to generate scores that may be compared directly against existing data samples and used to generate sample data. 
+<div id="wrapper">
+  <div id="sticky">
+    <img src="/home/Images/stoch/NewSamples_2.png">
+    </div>
+  
+This facilitates generation of new data samples that encompass the observed behaviour without replication. A probability distribution is fitted to the set of scores for a specific building zone.  Sample scores are drawn at random from the probability distribution and the sample scores are used in conjunction with the PCs to generate new data samples. 
+</div>  
+  
+This can be done for different zones and different types of day - for example weekday and weekend – and an annual stochastic demand profile can be built up for use as input into building energy simulation. The beauty of this approach is that it is not necessary to analyse each building independently; given a set of PCs any new data can be projected onto these PCs in order to generate scores that may be compared directly against existing data samples and used to generate sample data. 
 
 # Does zone 'activity' determine internal loads?
 
