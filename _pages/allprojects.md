@@ -33,7 +33,7 @@ projects_current:
     
   - image_path: /Images/uag/urbag_logo.png
     title: "Urban agriculture"
-    excerpt: "Understanding and Modelling Urban Agriculture"
+    excerpt: "Understanding and modelling the impact of plants on the built environment including greenhouses and building-integrated agriculture"
     url: "/docs/urbanag/"
     btn_label: "View this project"
     btn_class: "btn--inverse"
@@ -41,18 +41,14 @@ projects_current:
   - image_path: /Images/stoch/DCM_logo.png
     alt: "placeholder image 2"
     title: "Data-centric Energy Modeling"
-    excerpt: "Rebecca Ward, PDRA, Alan Turing Institute
-Dr. Zack Conti, PDRA, Alan Turing Institute
-Dr. Chaoqun Zhuang, PDRA, Alan Turing Institute
-Teresa Irigoyen Lopez, PhD Student, U. of Cambridge
-James Kinch, PhD Student, U. of Cambridge"
+    excerpt: "Using monitored energy data to understand and model energy demand across diverse spatial and temporal scales"
     url: "/docs/stoch/"
     btn_label: "View this project"
     btn_class: "btn--inverse"
     
 projects_past:
-  - image_path: /Images/bbem/bbem.png
-    image_caption: "Exergy analysis of building retrofit"
+  - image_path: /Images/bbem/bbem_content_image.png
+    image_caption: "B.bem: the Bayesian building management portal"
     alt: "placeholder image 2"
     title: "B.bem"
     excerpt:  "B.bem project explored transforming conventional energy analysis processes to support the future energy management of existing non-domesting buildings"
