@@ -86,5 +86,5 @@ A potential alternative to the activity-based deterministic approach would be to
 
 
 # Team
-This work has resulted from the PhD studies of <a href = "https://eeci.github.io/home/docs/people/rebecca">Rebecca Ward</a>, supervised by <a href = "https://eeci.github.io/home/docs/people/ruchi">Ruchi Choudhary</a> and funded by <a href = "https://www.laingorourke.com/">Laing O'Rourke </a> and <a href = "https://epsrc.ukri.org/">EPSRC</a>
+This work has resulted from the PhD studies of <a href = "https://eeci.github.io/home/docs/people/rebecca">Dr Rebecca Ward</a>, supervised by <a href = "https://eeci.github.io/home/docs/people/ruchi">Dr Ruchi Choudhary</a> and funded by <a href = "https://www.laingorourke.com/">Laing O'Rourke </a> and <a href = "https://epsrc.ukri.org/">EPSRC</a>
 
