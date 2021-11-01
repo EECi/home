@@ -26,9 +26,13 @@ feature_row:
 ---
 
 ## Introduction
-Introduction here ...
+Increasingly, large quantities of data are being generated from monitoring of buildings and structures.  These data potentially offer insights into the ways in which our buildings are operated and can be made more efficient, but as yet the potential benefits are largely untapped.  
+
+
 
 ## Challenges
+
+
 
 ## Data-centric energy modelling projects
 {% include feature_row %}
