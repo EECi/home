@@ -20,8 +20,7 @@ Building energy simulation currently requires occupant-related internal loads to
 
 <div id="wrapper">
   <div id="sticky">
-    <img id="sticky"
-         src="/home/Images/stoch/CompEngSgCaChUS_2.png">
+    <img src="/home/Images/stoch/CompEngSgCaChUS_2.png">
     </div>
 
 
