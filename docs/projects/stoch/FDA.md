@@ -14,16 +14,14 @@ toc_sticky: true
 
 # Overview
 
-No matter how efficient a building, it is occupants that drive energy consumption - whether for comfort or device operation.  While in a residential building the behaviour of the individual has a direct and significant impact, in a non-domestic building it is the collective behaviour that is important to understand. Building energy simulation offers a means to assess different options without requiring costly in-situ tests, provided the simulation demonstrably replicates the building performance.  This proves to be difficult not only pre-construction but even for operational demand, in part because individual and collective occupant behaviour is difficult to quantify. In addition, a key assumption is that the internal loads are in some way related to the activity that takes place in a building zone. This is problematic both because the definition of activity is indeterminate and because building sub-metering strategies rarely align with the specified activities.  A new approach is required.
+No matter how efficient a building, it is occupants that drive energy consumption - whether for comfort or device operation. Building energy simulation offers a means to assess different options without requiring costly in-situ tests, provided the simulation demonstrably replicates the building performance.  This proves to be difficult not only pre-construction but even for operational demand, in part because individual and collective occupant behaviour is difficult to quantify. In addition, a key assumption is that the internal loads are in some way related to the activity that takes place in a building zone. This is problematic both because the definition of activity is indeterminate and because building sub-metering strategies rarely align with the specified activities.  A new approach is required.
 
 Building energy simulation currently requires occupant-related internal loads to be defined via a deterministic schedule consisting of a peak daily demand and a diversity schedule that describes how the demand varies over a 24hr period. 
 
 <div id="wrapper">
   <div id="sticky">
     <img id="sticky"
-         src="/Images/stoch/CompEngSgCaChUS_2.svg" 
-         width=20% 
-         height=20% >
+         src="/Images/stoch/CompEngSgCaChUS_2.png">
     </div>
   </div>
 
