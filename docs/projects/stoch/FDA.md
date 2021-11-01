@@ -1,6 +1,6 @@
 ---
 layout: single
-title: FDA
+title: Functional Data Analysis for generation of building energy demand profiles
 tags:
   - data-centric energy modelling
   - internal loads
