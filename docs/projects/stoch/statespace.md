@@ -22,19 +22,19 @@ toc_sticky: true
 
 Towards data-efficient and interpretable modeling of energy behaviour in buildings.
 
-**Challenge**
+**Challenge: generalisability and interpretability**
 
-Machine learning-based methods have grown significaly popular across the physics-modeling communities mainly because they show promise in approximating complex behaviour very well directly from data with no expert knowledge about the underlying phenomenon. However, it is an established caveat that ML-based models suffer from generalisability beyond the dataset and from physical interpretability due to their black box nature. As a result, the combination of such factors often impedes on the implementability of ML-based prediction models for practical real-world engineering applications such as energy forecasting in model predictive control, what-if energy analysis and building design optimisation. 
+Machine learning-based methods have grown significaly popular across predictive-modeling communities mainly because they show promise in approximating complex relationhips underlying data, with no understanding of the observed phenomenon. However, it is an established caveat that ML-based models suffer a) from generalisability beyond the bounds of the dataset and b) from physical interpretability due to their black box nature. As a result, the combination of such factors often impedes on the implementability of ML-based prediction models for practical real-world engineering applications such as energy forecasting in model predictive control, what-if energy analysis and building design optimisation. 
 
-**Hypothesis**
+**Hypothesis: recovering governing global dynamics**
 
 This research highlights that model generalisability and interpretability may be improved by focusing modeling effort towards recovering the global dynamics underlying the observed system behaviour. A common approach is to construct models from large exhaustive datasets in an indirect attempt to capture governing dynamics, but the latter often depends on the size and quality (noise) of the dataset, which is not always feasible to guarantee, especially in the case of empirical scenarios where experimental conditions are not always easy to control. So, how can we improve model generalisability in a data-efficient and interpretable manner? 
 
-**Research Objective**
+**Research Objective: a Physics-informed data-driven approach**
 
 This research works towards a Physics-informed data-driven approach which involves incorporating mechanistic models into the data-driven framework. Mechanistic models are derived from laws of Physics (in the form of ODEs, PDEs, etc.) and thus, their incorporation into the data-driven framework aims to bypass the need for exhaustive datasets while preserve physical interpretability of the underlying dynamics. 
 
-**Technical Approach**
+**Technical Approach: state space models meet dynamic mode decomposition**
 
 More specifically, the research marries low-rank (global) mechanistic models in the form of physcis-based State Space Models with unsupervised data-driven spectral-decomposition methods such as Dynamic Mode Decomposition, in a Subspace-alignment transfer learning framework. The goal is to apply DA techniques such as subspace alignment to adapt the interpretable mechanistic structure of the physics-based state space model (source) to the measured data (target) by aligning their respective subspaces. In other words, we aim to recover unknown governing the global state space field by adapting known physics knowledge-driven global state space fields to available data. 
 
