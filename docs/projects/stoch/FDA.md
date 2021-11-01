@@ -54,15 +54,16 @@ A key assumption in simulation of non-domestic buildings is that the internal lo
 
 <div id="wrapper">
   <div id="sticky">
-    <img src="/home/Images/stoch/Dendrogram_Anon_Label_Plots_Monitored__jet_v2.svg">
+    <img src="/home/Images/stoch/Dendrogram_Anon_Label_Plots_Monitored__jet_v2.png">
     </div>
 
 The monitored demand profiles increase in variability from a regular weekday demand at the bottom of the dendrogram to a flat profile at the top of the dendrogram (server room). The zone activity shows some correlation with location in the dendrogram i.e. the office zones tend to have more regular demand profiles and be towards the bottom and the classrooms and laboratories tend to be towards the top – but this isn’t the case for all zones.
 </div> 
 
-  For plug loads the similarity in demand profiles between different building zones is more related to the variability of the data than the nominal zone activity. For lighting loads a similar approach reveals that zones within the same building are more similar than zones with the same nominal activity from different buildings.  This is likely due to the different buildings having different lighting control strategies.
 
-Deconstruction of the data leads to the conclusion that activity per se is not a good indicator of internal loads. Instead, for plug loads it is the expected variability of the data that is important, whereas for lighting the control strategy of each individual building zone defines the stochasticity of the demand.  
+For plug loads the similarity in demand profiles between different building zones is more related to the variability of the data than the nominal zone activity. For lighting loads a similar approach reveals that zones within the same building are more similar than zones with the same nominal activity from different buildings.  This is likely due to the different buildings having different lighting control strategies.
+
+Deconstruction of the data leads to the conclusion that activity <em>per se</em> is not a good indicator of internal loads. Instead, for plug loads it is the expected variability of the data that is important, whereas for lighting the control strategy of each individual building zone defines the stochasticity of the demand.  
 
 # A practical tool
 
