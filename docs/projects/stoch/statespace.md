@@ -24,7 +24,7 @@ Towards data-efficient and interpretable modeling of energy behaviour in buildin
 
 **Challenge: generalisability and interpretability**
 
-Machine learning-based methods have grown significaly popular across predictive-modeling communities mainly because they show promise in approximating complex relationhips underlying data, with no understanding of the observed phenomenon. However, it is an established caveat that ML-based models suffer a) from generalisability beyond the bounds of the dataset and b) from physical interpretability due to their black box nature. As a result, the combination of such factors often impedes on the implementability of ML-based prediction models for practical real-world engineering applications such as energy forecasting in model predictive control, what-if energy analysis and building design optimisation. 
+Machine learning-based methods have grown significantly popular across predictive-modeling communities mainly because they show promise in approximating complex relationships underlying data, with no understanding of the observed phenomenon required. However, it is an established caveat that ML-based models suffer a) from generalisability beyond the bounds of the dataset and b) from physical interpretability due to their black box nature. As a result, the combination of such factors often impedes on the implementability of ML-based prediction models for practical real-world engineering applications such as energy forecasting in model predictive control, what-if energy analysis and building design optimisation. 
 
 **Hypothesis: recovering governing global dynamics**
 
@@ -40,7 +40,7 @@ More specifically, the research marries low-rank (global) mechanistic models in 
 
 **State Space**
 
-The State Space can be described as a vector field whose vector diretions guide the fundamental trajectories underlying the behaviour of the physical system under observation. State spaces can be mathematically represented by state space models (SSM), which are an algebraic system of linear equations for mechanistically representing any dynamic system that can be described by ordinary differential equations. Thus, focusing efforts towards recovering the vector field underlying a thermal system, contributes towards achieving prediction generalisability for any combination of state initial conditions because any trajectory in the state space is described by the governing model, while preserving physical interpretability of the governing dynamics. The state space can also be described as a subspace, whose boundareies are defined by the Physics-oriented state varibles. 
+The State Space can be described as a vector field whose vector coordinates guide the fundamental trajectories underlying the behaviour of the physical system under observation. State spaces can be mathematically represented by state space models (SSM), which are an algebraic system of linear equations for mechanistically representing any dynamic system that can be described by ordinary differential equations. Thus, focusing efforts towards recovering the vector field underlying a thermal system, contributes towards achieving prediction generalisability for any combination of state initial conditions because any trajectory in the state space is described by the governing model, while preserving physical interpretability of the governing dynamics. The state space can also be described as a subspace, whose boundaries are defined by the Physics-oriented state variables. 
 
 {% include figure image_path="/Images/stoch/phaseProfile_sinlgeWall_parametricThickness_3.gif" alt="Phase portrait trajectories at varying wall thicknesses" caption="Phase portrait trajectories at varying wall thicknesses" %}
 
@@ -53,4 +53,5 @@ University of Cambridge: [Dr Ruchi Choudhary](http://www.eng.cam.ac.uk/profiles/
 Alan Turing Institute: [Dr Zack Xuereb Conti](https://eeci.github.io/home/docs/people/zack/), postdoctoral researcher.
 
 **Collaborators**
+
 Alan Turing Institute, Imperial: [Dr Luca Magri](https://www.imperial.ac.uk/people/l.magri), Reader in data-driven Fluid mechanics.
