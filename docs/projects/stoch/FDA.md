@@ -18,10 +18,7 @@ No matter how efficient a building, it is occupants that drive energy consumptio
 
 Building energy simulation currently requires occupant-related internal loads to be defined via a deterministic schedule consisting of a peak daily demand and a diversity schedule that describes how the demand varies over a 24hr period. 
 
-<div id="wrapper">
-  <img src="/home/Images/stoch/CompEngSgCaChUS_2.png" 
-       width=20% height=20% >
-  </div>
+<img src="/Images/stoch/CompEngSgCaChUS_2.png" width=20% height=20% />
 
 But a model must not only be able to generate good estimates of the key performance indicators with a measure of the uncertainty but must also be able to assimilate data, be able to simulate operational change and be straightforward to use. There is a rapidly increasing pool of monitored data at increasing time and spatial resolutions for non-domestic buildings. This increased monitoring generates a real opportunity for gaining an in-depth understanding of the nature of occupant-related internal loads.  The requirement for a model to be able to assimilate these data make a data-centric model a natural choice.  
 
