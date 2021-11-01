@@ -15,13 +15,13 @@ toc_sticky: true
 
 # Growing Underground
 
-The <a href = https://growing-underground.com/>Growing Underground (GU) farm </a> lies 33m below ground in previously disused London Underground Tunnels in Clapham. The farm grow microsalads for distribution across London, focussing on clean, sustainable and hyper-local nutritious crops. We have been working together with the farm developers (now <a href = https://zerocarbonfarms.co.uk/> Zero Carbon Farms </a>) since the initial pilot project, to monitor the internal environment of the tunnels and analyse energy and environment data to help understand the unique tunnel environment and thereby improve crop yields. In conjunction with <a href= https://www.turing.ac.uk/> the Alan Turing Institute </a> we are developing the world's first bespoke digital twin of an urban agricultural space.
+The <a href = "https://growing-underground.com/">Growing Underground (GU) farm </a> lies 33m below ground in previously disused London Underground Tunnels in Clapham. The farm grow microsalads for distribution across London, focussing on clean, sustainable and hyper-local nutritious crops. We have been working together with the farm developers (now <a href = "https://zerocarbonfarms.co.uk/"> Zero Carbon Farms </a>) since the initial pilot project, to monitor the internal environment of the tunnels and analyse energy and environment data to help understand the unique tunnel environment and thereby improve crop yields. In conjunction with <a href= "https://www.turing.ac.uk/"> the Alan Turing Institute </a> we are developing the world's first bespoke digital twin of an urban agricultural space.
 
 # Digital twin concept
 
 While controlled environment agriculture and vertical farming can be energy intensive, we are interested to find ways of making the farm operate more energy efficiently by better understanding the farm environment and giving advice in real-time. Combining GU's innovative and open to learn growing methods with regular data analysis, we found that GU's yield efficiency increased on average by 57% over five years.  
 
-Having learned what makes crops grow better as a function of the environment and developed models to forecast internal environmental conditions, we are prototyping a digital twin of the farm, <a href=https://github.com/alan-turing-institute/CROP> CROP </a>. 
+Having learned what makes crops grow better as a function of the environment and developed models to forecast internal environmental conditions, we are prototyping a digital twin of the farm, <a href="https://github.com/alan-turing-institute/CROP"> CROP </a>. 
 
 There are three stages to the development of digital twins which are as essential as each other:
 
@@ -40,7 +40,7 @@ The CROP digital twin will incorporate two different modelling approaches:
 Forecasting internal temperatures to enable farm operators to take action to combat potentially sub-optimal temperature ranges.
 
 ### Physics-based model
-Using the <a href= eeci.github.io/home/docs/projects/urbanag/ges>Greenhouse Energy Simulation model</a> for evaluation of scenarios such as changes to lighting, ventilation or dehumidification rates.
+Using the <a href= "eeci.github.io/home/docs/projects/urbanag/ges">Greenhouse Energy Simulation model</a> for evaluation of scenarios such as changes to lighting, ventilation or dehumidification rates.
 
 These developments are ongoing.
 
