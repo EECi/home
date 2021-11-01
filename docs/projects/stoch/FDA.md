@@ -79,7 +79,7 @@ The required input is an estimate of the median expected hourly base load and lo
 
 Clicking on 'Submit' will generate an hourly time history of demand for a period of 1 year, with weekends and bank holidays corresponding to the year 2019. This can be downloaded as the file 'SampleData.csv' by clicking on the 'Download' button.
 
- <iframe src="https://rmw61.pythonanywhere.com/" title="FDA design tool" width="800" height="500"> 
+ <iframe src="https://rmw61.pythonanywhere.com/" title="FDA design tool" width="800" height="500"></iframe>
  
  
 # What next?
