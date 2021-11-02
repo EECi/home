@@ -17,7 +17,7 @@ excerpt: "Overview of the EECi projects"
 projects_current:
   - image_path: /Images/ssenv/ssenv_logo_v2.png
     alt: "Sub-surface Environments Project"
-    title: "Subsurface environments"
+    title: "Subsurface energy"
     excerpt:  "Improving the effective and equitable use of the shallow subsurface as a thermal resource by combining data and modelling."
     url: "/docs/subsurface/"
     btn_label: "View this project"
