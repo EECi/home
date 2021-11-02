@@ -16,34 +16,27 @@ feature_row2:
   - image_path: /Images/ssenv/ssenv_logo_v2.png
     alt: "placeholder image 2"
     title: "Subsurface environments"
-    excerpt:  "Dr. Monika Kreitmair, PDRA, U. of Cambridge, UK (July 2019) \n Dr. Nikolas Makasis, PDRA, U. of Cambridge, UK (May 2019) "
+    excerpt:  "Improving the effective and equitable use of the shallow subsurface as a thermal resource by combining data and modelling."
     url: "/docs/subsurface/"
     btn_label: "Read More"
     btn_class: "btn--inverse"
   - image_path: /Images/eplan/eplan_logo.png
     alt: "Spatial microsimulation of LPG use"
     title: "Energy Planning"
-    excerpt: "Andre Neto-Bradley, PhD Student, U. of Cambridge
-     Indian Institute of Human Settlements, India
-Mingda Yuan, PhD Student, U. of Cambridge
-Andrea Perkins + Will (Innovate UK Secondment)"
+    excerpt: "Exploring the use of data science tools to improve understanding and modelling of urban energy use."
     url: "/docs/energyplanning/"
     btn_label: "View page"
     btn_class: "btn--inverse"
   - image_path: /Images/uag/urbag_logo.png
     title: "Urban agriculture"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    excerpt: "Understanding and modelling the impact of plants on the built environment including greenhouses and building-integrated agriculture"
     url: "/docs/urbanag/"
     btn_label: "View page"
     btn_class: "btn--inverse"
   - image_path: /Images/stoch/DCM_logo.png
     alt: "placeholder image 2"
     title: "Stochastic energy models"
-    excerpt: "Dr. Rebecca Ward, PDRA, Alan Turing Institute
-Dr. Zack Conti, PDRA, Alan Turing Institute
-Dr. Chaoqun Zhuang, PDRA, Alan Turing Institute
-Teresa Irigoyen Lopez, PhD Student, U. of Cambridge
-James Kinch, PhD Student, U. of Cambridge"
+    excerpt: "Using monitored energy data to understand and model energy demand across diverse spatial and temporal scales"
     url: "/docs/stoch/"
     btn_label: "View page"
     btn_class: "btn--inverse"
