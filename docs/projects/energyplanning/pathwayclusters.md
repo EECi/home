@@ -51,7 +51,6 @@ Understanding urban residential energy use and clean energy transitions requires
   <div id="my_datapoints"></div>
   <body>Understanding factors that influence energy use in urban areas and how to best chracterise and model this is key to delivering clean and sustainable energy for the cities of today and tomorrow.</body>
 </div>
-  <h2 class="title">Grouped Bar Chart Example</h2>
 <div id="wrapper">
   <!-- Initialize a select button -->
   <!-- <select id="selectButton"></select> -->
