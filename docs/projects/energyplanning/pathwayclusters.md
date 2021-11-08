@@ -362,7 +362,7 @@ function update(selectedVar) {
       .append("rect")
       .merge(u)
       .transition()
-      .duration(1200)
+      .duration(500)
         .attr("x", function(d) { return x(d.Type); })
         .attr("y", function(d) { return y(d[selectedVar]); })
         .attr("width", x.bandwidth())
@@ -373,6 +373,6 @@ function update(selectedVar) {
 }
 
 // Initialize plot
-update('var1')
+update('1')
 
 </script>
