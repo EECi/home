@@ -192,14 +192,14 @@ d3.csv("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_data
 // set the dimensions and margins of the graph
 var margin = {top: 20, right: 50, bottom:30, left: 20},
     width = 600 - margin.left - margin.right,
-    height = 500 - margin.top - margin.bottom;
+    height = 300 - margin.top - margin.bottom;
 
 // append the svg object to the body of the page
 var svgP = d3.select("#my_datapoints")
     .append("svg")
     // Responsive SVG needs these 2 attributes and no width and height attr.
       .attr("preserveAspectRatio", "xMinYMin meet")
-      .attr("viewBox", "0 0 600 500")
+      .attr("viewBox", "0 0 600 300")
       .classed("svg-content-responsive", true)
     .append("g")
       .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
