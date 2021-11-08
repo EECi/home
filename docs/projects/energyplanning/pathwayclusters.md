@@ -206,7 +206,7 @@ var svgP = d3.select("#my_datapoints")
 
 
 //Read the data
-d3.csv("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/iris.csv", function(data) {
+d3.csv("https://raw.githubusercontent.com/EECi/home/main/data/eeci_pathway_PCA.csv", function(data) {
 
   // Add X axis
   var x = d3.scaleLinear()
@@ -225,8 +225,8 @@ d3.csv("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/ir
 
   // Color scale: give me a specie name, I return a color
   var color = d3.scaleOrdinal()
-    .domain(["setosa", "versicolor", "virginica" ])
-    .range([ "#ed217b", "#f479af", "#fbd2e4"])
+    .domain(["1", "2", "3", "4", "5" ])
+    .range(["#1a5e49", "#207259", "#258668", "#2b9a78","#31ae88"])
 
    // Add a tooltip div. Here I define the general feature of the tooltip: stuff that do not depend on the data point.
   // Its opacity is set to 0: we don't see it by default.
@@ -248,7 +248,7 @@ d3.csv("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/ir
     tooltip
       .style("opacity", 1)
   
-    selected_specie = d.Species
+    selected_specie = d.Cluster
 
     d3.selectAll(".dot")
       .transition()
@@ -265,7 +265,7 @@ d3.csv("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/ir
 
  var mousemove = function(d) {
     tooltip
-      .html("Group: " + d.Species + "<br>The exact value of<br>this point is: " + d.Petal_Length)
+      .html("Cluster No. " + d.Cluster)
       .style("left", (d3.mouse(this)[0]+90) + "px") // It is important to put the +90: other wise the tooltip is exactly where the point is an it creates a weird effect
       .style("top", (d3.mouse(this)[1]) + "px")
   }
@@ -290,17 +290,17 @@ d3.csv("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/ir
     .data(data)
     .enter()
     .append("circle")
-      .attr("class", function (d) { return "dot " + d.Species } )
-      .attr("cx", function (d) { return x(d.Sepal_Length); } )
+      .attr("class", function (d) { return "dot " + d.Cluster } )
+      .attr("cx", function (d) { return x(d.Principle.Component.1); } )
       .attr("cy", function (d) { return y(0); } )
       .attr("r", 5)
-      .style("fill", function (d) { return color(d.Species) } )
+      .style("fill", function (d) { return color(d.Cluster) } )
     .on("mouseover", highlight)
     .on("mousemove", mousemove)
     .on("mouseleave", doNotHighlight )
     .transition()
     .duration(1200)
-      .attr("cy", function (d) { return y(d.Petal_Length); } )
+      .attr("cy", function (d) { return y(d.Principle.Component.2); } )
 
 })
 
