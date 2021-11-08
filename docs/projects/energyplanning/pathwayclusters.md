@@ -342,7 +342,7 @@ var yAxis = svgGroups.append("g")
 function update(selectedVar) {
 
   // Parse the Data
-  d3.csv(https://raw.githubusercontent.com/EECi/home/main/data/eeci_barplot_pathways.csv, function(data) {
+  d3.csv("https://raw.githubusercontent.com/EECi/home/main/data/eeci_barplot_pathways.csv", function(data) {
 
     // X axis
     x.domain(data.map(function(d) { return d.Type; }))
