@@ -232,7 +232,7 @@ d3.csv("https://raw.githubusercontent.com/EECi/home/main/data/eeci_pathway_PCA.c
   // Its opacity is set to 0: we don't see it by default.
   var Tooltip = d3.select("#my_datapoints")
     .append("div")
-    
+    .style("position", "absolute")
     .style("opacity", 0)
     .attr("class", "tooltip")
     .style("border", "solid")
