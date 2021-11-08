@@ -352,6 +352,11 @@ function update(selectedVar) {
     y.domain([0, d3.max(data, function(d) { return +d[selectedVar] }) ]);
     yAxis.transition().duration(1000).call(d3.axisLeft(y));
 
+    // Color scale: give me a specie name, I return a color
+    var color_u = d3.scaleOrdinal()
+    .domain(["Notified-Slum", "Non-notified Slum", "Blue Tent Settlement" ])
+    .range([ "#ed217b", "#f479af", "#fbd2e4"])
+  
     // variable u: map data to existing bars
     var u = svgGroups.selectAll("rect")
       .data(data)
@@ -367,7 +372,7 @@ function update(selectedVar) {
         .attr("y", function(d) { return y(d[selectedVar]); })
         .attr("width", x.bandwidth())
         .attr("height", function(d) { return sizeHigh - y(d[selectedVar]); })
-        .attr("fill", "#ed217b")
+        .attr("fill", function (d) { return color_u(d[selectedVar]) })
   })
 
 }
