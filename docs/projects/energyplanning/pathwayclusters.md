@@ -21,7 +21,7 @@ toc_sticky: true
 
 # Context
 
-Understanding urban residential energy use and clean energy transitions requires understanding and characterising heterogeneity across households arising due to differences in socio-economic and cultural context. This research has looks into the use of mixed data and clustering methods to identify distinct typologies or pathways for transition to clean cooking fuel use by low-income households in urban India.
+Understanding urban residential energy use and clean energy transitions requires understanding and characterising heterogeneity across households arising due to differences in socio-economic and cultural context. This research looks into the use of mixed data and clustering methods to identify distinct typologies or pathways for transition to clean cooking fuel use by low-income households in urban India.
 
 <div id="stickyarticle">
 <h1 class="category">Clustering with mixed methods</h1>
@@ -41,7 +41,7 @@ Understanding urban residential energy use and clean energy transitions requires
 <div id="wrapper">
   <!-- Initialize a select button -->
   <!-- <select id="selectButton"></select> -->
-  <div id="my_dataviz"></div>
+  <!--<div id="my_dataviz"></div> -->
   <body>Understanding factors that influence energy use in urban areas and how to best chracterise and model this is key to delivering clean and sustainable energy for the cities of today and tomorrow.</body>
 </div>
    <h2 class="title">XY Example</h2>
@@ -56,8 +56,11 @@ Understanding urban residential energy use and clean energy transitions requires
   <!-- Initialize a select button -->
   <!-- <select id="selectButton"></select> -->
   <!-- Add 2 buttons -->
-<button class="btn {{ f.btn_class }}" onclick="update('var1')">Variable 1</button>
-<button class="btn {{ f.btn_class }}" onclick="update('var2')">Variable 2</button>
+<button class="btn {{ f.btn_class }}" onclick="update('1')">Cluster 1</button>
+<button class="btn {{ f.btn_class }}" onclick="update('2')">Cluster 2</button>
+<button class="btn {{ f.btn_class }}" onclick="update('3')">Cluster 3</button>
+<button class="btn {{ f.btn_class }}" onclick="update('4')">Cluster 4</button>
+<button class="btn {{ f.btn_class }}" onclick="update('5')">Cluster 5</button>
 
 <!-- Create a div where the graph will take place -->
 <div id="my_dataviz_2"></div>
@@ -339,10 +342,10 @@ var yAxis = svgGroups.append("g")
 function update(selectedVar) {
 
   // Parse the Data
-  d3.csv("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/barplot_change_data.csv", function(data) {
+  d3.csv(https://raw.githubusercontent.com/EECi/home/main/data/eeci_barplot_pathways.csv, function(data) {
 
     // X axis
-    x.domain(data.map(function(d) { return d.group; }))
+    x.domain(data.map(function(d) { return d.Type; }))
     xAxis.transition().duration(1000).call(d3.axisBottom(x))
 
     // Add Y axis
@@ -360,7 +363,7 @@ function update(selectedVar) {
       .merge(u)
       .transition()
       .duration(1200)
-        .attr("x", function(d) { return x(d.group); })
+        .attr("x", function(d) { return x(d.Type); })
         .attr("y", function(d) { return y(d[selectedVar]); })
         .attr("width", x.bandwidth())
         .attr("height", function(d) { return sizeHigh - y(d[selectedVar]); })
