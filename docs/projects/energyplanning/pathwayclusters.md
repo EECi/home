@@ -231,7 +231,8 @@ d3.csv("https://raw.githubusercontent.com/EECi/home/main/data/eeci_pathway_PCA.c
   // Add a tooltip div. Here I define the general feature of the tooltip: stuff that do not depend on the data point.
   // Its opacity is set to 0: we don't see it by default.
   var Tooltip = d3.select("#my_datapoints")
-    .append("g")
+    .append("div")
+    
     .style("opacity", 0)
     .attr("class", "tooltip")
     .style("border", "solid")
@@ -263,10 +264,9 @@ d3.csv("https://raw.githubusercontent.com/EECi/home/main/data/eeci_pathway_PCA.c
   }
 
  var onmove = function(d) {
-    Tooltip
-      .html(d.Cluster)
-      .style("left", (d3.mouse(this)[0]+90) ) // It is important to put the +90: other wise the tooltip is exactly where the point is an it creates a weird effect
-      .style("top", (d3.mouse(this)[1]) )
+    Tooltip.html(d.Cluster)
+      .style("left", (d3.event.pageX + 15) + "px")
+      .style("top", (d3.event.pageY - 28) + "px")
   }
   
   // Highlight the specie that is hovered
@@ -306,7 +306,6 @@ d3.csv("https://raw.githubusercontent.com/EECi/home/main/data/eeci_pathway_PCA.c
 })
 
 </script>
-
 
 
 
