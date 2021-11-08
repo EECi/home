@@ -17,7 +17,6 @@ feature_row:
     btn_label: "Find out more"
     btn_class: "btn--primary"
   - image_path: /Images/eplan/Pathway_clustering.png
-    image_caption: "View of CROP"
     alt: "placeholder image 2"
     title: "Identifying transition pathways"
     excerpt: "Use of clustering methods and mixed methods to identify and characterise energy transition pathways"
@@ -25,7 +24,6 @@ feature_row:
     btn_label: "Find out more"
     btn_class: "btn--primary"
   - image_path: /Images/eplan/EnergyFlex.jpg
-    image_caption: "View of Bayesian Modelling"
     alt: "Energy Flex Microsimulation"
     title: "EnergyFlex"
     excerpt: "Development of a micro-simulation agent-based approach to identifying opportunities for energy efficiency"
@@ -54,12 +52,6 @@ Understanding factors that influence energy use in urban areas and how to best c
 <div id="stickyarticle">
 <h3 class="title">Modelling at High Resolution</h3>
 <div id="wrapper">
-  <div id="sticky">
-    <img id="sticky"
-         src="/home/Images/eplan/Kochi_microsim.jpg"
-         alt="Spatial microsimulation of LPG use in Kochi, Kerala"
-         caption="Figure credit: A Neto-Bradley">
-  </div>
   <body>Modelling urban residential demand, and understanding differences in energy related decisions and practices of households involves modelling at a high resolution. Data is usually not available for all households in a given city due to reasons of privacy. We are using methods to synthetically generate populations of households to help us model energy use and practices at a hosehold scale across a city.</body>
 </div>
 </div>
