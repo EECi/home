@@ -190,17 +190,17 @@ d3.csv("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_data
 
 <script>
 // set the dimensions and margins of the graph
-var margin = {top: 30, right: 30, bottom: 30, left: 60},
-    width = 760 - margin.left - margin.right,
-    height = 400 - margin.top - margin.bottom;
+var margin = {top: 20, right: 50, bottom:30, left: 20},
+    width = 600 - margin.left - margin.right,
+    height = 500 - margin.top - margin.bottom;
 
 // append the svg object to the body of the page
 var svgP = d3.select("#my_datapoints")
     .append("svg")
     // Responsive SVG needs these 2 attributes and no width and height attr.
       .attr("preserveAspectRatio", "xMinYMin meet")
-      .attr("viewBox", "0 0 760 400")
-     .classed("svg-content-responsive", true)
+      .attr("viewBox", "0 0 600 500")
+      .classed("svg-content-responsive", true)
     .append("g")
       .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
@@ -210,7 +210,7 @@ d3.csv("https://raw.githubusercontent.com/EECi/home/main/data/eeci_pathway_PCA.c
 
   // Add X axis
   var x = d3.scaleLinear()
-    .domain([4, 8])
+    .domain([-5, 5])
     .range([ 0, width ]);
   svgP.append("g")
     .attr("transform", "translate(0," + height + ")")
@@ -218,93 +218,99 @@ d3.csv("https://raw.githubusercontent.com/EECi/home/main/data/eeci_pathway_PCA.c
 
   // Add Y axis
   var y = d3.scaleLinear()
-    .domain([0, 9])
+    .domain([-5, 5])
     .range([ height, 0]);
   svgP.append("g")
     .call(d3.axisLeft(y));
 
   // Color scale: give me a specie name, I return a color
-  var color = d3.scaleOrdinal()
-    .domain(["1", "2", "3", "4", "5" ])
+  var color_c = d3.scaleOrdinal()
+    .domain(["Cluster_1", "Cluster_2", "Cluster_3", "Cluster_4", "Cluster_5"])
     .range(["#1a5e49", "#207259", "#258668", "#2b9a78","#31ae88"])
 
-   // Add a tooltip div. Here I define the general feature of the tooltip: stuff that do not depend on the data point.
+  // Add a tooltip div. Here I define the general feature of the tooltip: stuff that do not depend on the data point.
   // Its opacity is set to 0: we don't see it by default.
-  var tooltip = d3.select("#my_datapoints")
-    .append("div")
+  var Tooltip = d3.select("#my_datapoints")
+    .append("g")
     .style("opacity", 0)
     .attr("class", "tooltip")
-    .attr("position", "absolute") 
-    .style("background-color", "white")
     .style("border", "solid")
-    .style("border-width", "1px")
-    .style("border-radius", "5px")
+    .style("border-width", "0px")
+    .style("border-radius", "0px")
     .style("padding", "10px")
 
 
   // Highlight the specie that is hovered
   var highlight = function(d){
 
-    tooltip
-      .style("opacity", 1)
-  
-    selected_specie = d.Cluster
+    clust = d.Cluster
 
     d3.selectAll(".dot")
       .transition()
       .duration(200)
       .style("fill", "lightgrey")
-      .attr("r", 3)
+      .attr("r", 2)
 
-    d3.selectAll("." + selected_specie)
+    d3.selectAll("."+clust)
       .transition()
       .duration(200)
-      .style("fill", color(selected_specie))
-      .attr("r", 7)
+      .style("fill", color_c(clust))
+      .attr("r", 5)
+
+    Tooltip
+      .style("opacity", 1)
+      .style("background-color", color_c(clust))
   }
 
- var mousemove = function(d) {
-    tooltip
-      .html("Cluster No. " + d.Cluster)
-      .style("left", (d3.mouse(this)[0]+90) + "px") // It is important to put the +90: other wise the tooltip is exactly where the point is an it creates a weird effect
-      .style("top", (d3.mouse(this)[1]) + "px")
+ var onmove = function(d) {
+    Tooltip
+      .html(d.Cluster)
+      .style("left", (d3.mouse(this)[0]+90) ) // It is important to put the +90: other wise the tooltip is exactly where the point is an it creates a weird effect
+      .style("top", (d3.mouse(this)[1]) )
   }
   
   // Highlight the specie that is hovered
-  var doNotHighlight = function(){
+  var lowlight = function(){
+
     d3.selectAll(".dot")
       .transition()
       .duration(200)
       .style("fill", "lightgrey")
-      .attr("r", 5 )
-  
-    tooltip
+      .attr("r", 4 )
+
+    Tooltip
       .transition()
       .duration(200)
       .style("opacity", 0)
   }
 
+  
   // Add dots
-  svgP.append('g')
+  svgP.append("g")
     .selectAll("dot")
     .data(data)
     .enter()
     .append("circle")
       .attr("class", function (d) { return "dot " + d.Cluster } )
-      .attr("cx", function (d) { return x(d.Principle.Component.1); } )
-      .attr("cy", function (d) { return y(0); } )
-      .attr("r", 5)
-      .style("fill", function (d) { return color(d.Cluster) } )
+      .attr("cx", function (d) { return x(d.PrincipleComp2); } )
+      .attr("cy", function (d) { return y(d.PrincipleComp1); } )
+      .attr("r", 4)
+      .style("fill", function (d) { return color_c(d.Cluster) } )
     .on("mouseover", highlight)
-    .on("mousemove", mousemove)
-    .on("mouseleave", doNotHighlight )
-    .transition()
-    .duration(1200)
-      .attr("cy", function (d) { return y(d.Principle.Component.2); } )
+    .on("mouseleave", lowlight)
+    .on("mousemove", onmove)
+    //.transition()
+    //.duration(1200)
+    //  .attr("cy", function (d) { return y(d["Principle.Component.1"]); } )
 
 })
 
 </script>
+
+
+
+
+
 
 
 <script>
