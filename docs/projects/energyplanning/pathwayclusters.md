@@ -265,8 +265,8 @@ d3.csv("https://raw.githubusercontent.com/EECi/home/main/data/eeci_pathway_PCA.c
 
  var onmove = function(d) {
     Tooltip.html(d.Cluster)
-      .style("left", (d3.event.pageX) + "px")
-      .style("top", (d3.event.pageY) + "px")
+      .style("left", (d3.mouse(this)[0]+70) + "px")
+      .style("top", (d3.mouse(this)[1]) + "px")
   }
   
   // Highlight the specie that is hovered
