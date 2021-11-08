@@ -52,6 +52,9 @@ Understanding urban residential energy use and clean energy transitions requires
   <body>Understanding factors that influence energy use in urban areas and how to best chracterise and model this is key to delivering clean and sustainable energy for the cities of today and tomorrow.</body>
 </div>
 <div id="wrapper">
+  
+<!-- Create a div where the graph will take place -->
+<div id="my_dataviz_2"></div>
   <!-- Initialize a select button -->
   <!-- <select id="selectButton"></select> -->
   <!-- Add 2 buttons -->
@@ -61,8 +64,6 @@ Understanding urban residential energy use and clean energy transitions requires
 <button class="btn {{ f.btn_class }}" onclick="update('4')">Cluster 4</button>
 <button class="btn {{ f.btn_class }}" onclick="update('5')">Cluster 5</button>
 
-<!-- Create a div where the graph will take place -->
-<div id="my_dataviz_2"></div>
 
   <body>Understanding factors that influence energy use in urban areas and how to best chracterise and model this is key to delivering clean and sustainable energy for the cities of today and tomorrow.</body>
 </div>
