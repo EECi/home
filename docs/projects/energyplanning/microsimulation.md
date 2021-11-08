@@ -102,11 +102,11 @@ Understanding factors that influence energy use in urban areas and how to best c
 </div>
   <h2 class="title">City Simulation</h2>
 <div id="wrapper">
-    <div id="stickyd3">
-      <div id="tiles"></div>
-      <svg height=500 width=760></svg>
+    <img src="/home/Images/eplan/Microsimulation_GIF.gif"
+         alt="Multilevel microsimulation model features animation"
+         caption="Figure credit: A Neto-Bradley">
   </div>
-    <div id="stickybody">The map above shows mean estimated monthly LPG consumption by ward in the city of Tiruchirappalli, Tamil Nadu. </div>
+    <div id="stickybody">The map above shows mean estimated monthly LPG consumption by ward in the city of Coimbatore, Tamil Nadu. </div>
 </div>
 </div>
 
