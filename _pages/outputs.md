@@ -17,7 +17,7 @@ presentations:
     image_caption: "CSIC SC talk"
     alt: "Youtube video"
     title: "CSIC Steering Committee Presentation 2021"
-    excerpt:  "Understanding underground climate change using numerical modelling and statistical methodologies"
+    excerpt:  "Understanding underground climate change using numerical modelling and statistical methodologies - MJ Kreitmair & N Makasis"
     url: "https://www.youtube.com/watch?v=VDsmeWXTWQs&ab_channel=CentreforSmartInfrastructureandConstruction"
     btn_label: "View this video"
     btn_class: "btn--inverse"
