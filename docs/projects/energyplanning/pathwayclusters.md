@@ -190,7 +190,7 @@ d3.csv("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_data
 <script>
   // set the dimensions and margins of the graph
   var margin = {top: 20, right: 100, bottom:30, left: 100},
-      width = 500 - margin.left - margin.right,
+      width = 600 - margin.left - margin.right,
       height = 300 - margin.top - margin.bottom;
   
   // append the svg object to the body of the page
@@ -198,7 +198,7 @@ d3.csv("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_data
       .append("svg")
       // Responsive SVG needs these 2 attributes and no width and height attr.
         .attr("preserveAspectRatio", "xMinYMin meet")
-        .attr("viewBox", "0 0 500 300")
+        .attr("viewBox", "0 0 600 300")
         .classed("svg-content-responsive", true)
       .append("g")
         .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
@@ -263,9 +263,14 @@ d3.csv("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_data
     }
   
    var onmove = function(d) {
+        x = d3.event.x,
+        y = d3.event.y;
+
       Tooltip.html(d.Cluster)
-        .style("left", (d3.mouse(this)[0]+90) + "px")
-        .style("top", (d3.mouse(this)[1]) + "px")
+        //.style("left", (d3.mouse(this)[0]+90) + "px")
+        //.style("top", (d3.mouse(this)[1]) + "px")
+        .style('top', y-10 + 'px'); // edited
+        .style('left', x+'px'); // edited
     }
     
     // Highlight the specie that is hovered
