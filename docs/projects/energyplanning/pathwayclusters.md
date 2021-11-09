@@ -263,14 +263,14 @@ d3.csv("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_data
     }
   
    var onmove = function(d) {
-        x = d3.event.x,
-        y = d3.event.y;
+      x = d3.event.x
+      y = d3.event.y
 
       Tooltip.html(d.Cluster)
         //.style("left", (d3.mouse(this)[0]+90) + "px")
         //.style("top", (d3.mouse(this)[1]) + "px")
-        .style('top', y-10 + 'px'); // edited
-        .style('left', x+'px'); // edited
+        .style('top', y-10 + 'px') // edited
+        .style('left', x+'px') // edited
     }
     
     // Highlight the specie that is hovered
