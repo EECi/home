@@ -66,7 +66,12 @@ Modelling urban residential energy use and clean energy transitions requires und
   <p></p>
  <body>Understanding factors that influence energy use in urban areas and how to best chracterise and model this is key to delivering clean and sustainable energy for the cities of today and tomorrow.</body>
 </div>
+   <h2 class="title">Qualitative Analysis</h2>
+  
+   <h2 class="title">Characterising Pathways</h2>
+  <body>The qualitative and quantitative analyses highlight different issues and barriers associated with access. The analyses are difficult to directly combine given that the underlying assumptions and data requirements in these methods are incompatible.
 </div>
+
 
 # Team
 This is a part of the PhD project of André Neto-Bradley, supervised by Dr Ruchi Choudhary. This research was carried out in collaboration with the Indian Institute for Human Settlements (IIHS), with supervision from Dr Amir Bazaz and support from research associate Rishika Rangarajan.
