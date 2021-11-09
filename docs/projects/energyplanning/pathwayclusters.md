@@ -21,7 +21,7 @@ toc_sticky: true
 
 # Context
 
-Understanding urban residential energy use and clean energy transitions requires understanding and characterising heterogeneity across households arising due to differences in socio-economic and cultural context. This research looks into the use of mixed data and clustering methods to identify distinct typologies or pathways for transition to clean cooking fuel use by low-income households in urban India.
+Modelling urban residential energy use and clean energy transitions requires understanding and characterising heterogeneity across households arising due to differences in socio-economic and cultural context. This research looks into the use of mixed data and clustering methods to identify distinct typologies or pathways for transition to clean cooking fuel use by low-income households in urban India.
 
 <div id="stickyarticle">
 <h1 class="category">Clustering with mixed methods</h1>
@@ -37,22 +37,20 @@ Understanding urban residential energy use and clean energy transitions requires
   <br>
   We sought to combine the both quantitative and qualitative data in our approach to leverage the benefits of analysis of each individually. </body>
 </div>
-  <h2 class="title">Time Series Example</h2>
-<div id="wrapper">
+  <h2 class="title">Quantitative Clustering</h2>
+<!--<div id="wrapper">-->
   <!-- Initialize a select button -->
   <!-- <select id="selectButton"></select> -->
   <!--<div id="my_dataviz"></div> -->
-  <body>Understanding factors that influence energy use in urban areas and how to best chracterise and model this is key to delivering clean and sustainable energy for the cities of today and tomorrow.</body>
-</div>
-   <h2 class="title">XY Example</h2>
+  <body>By clustering quantitative energy related metrics such as fuel use, hours spent cooking, uptake of fuel subsidies, and hours of electricity availability, clusters of households with distinct energy use patterns can be identified. In our case study of Bangalore, using a mixture of 12 of these energy variables and agglomerative hierarchical clustering highlighted 5 different types of household. Click on the points in the plot below to see how each of the clusters map out. </body>
+<!--</div>-->
 <div id="wrapper">
   <!-- Initialize a select button -->
   <!-- <select id="selectButton"></select> -->
   <div id="my_datapoints"></div>
-  <body>Understanding factors that influence energy use in urban areas and how to best chracterise and model this is key to delivering clean and sustainable energy for the cities of today and tomorrow.</body>
+  <body>While each of these clusters are defined based on energy variables, they also have significant differences in their socio-economic characteristics. If we take the example of the type of slum these households live shown in the bar chart below we can see that closely bunched clusters have a similar make-up of slum types. Notified slums are slums with some form of legal recognition of tenure rights, while non-notified may be relatively well established but lack official recognition. Blue tent settlements are the least formal and often have poorest access to utilities. </body>
 </div>
 <div id="wrapper">
-  
 <!-- Create a div where the graph will take place -->
 <div id="my_dataviz_2"></div>
   <!-- Initialize a select button -->
@@ -64,8 +62,8 @@ Understanding urban residential energy use and clean energy transitions requires
 <button class="btn {{ f.btn_class }}" onclick="update('4')">Cluster 4</button>
 <button class="btn {{ f.btn_class }}" onclick="update('5')">Cluster 5</button>
 
-
-  <body>Understanding factors that influence energy use in urban areas and how to best chracterise and model this is key to delivering clean and sustainable energy for the cities of today and tomorrow.</body>
+  <p></p>
+ <body>Understanding factors that influence energy use in urban areas and how to best chracterise and model this is key to delivering clean and sustainable energy for the cities of today and tomorrow.</body>
 </div>
 </div>
 
