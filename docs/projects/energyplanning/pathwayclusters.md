@@ -25,7 +25,7 @@ Modelling urban residential energy use and clean energy transitions requires und
 
 <div id="stickyarticle">
 <h1 class="category">Clustering with mixed methods</h1>
-<h2 class="title">Using qualitative and quantitative data</h2>
+<!--<h2 class="title">Using qualitative and quantitative data</h2>-->
 <div id="wrapper">
   <div id="sticky">
     <img id="sticky"
@@ -35,7 +35,7 @@ Modelling urban residential energy use and clean energy transitions requires und
   </div>
   <body>Understanding factors that influence energy use in urban areas involves characterising complex socio-economic and cultural factors and effects. Not all of these are easily captured or analysed using quantitative methods. Qualitative methods commonly used in the social sciences including the analysis of qualitative in-depth interviews can reveal nuances and important decision making context that cannot be identified through quantitative methods. However these qualitative methods can be difficult to scale up in the same way as quantitative analysis.<br>
   <br>
-  We sought to combine the both quantitative and qualitative data in our approach to leverage the benefits of analysis of each individually. </body>
+  We sought to combine both quantitative and qualitative data in our approach to leverage the benefits of analysis of each individually. By conducting two stage of analysis a first stage quantitative and qualitative anaylsis could be combined through the frame of reference of interviewed households, matching them to the best matching quantitative cluster.</body>
 </div>
   <h2 class="title">Quantitative Clustering</h2>
 <!--<div id="wrapper">-->
@@ -56,12 +56,13 @@ Modelling urban residential energy use and clean energy transitions requires und
   <!-- Initialize a select button -->
   <!-- <select id="selectButton"></select> -->
   <!-- Add 2 buttons -->
+  <center>
 <button class="btn {{ f.btn_class }}" onclick="update('1')">Cluster 1</button>
 <button class="btn {{ f.btn_class }}" onclick="update('2')">Cluster 2</button>
 <button class="btn {{ f.btn_class }}" onclick="update('3')">Cluster 3</button>
 <button class="btn {{ f.btn_class }}" onclick="update('4')">Cluster 4</button>
 <button class="btn {{ f.btn_class }}" onclick="update('5')">Cluster 5</button>
-
+  </center>
   <p></p>
  <body>Understanding factors that influence energy use in urban areas and how to best chracterise and model this is key to delivering clean and sustainable energy for the cities of today and tomorrow.</body>
 </div>
@@ -263,7 +264,7 @@ d3.csv("https://raw.githubusercontent.com/EECi/home/main/data/eeci_pathway_PCA.c
 
  var onmove = function(d) {
     Tooltip.html(d.Cluster)
-      .style("left", (d3.mouse(this)[0]+70) + "px")
+      .style("left", (d3.mouse(this)[0]+10) + "px")
       .style("top", (d3.mouse(this)[1]) + "px")
   }
   
