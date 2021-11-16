@@ -11,7 +11,7 @@ excerpt: "Energy flexibility is key to delivering a reliable, sustainable energy
 last_modified_at: 2021-10-04
 toc: true
 header:
-  overlay_image: /Images/eplan/EnergyFlex.jpg
+  overlay_image: /Images/eplan/EnergyFlex_Background.png
 toc_sticky: true
 ---
 
@@ -25,8 +25,12 @@ Energy flexibility is key to delivering a reliable, sustainable energy system. U
 This project will develop a new agent-based simulation that models the daily activities of people in urban areas to estimate when they are likely to be using energy. This is extremely challenging, but the project will mitigate this difficulty by building on two existing, simpler, models. With an emphasis on usability through live cases, we will produce a model that is able to derive times and places of energy demand in cities as a function of the main activities of people. This will enable policy makers and local councils to react to forthcoming demands and test demand management strategies more proactively. Importantly, it will also lay the groundwork for a more comprehensive agent-based model that will include transport networks explicitly and will allow new transport policies related to (e.g.) electric vehicle use to be modelled.
 
 <h1 class="category">Team</h1>
-Ruchi Choudhary
-André Paul Neto-Bradley
-Brian Matthews (DAFNI)
-Nicolas Malleson (University of Leeds)
-Patricia Ternes (University of Leeds)
+
+<ul type="circle">
+<li> Ruchi Choudhary </li>
+<li> André Neto-Bradley </li>
+<li> Nicolas Malleson (University of Leeds) </li>
+<li> Patricia Ternes (University of Leeds) </li>
+<li> Brian Matthews (DAFNI) </li>
+</ul>
+
