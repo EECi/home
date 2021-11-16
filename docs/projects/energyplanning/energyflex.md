@@ -11,7 +11,7 @@ excerpt: "Energy flexibility is key to delivering a reliable, sustainable energy
 last_modified_at: 2021-10-04
 toc: true
 header:
-  overlay_image: /Images/eplan/EnergyFlex_Background.png
+  overlay_image: /Images/eplan/EnergyFlex_Background_dark.png
 toc_sticky: true
 ---
 
