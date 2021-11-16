@@ -23,7 +23,7 @@ feature_row:
     url:  "docs/projects/energyplanning/pathwayclusters/"
     btn_label: "Find out more"
     btn_class: "btn--primary"
-  - image_path: /Images/eplan/EnergyFlex.jpg
+  - image_path: /Images/eplan/EnergyFlex_Background.png
     alt: "Energy Flex Microsimulation"
     title: "EnergyFlex"
     excerpt: "Development of a micro-simulation agent-based approach to identifying opportunities for energy efficiency"
