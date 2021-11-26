@@ -27,7 +27,7 @@ feature_row:
     alt: "Energy Flex Microsimulation"
     title: "EnergyFlex"
     excerpt: "Development of a micro-simulation agent-based approach to identifying opportunities for energy efficiency"
-    url:  "docs/projects/energyplanning/energyflex/"
+    url:  "docs/projects/energyplanning/Conversation_Viz/"
     btn_label: "Find out more"
     btn_class: "btn--primary"
 ---
