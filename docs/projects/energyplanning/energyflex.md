@@ -24,6 +24,10 @@ Energy flexibility is key to delivering a reliable, sustainable energy system. U
 <h1 class="category">A Microsimulation Approach</h1>
 This project will develop a new agent-based simulation that models the daily activities of people in urban areas to estimate when they are likely to be using energy. This is extremely challenging, but the project will mitigate this difficulty by building on two existing, simpler, models. With an emphasis on usability through live cases, we will produce a model that is able to derive times and places of energy demand in cities as a function of the main activities of people. This will enable policy makers and local councils to react to forthcoming demands and test demand management strategies more proactively. Importantly, it will also lay the groundwork for a more comprehensive agent-based model that will include transport networks explicitly and will allow new transport policies related to (e.g.) electric vehicle use to be modelled.
 
+<h1 class="category">Spatial Inequality in Energy Efficiency</h1>
+
+<iframe src="https://raw.githubusercontent.com/EECi/home/main/data/Conversation_Viz.html" frameborder="0" width="100%" height="400px"></iframe>
+
 <h1 class="category">Team</h1>
 
 <ul type="circle">
