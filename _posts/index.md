@@ -7,7 +7,7 @@ header:
 ---
 
 
-This page contains the latest posts by our team.
+Here you can find our blog with data visualisations, quick insights, and hot takes from our ongoing work.
 
 <ul>
   {% for post in site.posts %}
