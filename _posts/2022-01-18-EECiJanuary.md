@@ -1,6 +1,6 @@
 ---
 layout: single
-title: January - Energy Efficiency of Homes in North-East of England
+title: EECinsights - Energy Efficiency of Homes in North-East of England
 last_modified_at: 2022-01-17
 author: "André"
 author_profile: true
