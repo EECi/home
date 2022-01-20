@@ -34,7 +34,7 @@ feature_row:
 
 # Introduction
 
-Understanding factors that influence energy use in urban areas and how to best chracterise and model this is key to delivering clean and sustainable energy for the cities of today and tomorrow. We are looking at use of novel methods and data to explore how we can improve our understanding of residential demand and factors influencing changes in household decisions and practices.
+With the majority of the world's population living in cities and for urban growth set to continue, understanding energy use in urban areas and how to best chracterise and model this is key to delivering clean and sustainable energy for the cities of today and tomorrow. We are looking at use of novel methods and data to explore how we can improve our understanding of residential demand and factors influencing changes in household decisions and practices.
 
 <div id="stickyarticle">
 <h1 class="category">Challenges</h1>
