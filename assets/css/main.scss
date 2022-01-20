@@ -19,8 +19,8 @@ img.teamgallery {
 }
 
 img.feature_crop {
-        height: 300px;
-	width: 500px;
+        height: auto;
+	width: 100%;
 	object-fit: cover;
 	object-position: center;
     }
