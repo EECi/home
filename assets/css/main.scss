@@ -20,7 +20,7 @@ img.teamgallery {
 
 img.feature_crop {
 	max-width: span(12 of 12);
-	max-height: span(1 of 12);
+	max-height: 0.3vmin;
         height: 300px;
 	width: 500px;
 	object-fit: cover;
