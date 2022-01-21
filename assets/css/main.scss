@@ -19,7 +19,8 @@ img.teamgallery {
 }
 
 img.feature_crop {
-	max-width: span(4 of 12);
+	max-width: span(12 of 12);
+	max-height: span(6 of 12);
         height: 300px;
 	width: 500px;
 	object-fit: cover;
