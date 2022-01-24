@@ -1,7 +1,7 @@
 ---
 layout: single
 title: EECinsights - Energy Efficiency of Homes in North-East of England
-last_modified_at: 2022-01-17
+last_modified_at: 2022-01-18
 author: "André"
 author_profile: true
 read_time: true
@@ -19,4 +19,4 @@ While a lot of work on low-carbon buildings and urban planning has been focused 
 
 {% include figure image_path="/Images/EECi_January_Lolly.png" alt="Lollipop chart showing the difference between post-2000 and pre-1930 semi-detached houses" %}
 
-If we compare pre-1930s to post-2000 semi-detached houses we can see this variation in difference quite clearly. While newer build homes have been built to more stringent building codes and have less variation in energy efficiency, older homes can vary tremendously. This is largely a function of how many have been retrofitted and refurbished to be made more energy efficient.
+If we compare pre-1930s to post-2000 semi-detached houses we can see this variation in difference quite clearly. While newer build homes have been built to more stringent building codes and have less variation in energy efficiency, older homes can vary show far more variation. This is largely a function of how many have been retrofitted and refurbished to be made more energy efficient. This in turn reflects underlying socio-economic differences, for example proportion of home ownership versus rental properties, as well as incomes and wealth of homeowners to fund such retrofits. This spatial heterogeneity in energy efficiency of homes requires locally targetted support for building fabric improvements (such as added insulation, draughtproofing, or double glazing), to ensure that homes with the worst energy efficiency can be brought up to standard despite spatial socio-economic inequalities.
