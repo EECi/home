@@ -1,5 +1,6 @@
 ---
 layout: single
+permalink: /FebPost/
 title: EECinsights - CROP 2.0 nears completion
 last_modified_at: 2022-02-17
 author: "Rebecca"
