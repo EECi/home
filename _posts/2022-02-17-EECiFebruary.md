@@ -24,6 +24,6 @@ The main developments though are the inclusion of two forecasting models.  The f
 
 The second forecasting model enables 'what-if' scenarios to be assessed. This is based on the physics-based [GES](https://eeci.github.io/home/docs/projects/urbanag/ges/) model.  The embedded model is calibrated using recent monitored data and then the calibrated model can be used to explore different operational conditions.  Here the scenario modelled is a reduction in ventilation rate to a constant 1ACH with a shift in the time at which the grow lights are switched on back by 3 hours, with a clear impact on the farm temperatures.  
 
-{% include figure image_path="/Images/EECi_February_GESForecast.png" alt="Evaluation of operational scenario with a reduction in ventilation rate and earlier switching on of the grow lights" %}
+{% include figure image_path="/Images/EECi_February_GESForecast.jpg" alt="Evaluation of operational scenario with a reduction in ventilation rate and earlier switching on of the grow lights" %}
 
 The next stage of development will see crop growth and yield data being integrated within the digital twin.  This will allow us to combine data sources to explore optimal crop growth conditions for the different plants grown in the farm. 
