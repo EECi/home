@@ -16,7 +16,7 @@ Initial development of the digital twin saw an enhanced visualisation platform c
 
 Previously, CROP showed instantaneous environmental conditions in the farm.  In CROP 2.0, the environmental conditions in the farm are also interpreted to show the number of hours over the previous day and week that the conditions have been within certain ranges. This is important for farm operation as it is the time that the crops spend in optimal temperatures that governs crop growth. As you hover over the sections of the graphic the bands are revealed - the figure showing that at the back of the farm the temperature has been between below 20 <sup>o</sup>C for 94 hours of the week.   
 
-{% include figure image_path="/Images/Crop2Vis.jpg" alt="The CROP 2.0 dashboard with instantaneous and historic (daily and weekly) monitored environmental conditions in the farm" %}
+{% include figure image_path="/Images/CROP2Vis.jpg" alt="The CROP 2.0 dashboard with instantaneous and historic (daily and weekly) monitored environmental conditions in the farm" %}
 
 The main developments though are the inclusion of two forecasting models.  The first is a temperature forecasting model that predicts temperatures through the farm based on historic temperatures and energy consumption data. 
 
