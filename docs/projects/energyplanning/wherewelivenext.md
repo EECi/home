@@ -20,12 +20,12 @@ toc_sticky: true
 
 <style>
 div.container2 {
-	width: 900px;
-	height: 700px;
+	width: 1000px;
+	height: 720px;
 	position: relative;
 }
  
-div.image2 {
+div.imager {
 	height: 100%;
 	background-repeat: no-repeat;
 	background-position: top left;
@@ -134,8 +134,8 @@ Using the lens of places and practices of food this project will explore a mixed
 <h1 class="category">Socio-Economic Overview</h1>
 <!--<h2 class="title">Using qualitative and quantitative data</h2>-->
 <div class="container2">
-	<div class="image2 before"><img src="/home/Images/eplan/Doge_GenM_Web.png"></div>
-	<div class="image2 after"><img src="/home/Images/eplan/Doge_GenF_Web.png"></div>
+	<div class="imager before"></div>
+	<div class="imager after"></div>
 
 	<input type="range" class="slider" min="1" max="100" value="50" />
 	<div class="slider-button"></div>
