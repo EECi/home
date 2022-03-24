@@ -11,7 +11,7 @@ excerpt: "A trans-disciplinary approach to scaling community voices for place-se
 last_modified_at: 2021-03-24
 toc: true
 header:
-  overlay_image: /Images/eplan/LPG_Distributor.jpg
+  overlay_image: /Images/eplan/WWLN_Kebab.png
 toc_sticky: true
 ---
 <!-- Load d3.js -->
