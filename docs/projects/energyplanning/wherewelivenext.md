@@ -142,7 +142,7 @@ Using the lens of places and practices of food this project will explore a mixed
 </div>
   <h2 class="title">Places of Food</h2>
   <h2 class="title">In-Depth Analysis of Reviews</h2>
-  <body>TBC
+	<body>TBC</body>
 </div>
 
 
