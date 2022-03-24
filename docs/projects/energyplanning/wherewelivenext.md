@@ -7,13 +7,14 @@ tags:
   - Residential energy use
   - Clustering
 author: "André"
-excerpt: "Using clustering methods to combine qualitative and quantitative approaches, and identify and characterise energy transition pathways for low-income households in urban India"
-last_modified_at: 2021-04-16
+excerpt: "A trans-disciplinary approach to scaling community voices for place-sensitive policy-making through places and practices of food"
+last_modified_at: 2021-03-24
 toc: true
 header:
   overlay_image: /Images/eplan/LPG_Distributor.jpg
 toc_sticky: true
 ---
+
 <!-- Load d3.js -->
 <script src="https://d3js.org/d3.v4.js"></script>
 
@@ -21,10 +22,13 @@ toc_sticky: true
 
 # Context
 
-Modelling urban residential energy use and clean energy transitions requires understanding and characterising heterogeneity across households arising due to differences in socio-economic and cultural context. This research looks into the use of mixed data and clustering methods to identify distinct typologies or pathways for transition to clean cooking fuel use by low-income households in urban India.
+Using the lens of places and practices of food this project will explore a mixed methods approach for scaling lived experience across city-scale data and models and to expose intangible features of community spaces. By layering analysis of places and practices of food onto spatial and model data on deprivation and fuel poverty this research contextualises invisible relationships and dynamics of a community through visible patterns of urban fabric. 
+
+
+## A Case Study of Dogesthorpe
 
 <div id="stickyarticle">
-<h1 class="category">Clustering with mixed methods</h1>
+<h1 class="category">Socio-Economic Overview</h1>
 <!--<h2 class="title">Using qualitative and quantitative data</h2>-->
 <div id="wrapper">
   <div id="sticky">
@@ -33,22 +37,22 @@ Modelling urban residential energy use and clean energy transitions requires und
          alt="LPG Distributor in Bangalore"
          caption="Photo credit: A Neto-Bradley">
   </div>
-  <body>Understanding factors that influence energy use in urban areas involves characterising complex socio-economic and cultural factors and effects. Not all of these are easily captured or analysed using quantitative methods. Qualitative methods commonly used in the social sciences including the analysis of qualitative in-depth interviews can reveal nuances and important decision making context that cannot be identified through quantitative methods. However these qualitative methods can be difficult to scale up in the same way as quantitative analysis.<br>
+  <body>TBC<br>
   <br>
-  We sought to combine both quantitative and qualitative data in our approach to leverage the benefits of analysis of each individually. By conducting two stage of analysis a first stage quantitative and qualitative anaylsis could be combined through the frame of reference of interviewed households, matching them to the best matching quantitative cluster.</body>
+ TBC</body>
 </div>
-  <h2 class="title">Quantitative Clustering</h2>
+  <h2 class="title">Places of Food</h2>
 <!--<div id="wrapper">-->
   <!-- Initialize a select button -->
   <!-- <select id="selectButton"></select> -->
   <!--<div id="my_dataviz"></div> -->
-  <body>By clustering quantitative energy related metrics such as fuel use, hours spent cooking, uptake of fuel subsidies, and hours of electricity availability, clusters of households with distinct energy use patterns can be identified. In our case study of Bangalore, using a mixture of 12 of these energy variables and agglomerative hierarchical clustering highlighted 5 different types of household. Click on the points in the plot below to see how each of the clusters map out. </body>
+  <body>TBC </body>
 <!--</div>-->
 <div id="wrapper">
   <!-- Initialize a select button -->
   <!-- <select id="selectButton"></select> -->
   <div id="my_datapoints"></div>
-  <body>While each of these clusters are defined based on energy variables, they also have significant differences in their socio-economic characteristics. If we take the example of the type of slum these households live shown in the bar chart below we can see that closely bunched clusters have a similar make-up of slum types. Notified slums are slums with some form of legal recognition of tenure rights, while non-notified may be relatively well established but lack official recognition. Blue tent settlements are the least formal and often have poorest access to utilities. </body>
+  <body>TBC </body>
 </div>
 <div id="wrapper">
 <!-- Create a div where the graph will take place -->
@@ -64,20 +68,16 @@ Modelling urban residential energy use and clean energy transitions requires und
 <button class="btn {{ f.btn_class }}" onclick="update('5')">Cluster 5</button>
   </center>
   <p></p>
- <body>Understanding factors that influence energy use in urban areas and how to best chracterise and model this is key to delivering clean and sustainable energy for the cities of today and tomorrow.</body>
-</div>
-   <h2 class="title">Qualitative Analysis</h2>
+ <body>TBC</body>
+  </div>
   
-   <h2 class="title">Characterising Pathways</h2>
-  <body>The qualitative and quantitative analyses highlight different issues and barriers associated with access. The analyses are difficult to directly combine given that the underlying assumptions and data requirements in these methods are incompatible.
+   <h2 class="title">In-Depth Analysis of Reviews</h2>
+  <body>TBC
 </div>
 
 
 # Team
-This is a part of the PhD project of André Neto-Bradley, supervised by Dr Ruchi Choudhary. This research was carried out in collaboration with the Indian Institute for Human Settlements (IIHS), with supervision from Dr Amir Bazaz and support from research associate Rishika Rangarajan.
-
-# Publications and Outputs
-
+TBC
 
 <!-- Graphic -->
 
