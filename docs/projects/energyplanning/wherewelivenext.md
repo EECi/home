@@ -18,7 +18,7 @@ toc_sticky: true
 <!-- Load d3.js -->
 <script src="https://d3js.org/d3.v4.js"></script>
 
-<script>
+<style>
 div.container2 {
 	width: 800px;
 	height: 530px;
@@ -111,7 +111,7 @@ div.slider-button:after {
 	right: 0px;
 	content: "\2B9E";
 }
-</script>  
+</style>  
   
 <script>
 $("input.slider").on("input change", function(event) {
