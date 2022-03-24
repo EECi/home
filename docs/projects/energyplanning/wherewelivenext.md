@@ -17,7 +17,109 @@ toc_sticky: true
 <!-- Load d3.js -->
 <script src="https://d3js.org/d3.v4.js"></script>
 
+<script>
+div.container {
+	width: 800px;
+	height: 530px;
+	position: relative;
+}
+ 
+div.image {
+	height: 100%;
+	background-repeat: no-repeat;
+	background-position: top left;
+	background-size: cover;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
 
+div.before {
+	width: 50%;
+	background-image: url("../img/before.jpg");
+	z-index: 2;
+}
+
+div.after {
+	width: 100%;
+	background-image: url("../img/after.jpg");
+	z-index: 1;
+}
+  
+input.slider {
+	width: 100%;
+	height: 100%;
+	outline: none;
+	background-color: transparent;
+	position: absolute;
+	margin: 0px;
+	z-index: 3;
+	cursor: pointer;
+	appearance: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	transition: 0.25s all ease-in-out;
+	-moz-transition: 0.25s all ease-in-out;
+	-webkit-transition: 0.25s all ease-in-out;
+	z-index: 4;
+}
+
+input.slider::-moz-range-thumb {
+	width: 6px;
+	height: 600px;
+	background-color: white;
+	cursor: pointer;
+}
+
+input.slider::-webkit-slider-thumb {
+	width: 6px;
+	height: 530px;
+	background-color: white;
+	cursor: pointer;
+	appearance: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+}
+  
+div.slider-button {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	-moz-broder-radius: 50%;
+	-webkit-border-radius: 50%;
+	background-color: white;
+	position: absolute;
+	top: calc(50% - 18px);
+	left: calc(50% - 18px);
+	cursor: pointer;
+	z-index: 3;
+}
+
+div.slider-button:before {
+	color: #555;
+	position: absolute;
+	top: 3px;
+	left: 0px;
+	content: "\2B9C";
+}
+
+div.slider-button:after {
+	color: #555;
+	position: absolute;
+	top: 3px;
+	right: 0px;
+	content: "\2B9E";
+}
+</script>  
+  
+<script>
+$("input.slider").on("input change", function(event) {
+	var pos = event.target.value;
+
+	$("div.before").css({width: pos + "%"});
+	$("div.slider-button").css({left: "calc(" + pos + "% - 18px)"});
+});
+</script>
 
 # Context
 
@@ -29,16 +131,12 @@ Using the lens of places and practices of food this project will explore a mixed
 <div id="stickyarticle">
 <h1 class="category">Socio-Economic Overview</h1>
 <!--<h2 class="title">Using qualitative and quantitative data</h2>-->
-<div id="wrapper">
-  <div id="sticky">
-    <img id="sticky"
-         src="/home/Images/eplan/Fuel_Stacking_wide.jpg"
-         alt="LPG Distributor in Bangalore"
-         caption="Photo credit: A Neto-Bradley">
-  </div>
-  <body>TBC<br>
-  <br>
- TBC</body>
+<div class="container">
+	<div class="image before"><img src="/home/Images/eplan/Doge_GenM_Web.png"></div>
+	<div class="image after"><img src="/home/Images/eplan/Doge_GenF_Web.png"></div>
+
+	<input type="range" class="slider" min="1" max="100" value="50" />
+	<div class="slider-button"></div>
 </div>
   <h2 class="title">Places of Food</h2>
 <div id="wrapper">
