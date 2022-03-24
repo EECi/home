@@ -14,11 +14,12 @@ header:
   overlay_image: /Images/eplan/WWLN_Kebab.png
 toc_sticky: true
 ---
+<head>
 <!-- Load d3.js -->
 <script src="https://d3js.org/d3.v4.js"></script>
 
 <script>
-div.container {
+div.container2 {
 	width: 800px;
 	height: 530px;
 	position: relative;
@@ -120,6 +121,7 @@ $("input.slider").on("input change", function(event) {
 	$("div.slider-button").css({left: "calc(" + pos + "% - 18px)"});
 });
 </script>
+</head>
 
 # Context
 
@@ -131,7 +133,7 @@ Using the lens of places and practices of food this project will explore a mixed
 <div id="stickyarticle">
 <h1 class="category">Socio-Economic Overview</h1>
 <!--<h2 class="title">Using qualitative and quantitative data</h2>-->
-<div class="container">
+<div class="container2">
 	<div class="image before"><img src="/home/Images/eplan/Doge_GenM_Web.png"></div>
 	<div class="image after"><img src="/home/Images/eplan/Doge_GenF_Web.png"></div>
 
@@ -139,16 +141,7 @@ Using the lens of places and practices of food this project will explore a mixed
 	<div class="slider-button"></div>
 </div>
   <h2 class="title">Places of Food</h2>
-<div id="wrapper">
-  <body>TBC </body>
-</div>
-<div id="wrapper">
-
-  <p></p>
-  <body>TBC</body>
-  </div>
-  
-   <h2 class="title">In-Depth Analysis of Reviews</h2>
+  <h2 class="title">In-Depth Analysis of Reviews</h2>
   <body>TBC
 </div>
 
