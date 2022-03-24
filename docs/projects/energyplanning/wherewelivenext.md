@@ -20,12 +20,12 @@ toc_sticky: true
 
 <style>
 div.container2 {
-	width: 800px;
-	height: 530px;
+	width: 900px;
+	height: 700px;
 	position: relative;
 }
  
-div.image {
+div.image2 {
 	height: 100%;
 	background-repeat: no-repeat;
 	background-position: top left;
@@ -37,13 +37,13 @@ div.image {
 
 div.before {
 	width: 50%;
-	background-image: url("../img/before.jpg");
+	background-image: url("https://github.com/EECi/home/blob/ba72bd6231b5e9df6efd1d01320fa19bb53790ee/Images/eplan/Doge_GenM_Web.png");
 	z-index: 2;
 }
 
 div.after {
 	width: 100%;
-	background-image: url("../img/after.jpg");
+	background-image: url("https://github.com/EECi/home/blob/ba72bd6231b5e9df6efd1d01320fa19bb53790ee/Images/eplan/Doge_GenF_Web.png");
 	z-index: 1;
 }
   
@@ -134,8 +134,8 @@ Using the lens of places and practices of food this project will explore a mixed
 <h1 class="category">Socio-Economic Overview</h1>
 <!--<h2 class="title">Using qualitative and quantitative data</h2>-->
 <div class="container2">
-	<div class="image before"><img src="/home/Images/eplan/Doge_GenM_Web.png"></div>
-	<div class="image after"><img src="/home/Images/eplan/Doge_GenF_Web.png"></div>
+	<div class="image2 before"><img src="/home/Images/eplan/Doge_GenM_Web.png"></div>
+	<div class="image2 after"><img src="/home/Images/eplan/Doge_GenF_Web.png"></div>
 
 	<input type="range" class="slider" min="1" max="100" value="50" />
 	<div class="slider-button"></div>
