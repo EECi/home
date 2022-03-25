@@ -25,7 +25,7 @@ div.container2 {
 	position: relative;
 }
  
-div.imager {
+div.slimage {
 	height: 100%;
 	background-repeat: no-repeat;
 	background-position: top left;
@@ -122,6 +122,7 @@ $("input.slider").on("input change", function(event) {
 });
 </script>
 </head>
+<body>
 
 # Context
 
@@ -134,8 +135,8 @@ Using the lens of places and practices of food this project will explore a mixed
 <h1 class="category">Socio-Economic Overview</h1>
 <!--<h2 class="title">Using qualitative and quantitative data</h2>-->
 <div class="container2">
-	<div class="imager before"></div>
-	<div class="imager after"></div>
+	<div class="slimage before"></div>
+	<div class="slimage after"></div>
 
 	<input type="range" class="slider" min="1" max="100" value="50" />
 	<div class="slider-button"></div>
@@ -149,4 +150,4 @@ Using the lens of places and practices of food this project will explore a mixed
 # Team
 TBC
 
-
+</body>
