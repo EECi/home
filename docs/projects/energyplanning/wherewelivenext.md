@@ -38,7 +38,7 @@ div.slimage {
 
 div.before {
     width: 50%;
-    background-image: url("https://raw.githubusercontent.com/EECi/home/508c387e592e8ef2e7b7735f54d479d7e3ab402a/Images/eplan/Doge_GenM_Web.png");
+    background-image: url("https://raw.githubusercontent.com/EECi/home/a2b94e63230fcd8bc3ec9d4d8a3d047a88b32418/Images/eplan/Doge_GenF_Web.png");
     z-index: 2;
 }
 
