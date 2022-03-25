@@ -37,13 +37,13 @@ div.slimage {
 
 div.before {
     width: 50%;
-    background-image: url("/Images/eplan/Doge_GenF_Web.png");
+    background-image: url("../Images/eplan/Doge_GenF_Web.png");
     z-index: 2;
 }
 
 div.after {
     width: 100%;
-    background-image: url("Images/eplan/Doge_GenM_Web.png");
+    background-image: url("../Images/eplan/Doge_GenM_Web.png");
     z-index: 1;
 }
 
@@ -113,7 +113,7 @@ div.slider-button:after {
 }
 
 @media (max-width: 767px) {
-    div.container {
+    div.container2 {
         width: 100%;
         height: 250px;
     }
@@ -130,12 +130,12 @@ $("input.slider").on("input change", function(event) {
 </head>
 <body>
 
-# Context
+	<h1 class="category">Context</h1>
 
 Using the lens of places and practices of food this project will explore a mixed methods approach for scaling lived experience across city-scale data and models and to expose intangible features of community spaces. By layering analysis of places and practices of food onto spatial and model data on deprivation and fuel poverty this research contextualises invisible relationships and dynamics of a community through visible patterns of urban fabric. 
 
 
-## A Case Study of Dogesthorpe
+	<h2 class="title"> A Case Study of Dogesthorpe </h2>
 
 <div id="stickyarticle">
 <h1 class="category">Socio-Economic Overview</h1>
