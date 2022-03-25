@@ -20,97 +20,103 @@ toc_sticky: true
 
 <style>
 div.container2 {
-	width: 1000px;
-	height: 720px;
-	position: relative;
+    width: 800px;
+    height: 530px;
+    position: relative;
 }
- 
+
 div.slimage {
-	height: 100%;
-	background-repeat: no-repeat;
-	background-position: top left;
-	background-size: cover;
-	position: absolute;
-	top: 0px;
-	left: 0px;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
 }
 
 div.before {
-	width: 50%;
-	background-image: url("https://github.com/EECi/home/blob/ba72bd6231b5e9df6efd1d01320fa19bb53790ee/Images/eplan/Doge_GenM_Web.png");
-	z-index: 2;
+    width: 50%;
+    background-image: url("/Images/eplan/Doge_GenF_Web.png");
+    z-index: 2;
 }
 
 div.after {
-	width: 100%;
-	background-image: url("https://github.com/EECi/home/blob/ba72bd6231b5e9df6efd1d01320fa19bb53790ee/Images/eplan/Doge_GenF_Web.png");
-	z-index: 1;
+    width: 100%;
+    background-image: url("Images/eplan/Doge_GenM_Web.png");
+    z-index: 1;
 }
-  
+
 input.slider {
-	width: 100%;
-	height: 100%;
-	outline: none;
-	background-color: transparent;
-	position: absolute;
-	margin: 0px;
-	z-index: 3;
-	cursor: pointer;
-	appearance: none;
-	-moz-appearance: none;
-	-webkit-appearance: none;
-	transition: 0.25s all ease-in-out;
-	-moz-transition: 0.25s all ease-in-out;
-	-webkit-transition: 0.25s all ease-in-out;
-	z-index: 4;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    background-color: transparent;
+    position: absolute;
+    margin: 0px;
+    z-index: 3;
+    cursor: pointer;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    transition: 0.25s all ease-in-out;
+    -moz-transition: 0.25s all ease-in-out;
+    -webkit-transition: 0.25s all ease-in-out;
+    z-index: 4;
 }
 
 input.slider::-moz-range-thumb {
-	width: 6px;
-	height: 600px;
-	background-color: white;
-	cursor: pointer;
+    width: 6px;
+    height: 600px;
+    background-color: white;
+    cursor: pointer;
 }
 
 input.slider::-webkit-slider-thumb {
-	width: 6px;
-	height: 530px;
-	background-color: white;
-	cursor: pointer;
-	appearance: none;
-	-moz-appearance: none;
-	-webkit-appearance: none;
+    width: 6px;
+    height: 530px;
+    background-color: white;
+    cursor: pointer;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
 }
-  
+
 div.slider-button {
-	width: 30px;
-	height: 30px;
-	border-radius: 50%;
-	-moz-broder-radius: 50%;
-	-webkit-border-radius: 50%;
-	background-color: white;
-	position: absolute;
-	top: calc(50% - 18px);
-	left: calc(50% - 18px);
-	cursor: pointer;
-	z-index: 3;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    -moz-broder-radius: 50%;
+    -webkit-border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: calc(50% - 18px);
+    left: calc(50% - 18px);
+    cursor: pointer;
+    z-index: 3;
 }
 
 div.slider-button:before {
-	color: #555;
-	position: absolute;
-	top: 3px;
-	left: 0px;
-	content: "\2B9C";
+    color: #555;
+    position: absolute;
+    top: 3px;
+    left: 0px;
+    content: "\2B9C";
 }
 
 div.slider-button:after {
-	color: #555;
-	position: absolute;
-	top: 3px;
-	right: 0px;
-	content: "\2B9E";
+    color: #555;
+    position: absolute;
+    top: 3px;
+    right: 0px;
+    content: "\2B9E";
 }
+
+@media (max-width: 767px) {
+    div.container {
+        width: 100%;
+        height: 250px;
+    }
 </style>  
   
 <script>
