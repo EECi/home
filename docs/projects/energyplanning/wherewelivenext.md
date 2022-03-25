@@ -22,7 +22,7 @@ toc_sticky: true
 <style>
 div.container2 {
     width: 800px;
-    height: 530px;
+    height: 600px;
     position: relative;
 }
 
@@ -68,14 +68,14 @@ input.slider {
 
 input.slider::-moz-range-thumb {
     width: 6px;
-    height: 600px;
+    height: 610px;
     background-color: white;
     cursor: pointer;
 }
 
 input.slider::-webkit-slider-thumb {
     width: 6px;
-    height: 530px;
+    height: 600px;
     background-color: white;
     cursor: pointer;
     appearance: none;
