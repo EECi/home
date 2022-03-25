@@ -37,13 +37,13 @@ div.slimage {
 
 div.before {
     width: 50%;
-    background-image: url("/Images/eplan/Doge_GenF_Web.png");
+    background-image: url("../Images/eplan/Doge_GenF_Web.png");
     z-index: 2;
 }
 
 div.after {
     width: 100%;
-    background-image: url("/Images/eplan/Doge_GenM_Web.png");
+    background-image: url("../Images/eplan/Doge_GenM_Web.png");
     z-index: 1;
 }
 
