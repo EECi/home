@@ -37,13 +37,13 @@ div.slimage {
 
 div.before {
     width: 50%;
-    background-image: url("../Images/eplan/Doge_GenF_Web.png");
+    background-image: url("https://raw.githubusercontent.com/EECi/home/508c387e592e8ef2e7b7735f54d479d7e3ab402a/Images/eplan/Doge_GenM_Web.png");
     z-index: 2;
 }
 
 div.after {
     width: 100%;
-    background-image: url("../Images/eplan/Doge_GenM_Web.png");
+    background-image: url("https://raw.githubusercontent.com/EECi/home/cf2c17a05296a305ab41068b3dbbfdcfa761a010/Images/eplan/Doge_GenM_Web.png");
     z-index: 1;
 }
 
