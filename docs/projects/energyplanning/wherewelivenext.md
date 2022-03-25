@@ -16,7 +16,7 @@ toc_sticky: true
 ---
 <head>
 <!-- Load d3.js -->
-<script src="https://d3js.org/d3.v4.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
 <style>
 div.container2 {
@@ -37,13 +37,13 @@ div.slimage {
 
 div.before {
     width: 50%;
-    background-image: url("../Images/eplan/Doge_GenF_Web.png");
+    background-image: url("/Images/eplan/Doge_GenF_Web.png");
     z-index: 2;
 }
 
 div.after {
     width: 100%;
-    background-image: url("../Images/eplan/Doge_GenM_Web.png");
+    background-image: url("/Images/eplan/Doge_GenM_Web.png");
     z-index: 1;
 }
 
