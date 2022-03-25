@@ -14,6 +14,7 @@ header:
   overlay_image: /Images/eplan/WWLN_Kebab.png
 toc_sticky: true
 ---
+<html>
 <head>
 <!-- Load d3.js -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -120,26 +121,29 @@ div.slider-button:after {
 </style>  
   
 <script>
-$("input.slider").on("input change", function(event) {
-	var pos = event.target.value;
+$(document).ready(function() {
 
-	$("div.before").css({width: pos + "%"});
-	$("div.slider-button").css({left: "calc(" + pos + "% - 18px)"});
+    $("input.slider").on("input change", function(event) {
+        var pos = event.target.value;
+
+        $("div.before").css({width: pos + "%"});
+        $("div.slider-button").css({left: "calc(" + pos + "% - 18px)"});
+    });
+
 });
 </script>
 </head>
 <body>
 
-	<h1 class="category">Context</h1>
+<h1 class="category">Context</h1>
 
 Using the lens of places and practices of food this project will explore a mixed methods approach for scaling lived experience across city-scale data and models and to expose intangible features of community spaces. By layering analysis of places and practices of food onto spatial and model data on deprivation and fuel poverty this research contextualises invisible relationships and dynamics of a community through visible patterns of urban fabric. 
 
 
-	<h2 class="title"> A Case Study of Dogesthorpe </h2>
+<h2 class="title"> A Case Study of Dogesthorpe </h2>
 
 <div id="stickyarticle">
 <h1 class="category">Socio-Economic Overview</h1>
-<!--<h2 class="title">Using qualitative and quantitative data</h2>-->
 <div class="container2">
 	<div class="slimage before"></div>
 	<div class="slimage after"></div>
@@ -153,7 +157,5 @@ Using the lens of places and practices of food this project will explore a mixed
 </div>
 
 
-# Team
-TBC
-
 </body>
+</html>
