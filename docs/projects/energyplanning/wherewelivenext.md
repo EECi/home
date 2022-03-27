@@ -138,7 +138,7 @@ $(document).ready(function() {
 <h1 class="category">Context</h1>
 
 Using the lens of places and practices of food this project will explore a mixed methods approach for scaling lived experience across city-scale data and models and to expose intangible features of community spaces. By layering analysis of places and practices of food onto spatial and model data on deprivation and fuel poverty this research contextualises invisible relationships and dynamics of a community through visible patterns of urban fabric. 
-
+</br>
 
 <h1 class="title"> A Case Study of Dogesthorpe </h1>
 
