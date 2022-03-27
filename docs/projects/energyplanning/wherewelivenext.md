@@ -69,7 +69,7 @@ input.slider {
 input.slider::-moz-range-thumb {
     width: 6px;
     height: 610px;
-    background-color: white;
+    background-color: #ed207b;
     cursor: pointer;
 }
 
@@ -89,7 +89,7 @@ div.slider-button {
     border-radius: 50%;
     -moz-broder-radius: 50%;
     -webkit-border-radius: 50%;
-    background-color: white;
+    background-color: #ed207b;
     position: absolute;
     top: calc(50% - 18px);
     left: calc(50% - 18px);
@@ -140,10 +140,12 @@ $(document).ready(function() {
 Using the lens of places and practices of food this project will explore a mixed methods approach for scaling lived experience across city-scale data and models and to expose intangible features of community spaces. By layering analysis of places and practices of food onto spatial and model data on deprivation and fuel poverty this research contextualises invisible relationships and dynamics of a community through visible patterns of urban fabric. 
 
 
-<h2 class="title"> A Case Study of Dogesthorpe </h2>
+<h1 class="title"> A Case Study of Dogesthorpe </h1>
 
 <div id="stickyarticle">
-<h1 class="category">Socio-Economic Overview</h1>
+<h2 class="category">Places of Food</h2>
+<img src="https://raw.githubusercontent.com/EECi/home/de9782682d7f1a8618278302a87900d8e12a340f/Images/eplan/Dogesthorpe_Overview.png">
+<h2 class="category">Gendered Experiences of Place</h2>	
 <div class="container2">
 	<div class="slimage before"></div>
 	<div class="slimage after"></div>
