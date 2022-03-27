@@ -76,7 +76,7 @@ input.slider::-moz-range-thumb {
 input.slider::-webkit-slider-thumb {
     width: 6px;
     height: 600px;
-    background-color: white;
+    background-color: #ed207b;
     cursor: pointer;
     appearance: none;
     -moz-appearance: none;
@@ -89,7 +89,7 @@ div.slider-button {
     border-radius: 50%;
     -moz-broder-radius: 50%;
     -webkit-border-radius: 50%;
-    background-color: #ed207b;
+    background-color: white;
     position: absolute;
     top: calc(50% - 18px);
     left: calc(50% - 18px);
@@ -98,7 +98,7 @@ div.slider-button {
 }
 
 div.slider-button:before {
-    color: #555;
+    color: #ed207b;
     position: absolute;
     top: 3px;
     left: 0px;
@@ -106,7 +106,7 @@ div.slider-button:before {
 }
 
 div.slider-button:after {
-    color: #555;
+    color: #ed207b;
     position: absolute;
     top: 3px;
     right: 0px;
