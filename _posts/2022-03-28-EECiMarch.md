@@ -10,6 +10,7 @@ share: true
 related: true
 excerpt: "Development of archetypes-based framework to model ground temperatures under cities"
 ---
+
 As part of the [Monitoring and Modelling of Urban Underground Climate Change project](https://eeci.github.io/home/docs/subsurface/) we are developing a method to model large regions of ground beneath urban centres, such as central London.
 Dense urban areas can be particularly difficult to model as these often have large amounts of infrastructure embedded in the ground, some of which can act as heat sources, such as basements, train tunnels, sewage networks, etc., ejecting heat into the surrounding ground.
 Higher ground temperatures can give rise to a higher geothermal cpacity that may be access using ground heat exchangers, and accounting for the influence of anthopogenic heat fluxes within the ground is important in assessing shallow geothermal opportunities for large deployment. 
