@@ -14,17 +14,20 @@ header:
   overlay_image: /Images/eplan/fishy_business.jpeg
 toc_sticky: true
 ---
+
+
 <html>
 <head>
 <!-- Load d3.js -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css"/>
 <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
-<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+<!--script src="http://code.jquery.com/jquery-2.1.1.min.js"></script> -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-ajax/2.1.0/leaflet.ajax.min.js"></script>
 <script src="https://raw.githubusercontent.com/EECi/home/c75f83f4fa4b9951d1712ca5c000d2ee972a9de2/data/geodata.js"></script>
+	
 <style>
-	  .info {
+.info {
     padding: 6px 8px;
     font: 14px/16px Arial, Helvetica, sans-serif;
     background: white;
@@ -209,43 +212,6 @@ Using the lens of places and practices of food this project will explore a mixed
         
         L.geoJson(geodata, {style: style}).addTo(map);
 
-        // function highlightFeature(e) {
-        //   var layer = e.target;
-        //   layer.setStyle({
-        //     weight: 5,
-        //     color: '#666',
-        //     dashArray: '',
-        //     fillOpacity: 0.7
-        //   });
-          
-        //   if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
-        //     layer.bringToFront();
-        //   }}
-
-        //   function resetHighlight(e) {
-        //     geojson.resetStyle(e.target);
-        //   }
-        
-        //   var geojson;
-        //   // ... our listeners
-        //   geojson = L.geoJson(...);
-
-        //   function zoomToFeature(e) {
-        //     map.fitBounds(e.target.getBounds());
-        //   }
-          
-        //   function onEachFeature(feature, layer) {
-        //     layer.on({
-        //       mouseover: highlightFeature,
-        //       mouseout: resetHighlight,
-        //       click: zoomToFeature
-        //     });
-        //   }
-
-        //   geojson = L.geoJson(geodata, {
-        //       style: style,
-        //       onEachFeature: onEachFeature
-        //   }).addTo(map);
         // control that shows state info on hover
         var info = L.control();
         
