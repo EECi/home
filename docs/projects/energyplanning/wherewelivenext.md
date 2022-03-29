@@ -144,7 +144,7 @@ Using the lens of places and practices of food this project will explore a mixed
 <div id="stickyarticle">
 <h2 class="category">Places of Food</h2>
 The map below shows the spatial distribution of different types of places of food listed on Google Maps in Dogesthorpe.
-<img src="https://raw.githubusercontent.com/EECi/home/de9782682d7f1a8618278302a87900d8e12a340f/Images/eplan/Dogesthorpe_Overview.png">
+<img src="https://raw.githubusercontent.com/EECi/home/3240ec68c8f5db92068a7f68705446119310b89a/Images/eplan/Dogesthorpe_Overview.png">
 <h2 class="category">Gendered Experiences of Place</h2>	
 Click and drag the divider below to see the difference between male and female ratings for places in Dogesthorpe.
 <div class="container2">
