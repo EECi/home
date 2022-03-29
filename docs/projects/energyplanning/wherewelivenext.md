@@ -19,20 +19,14 @@ toc_sticky: true
 <html>
 <head>
 <!-- Load d3.js -->
-<!--<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>-->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@0.7.7/dist/leaflet.css" />
 <script src="https://unpkg.com/leaflet@0.7.7/dist/leaflet.js"></script>
 <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-ajax/2.1.0/leaflet.ajax.min.js"></script>
 
 <style>
-.leaflet-container {
-			height: 400px;
-			width: 600px;
-			max-width: 100%;
-			max-height: 100%;
-		}
-  .info {
+.info {
     padding: 6px 8px;
     font: 14px/16px Arial, Helvetica, sans-serif;
     background: white;
@@ -182,7 +176,8 @@ Using the lens of places and practices of food this project will explore a mixed
 <script type="text/javascript">
   
         var map = L.map('map').setView([52.59,-0.22614], 13);
-        mapLink ='<a href="http://openstreetmap.org">OpenStreetMap</a>';
+        mapLink = 
+            '<a href="http://openstreetmap.org">OpenStreetMap</a>';
 
         var Stamen_Toner = L.tileLayer('http://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}.{ext}', {
           attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
@@ -193,8 +188,8 @@ Using the lens of places and practices of food this project will explore a mixed
         });
         
         Stamen_Toner.addTo(map);
-	
-	        L.geoJson(geodata).addTo(map);
+        
+        L.geoJson(geodata).addTo(map);
 
         function getColor(d) {
           return d > 35 ? "#4e3910"  :
@@ -336,7 +331,6 @@ Using the lens of places and practices of food this project will explore a mixed
         };
         
         legend.addTo(map);
-
 
         var svg = d3.select(map.getPanes().overlayPane).append("svg")
         var g = svg.append("g").attr("class", "leaflet-zoom-hide");
