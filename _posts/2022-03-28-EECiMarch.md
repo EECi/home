@@ -20,6 +20,6 @@ Higher ground temperatures can give rise to a higher geothermal cpacity that may
 To help us determine underground temperature we use regression trees to cluster together thermal behaviours within small regions, incorporating features such as the presence and depth of besements and tunnels, hydrological parameters, and geological characteristics, to create 'archetypes'. 
 We then model only these archetypes to approximate the temperautre disctribution undeground.
 
-{% include figure image_path="/Images/ssenv/EECi_March_gif_TempDist.gif" alt="Subsurface temperature variations below RBKC and CoW" caption="Subsurface temperature variations below the boroughs of Kensington and Chelsea and City of Westminster" %}
+{% include figure image_path="/Images/EECi_March_gif_TempDist.gif" alt="Subsurface temperature variations below RBKC and CoW" caption="Subsurface temperature variations below the boroughs of Kensington and Chelsea and City of Westminster" %}
 
 The next stages of the work will include incorporating the presence of ground heat exchangers to enable us to do large scale shallow geothermal capacity modelling and explore how the presence of anthropogenic infrastructure in the ground can affect how much thermal energy can be usefully harnessed under cities.
