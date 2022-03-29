@@ -25,9 +25,9 @@ toc_sticky: true
 <!--script src="http://code.jquery.com/jquery-2.1.1.min.js"></script> -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-ajax/2.1.0/leaflet.ajax.min.js"></script>
 <script src="https://raw.githubusercontent.com/EECi/home/c75f83f4fa4b9951d1712ca5c000d2ee972a9de2/data/geodata.js"></script>
-	
+
 <style>
-.info {
+  .info {
     padding: 6px 8px;
     font: 14px/16px Arial, Helvetica, sans-serif;
     background: white;
@@ -50,6 +50,9 @@ toc_sticky: true
     margin-right: 8px;
     opacity: 0.7;
 }
+</style>	
+	
+<style>
 div.container2 {
     width: 800px;
     height: 600px;
@@ -185,112 +188,7 @@ Using the lens of places and practices of food this project will explore a mixed
         });
         
         Stamen_Toner.addTo(map);
-        
-        L.geoJson(geodata).addTo(map);
-
-        function getColor(d) {
-          return d > 35 ? "#4e3910"  :
-          d > 30  ? "#845d29" :
-          d > 25  ? "#d8c29d" :
-          d > 20  ? "#4fb6ca" :
-          d > 15   ? "#178f92" :
-          d > 10   ? "#175f5d" :
-          d > 5   ? "#1d1f54" :
-                    "#1d1f54";
-                    }
-
-        function style(feature) {
-          return {
-            fillColor: getColor(feature.properties.fuelpovprop),
-            weight: 2,
-            opacity: 1,
-            color: 'white',
-            dashArray: '3',
-            fillOpacity: 0.4
-          };
-        }
-        
-        L.geoJson(geodata, {style: style}).addTo(map);
-
-        // control that shows state info on hover
-        var info = L.control();
-        
-        info.onAdd = function (map) {
-          this._div = L.DomUtil.create('div', 'info');
-          this.update();
-          return this._div;
-        };
-
-        info.update = function (props) {
-          this._div.innerHTML = '<h4>Fuel Poverty</h4>' +  (props ?
-            '<b>' + props.lsoa01nm + '</b><br />' + props.fuelpovprop + ' % ' : 'Hover over an area');
-        };
-
-        info.addTo(map);
-
-
-        function highlightFeature(e) {
-          var layer = e.target;
-
-          layer.setStyle({
-            weight: 5,
-            color: '#666',
-            dashArray: '',
-            fillOpacity: 0.5
-          });
-
-          if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
-            layer.bringToFront();
-          }
-
-          info.update(layer.feature.properties);
-        }
-
-        var geojson;
-
-        function resetHighlight(e) {
-          geojson.resetStyle(e.target);
-          info.update();
-        }
-
-        function zoomToFeature(e) {
-          map.fitBounds(e.target.getBounds());
-        }
-
-        function onEachFeature(feature, layer) {
-          layer.on({
-            mouseover: highlightFeature,
-            mouseout: resetHighlight,
-            click: zoomToFeature
-          });
-        }
-
-        /* global statesData */
-        geojson = L.geoJson(geodata, {
-          style: style,
-          onEachFeature: onEachFeature
-        }).addTo(map);
-
-        map.attributionControl.addAttribution('Fuel Poverty Data &copy; ONS');
-
-
-
-        var legend = L.control({position: 'bottomright'});
-        
-        legend.onAdd = function (map) {
-          var div = L.DomUtil.create('div', 'info legend'),
-          grades = [0, 5, 10, 15, 20, 25, 30, 35],
-          labels = [];
-          // loop through our density intervals and generate a label with a colored square for each interval
-          for (var i = 0; i < grades.length; i++) {
-            div.innerHTML +=
-            '<i style="background:' + getColor(grades[i] + 1) + '"></i> ' +
-            grades[i] + (grades[i + 1] ? '&ndash;' + grades[i + 1] + '<br>' : '+');
-          }
-          return div;
-        };
-        
-        legend.addTo(map);
+       
 
         var svg = d3.select(map.getPanes().overlayPane).append("svg")
         var g = svg.append("g").attr("class", "leaflet-zoom-hide");
