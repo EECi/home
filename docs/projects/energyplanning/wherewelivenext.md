@@ -23,11 +23,10 @@ toc_sticky: true
 <link rel="stylesheet" href="https://unpkg.com/leaflet@0.7.7/dist/leaflet.css" />
 <script src="https://unpkg.com/leaflet@0.7.7/dist/leaflet.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<!--script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-ajax/2.1.0/leaflet.ajax.min.js"></script>-->
-<script type="text/javascript" src="https://raw.githubusercontent.com/EECi/home/c75f83f4fa4b9951d1712ca5c000d2ee972a9de2/data/geodata.js"></script>
+<script src="https://raw.githubusercontent.com/EECi/home/c75f83f4fa4b9951d1712ca5c000d2ee972a9de2/data/geodata.js" ></script>
 
 <style>
-.info {
+  .info {
     padding: 6px 8px;
     font: 14px/16px Arial, Helvetica, sans-serif;
     background: white;
@@ -215,43 +214,7 @@ Using the lens of places and practices of food this project will explore a mixed
         
         L.geoJson(geodata, {style: style}).addTo(map);
 
-        // function highlightFeature(e) {
-        //   var layer = e.target;
-        //   layer.setStyle({
-        //     weight: 5,
-        //     color: '#666',
-        //     dashArray: '',
-        //     fillOpacity: 0.7
-        //   });
-          
-        //   if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
-        //     layer.bringToFront();
-        //   }}
-
-        //   function resetHighlight(e) {
-        //     geojson.resetStyle(e.target);
-        //   }
         
-        //   var geojson;
-        //   // ... our listeners
-        //   geojson = L.geoJson(...);
-
-        //   function zoomToFeature(e) {
-        //     map.fitBounds(e.target.getBounds());
-        //   }
-          
-        //   function onEachFeature(feature, layer) {
-        //     layer.on({
-        //       mouseover: highlightFeature,
-        //       mouseout: resetHighlight,
-        //       click: zoomToFeature
-        //     });
-        //   }
-
-        //   geojson = L.geoJson(geodata, {
-        //       style: style,
-        //       onEachFeature: onEachFeature
-        //   }).addTo(map);
         // control that shows state info on hover
         var info = L.control();
         
