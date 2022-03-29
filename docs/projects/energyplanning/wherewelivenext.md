@@ -20,11 +20,10 @@ toc_sticky: true
 <head>
 <!-- Load d3.js -->
 <!--<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>-->
-<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css"/>
-<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@0.7.7/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@0.7.7/dist/leaflet.js"></script>
 <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-ajax/2.1.0/leaflet.ajax.min.js"></script>
-<script type="text/javascript" src="https://raw.githubusercontent.com/EECi/home/c75f83f4fa4b9951d1712ca5c000d2ee972a9de2/data/geodata.js"></script>
 
 <style>
 .leaflet-container {
@@ -179,7 +178,7 @@ $(document).ready(function() {
 Using the lens of places and practices of food this project will explore a mixed methods approach for scaling lived experience across city-scale data and models and to expose intangible features of community spaces. By layering analysis of places and practices of food onto spatial and model data on deprivation and fuel poverty this research contextualises invisible relationships and dynamics of a community through visible patterns of urban fabric. 
 
 <div id="map" style="width: 800px; height: 600px"></div>
-
+<script type="text/javascript" src="https://raw.githubusercontent.com/EECi/home/c75f83f4fa4b9951d1712ca5c000d2ee972a9de2/data/geodata.js"></script>
 <script type="text/javascript">
   
         var map = L.map('map').setView([52.59,-0.22614], 13);
