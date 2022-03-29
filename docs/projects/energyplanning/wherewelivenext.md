@@ -18,8 +18,35 @@ toc_sticky: true
 <head>
 <!-- Load d3.js -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
+<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css"/>
+<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-ajax/2.1.0/leaflet.ajax.min.js"></script>
+<script src="https://raw.githubusercontent.com/EECi/home/c75f83f4fa4b9951d1712ca5c000d2ee972a9de2/data/geodata.js"></script>
 <style>
+	  .info {
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+.info h4 {
+    margin: 0 0 5px;
+    color: #777;
+}
+.legend {
+    line-height: 18px;
+    color: #555;
+}
+.legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+}
 div.container2 {
     width: 800px;
     height: 600px;
@@ -139,6 +166,171 @@ $(document).ready(function() {
 
 Using the lens of places and practices of food this project will explore a mixed methods approach for scaling lived experience across city-scale data and models and to expose intangible features of community spaces. By layering analysis of places and practices of food onto spatial and model data on deprivation and fuel poverty this research contextualises invisible relationships and dynamics of a community through visible patterns of urban fabric. 
 <p>
+<div id="map" style="width: 900px; height: 600px"></div>
+  <script type="text/javascript">
+  
+        var map = L.map('map').setView([52.59,-0.22614], 13);
+        mapLink = 
+            '<a href="http://openstreetmap.org">OpenStreetMap</a>';
+
+        var Stamen_Toner = L.tileLayer('http://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}.{ext}', {
+          attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+          subdomains: 'abcd',
+          minZoom: 0,
+          maxZoom: 20,
+          ext: 'png'
+        });
+        
+        Stamen_Toner.addTo(map);
+        
+        L.geoJson(geodata).addTo(map);
+
+        function getColor(d) {
+          return d > 35 ? "#4e3910"  :
+          d > 30  ? "#845d29" :
+          d > 25  ? "#d8c29d" :
+          d > 20  ? "#4fb6ca" :
+          d > 15   ? "#178f92" :
+          d > 10   ? "#175f5d" :
+          d > 5   ? "#1d1f54" :
+                    "#1d1f54";
+                    }
+
+        function style(feature) {
+          return {
+            fillColor: getColor(feature.properties.fuelpovprop),
+            weight: 2,
+            opacity: 1,
+            color: 'white',
+            dashArray: '3',
+            fillOpacity: 0.4
+          };
+        }
+        
+        L.geoJson(geodata, {style: style}).addTo(map);
+
+        // function highlightFeature(e) {
+        //   var layer = e.target;
+        //   layer.setStyle({
+        //     weight: 5,
+        //     color: '#666',
+        //     dashArray: '',
+        //     fillOpacity: 0.7
+        //   });
+          
+        //   if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
+        //     layer.bringToFront();
+        //   }}
+
+        //   function resetHighlight(e) {
+        //     geojson.resetStyle(e.target);
+        //   }
+        
+        //   var geojson;
+        //   // ... our listeners
+        //   geojson = L.geoJson(...);
+
+        //   function zoomToFeature(e) {
+        //     map.fitBounds(e.target.getBounds());
+        //   }
+          
+        //   function onEachFeature(feature, layer) {
+        //     layer.on({
+        //       mouseover: highlightFeature,
+        //       mouseout: resetHighlight,
+        //       click: zoomToFeature
+        //     });
+        //   }
+
+        //   geojson = L.geoJson(geodata, {
+        //       style: style,
+        //       onEachFeature: onEachFeature
+        //   }).addTo(map);
+        // control that shows state info on hover
+        var info = L.control();
+        
+        info.onAdd = function (map) {
+          this._div = L.DomUtil.create('div', 'info');
+          this.update();
+          return this._div;
+        };
+
+        info.update = function (props) {
+          this._div.innerHTML = '<h4>Fuel Poverty</h4>' +  (props ?
+            '<b>' + props.lsoa01nm + '</b><br />' + props.fuelpovprop + ' % ' : 'Hover over an area');
+        };
+
+        info.addTo(map);
+
+
+        function highlightFeature(e) {
+          var layer = e.target;
+
+          layer.setStyle({
+            weight: 5,
+            color: '#666',
+            dashArray: '',
+            fillOpacity: 0.5
+          });
+
+          if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
+            layer.bringToFront();
+          }
+
+          info.update(layer.feature.properties);
+        }
+
+        var geojson;
+
+        function resetHighlight(e) {
+          geojson.resetStyle(e.target);
+          info.update();
+        }
+
+        function zoomToFeature(e) {
+          map.fitBounds(e.target.getBounds());
+        }
+
+        function onEachFeature(feature, layer) {
+          layer.on({
+            mouseover: highlightFeature,
+            mouseout: resetHighlight,
+            click: zoomToFeature
+          });
+        }
+
+        /* global statesData */
+        geojson = L.geoJson(geodata, {
+          style: style,
+          onEachFeature: onEachFeature
+        }).addTo(map);
+
+        map.attributionControl.addAttribution('Fuel Poverty Data &copy; ONS');
+
+
+
+        var legend = L.control({position: 'bottomright'});
+        
+        legend.onAdd = function (map) {
+          var div = L.DomUtil.create('div', 'info legend'),
+          grades = [0, 5, 10, 15, 20, 25, 30, 35],
+          labels = [];
+          // loop through our density intervals and generate a label with a colored square for each interval
+          for (var i = 0; i < grades.length; i++) {
+            div.innerHTML +=
+            '<i style="background:' + getColor(grades[i] + 1) + '"></i> ' +
+            grades[i] + (grades[i + 1] ? '&ndash;' + grades[i + 1] + '<br>' : '+');
+          }
+          return div;
+        };
+        
+        legend.addTo(map);
+
+        var svg = d3.select(map.getPanes().overlayPane).append("svg")
+        var g = svg.append("g").attr("class", "leaflet-zoom-hide");
+
+  
+</script>
 
 <h1 class="category"> A Case Study of Dogesthorpe </h1>
 <div id="stickyarticle">
