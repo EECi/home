@@ -190,9 +190,8 @@ Using the lens of places and practices of food this project will explore a mixed
         
 	$.getJSON("https://raw.githubusercontent.com/EECi/home/2bd124b40e996cb94a06684534dfbebc30832150/data/pet_lspdf_v3.geojson" ,function(geodata){
         L.geoJson(geodata).addTo(map);
-	});
-
-        function getColor(d) {
+	
+	function getColor(d) {
           return d > 35 ? "#4e3910"  :
           d > 30  ? "#845d29" :
           d > 25  ? "#d8c29d" :
@@ -296,6 +295,9 @@ Using the lens of places and practices of food this project will explore a mixed
         };
         
         legend.addTo(map);
+	});
+
+        
 
         var svg = d3.select(map.getPanes().overlayPane).append("svg")
         var g = svg.append("g").attr("class", "leaflet-zoom-hide");
