@@ -23,8 +23,17 @@ toc_sticky: true
 <link rel="stylesheet" href="https://unpkg.com/leaflet@0.7.7/dist/leaflet.css" />
 <script src="https://unpkg.com/leaflet@0.7.7/dist/leaflet.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://raw.githubusercontent.com/EECi/home/c75f83f4fa4b9951d1712ca5c000d2ee972a9de2/data/geodata.js" ></script>
+<!--script src="https://raw.githubusercontent.com/EECi/home/c75f83f4fa4b9951d1712ca5c000d2ee972a9de2/data/geodata.js" ></script>-->
 
+<script>
+	var geodata = {
+    "type": "FeatureCollection",
+    "name": "pet_lspdf_v3",
+    "features": [
+    { "type": "Feature", "properties": { "lsoa01cd": "E01015589", "objectid": "15847", "lsoa01nm": "Peterborough 004A", "lsoa01nmw": "Peterborough 004A", "st_areasha": 26987948.372407001, "st_lengths": 30257.693284000001, "LSOA.Name": "Peterborough 004A", "LA.Code": "E06000031", "LA.Name": "Peterborough", "Region": "East of England", "Number.of.households1": " 729 ", "Number.of.households.in.fuel.poverty1": 86.0, "fuelpovprop": " 12 " }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -0.360966895115173, 52.659576243620009 ], [ -0.360618289166164, 52.659559287009522 ], [ -0.360308067417079, 52.659612837814052 ] ] ] } } ] }
+	</script>
+	
+	
 <style>
   .info {
     padding: 6px 8px;
