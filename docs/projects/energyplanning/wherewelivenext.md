@@ -28,9 +28,8 @@ toc_sticky: true
 <script>
 	var geodata = {
     "type": "FeatureCollection",
-    "name": "pet_lspdf_v3",
     "features": [
-    { "type": "Feature", "properties": { "lsoa01cd": "E01015589", "objectid": "15847", "lsoa01nm": "Peterborough 004A", "lsoa01nmw": "Peterborough 004A", "st_areasha": 26987948.372407001, "st_lengths": 30257.693284000001, "LSOA.Name": "Peterborough 004A", "LA.Code": "E06000031", "LA.Name": "Peterborough", "Region": "East of England", "Number.of.households1": " 729 ", "Number.of.households.in.fuel.poverty1": 86.0, "fuelpovprop": " 12 " }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -0.360966895115173, 52.659576243620009 ], [ -0.360618289166164, 52.659559287009522 ], [ -0.360308067417079, 52.659612837814052 ] ] ] } } ] }
+    { "type": "Feature", "properties": { "lsoa01cd": "E01015589", "objectid": "15847", "lsoa01nm": "Peterborough 004A", "lsoa01nmw": "Peterborough 004A", "st_areasha": 26987948.372407001, "st_lengths": 30257.693284000001, "LSOA.Name": "Peterborough 004A", "LA.Code": "E06000031", "LA.Name": "Peterborough", "Region": "East of England", "Number.of.households1": " 729 ", "Number.of.households.in.fuel.poverty1": 86.0, "fuelpovprop": " 12 " }, "geometry": { "type": "LineString", "coordinates": [ [ [ -0.360966895115173, 52.659576243620009 ], [ -0.360618289166164, 52.659559287009522 ], [ -0.360308067417079, 52.659612837814052 ] ] ] } } ] }
 	</script>
 	
 	
