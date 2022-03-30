@@ -173,7 +173,7 @@ Using the lens of places and practices of food this project will explore a mixed
 <p>
 Energy poverty and food poverty are closely intertwined, and households at risk of fuel poverty are likely to be at risk of food poverty too. Food poverty data is not publicly available at this local scale, but national statistics and energy modelling data do offer a fine scale local view of energy poverty. The map below shows ONS data on fuel poverty in Dogesthorpe, Peterborough. Levels of fuel poverty in Dogesthorpe are above the national average and higher than much of the surrounding areas. 
 	
-<div id="map" style="width: 720px; height: 600px"></div>
+<div id="map" style="width: 720px; height: 500px"></div>
 <script type="text/javascript">
   
         var map = L.map('map').setView([52.59,-0.22614], 13);
