@@ -25,14 +25,6 @@ toc_sticky: true
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <!--script src="https://raw.githubusercontent.com/EECi/home/c75f83f4fa4b9951d1712ca5c000d2ee972a9de2/data/geodata.js" ></script>-->
 
-<script>
-	var geodata = {
-    "type": "FeatureCollection",
-    "features": [
-    { "type": "Feature", "properties": { "lsoa01cd": "E01015589", "objectid": "15847", "lsoa01nm": "Peterborough 004A", "lsoa01nmw": "Peterborough 004A", "st_areasha": 26987948.372407001, "st_lengths": 30257.693284000001, "LSOA.Name": "Peterborough 004A", "LA.Code": "E06000031", "LA.Name": "Peterborough", "Region": "East of England", "Number.of.households1": " 729 ", "Number.of.households.in.fuel.poverty1": 86.0, "fuelpovprop": " 12 " }, "geometry": { "type": "LineString", "coordinates": [ [ [ -0.360966895115173, 52.659576243620009 ], [ -0.360618289166164, 52.659559287009522 ], [ -0.360308067417079, 52.659612837814052 ] ] ] } } ] }
-	</script>
-	
-	
 <style>
   .info {
     padding: 6px 8px;
@@ -196,7 +188,9 @@ Using the lens of places and practices of food this project will explore a mixed
         
         Stamen_Toner.addTo(map);
         
+	$.getJSON("https://raw.githubusercontent.com/EECi/home/2bd124b40e996cb94a06684534dfbebc30832150/data/pet_lspdf_v3.geojson" ,function(geodata){
         L.geoJson(geodata).addTo(map);
+	});
 
         function getColor(d) {
           return d > 35 ? "#4e3910"  :
