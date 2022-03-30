@@ -311,12 +311,25 @@ Energy poverty and food poverty are closely intertwined, and households at risk 
 <h2 class="category">Places of Food</h2>
 Information about places of food is publicly available through platforms such as Google Maps, and includes a rich source of community created data in the form of reviews. There are three predominant types of food places listed on Google Maps, these are food shops which sell ingredients or food products to be prepared at home, cafes and restaurants which may serve food to be consumed on premises (although during Covid-19 pandemic these may have offered takeaway and delivery), and finally fast food takeaway places which offer convenient food to be delivered or taken home to eat. These takeaway and fast food places are what would typically characterise a food swamp often selling nutritionally poor food. We have also noted a local allotment in the area. The map below shows the spatial distribution of different types of places of food listed on Google Maps in Dogesthorpe. <p>
 <img src="https://raw.githubusercontent.com/EECi/home/3240ec68c8f5db92068a7f68705446119310b89a/Images/eplan/Dogesthorpe_Overview.png">
+
+		<h2 class="category">The daily pulse of places of food</h2>	
+The data provides insight into the temporality of these places of food. Simply considering the listed opening hours for the different food establishments reveals a spatio-temporal pattern that characterises the neighbourhood as a place and community. Between 4 and 7pm there is a distinct transition with these food shops and cafes on the periphery closing and takeaway and fast-food type restaurants opening inside the neighbourhood such that by 8pm the majority of food places open in Dogesthorpe are takeaway restaurants. The food landscape of the neighbourhood differs during working hours and evenings, becoming what may be described as a “food swamp” at night.
+<p>
+<img src="https://raw.githubusercontent.com/EECi/home/b3c66f0759b50a847fce76472b92c684051e6043/Images/eplan/Dogesthorpe_Time.png">
 	
-	<h2 class="category">Places of Food</h2>
-Information about places of food is publicly available through platforms such as Google Maps, and includes a rich source of community created data in the form of reviews. There are three predominant types of food places listed on Google Maps, these are food shops which sell ingredients or food products to be prepared at home, cafes and restaurants which may serve food to be consumed on premises (although during Covid-19 pandemic these may have offered takeaway and delivery), and finally fast food takeaway places which offer convenient food to be delivered or taken home to eat. These takeaway and fast food places are what would typically characterise a food swamp often selling nutritionally poor food. We have also noted a local allotment in the area. The map below shows the spatial distribution of different types of places of food listed on Google Maps in Dogesthorpe. <p>
-<img src="https://raw.githubusercontent.com/EECi/home/3240ec68c8f5db92068a7f68705446119310b89a/Images/eplan/Dogesthorpe_Overview.png">
+	
+	<h2 class="category">Where do locals go?</h2>	
+The map below shows the the proportion of reviews left according to the reviewers provenance. We can see a distinct and complementary spatial pattern between places of food more often reviewed by neighbourhood locals versus those places reviewed by 'outsider'. <p>
+	This is also interesting in terms of what types of places of food are reviewed by locals versus non-locals. Takeaways and fast-food places, convenience stores and local supermarkets located predominantly in the inner part of the neighbourhood away from the main roads are popular with locals. More specialised food shops as well as restaurants and convenience stores close to the main road and ring road are more popular with those who are not local.
+<p>
+<img src="https://raw.githubusercontent.com/EECi/home/b3c66f0759b50a847fce76472b92c684051e6043/Images/eplan/Dogesthorpe_Reviewer_Provenance.png">
+	
 	
 <h2 class="category">Gendered Experiences of Place</h2>	
+	From the inferred gender of reviewers of food places on Google Maps the gendered differences in experience of the local area can also be explored in a non-intrusive way. Note in the map below that reviews for the pub and chinese takeaway in the middle of the neighbourhood have a greater proportion of female reviewers, while fast food takeaways and the pub’ on the main road are predominantly reviewed by male reviewers. Some places appear gender neutral in reviewer gender and these include some of teh convenience stores in the inner neighbourhood.
+<p>
+<img src="https://raw.githubusercontent.com/EECi/home/b3c66f0759b50a847fce76472b92c684051e6043/Images/eplan/Dogesthorpe_Reviewer_Gender.png">
+	
 While gender balance in reviewers reveals more male and female clientele, the ratings given by male and female reviewers offer additional insight into how these places are experienced by different genders. Move the slider below to see where female reviewers can have markedly different experiences of places when compared to male reviewers. <p>
 <div class="container2">
 	<div class="slimage before"></div>
@@ -325,8 +338,7 @@ While gender balance in reviewers reveals more male and female clientele, the ra
 	<input type="range" class="slider" min="1" max="100" value="50" />
 	<div class="slider-button"></div>
 </div>
-  <h2 class="title">Places of Food</h2>
-  <h2 class="title">In-Depth Analysis of Reviews</h2>
+  <h2 class="title">Qualitative Analysis of Reviews</h2>
 	<body>TBC</body>
 </div>
 
