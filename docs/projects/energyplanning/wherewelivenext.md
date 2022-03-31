@@ -167,10 +167,10 @@ $(document).ready(function() {
 </head>
 <body>
 
-<h1 class="category">Context</h1>
-
-Using the lens of places and practices of food this project will explore a mixed methods approach for scaling lived experience across city-scale data and models and to expose intangible features of community spaces. By layering analysis of places and practices of food onto spatial and model data on deprivation and fuel poverty this research contextualises invisible relationships and dynamics of a community through visible patterns of urban fabric. 
+<h1 class="category"> A Case Study of Dogesthorpe </h1>
+	Using the lens of places and practices of food this project will explore a mixed methods approach for scaling lived experience across city-scale data and models and to expose intangible features of community spaces. By layering analysis of places and practices of food onto spatial and model data on deprivation and fuel poverty this research contextualises invisible relationships and dynamics of a community through visible patterns of urban fabric. 
 <p>
+<h1 class="category">Context</h1>
 Energy poverty and food poverty are closely intertwined, and households at risk of fuel poverty are likely to be at risk of food poverty too. Food poverty data is not publicly available at this local scale, but national statistics and energy modelling data do offer a fine scale local view of energy poverty. The map below shows ONS data on fuel poverty in Dogesthorpe, Peterborough. Levels of fuel poverty in Dogesthorpe are above the national average and higher than much of the surrounding areas. 
 	
 <div id="map" style="width: 720px; height: 500px"></div>
@@ -306,7 +306,7 @@ Energy poverty and food poverty are closely intertwined, and households at risk 
   
 </script>
 
-<h1 class="category"> A Case Study of Dogesthorpe </h1>
+
 <div id="stickyarticle">
 <h2 class="category">Places of Food</h2>
 Information about places of food is publicly available through platforms such as Google Maps, and includes a rich source of community created data in the form of reviews. There are three predominant types of food places listed on Google Maps, these are food shops which sell ingredients or food products to be prepared at home, cafes and restaurants which may serve food to be consumed on premises (although during Covid-19 pandemic these may have offered takeaway and delivery), and finally fast food takeaway places which offer convenient food to be delivered or taken home to eat. These takeaway and fast food places are what would typically characterise a food swamp often selling nutritionally poor food. We have also noted a local allotment in the area. The map below shows the spatial distribution of different types of places of food listed on Google Maps in Dogesthorpe. <p>
@@ -315,7 +315,7 @@ Information about places of food is publicly available through platforms such as
 		<h2 class="category">The daily pulse of places of food</h2>	
 The data provides insight into the temporality of these places of food. Simply considering the listed opening hours for the different food establishments reveals a spatio-temporal pattern that characterises the neighbourhood as a place and community. Between 4 and 7pm there is a distinct transition with these food shops and cafes on the periphery closing and takeaway and fast-food type restaurants opening inside the neighbourhood such that by 8pm the majority of food places open in Dogesthorpe are takeaway restaurants. The food landscape of the neighbourhood differs during working hours and evenings, becoming what may be described as a “food swamp” at night.
 <p>
-<img src="https://raw.githubusercontent.com/EECi/home/b3c66f0759b50a847fce76472b92c684051e6043/Images/eplan/Dogesthorpe_Time.png">
+<img src="https://raw.githubusercontent.com/EECi/home/64844fffd51849854d98d2edd229f77c656206d3/Images/eplan/Doge_time.gif">
 	
 	
 	<h2 class="category">Where do locals go?</h2>	
