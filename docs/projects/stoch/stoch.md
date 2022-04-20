@@ -18,8 +18,8 @@ feature_row:
     btn_class: "btn--primary"
   - image_path: /Images/stoch/phase_plot.png
     alt: "placeholder image 2"
-    title: "State Space Adaptation"
-    excerpt: "Towards data-efficient and physically-interpretable energy modeling via State Space Adaptation."
+    title: "Physics-based Domain Adaptation"
+    excerpt: "Leveraging mechanistic models to improve building energy forecasting via Physics-based Domain Adaptation."
     url: "/docs/projects/stoch/statespace/"
     btn_label: "Read More"
     btn_class: "btn--primary"
