@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Towards data-efficient and interpretable predictive energy modeling via State Space Adaptation
+title: Towards data-efficient and interpretable predictive energy modeling via Physics-based domain adaptation
 tags:
   - data-centric energy modelling
   - physics-enhanced maching learning
@@ -8,10 +8,10 @@ tags:
   - subspace alignment
   - dynamic mode decomposition
 author: "Zack"
-excerpt: "Reuse of energy models via state space transformations"
+excerpt: "A Physics-based domain adaptation framework for building energy modeling and forecasting."
 feature_row:
   - image_path: /Images/stoch/phase_plot.png
-    alt: "Phase Space Transformations"
+    alt: "State Space Transformations"
 last_modified_at: 2021-10-26
 read_time: true
 toc: true
@@ -42,8 +42,6 @@ More specifically, the research marries low-rank (global) mechanistic models in 
 The State Space can be described as a vector field whose vector coordinates guide the fundamental trajectories underlying the behaviour of the physical system under observation. State spaces can be mathematically represented by state space models (SSM), which are an algebraic system of linear equations for mechanistically representing any dynamic system that can be described by ordinary differential equations. Thus, focusing efforts towards recovering the vector field underlying a thermal system, contributes towards achieving prediction generalisability for any combination of state initial conditions because any trajectory in the state space is described by the governing model, while preserving physical interpretability of the governing dynamics. A state space can also be described as a subspace, whose boundaries are defined by the state vectors. 
 
 {% include figure image_path="/Images/stoch/phaseProfile_sinlgeWall_parametricThickness_3.gif" alt="Phase portrait trajectories at varying wall thicknesses" caption="Overlayed state space trajectories of transient heat transfer through external walls of varying thicknesses." %}
-
-**_Dynamic Mode Decomposition_**
 
 
 ## Team
