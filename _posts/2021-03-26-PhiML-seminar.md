@@ -10,7 +10,7 @@ share: true
 related: true
 ---
 
-"**Φ-ML *Meets Engineering***" is a newly launched bi-monthly seminar series  discussing applications of Physics-enhanced Machine Leanring (Φ-ML) methods in Engineering practice. 
+"**Φ-ML *Meets Engineering***" is a newly launched bi-monthly seminar series  discussing applications of Physics-enhanced Machine Learning (Φ-ML) methods in Engineering practice. 
 
 Machine learning (ML) applications in engineering have been applied to both small and large-scale problems. However, the necessity of using large training datasets together with the ‘black box’ nature of ML learning methods may compromise their interpretability, which is necessary for practical applications. In this context, Physics-informed machine learning (Φ-ML) is an emerging subfield to tackle such difficulties. Φ-ML methods aim to integrate known physical understanding of a phenomenon, e.g. expressed as ODE/PDE/SDEs, into the ML-learning framework. 
 
