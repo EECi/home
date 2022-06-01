@@ -1,1 +1,5 @@
-	_site/
+# local _site folder
+_site/
+
+# MacOS clutter
+*.DS_Store
