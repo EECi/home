@@ -41,8 +41,6 @@ docs:
         url: /docs/people/monikak/
       - title: "Nick"
         url: /docs/people/nick/
-      - title: "Teresa"
-        url: /docs/people/teresa/
       - title: "Zack"
         url: /docs/people/zack/
       - title: "James"
@@ -51,6 +49,8 @@ docs:
         url: /docs/people/chaoqun/
       - title: "Mingda"
         url: /docs/people/mingda/
+      - title: "Max"
+        url: /docs/people/max/
         
 
 # This sidebar indicates the list of four projects
@@ -82,12 +82,12 @@ children:
     url: /docs/people/jamesk/
   - title: "André"
     url: /docs/people/andre/
-  - title: "Teresa"
-    url: /docs/people/teresa/  
   - title: "Chaoqun"
     url: /docs/people/chaoqun/  
   - title: "Mingda"
-    url: /docs/people/mingda/ 
+    url: /docs/people/mingda/
+  - title: "Max"
+    url: /docs/people/max/
 # Create your own sidebar
 sidebar-urbanag:
   - title: "Urban Agriculture"
