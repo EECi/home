@@ -36,18 +36,18 @@ ra_gallery:
     alt: "André Paul Neto-Bradley"
     title: "André Paul Neto-Bradley"
 grad_student_gallery:
-  - url: /docs/people/jamesk/
-    image_path: /Images/ppl/jik.jpg
-    alt: "James Kinch"
-    title: "James Kinch"
-  - url: https://www.eeci.cam.ac.uk/directory/t-irigoyen-lopez
-    image_path: /Images/ppl/TIL.jpg
-    alt: "Teresa Irigoyen-López"
-    title: "Teresa Irigoyen-López"
   - url: /docs/people/mingda/
     image_path: /Images/ppl/YMD.jpg
     alt: "Mingda Yuan"
     title: "Mingda Yuan"
+  - url: /docs/people/jamesk/
+    image_path: /Images/ppl/jik.jpg
+    alt: "James Kinch"
+    title: "James Kinch"
+  - url: /docs/people/max/
+    image_path: /Images/ppl/mal.jpeg
+    alt: "Max Langtry"
+    title: "Max Langtry"
 alumni_gallery:
   - url: /docs/people/mel/
     image_path: https://www.eeci.cam.ac.uk/directory/m-janssingh/image_normal

@@ -158,3 +158,21 @@ Mingda:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: " "
+
+Max:
+  name        : "Max Langtry"
+  bio         : "Graduate Student, Renewable Energy Systems Optimisation"
+  avatar      : "/Images/ppl/mal.jpeg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:mal84@cam.ac.uk"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "/home/docs/people/max/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin-in"
+      url: "https://www.linkedin.com/in/max-langtry/"
+    - label: "Personal Website"
+      icon: "fas fa-fw fa-link"
+      url: "http://mal84.user.srcf.net/"
