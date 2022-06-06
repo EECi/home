@@ -167,3 +167,15 @@ Max:
     - label: "Personal Website"
       icon: "fas fa-fw fa-link"
       url: "http://mal84.user.srcf.net/"
+
+Vijja:
+  name        : "Vijja Wichitwechkarn"
+  bio         : "Graduate Student, Urban Vertical Farming"
+  avatar      : "/Images/ppl/pat.jpg"
+  links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "/home/docs/people/pat/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin-in"
+      url: "www.linkedin.com/in/vijja-wichitwechkarn/"

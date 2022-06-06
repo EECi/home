@@ -48,6 +48,10 @@ grad_student_gallery:
     image_path: /Images/ppl/mal.jpeg
     alt: "Max Langtry"
     title: "Max Langtry"
+  - url: /docs/people/pat/
+    image_path: /Images/ppl/pat.jpg
+    alt: "Vijja Wichitwechkarn"
+    title: "Vijja Wichitwechkarn"
 alumni_gallery:
   - url: /docs/people/mel/
     image_path: https://www.eeci.cam.ac.uk/directory/m-janssingh/image_normal
