@@ -19,5 +19,5 @@ My background is in artificial intelligence (MSc Imperial College London), robot
 ## Publications
 
 <p>
-<script src="https://bibbase.org/show?bib=https%3A%2F%2Fraw.githubusercontent.com%2FEECi%2Fhome%2Fmain%2Fdocs%2Fpublications%pat.bib&commas=true&jsonp=1"></script>
+<script src="https://bibbase.org/show?bib=https%3A%2F%2Fraw.githubusercontent.com%2FEECi%2Fhome%2Fmain%2Fdocs%2Fpublications%2Fpat.bib&commas=true&jsonp=1"></script>
 </p>
