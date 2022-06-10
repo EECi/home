@@ -10,7 +10,7 @@ author: "Zack"
 
 ## Resarch interests
 
-I am passionate about multidisciplinary research that contributes to improving the built environment. My current work seeks improve data-efficiency and interpretability of data-driven tools for assisting the decarbonisation of buildings, by combining governing heat transfer equations together with Machine Learning techniques. Incorporating Physics into data-driven techniques bypasses the need for exhaustive datasets while preserves mechanistic interpretability of the underlying dynamics. 
+I am passionate about multidisciplinary research that contributes to improving the built environment. My current work seeks to improve data-efficiency and interpretability of data-driven tools for assisting the decarbonisation of buildings, by combining governing heat transfer equations together with Machine Learning techniques. Incorporating Physics into data-driven techniques bypasses the need for exhaustive datasets while preserves mechanistic interpretability of the underlying dynamics. 
 
 Previously, my doctoral reseach focused on developing inference mechanisms to promote human intelligence at the interface of architecture and engineering in building design. More specifically, the work presented a novel inverse modeling approach using Bayesian networks to facilitate the interpretability of engineering responses from numerical analysis, with a focus on finite element analysis for structural engineering.
 
