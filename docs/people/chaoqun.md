@@ -16,4 +16,4 @@ Prior to joining the EECi, I worked as a postdoctoral research fellow at The Hon
 
 ## Publications
 
-<script src="https://bibbase.org/show?bib=https%3A%2F%2Fapi.zotero.org%2Fusers%2F3650988%2Fcollections%2FARQFDTHW%2Fitems%3Fkey%3DPBfHyX44VPstZ281Idu6IOTr%26format%3Dbibtex%26limit%3D100&jsonp=1"></script>
+<script src="https://bibbase.org/service/mendeley/713ebec7-d051-3c7a-b868-fd9ea0861073?jsonp=1"></script>
