@@ -13,7 +13,7 @@ toc_icon: "columns"
 excerpt: "Overview of the EECi research outputs"
 
 presentations:
-  - image_path: "http://img.youtube.com/BqT_Dy-WZUk/0.jpg" 
+  - image_path: "http://img.youtube.com/vi/BqT_Dy-WZUk/0.jpg" 
     image_caption: "AI UK Lightning talk - Urban underground"
     alt: "Youtube video"
     title: "AI UK 2022 lightning talk on Urban underground"
