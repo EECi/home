@@ -13,6 +13,15 @@ toc_icon: "columns"
 excerpt: "Overview of the EECi research outputs"
 
 presentations:
+  - image_path: "https://www.youtube.com/watch?v=BqT_Dy-WZUk/0.jpg"
+    image_caption: "AI UK Lightning talk - Urban underground"
+    alt: "Youtube video"
+    title: "AI UK 2022 lightning talk on Urban underground"
+    excerpt:  "Finding common ground: modelling the heat under cities - MJ Kreitmair & N Makasis"
+    url: "https://www.youtube.com/watch?v=BqT_Dy-WZUk"
+    btn_label: "View this video"
+    btn_class: "btn--inverse"
+
   - image_path: "http://img.youtube.com/vi/VDsmeWXTWQs/0.jpg"
     image_caption: "CSIC SC talk"
     alt: "Youtube video"
