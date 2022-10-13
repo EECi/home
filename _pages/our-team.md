@@ -40,10 +40,6 @@ grad_student_gallery:
     image_path: /Images/ppl/YMD.jpg
     alt: "Mingda Yuan"
     title: "Mingda Yuan"
-  - url: /docs/people/jamesk/
-    image_path: /Images/ppl/jik.jpg
-    alt: "James Kinch"
-    title: "James Kinch"
   - url: /docs/people/max/
     image_path: /Images/ppl/mal.jpeg
     alt: "Max Langtry"
