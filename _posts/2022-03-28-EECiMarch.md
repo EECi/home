@@ -15,11 +15,11 @@ As part of the [Monitoring and Modelling of Urban Underground Climate Change pro
 Dense urban areas can be particularly difficult to model as these often have large amounts of infrastructure embedded in the ground, some of which can act as heat sources, such as basements, train tunnels, sewage networks, etc., ejecting heat into the surrounding ground.
 Higher ground temperatures can give rise to a higher geothermal cpacity that may be access using ground heat exchangers, and accounting for the influence of anthopogenic heat fluxes within the ground is important in assessing shallow geothermal opportunities for large deployment. 
 
-{% include figure image_path="/Images/EECi_March_RegTree.png" alt="Regression tree for features in central London" %}
+{% include figure image_path="/Images/EECinsights/EECi_March_RegTree.png" alt="Regression tree for features in central London" %}
 
 To help us determine underground temperature we use regression trees to cluster together thermal behaviours within small regions, incorporating features such as the presence and depth of besements and tunnels, hydrological parameters, and geological characteristics, to create 'archetypes'. 
 We then model only these archetypes to approximate the temperautre disctribution undeground.
 
-{% include figure image_path="/Images/EECi_March_gif_TempDist.gif" alt="Subsurface temperature variations below RBKC and CoW" caption="Subsurface temperature variations below the boroughs of Kensington and Chelsea and City of Westminster" %}
+{% include figure image_path="/Images/EECinsights/EECi_March_gif_TempDist.gif" alt="Subsurface temperature variations below RBKC and CoW" caption="Subsurface temperature variations below the boroughs of Kensington and Chelsea and City of Westminster" %}
 
 The next stages of the work will include incorporating the presence of ground heat exchangers to enable us to do large scale shallow geothermal capacity modelling and explore how the presence of anthropogenic infrastructure in the ground can affect how much thermal energy can be usefully harnessed under cities.
