@@ -18,4 +18,7 @@ I hold an MPhys in Physics from Brasenose College, Oxford and an MSc in Sustaina
 
 ## Publications
 
+<p>
+<script src="https://bibbase.org/service/mendeley/7f1be357-2d5e-31aa-a0e2-e4dabfed4143?jsonp=1"></script>
 
+</p>
