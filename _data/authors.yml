@@ -16,7 +16,7 @@ Billy Rick:
 Melanie:
   name        : "Melanie Jans-Singh"
   bio         : "Research Associate, Urban farming"
-  avatar      : https://www.eeci.cam.ac.uk/directory/m-janssingh/image_normal
+  avatar      : "/Images/ppl/mel.jpeg"
   links:
     - label: "Email me"
       icon: "fas fa-fw fa-envelope-square"
