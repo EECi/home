@@ -85,7 +85,7 @@ collab_gallery:
     alt: "Ryozo Ooka"
     institute: "The University of Tokyo, Japan"
   - url: https://betlab.oopy.io/8a1c26ac-9a32-4dc8-8334-b3f2840956d6
-    image-path: /Images/ppl/wonjun.png
+    image_path: /Images/ppl/wonjun.png
     title: "Wonjun Choi"
     alt: "Wonjun Choi"
     institute: "Chonnam National University, Korea"
