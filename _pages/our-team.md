@@ -42,7 +42,7 @@ grad_student_gallery:
     title: "Vijja Wichitwechkarn"
 alumni_gallery:
   - url: /docs/people/mel/
-    image_path: https://www.eeci.cam.ac.uk/directory/m-janssingh/image_normal
+    image_path: /Images/ppl/mel.jpeg
     title: "Melanie Jans-Singh"
     alt: "Melanie Jans-Singh"
   - url: /docs/people/andre/
@@ -84,6 +84,12 @@ collab_gallery:
     title: "Ryozo Ooka"
     alt: "Ryozo Ooka"
     institute: "The University of Tokyo, Japan"
+  - url: https://betlab.oopy.io/8a1c26ac-9a32-4dc8-8334-b3f2840956d6
+    image-path: /Images/ppl/wonjun.png
+    title: "Wonjun Choi"
+    alt: "Wonjun Choi"
+    institute: "Chonnam National University, Korea"
+
 sidebar:
   title: "Meet the team"
   nav: sidebar-people
@@ -122,11 +128,11 @@ sidebar:
 
 * Melanie Jans-Singh, *2016-2020 [now researcher at BEIS, UK]* 
 
-* Bryn Pickering , *2015-2019 [ow senior researcher at ETH Zurich, Switzerland]*  
+* Bryn Pickering , *2015-2019 [now senior researcher at ETH Zurich, Switzerland]*  
 
 * Adnan Mortada, *2013-2018 [now partner of Japan Energy Capital]*  
 
-* Yi Zhang (co-supervisor with K. Soga), *2011-2015 [now Researcher at Tsinghua-Berkeley Shenzhen Institute, China]* 
+* Yi Zhang (co-supervisor with K. Soga), *2011-2015 [now researcher at Tsinghua-Berkeley Shenzhen Institute, China]* 
 
 * Akomeno Omu, *2010-2014. [now Dean of Faculty at African Leadership University, Mauritius]* 
 
@@ -139,7 +145,7 @@ sidebar:
 
 ### Past Research Associates
 
-* Andre Paul Neto-Bradley, *2021-2022 [now Senior Energy Advisor at Department of Business, Energy and Industrial Strategy (BEIS)]*
+* Andre Paul Neto-Bradley, *2021-2022 [now researcher at BEIS, UK]*
 
 * Dr. Asal Bidarmaghz, *2017-2019 [now Asst. Prof. at UNSW Sydney, Australia]* 
 
