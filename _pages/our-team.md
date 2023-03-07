@@ -3,7 +3,7 @@ layout: single
 title: Our team
 permalink: /our-team/
 description: An overview of the team
-last_modified_at: 2021-03-29
+last_modified_at: 2023-03-07
 faculty_gallery:
   - url: /docs/people/ruchi/
     image_path: /Images/ppl/Ruchi.png
@@ -31,15 +31,7 @@ ra_gallery:
     image_path: /Images/ppl/CQZ.jpg
     alt: "Chaoqun Zhuang"
     title: "Chaoqun Zhuang"
-  - url: /docs/people/andre/
-    image_path: /Images/ppl/apn.jpg
-    alt: "André Paul Neto-Bradley"
-    title: "André Paul Neto-Bradley"
 grad_student_gallery:
-  - url: /docs/people/mingda/
-    image_path: /Images/ppl/YMD.jpg
-    alt: "Mingda Yuan"
-    title: "Mingda Yuan"
   - url: /docs/people/max/
     image_path: /Images/ppl/mal.jpeg
     alt: "Max Langtry"
@@ -53,6 +45,14 @@ alumni_gallery:
     image_path: https://www.eeci.cam.ac.uk/directory/m-janssingh/image_normal
     title: "Melanie Jans-Singh"
     alt: "Melanie Jans-Singh"
+  - url: /docs/people/andre/
+    image_path: /Images/ppl/apn.jpg
+    alt: "André Paul Neto-Bradley"
+    title: "André Paul Neto-Bradley"
+  - url: /docs/people/mingda/
+    image_path: /Images/ppl/YMD.jpg
+    alt: "Mingda Yuan"
+    title: "Mingda Yuan"
 collab_gallery:
   - url: https://www.agw.kit.edu/english/176_5131.php
     image_path: https://www.agw.kit.edu/img/Ingenieurgeologie/Foto_sw_2014_Katrin_Menbergjpg.jpg
@@ -107,10 +107,14 @@ sidebar:
 {% include gallery id="collab_gallery" layout="third"%}
 
 ## Alumni
+{% include gallery id="alumni_gallery" layout="third"%}
+
 
 ### Past PhD Students
 
-* Andre Paul Neto-Bradley , *2017-2021 [now PDRA at U. of Cambridge]* 
+* Mingda Yuan, *2017-2022*
+
+* Andre Paul Neto-Bradley, *2017-2021 [became PDRA at U. of Cambridge]* 
 
 * Yohei Kiguchi, *2014-2021 [now CEO of Japan Energy Capital]* 
 
@@ -134,6 +138,8 @@ sidebar:
 
 
 ### Past Research Associates
+
+* Andre Paul Neto-Bradley, *2021-2022 [now Senior Energy Advisor at Department of Business, Energy and Industrial Strategy (BEIS)]*
 
 * Dr. Asal Bidarmaghz, *2017-2019 [now Asst. Prof. at UNSW Sydney, Australia]* 
 
@@ -181,10 +187,3 @@ sidebar:
 * Dr. Inanici, *Associate Professor, Dept. of Architecture, U. of Washington, Seattle, USA, August 2013* 
 
 * Dr. Yohei Yamaguchi, *Assistant Professor, Urban Energy Systems, Osaka Univ., Japan, Dec 2012* 
-
-
-
-
-
-
-
