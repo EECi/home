@@ -165,3 +165,18 @@ Vijja:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin-in"
       url: "https://www.linkedin.com/in/vijja-wichitwechkarn/"
+
+Monty:
+  name        : "Monty Jackson"
+  bio         : "Graduate Student, Building Energy Efficiency"
+  avatar      : "/Images/ppl/monty.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:mj636@cam.ac.uk"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "/home/docs/people/monty/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin-in"
+      url: "https://www.linkedin.com/in/monty-jackson/"

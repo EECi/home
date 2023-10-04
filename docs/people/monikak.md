@@ -6,11 +6,9 @@ last_modified_at: 2021-03-29
 author_profile: true
 author: "Monika"
 ---
-
-## Resarch interests
+## Research interests
 
 I am interested in understanding how we can optimise the sustainabilty of our choices under uncertainty, in the context of renewable energy. Currently this is taking the form of exploring the thermal impact of anthropgenic infrastructure on the shallow subsurface and how this affects geothermal potential by using Bayesian calibration techniques on detailed numerical models.
-
 
 ## Background
 

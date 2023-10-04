@@ -40,6 +40,10 @@ grad_student_gallery:
     image_path: /Images/ppl/pat.jpg
     alt: "Vijja Wichitwechkarn"
     title: "Vijja Wichitwechkarn"
+  - url: /docs/people/monty/
+    image_path: /Images/ppl/monty.jpg
+    alt: "Monty Jackson"
+    title: "Monty Jackson"
 alumni_gallery:
   - url: /docs/people/mel/
     image_path: /Images/ppl/mel.jpeg
