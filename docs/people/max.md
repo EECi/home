@@ -21,5 +21,5 @@ Outside of academics I am an avid hill walker, keen cyclist, and occasional fell
 ## Publications
 
 <div>
-<script src="https://bibbase.org/show?bib=https%3A%2F%2Fraw.githubusercontent.com%2FEECi%2Fhome%2Fmain%2Fdocs%2Fpublications%2Fmax_bib.bib&commas=true&jsonp=1&amp;filter=author_short:Langtry&amp;folding=1"></script> 
+<script src="https://bibbase.org/show?bib=https%3A%2F%2Fraw.githubusercontent.com%2FEECi%2Fhome%2Fmain%2Fdocs%2Fpublications%2Fmax.bib&commas=true&jsonp=1&amp;filter=author_short:Langtry&amp;folding=1"></script> 
 </div>
