@@ -19,3 +19,7 @@ My academic background is in optimisation, statistics, and computational science
 Outside of academics I am an avid hill walker, keen cyclist, and occasional fell runner, though I have a deep love for cake and thoroughly enjoy the results of my baking.
 
 ## Publications
+
+<div>
+<script src="https://bibbase.org/show?bib=https%3A%2F%2Fraw.githubusercontent.com%2FEECi%2Fhome%2Fmain%2Fdocs%2Fpublications%2Fmax_bib.bib&commas=true&jsonp=1&amp;filter=author_short:Langtry&amp;folding=1"></script> 
+</div>
