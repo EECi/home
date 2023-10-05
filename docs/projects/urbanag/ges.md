@@ -24,8 +24,6 @@ The GES code simulates heat, mass and CO2 exchange in an unheated, ventilated si
 
 The code can be accessed [here](https://github.com/EECi/GES).  MATLAB and python versions are included in the respository.
 
-[Link to example](https://github.com/EECi/home/blob/main/docs/projects/urbanag/GES_Example.html).
-
 # Completed research
 
 ## Royal Botanic Gardens, Kew
