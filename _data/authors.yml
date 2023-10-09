@@ -180,3 +180,18 @@ Monty:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin-in"
       url: "https://www.linkedin.com/in/monty-jackson/"
+
+Danny:
+  name        : "Danny Lockwood"
+  bio         : "Graduate Student, Building Energy Efficiency"
+  avatar      : "/Images/ppl/djl.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:djl87@cam.ac.uk"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "/home/docs/people/danny/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin-in"
+      url: "https://www.linkedin.com/in/dj-lockwood/"

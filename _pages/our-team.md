@@ -44,6 +44,10 @@ grad_student_gallery:
     image_path: /Images/ppl/monty.jpg
     alt: "Monty Jackson"
     title: "Monty Jackson"
+  - url: /docs/people/danny/
+    image_path: /Images/ppl/djl.jpg
+    alt: "Danny Lockwood"
+    title: "Danny Lockwood"
 alumni_gallery:
   - url: /docs/people/mel/
     image_path: /Images/ppl/mel.jpeg
