@@ -139,7 +139,7 @@ Mingda:
 Max:
   name        : "Max Langtry"
   bio         : "Graduate Student, Renewable Energy Systems Optimisation"
-  avatar      : "/Images/ppl/mal.jpeg"
+  avatar      : "/Images/ppl/mal.jpg"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"

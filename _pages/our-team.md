@@ -33,7 +33,7 @@ ra_gallery:
     title: "Chaoqun Zhuang"
 grad_student_gallery:
   - url: /docs/people/max/
-    image_path: /Images/ppl/mal.jpeg
+    image_path: /Images/ppl/mal.jpg
     alt: "Max Langtry"
     title: "Max Langtry"
   - url: /docs/people/pat/
