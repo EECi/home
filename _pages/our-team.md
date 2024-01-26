@@ -10,15 +10,6 @@ faculty_gallery:
     alt: "Ruchi Choudhary"
     title: "Ruchi Choudhary"
 ra_gallery:
-  - url: /docs/people/monikak/
-    image_path: /Images/ppl/MJK.jfif
-    title: "Monika Kreitmair"
-    alt: "Monika Kreitmair"
-    caption: "Monika Kreitmair"
-  - url: /docs/people/nick/
-    image_path: /Images/ppl/NM.jpg
-    alt: "Nikolas Makasis"
-    title: "Nikolas Makasis"
   - url: /docs/people/rebecca/
     image_path: /Images/ppl/rmw.jpg
     alt: "Rebecca Ward"
@@ -97,6 +88,16 @@ collab_gallery:
     title: "Wonjun Choi"
     alt: "Wonjun Choi"
     institute: "Chonnam National University, Korea"
+  - url: https://www.surrey.ac.uk/people/monika-johanna-kreitmair
+    image_path: /Images/ppl/MJK.jfif
+    title: "Monika Kreitmair"
+    alt: "Monika Kreitmair"
+    institute: "University of Surrey, UK"
+  - url: https://www.surrey.ac.uk/people/nikolas-makasis
+    image_path: /Images/ppl/NM.jpg
+    alt: "Nikolas Makasis"
+    title: "Nikolas Makasis"
+    institute: "University of Surrey, UK"
 
 sidebar:
   title: "Meet the team"
@@ -152,6 +153,10 @@ sidebar:
 
 
 ### Past Research Associates
+
+* Nikolas Makasis, *2020-2023 [now Future Fellow at University of Surrey, UK]*
+
+* Monika J. Kreitmair, *2019-2023 [now Future Fellow at University of Surrey, UK]*
 
 * Andre Paul Neto-Bradley, *2021-2022 [now researcher at BEIS, UK]*
 
