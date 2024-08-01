@@ -1,35 +1,58 @@
-@misc{langtry2023value,
-      title={Value of Information Analysis for rationalising information gathering in building energy analysis}, 
-      author={Max Langtry and Chaoqun Zhuang and Rebecca Ward and Nikolas Makasis and Monika J. Kreitmair and Zack Xuereb Conti and Domenic Di Francesco and Ruchi Choudhary},
-      year={2023},
-      eprint={2305.16117},
-      archivePrefix={arXiv},
-      primaryClass={eess.SY}
-}
-
-@misc{difrancesco2023effects,
-      title={System Effects in Identifying Risk-Optimal Data Requirements for Digital Twins of Structures}, 
-      author={Domenic Di Francesco and Max Langtry and Andrew B. Duncan and Chris Dent},
-      year={2023},
-      eprint={2309.07695},
-      archivePrefix={arXiv},
-      primaryClass={stat.AP}
-}
-
-@misc{Langtry_Cambridge_University_Estates_2023,
-  author = {Langtry, Max and Choudhary, Ruchi},
-  month = jul,
-  title = {{Cambridge University Estates building electricity usage 2010-2019}},
-  version = {1.1},
+@inproceedings{langtry2023ValueInformationAnalysis,
+  title = {Value of {{Information Analysis}} for Rationalising Information Gathering in Building Energy Analysis},
+  booktitle = {Building {{Simulation}} 2023},
+  author = {Langtry, Max and Zhuang, Chaoqun and Ward, Rebecca and Makasis, Nikolas and Kreitmair, Monika J. and Xuereb Conti, Zack and Di Francesco, Domenic and Choudhary, Ruchi},
   year = {2023},
+  month = sep,
+  series = {Building {{Simulation}}},
+  volume = {18},
+  publisher = {IBPSA},
+  doi = {10.26868/25222708.2023.1478},
+  url = {https://publications.ibpsa.org/conference/paper/?id=bs2023_1478},
+  urldate = {2024-07-31},
+  abstract = {The use of monitored data to improve the accuracy of building energy models and operation of energy systems is ubiquitous, with topics such as building monitoring and Digital Twinning attracting substantial research attention. However, little attention has been paid to quantifying the value of the data collected against its cost. This paper argues that without a principled method for determining the value of data, its collection cannot be prioritised. It demonstrates the use of Value of Information analysis (VoI), which is a Bayesian Decision Analysis framework, to provide such a methodology for quantifying the value of data collection in the context of building energy modelling and analysis. Three energy decision-making examples are presented: ventilation scheduling, heat pump maintenance scheduling, and ground source heat pump design. These examples illustrate the use of VoI to support decision-making on data collection.},
+  langid = {american},
+  file = {/Users/mal84/Zotero/storage/L4SYQF6Q/Langtry et al. - 2023 - Value of Information Analysis for rationalising in.pdf}
+}
+
+@misc{difrancesco2023SystemEffectsIdentifying,
+  title = {System {{Effects}} in {{Identifying Risk-Optimal Data Requirements}} for {{Digital Twins}} of {{Structures}}},
+  author = {Di Francesco, Domenic and Langtry, Max and Duncan, Andrew B. and Dent, Chris},
+  year = {2023},
+  month = sep,
+  number = {arXiv:2309.07695},
+  eprint = {2309.07695},
+  primaryclass = {stat},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.2309.07695},
+  url = {http://arxiv.org/abs/2309.07695},
+  urldate = {2024-02-20},
+  abstract = {Structural Health Monitoring (SHM) technologies offer much promise to the risk management of the built environment, and they are therefore an active area of research. However, information regarding material properties, such as toughness and strength is instead measured in destructive lab tests. Similarly, the presence of geometrical anomalies is more commonly detected and sized by inspection. Therefore, a risk-optimal combination should be sought, acknowledging that different scenarios will be associated with different data requirements. Value of Information (VoI) analysis is an established statistical framework for quantifying the expected benefit of a prospective data collection activity. In this paper the expected value of various combinations of inspection, SHM and testing are quantified, in the context of supporting risk management of a location of stress concentration in a railway bridge. The Julia code for this analysis (probabilistic models and influence diagrams) is made available. The system-level results differ from a simple linear sum of marginal VoI estimates, i.e. the expected value of collecting data from SHM and inspection together is not equal to the expected value of SHM data plus the expected value of inspection data. In summary, system-level decision making, requires system-level models.},
+  archiveprefix = {arXiv},
+  keywords = {Statistics - Applications},
+  file = {/Users/mal84/Zotero/storage/PD8LJAFZ/Di Francesco et al. - 2023 - System Effects in Identifying Risk-Optimal Data Re.pdf;/Users/mal84/Zotero/storage/NFA6XNPZ/2309.html}
+}
+
+@misc{langtry2024CambridgeUniversityEstates,
+  author = {Langtry, Max and Choudhary, Ruchi},
+  month = may,
+  title = {Cambridge University Estates building energy usage archive},
+  version = {2.1},
+  year = 2024,
+  doi = {10.5281/zenodo.10955332},
   url = {https://github.com/EECi/Cambridge-Estates-Building-Energy-Archive},
 }
 
-@misc{langtry2024impact,
-      title={Impact of data usage for forecasting on performance of model predictive control in buildings with smart energy storage}, 
-      author={Max Langtry and Vijja Wichitwechkarn and Rebecca Ward and Chaoqun Zhuang and Monika J. Kreitmair and Nikolas Makasis and Zack Xuereb Conti and Ruchi Choudhary},
-      year={2024},
-      eprint={2402.12539},
-      archivePrefix={arXiv},
-      primaryClass={eess.SY}
+@article{LANGTRY2024114605,
+title = {Impact of data for forecasting on performance of model predictive control in buildings with smart energy storage},
+journal = {Energy and Buildings},
+pages = {114605},
+month = {July},
+year = {2024},
+issn = {0378-7788},
+doi = {https://doi.org/10.1016/j.enbuild.2024.114605},
+url = {https://www.sciencedirect.com/science/article/pii/S0378778824007217},
+author = {Max Langtry and Vijja Wichitwechkarn and Rebecca Ward and Chaoqun Zhuang and Monika J. Kreitmair and Nikolas Makasis and Zack Xuereb Conti and Ruchi Choudhary},
+keywords = {Model predictive control (MPC), Data requirements, Machine learning, Time-series forecasting, Building energy optimization, Energy storage, Historical data},
+abstract = {Data is required to develop forecasting models for use in Model Predictive Control (MPC) schemes in building energy systems. However, data is costly to both collect and exploit. Determining cost optimal data usage strategies requires understanding of the forecast accuracy and resulting MPC operational performance it enables. This study investigates the performance of both simple and state-of-the-art machine learning prediction models for MPC in multi-building energy systems using a simulated case study with historic building energy data. The impact on forecast accuracy of measures to improve model data efficiency are quantified, specifically for: reuse of prediction models, reduction of training data duration, reduction of model data features, and online model training. A simple linear multi-layer perceptron model is shown to provide equivalent forecast accuracy to state-of-the-art models, with greater data efficiency and generalisability. The use of more than 2 years of training data for load prediction models provided no significant improvement in forecast accuracy. Forecast accuracy and data efficiency were improved simultaneously by using change-point analysis to screen training data. Reused models and those trained with 3 months of data had on average 10% higher error than baseline, indicating that deploying MPC systems without prior data collection may be economic.}
 }
