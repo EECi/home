@@ -10,7 +10,9 @@ author: "Max"
 
 ## Research interests
 
-My research interests focus on how design strategies for future zero-carbon energy systems can be optimised to manage the challenges of integrating variable renewable generation into the supply mix, whilst minimising the cost of providing energy to users. In particular, my work explores how robust computational methods can be developed to provide insight into the nature of supply-demand matching under variable and uncertain renewable power generation in national scale integrated energy systems. These insights can then be used to evaluate the effectiveness of high-level strategies for managing this variability, such as generation portfolio selection, energy storage, demand-side response, and sector-coupling, and hence enable the design of secure, robust, and crucially low cost, decarbonised energy systems.
+My research interests focus on the optimisation of both the design and operation of renewable energy systems, to enable the decarbonisation of energy usage quickly, cheaply, and reliably. In particular, I'm interested in the impact that uncertainties in renewable generation and future energy demand have on energy system planning, and how those uncertainties can be managed to ensure energy systems remain reliable and affordable as they are decarbonised.
+
+Renewable energy systems are impacted by a host of uncertainties, from inconsistent wind generation to unpredictable energy usage. Data collection can help reduce these uncertainties and improve our ability to design and operate energy systems. But collecting data is difficult, time consuming, and expensive. My publications investigate the benefit that data collection provides to support planning, and tries to identify when it's actually worthwhile.
 
 ## Background
 
