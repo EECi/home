@@ -10,7 +10,7 @@ faculty_gallery:
     alt: "Ruchi Choudhary"
     title: "Ruchi Choudhary"
   - url: /docs/people/bryn/
-    image_path: /Images/ppl/bryn.png
+    image_path: /Images/ppl/bryn.jpg
     alt: "Bryn Pickering"
     title: "Bryn Pickering"
 ra_gallery:
