@@ -3,7 +3,7 @@ layout: single
 title: Our team
 permalink: /our-team/
 description: An overview of the team
-last_modified_at: 2024-30-08
+last_modified_at: 2024-08-30
 faculty_gallery:
   - url: /docs/people/ruchi/
     image_path: /Images/ppl/Ruchi.png
