@@ -1,7 +1,7 @@
 Billy Rick:
-  name        : "Billy Rick"
-  bio         : "What do you want, jewels? I am a very extravagant man."
-  avatar      : "/Images/rmw.jpg"
+  name: "Billy Rick"
+  bio: "What do you want, jewels? I am a very extravagant man."
+  avatar: "/Images/rmw.jpg"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -14,9 +14,9 @@ Billy Rick:
       url: "https://twitter.com/extravagantman"
 
 Melanie:
-  name        : "Melanie Jans-Singh"
-  bio         : "Research Associate, Urban farming"
-  avatar      : "/Images/ppl/mel.jpeg"
+  name: "Melanie Jans-Singh"
+  bio: "Research Associate, Urban farming"
+  avatar: "/Images/ppl/mel.jpeg"
   links:
     - label: "Email me"
       icon: "fas fa-fw fa-envelope-square"
@@ -29,48 +29,48 @@ Melanie:
       url: "https://twitter.com/meljanssingh"
 
 Rebecca:
-  name        : "Rebecca Ward"
-  bio         : "Research Associate, Stochastic energy models and urban agriculture"
-  avatar      : "/Images/ppl/rmw.jpg"
+  name: "Rebecca Ward"
+  bio: "Research Associate, Stochastic energy models and urban agriculture"
+  avatar: "/Images/ppl/rmw.jpg"
   links:
     - label: "Email me"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:rmw61@cam.ac.uk"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/rebecca-ward-aaa23644"  
+      url: "https://www.linkedin.com/in/rebecca-ward-aaa23644"
     - label: "@ibexward"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/ibexward"
-      
+
 Nick:
-  name        : "Nikolas Makasis"
-  bio         : "Research Associate, Subsurface environments"
-  avatar      : "/Images/ppl/NM.jpg"
+  name: "Nikolas Makasis"
+  bio: "Research Associate, Subsurface environments"
+  avatar: "/Images/ppl/NM.jpg"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:nm735@cam.ac.uk"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "/home/docs/people/nick/"      
-      
+      url: "/home/docs/people/nick/"
+
 Monika:
-  name        : "Monika Kreitmair"
-  bio         : "Research Associate, Subsurface environments"
-  avatar      : "/Images/ppl/MJK.jfif"
+  name: "Monika Kreitmair"
+  bio: "Research Associate, Subsurface environments"
+  avatar: "/Images/ppl/MJK.jfif"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:mk2040@cam.ac.uk"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "/home/docs/people/monikak/"        
-      
+      url: "/home/docs/people/monikak/"
+
 Zack:
-  name        : "Zack Xuereb Conti"
-  bio         : "Research Associate, Physics-enhanced machine learning"
-  avatar      : "/Images/ppl/zxc.jpg"
+  name: "Zack Xuereb Conti"
+  bio: "Research Associate, Physics-enhanced machine learning"
+  avatar: "/Images/ppl/zxc.jpg"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -78,11 +78,11 @@ Zack:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://www.xonti.co/"
-      
+
 Ruchi:
-  name        : "Ruchi Choudhary"
-  bio         : "Professor of Architectural Engineering"
-  avatar      : "/Images/ppl/Ruchi.png"
+  name: "Ruchi Choudhary"
+  bio: "Professor of Architectural Engineering"
+  avatar: "/Images/ppl/Ruchi.png"
   links:
     - label: "Email me"
       icon: "fas fa-fw fa-envelope-square"
@@ -93,11 +93,11 @@ Ruchi:
     - label: "@RuchiChoudhary_"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/RuchiChoudhary_"
-      
+
 André:
-  name        : "André Neto-Bradley"
-  bio         : "Research Associate, Residential Urban Energy Modelling"
-  avatar      : "/Images/ppl/apn.jpg"
+  name: "André Neto-Bradley"
+  bio: "Research Associate, Residential Urban Energy Modelling"
+  avatar: "/Images/ppl/apn.jpg"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -108,13 +108,13 @@ André:
     - label: "@A_Notabene"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/A_Notabene"
-            
+
 Chaoqun:
-  name        : "Chaoqun Zhuang"
-  bio         : "Research Associate, Stochastic Building Energy Modelling"
-  avatar      : "/Images/ppl/CQZ.jpg" 
+  name: "Chaoqun Zhuang"
+  bio: "Research Associate, Stochastic Building Energy Modelling"
+  avatar: "/Images/ppl/CQZ.jpg"
   links:
-    - label:  "Email"
+    - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:czhuang@turing.ac.uk"
     - label: "Website"
@@ -122,9 +122,9 @@ Chaoqun:
       url: "https://www.linkedin.com/in/zhuangcq"
 
 Mingda:
-  name        : "Mingda Yuan"
-  bio         : "Graduate Student"
-  avatar      : "/Images/ppl/YMD.jpg"
+  name: "Mingda Yuan"
+  bio: "Graduate Student"
+  avatar: "/Images/ppl/YMD.jpg"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -137,9 +137,9 @@ Mingda:
       url: " "
 
 Max:
-  name        : "Max Langtry"
-  bio         : "Graduate Student, Renewable Energy Systems Optimisation"
-  avatar      : "/Images/ppl/mal.jpg"
+  name: "Max Langtry"
+  bio: "Graduate Student, Renewable Energy Systems Optimisation"
+  avatar: "/Images/ppl/mal.jpg"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -155,9 +155,9 @@ Max:
       url: "http://mal84.user.srcf.net/"
 
 Vijja:
-  name        : "Vijja Wichitwechkarn"
-  bio         : "Graduate Student, Urban Vertical Farming"
-  avatar      : "/Images/ppl/pat.jpg"
+  name: "Vijja Wichitwechkarn"
+  bio: "Graduate Student, Urban Vertical Farming"
+  avatar: "/Images/ppl/pat.jpg"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
@@ -167,9 +167,9 @@ Vijja:
       url: "https://www.linkedin.com/in/vijja-wichitwechkarn/"
 
 Monty:
-  name        : "Monty Jackson"
-  bio         : "Graduate Student, Building Energy Efficiency"
-  avatar      : "/Images/ppl/monty.jpg"
+  name: "Monty Jackson"
+  bio: "Graduate Student, Building Energy Efficiency"
+  avatar: "/Images/ppl/monty.jpg"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -182,9 +182,9 @@ Monty:
       url: "https://www.linkedin.com/in/monty-jackson/"
 
 Danny:
-  name        : "Danny Lockwood"
-  bio         : "Graduate Student, Building Energy Efficiency"
-  avatar      : "/Images/ppl/djl.jpg"
+  name: "Danny Lockwood"
+  bio: "Graduate Student, Building Energy Efficiency"
+  avatar: "/Images/ppl/djl.jpg"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -195,3 +195,27 @@ Danny:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin-in"
       url: "https://www.linkedin.com/in/dj-lockwood/"
+
+Bryn:
+  name: "Bryn Pickering"
+  bio: "Assistant Professor & Arup Official Fellow in Engineering @ Girton College, Cambridge + Senior Consultant @ Arup"
+  avatar: "/Images/ppl/Bryn.png"
+  links:
+    - label: "Email me"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:bp325@cam.ac.uk"
+    - label: "About me"
+      icon: "fas fa-fw fa-link"
+      url: "/home/docs/people/bryn/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin-in"
+      url: "https://www.linkedin.com/in/bryn-pickering-859b8053/"
+    - label: "Personal Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://www.brynpickering.com/"
+    - label: "Medium"
+      icon: "fas fa-fw fa-link"
+      url: https://medium.com/@bryn.pickering
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github-square"
+      url: https://github.com/brynpickering

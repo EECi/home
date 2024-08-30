@@ -3,12 +3,16 @@ layout: single
 title: Our team
 permalink: /our-team/
 description: An overview of the team
-last_modified_at: 2023-03-07
+last_modified_at: 2024-30-08
 faculty_gallery:
   - url: /docs/people/ruchi/
     image_path: /Images/ppl/Ruchi.png
     alt: "Ruchi Choudhary"
     title: "Ruchi Choudhary"
+  - url: /docs/people/bryn/
+    image_path: /Images/ppl/bryn.png
+    alt: "Bryn Pickering"
+    title: "Bryn Pickering"
 ra_gallery:
   - url: /docs/people/rebecca/
     image_path: /Images/ppl/rmw.jpg
@@ -129,27 +133,27 @@ sidebar:
 
 * Mingda Yuan, *2017-2022*
 
-* Andre Paul Neto-Bradley, *2017-2021 [became PDRA at U. of Cambridge]* 
+* Andre Paul Neto-Bradley, *2017-2021 [became PDRA at U. of Cambridge]*
 
-* Yohei Kiguchi, *2014-2021 [now CEO of Japan Energy Capital]* 
+* Yohei Kiguchi, *2014-2021 [now CEO of Japan Energy Capital]*
 
-* Rebecca Ward (1/2 time), *2014-2021 [now PDRA at Turing]* 
+* Rebecca Ward (1/2 time), *2014-2021 [now PDRA at Turing]*
 
-* Melanie Jans-Singh, *2016-2020 [now researcher at BEIS, UK]* 
+* Melanie Jans-Singh, *2016-2020 [now researcher at BEIS, UK]*
 
-* Bryn Pickering , *2015-2019 [now senior researcher at ETH Zurich, Switzerland]*  
+* Bryn Pickering , *2015-2019 [now senior researcher at ETH Zurich, Switzerland]*
 
-* Adnan Mortada, *2013-2018 [now partner of Japan Energy Capital]*  
+* Adnan Mortada, *2013-2018 [now partner of Japan Energy Capital]*
 
-* Yi Zhang (co-supervisor with K. Soga), *2011-2015 [now researcher at Tsinghua-Berkeley Shenzhen Institute, China]* 
+* Yi Zhang (co-supervisor with K. Soga), *2011-2015 [now researcher at Tsinghua-Berkeley Shenzhen Institute, China]*
 
-* Akomeno Omu, *2010-2014. [now Dean of Faculty at African Leadership University, Mauritius]* 
+* Akomeno Omu, *2010-2014. [now Dean of Faculty at African Leadership University, Mauritius]*
 
-* Denis Garber (with co-supervisor K. Soga), *2010-2013. [now at WorleyParsons, Canada]* 
+* Denis Garber (with co-supervisor K. Soga), *2010-2013. [now at WorleyParsons, Canada]*
 
-* Adam Ryansek, *2009-2013. [now Asst. Prof. at U. of British Columbia, Canada]* 
+* Adam Ryansek, *2009-2013. [now Asst. Prof. at U. of British Columbia, Canada]*
 
-* Adam Booth, *2009-2013. [now political activist and writer for Socialist Appeal, UK]* 
+* Adam Booth, *2009-2013. [now political activist and writer for Socialist Appeal, UK]*
 
 
 ### Past Research Associates
@@ -160,49 +164,49 @@ sidebar:
 
 * Andre Paul Neto-Bradley, *2021-2022 [now researcher at BEIS, UK]*
 
-* Dr. Asal Bidarmaghz, *2017-2019 [now Asst. Prof. at UNSW Sydney, Australia]* 
+* Dr. Asal Bidarmaghz, *2017-2019 [now Asst. Prof. at UNSW Sydney, Australia]*
 
-* Tim Troendle, *2016-2017 [now senior researcher at ETH Zurich, Switzerland]* 
+* Tim Troendle, *2016-2017 [now senior researcher at ETH Zurich, Switzerland]*
 
-* Dr. Qi Li, *2016-2017 [now PDRA at Argonne National Lab, USA]* 
+* Dr. Qi Li, *2016-2017 [now PDRA at Argonne National Lab, USA]*
 
-* Dr. Kathrin Menberg, *2014-2017 [now Asst. Prof. at Karlsruhe Institute of Technology, Germany]* 
+* Dr. Kathrin Menberg, *2014-2017 [now Asst. Prof. at Karlsruhe Institute of Technology, Germany]*
 
-* Dr. Adam Rysanek, *2013-2014. [now Asst. Prof. at U. of British Columbia, Canada]* 
+* Dr. Adam Rysanek, *2013-2014. [now Asst. Prof. at U. of British Columbia, Canada]*
 
-* Dr. Wei Tian, *2011-2013. [now Professor at Tianjin U., China]* 
+* Dr. Wei Tian, *2011-2013. [now Professor at Tianjin U., China]*
 
-* Dr. Yeonsook Heo, *2010. [now Associate Professor at Korea University, S. Korea]* 
+* Dr. Yeonsook Heo, *2010. [now Associate Professor at Korea University, S. Korea]*
 
-* Rosalia Pacheco Torres, *2012. [now Asst. Prof. at Polytechnic U. of Madrid, Spain]* 
+* Rosalia Pacheco Torres, *2012. [now Asst. Prof. at Polytechnic U. of Madrid, Spain]*
 
 
 ### Visiting Researchers
 
-* Dr. Cheryl Wong Sze Yin, *Scientist, Institute for Infocomm Research, Singapore, Oct-Nov 2019* 
+* Dr. Cheryl Wong Sze Yin, *Scientist, Institute for Infocomm Research, Singapore, Oct-Nov 2019*
 
-* Dr. K. Menberg, *Assistant Professor, Karlsruhe Institute of Technology, Germany, July 2019* 
+* Dr. K. Menberg, *Assistant Professor, Karlsruhe Institute of Technology, Germany, July 2019*
 
-* Andrea Imaz, *Perkins & Will, UK, Jan-August 2019* 
+* Andrea Imaz, *Perkins & Will, UK, Jan-August 2019*
 
-* Dr. W. Choi, *Assistant Professor, U. of Tokyo, July 2019* 
+* Dr. W. Choi, *Assistant Professor, U. of Tokyo, July 2019*
 
-* Holger Kessler, Ricky Terrington, Stephen Thorpe, *British Geological Survey, Oct 2017-March 2018* 
+* Holger Kessler, Ricky Terrington, Stephen Thorpe, *British Geological Survey, Oct 2017-March 2018*
 
-* Dr. W. Choi, *Post Doctoral Researcher, U. of Tokyo, June 2017* 
+* Dr. W. Choi, *Post Doctoral Researcher, U. of Tokyo, June 2017*
 
-* Dr. H. Kikumoto, *Assistant Professor, U. of Tokyo, June 2017* 
+* Dr. H. Kikumoto, *Assistant Professor, U. of Tokyo, June 2017*
 
-* Olga Mikhaylova, *PhD Student, U. of Melbourne, Australia, Jan-March 2016* 
+* Olga Mikhaylova, *PhD Student, U. of Melbourne, Australia, Jan-March 2016*
 
-* Martin Kristensen, *PhD Student, Aarhus University, Denmark, Summer 2016* 
+* Martin Kristensen, *PhD Student, Aarhus University, Denmark, Summer 2016*
 
-* Joris Doumouro, *Engineering Internship, Ecole Normale Superieure Paris-Saclay, France, 2015-16* 
+* Joris Doumouro, *Engineering Internship, Ecole Normale Superieure Paris-Saclay, France, 2015-16*
 
-* Rui Cheng, *PhD. Candidate, Tsinghua University, China, Oct 2013-March 2014* 
+* Rui Cheng, *PhD. Candidate, Tsinghua University, China, Oct 2013-March 2014*
 
-* Joakim Munkhammar, *PhD Candidate, Uppsala University, Sweden, April 2013* 
+* Joakim Munkhammar, *PhD Candidate, Uppsala University, Sweden, April 2013*
 
-* Dr. Inanici, *Associate Professor, Dept. of Architecture, U. of Washington, Seattle, USA, August 2013* 
+* Dr. Inanici, *Associate Professor, Dept. of Architecture, U. of Washington, Seattle, USA, August 2013*
 
-* Dr. Yohei Yamaguchi, *Assistant Professor, Urban Energy Systems, Osaka Univ., Japan, Dec 2012* 
+* Dr. Yohei Yamaguchi, *Assistant Professor, Urban Energy Systems, Osaka Univ., Japan, Dec 2012*
