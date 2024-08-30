@@ -14,10 +14,6 @@ faculty_gallery:
     alt: "Bryn Pickering"
     title: "Bryn Pickering"
 ra_gallery:
-  - url: /docs/people/rebecca/
-    image_path: /Images/ppl/rmw.jpg
-    alt: "Rebecca Ward"
-    title: "Rebecca Ward"
   - url: /docs/people/zack/
     image_path: /Images/ppl/zxc.jpg
     alt: "Zach Xuereb Conti"
@@ -44,6 +40,10 @@ grad_student_gallery:
     alt: "Danny Lockwood"
     title: "Danny Lockwood"
 alumni_gallery:
+  - url: /docs/people/rebecca/
+    image_path: /Images/ppl/rmw.jpg
+    alt: "Rebecca Ward"
+    title: "Rebecca Ward"
   - url: /docs/people/mel/
     image_path: /Images/ppl/mel.jpeg
     title: "Melanie Jans-Singh"
@@ -131,7 +131,7 @@ sidebar:
 
 ### Past PhD Students
 
-* Mingda Yuan, *2017-2022*
+* Mingda Yuan, *2017-2022 [now research fellow at UCL, UK]*
 
 * Andre Paul Neto-Bradley, *2017-2021 [became PDRA at U. of Cambridge]*
 
