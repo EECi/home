@@ -46,5 +46,5 @@ I have worked in Arup's City Modelling Lab to develop methods, to integrate tran
 ## Publications
 
 <p>
-<script src="https://bibbase.org/show?bib=https%3A%2F%2Fraw.githubusercontent.com%2Fbrynpickering%2Fbrynpickering.com%2Fmaster%2Fcontent%2Fpublication%2Fall_publications.bib%3Ftoken%3DGHSAT0AAAAAACT27C7626K6TOE6MI7NFDF6ZWRUGLA&commas=true&noBootstrap=1&jsonp=1"></script>
+<script src="https://bibbase.org/show?bib=https%3A%2F%2Fraw.githubusercontent.com%2FEECi%2Fhome%2Fmain%2Fdocs%2Fpublications%2Fbryn.bib&commas=true&jsonp=1"></script>
 </p>
