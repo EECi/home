@@ -184,6 +184,12 @@ sidebar:
 
 ### Visiting Researchers
 
+* Jie Lu, *PhD Student, Zhejiang University, China, Feb 2024-Jan 2025*
+
+* Joaquim Cebolla Alemany, *PhD Student, Universitat Politècnica de Catalunya-Barcelona Tech, Spain, March-May 2024*
+
+* Dr. Rubén-Daniel Lopez Carreño, *Assistant Professor, Universitat Politècnica de Catalunya-Barcelona Tech, Spain, March-May 2024*
+
 * Dr. Cheryl Wong Sze Yin, *Scientist, Institute for Infocomm Research, Singapore, Oct-Nov 2019*
 
 * Dr. K. Menberg, *Assistant Professor, Karlsruhe Institute of Technology, Germany, July 2019*
