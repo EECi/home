@@ -14,14 +14,7 @@ faculty_gallery:
     alt: "Bryn Pickering"
     title: "Bryn Pickering"
 ra_gallery:
-  - url: /docs/people/zack/
-    image_path: /Images/ppl/zxc.jpg
-    alt: "Zach Xuereb Conti"
-    title: "Zach Xuereb Conti"
-  - url: /docs/people/chaoqun/
-    image_path: /Images/ppl/CQZ.jpg
-    alt: "Chaoqun Zhuang"
-    title: "Chaoqun Zhuang"
+
 grad_student_gallery:
   - url: /docs/people/max/
     image_path: /Images/ppl/mal.jpg
@@ -56,6 +49,14 @@ alumni_gallery:
     image_path: /Images/ppl/YMD.jpg
     alt: "Mingda Yuan"
     title: "Mingda Yuan"
+  - url: /docs/people/zack/
+    image_path: /Images/ppl/zxc.jpg
+    alt: "Zach Xuereb Conti"
+    title: "Zach Xuereb Conti"
+  - url: /docs/people/chaoqun/
+    image_path: /Images/ppl/CQZ.jpg
+    alt: "Chaoqun Zhuang"
+    title: "Chaoqun Zhuang"
 collab_gallery:
   - url: https://www.agw.kit.edu/english/176_5131.php
     image_path: https://www.agw.kit.edu/img/Ingenieurgeologie/Foto_sw_2014_Katrin_Menbergjpg.jpg
@@ -141,7 +142,7 @@ sidebar:
 
 * Melanie Jans-Singh, *2016-2020 [now researcher at BEIS, UK]*
 
-* Bryn Pickering , *2015-2019 [now senior researcher at ETH Zurich, Switzerland]*
+* Bryn Pickering , *2015-2019 [now Arup Official Fellow at University of Cambridge, and Senior Consultant at Arup]*
 
 * Adnan Mortada, *2013-2018 [now partner of Japan Energy Capital]*
 
@@ -158,11 +159,11 @@ sidebar:
 
 ### Past Research Associates
 
-* Nikolas Makasis, *2020-2023 [now Future Fellow at University of Surrey, UK]*
+* Dr. Nikolas Makasis, *2020-2023 [now Future Fellow at University of Surrey, UK]*
 
-* Monika J. Kreitmair, *2019-2023 [now Future Fellow at University of Surrey, UK]*
+* Dr. Monika J. Kreitmair, *2019-2023 [now Future Fellow at University of Surrey, UK]*
 
-* Andre Paul Neto-Bradley, *2021-2022 [now researcher at BEIS, UK]*
+* Dr. Andre Paul Neto-Bradley, *2021-2022 [now researcher at BEIS, UK]*
 
 * Dr. Asal Bidarmaghz, *2017-2019 [now Asst. Prof. at UNSW Sydney, Australia]*
 
