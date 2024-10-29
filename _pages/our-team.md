@@ -32,6 +32,14 @@ grad_student_gallery:
     image_path: /Images/ppl/djl.jpg
     alt: "Danny Lockwood"
     title: "Danny Lockwood"
+  - url: /docs/people/nmeso/
+    image_path: /Images/ppl/
+    alt: "Nmeso Egwuekwe"
+    title: "Nmeso Egwuekwe"
+  - url: /docs/people/haomin/
+    image_path: /Images/ppl/Haomin LUO(Leo).jpg
+    alt: "Haomin (Leo) Luo"
+    title: "Haomin (Leo) Luo"
 alumni_gallery:
   - url: /docs/people/rebecca/
     image_path: /Images/ppl/rmw.jpg
