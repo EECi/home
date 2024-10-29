@@ -219,3 +219,34 @@ Bryn:
     - label: "GitHub"
       icon: "fab fa-fw fa-github-square"
       url: https://github.com/brynpickering
+
+
+Nmeso:
+  name: "Nmeso Egwuekwe"
+  bio: "Graduate Student, Building Energy Efficiency"
+  avatar: "/Images/ppl/"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:nie20@cam.ac.uk"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "/home/docs/people/nmeso/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin-in"
+      url: "https://www.linkedin.com/in/nmesoegwuekwe/"
+
+Haomin:
+  name: "Haomin (Leo) Luo"
+  bio: "Graduate Student, Building Energy Efficiency"
+  avatar: "/Images/ppl/Haomin LUO(Leo).jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:hl682@cam.ac.uk"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "/home/docs/people/haomin/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin-in"
+      url: "https://www.linkedin.com/in/haomin-luo-40856714b/"
