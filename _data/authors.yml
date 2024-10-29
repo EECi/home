@@ -168,7 +168,7 @@ Vijja:
 
 Monty:
   name: "Monty Jackson"
-  bio: "Graduate Student, Building Energy Efficiency"
+  bio: "Graduate Student, Building Energy Efficiency - Healthcare"
   avatar: "/Images/ppl/monty.jpg"
   links:
     - label: "Email"
@@ -223,7 +223,7 @@ Bryn:
 
 Nmeso:
   name: "Nmeso Egwuekwe"
-  bio: "Graduate Student, Building Energy Efficiency"
+  bio: "Graduate Student, Human-Centric Building Design and Energy Efficiency"
   avatar: "/Images/ppl/"
   links:
     - label: "Email"
@@ -238,7 +238,7 @@ Nmeso:
 
 Haomin:
   name: "Haomin (Leo) Luo"
-  bio: "Graduate Student, Building Energy Efficiency"
+  bio: "Graduate Student, Reinforcement Learning in Building Energy Systems"
   avatar: "/Images/ppl/Haomin LUO(Leo).jpg"
   links:
     - label: "Email"
