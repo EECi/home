@@ -192,7 +192,7 @@ sidebar:
 
 ### Visiting Researchers
 
-* Jie Lu, *PhD Student, Zhejiang University, China, Feb 2024-Jan 2025*
+* Jie Lu, *PhD Student, Zhejiang University, China, Jan 2024-Jan 2025*
 
 * Joaquim Cebolla Alemany, *PhD Student, Universitat Politècnica de Catalunya-Barcelona Tech, Spain, March-May 2024*
 
