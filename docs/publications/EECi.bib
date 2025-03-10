@@ -1621,21 +1621,25 @@
   archiveprefix = {arXiv}
 }
 
-@inproceedings{langtry2023ValueInformationAnalysis,
-  title = {Value of {{Information Analysis}} for Rationalising Information Gathering in Building Energy Analysis},
-  booktitle = {Building {{Simulation}} 2023},
-  author = {Langtry, Max and Zhuang, Chaoqun and Ward, Rebecca and Makasis, Nikolas and Kreitmair, Monika J. and Xuereb Conti, Zack and Di Francesco, Domenic and Choudhary, Ruchi},
-  year = {2023},
-  month = sep,
-  series = {Building {{Simulation}}},
-  volume = {18},
-  publisher = {IBPSA},
-  doi = {10.26868/25222708.2023.1478},
-  url = {https://publications.ibpsa.org/conference/paper/?id=bs2023_1478},
-  urldate = {2024-07-31},
-  abstract = {The use of monitored data to improve the accuracy of building energy models and operation of energy systems is ubiquitous, with topics such as building monitoring and Digital Twinning attracting substantial research attention. However, little attention has been paid to quantifying the value of the data collected against its cost. This paper argues that without a principled method for determining the value of data, its collection cannot be prioritised. It demonstrates the use of Value of Information analysis (VoI), which is a Bayesian Decision Analysis framework, to provide such a methodology for quantifying the value of data collection in the context of building energy modelling and analysis. Three energy decision-making examples are presented: ventilation scheduling, heat pump maintenance scheduling, and ground source heat pump design. These examples illustrate the use of VoI to support decision-making on data collection.},
-  langid = {american},
-  file = {/Users/mal84/Zotero/storage/BDS2U4EY/Langtry et al. - 2023 - Value of Information Analysis for rationalising in.pdf}
+% ===================== Max references =====================
+
+@article{choi2025RepresentationVectorBasedTime,
+  title = {{Representation Vector-Based Time Series Similarity Analysis Using Unsupervised Contrastive Learning Time Series Encoder}},
+  author = {Choi, Wonjun and Lee, Sangwon and Langtry, Max and Choudhary, Ruchi},
+  year = {2025},
+  month = feb,
+  journal = {Korean Journal of Air-Conditioning and Refrigeration Engineering},
+  volume = {37},
+  number = {2},
+  pages = {72--81},
+  issn = {1229-6422},
+  doi = {10.6110/KJACR.2025.37.2.72},
+  url = {https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE12036797},
+  urldate = {2025-03-10},
+  abstract = {Data scarcity and high development costs pose significant challenges to building-specific energy demand forecasting models. To address these issues, this study introduces a time series similarity assessment method that utilizes TS2Vec, an unsupervised learning-based encoder for extracting time series representation vectors. The efficacy of this approach is demonstrated using anonymized datasets of building electricity usage from Cambridge, UK. The proposed methodology stands out for its ability to identify high-similarity data segments by flexibly adjusting the evaluation time window used for extracting representation vectors, outperforming traditional average similarity assessments. Principal component analysis was employed for dimensionality reduction and visualization, alongside a moving window cosine similarity approach to enhance the interpretability of complex multivariate time series data similarities. The study's key findings are as follows. First, dynamic similarity analysis effectively captured the complexity of building energy use patterns. Second, the approach demonstrated the potential to optimize transfer learning by automatically identifying the most suitable source data. Third, the study explored the feasibility of employing dynamic model selection and ensemble techniques based on temporal similarity changes. This study proposes a practical and scalable methodology to mitigate data scarcity and reduce model development costs, thereby facilitating more efficient, adaptive, and accurate energy demand forecasting.},
+  copyright = {All rights reserved},
+  langid = {korean},
+  file = {/Users/mal84/Zotero/storage/R5QJ28PZ/articleDetail.html}
 }
 
 @misc{difrancesco2023SystemEffectsIdentifying,
@@ -1652,30 +1656,145 @@
   urldate = {2024-02-20},
   abstract = {Structural Health Monitoring (SHM) technologies offer much promise to the risk management of the built environment, and they are therefore an active area of research. However, information regarding material properties, such as toughness and strength is instead measured in destructive lab tests. Similarly, the presence of geometrical anomalies is more commonly detected and sized by inspection. Therefore, a risk-optimal combination should be sought, acknowledging that different scenarios will be associated with different data requirements. Value of Information (VoI) analysis is an established statistical framework for quantifying the expected benefit of a prospective data collection activity. In this paper the expected value of various combinations of inspection, SHM and testing are quantified, in the context of supporting risk management of a location of stress concentration in a railway bridge. The Julia code for this analysis (probabilistic models and influence diagrams) is made available. The system-level results differ from a simple linear sum of marginal VoI estimates, i.e. the expected value of collecting data from SHM and inspection together is not equal to the expected value of SHM data plus the expected value of inspection data. In summary, system-level decision making, requires system-level models.},
   archiveprefix = {arXiv},
+  copyright = {All rights reserved},
   keywords = {Statistics - Applications},
-  file = {/Users/mal84/Zotero/storage/NWWPGFJN/Di Francesco et al. - 2023 - System Effects in Identifying Risk-Optimal Data Re.pdf;/Users/mal84/Zotero/storage/IYU8KYXL/2309.html}
+  file = {/Users/mal84/Zotero/storage/PD8LJAFZ/Di Francesco et al. - 2023 - System Effects in Identifying Risk-Optimal Data Re.pdf;/Users/mal84/Zotero/storage/NFA6XNPZ/2309.html}
+}
+
+@inproceedings{langtry2023ValueInformationAnalysis,
+  title = {Value of {{Information Analysis}} for Rationalising Information Gathering in Building Energy Analysis},
+  booktitle = {Building {{Simulation}} 2023},
+  author = {Langtry, Max and Zhuang, Chaoqun and Ward, Rebecca and Makasis, Nikolas and Kreitmair, Monika J. and Xuereb Conti, Zack and Di Francesco, Domenic and Choudhary, Ruchi},
+  year = {2023},
+  series = {Building {{Simulation}}},
+  volume = {18},
+  pages = {3483--3490},
+  publisher = {IBPSA},
+  doi = {10.26868/25222708.2023.1478},
+  url = {https://publications.ibpsa.org/conference/paper/?id=bs2023_1478},
+  urldate = {2024-07-31},
+  abstract = {The use of monitored data to improve the accuracy of building energy models and operation of energy systems is ubiquitous, with topics such as building monitoring and Digital Twinning attracting substantial research attention. However, little attention has been paid to quantifying the value of the data collected against its cost. This paper argues that without a principled method for determining the value of data, its collection cannot be prioritised. It demonstrates the use of Value of Information analysis (VoI), which is a Bayesian Decision Analysis framework, to provide such a methodology for quantifying the value of data collection in the context of building energy modelling and analysis. Three energy decision-making examples are presented: ventilation scheduling, heat pump maintenance scheduling, and ground source heat pump design. These examples illustrate the use of VoI to support decision-making on data collection.},
+  copyright = {All rights reserved},
+  langid = {american},
+  file = {/Users/mal84/Zotero/storage/L4SYQF6Q/Langtry et al. - 2023 - Value of Information Analysis for rationalising in.pdf}
 }
 
 @misc{langtry2024CambridgeUniversityEstates,
   title = {Cambridge {{University Estates}} Building Energy Usage Archive},
   author = {Langtry, Max and Choudhary, Ruchi},
   year = {2024},
-  month = may,
+  month = apr,
   doi = {10.5281/zenodo.10955332},
   url = {https://github.com/EECi/Cambridge-Estates-Building-Energy-Archive},
-  version = {2.1}
+  urldate = {2024-04-10},
+  abstract = {Data archive for Cambridge University Estates building energy usage dataset (for use with CityLearn)},
+  copyright = {MIT}
 }
 
-@article{LANGTRY2024114605,
+@article{langtry2024ImpactDataForecasting,
   title = {Impact of Data for Forecasting on Performance of Model Predictive Control in Buildings with Smart Energy Storage},
-  author = {Langtry, Max and Wichitwechkarn, Vijja and Ward, Rebecca and Zhuang, Chaoqun and Kreitmair, Monika J. and Makasis, Nikolas and Conti, Zack Xuereb and Choudhary, Ruchi},
+  author = {Langtry, Max and Wichitwechkarn, Vijja and Ward, Rebecca and Zhuang, Chaoqun and Kreitmair, Monika J. and Makasis, Nikolas and Xuereb Conti, Zack and Choudhary, Ruchi},
   year = {2024},
-  month = jul,
+  month = oct,
   journal = {Energy and Buildings},
+  volume = {320},
   pages = {114605},
   issn = {0378-7788},
   doi = {10.1016/j.enbuild.2024.114605},
   url = {https://www.sciencedirect.com/science/article/pii/S0378778824007217},
-  abstract = {Data is required to develop forecasting models for use in Model Predictive Control (MPC) schemes in building energy systems. However, data is costly to both collect and exploit. Determining cost optimal data usage strategies requires understanding of the forecast accuracy and resulting MPC operational performance it enables. This study investigates the performance of both simple and state-of-the-art machine learning prediction models for MPC in multi-building energy systems using a simulated case study with historic building energy data. The impact on forecast accuracy of measures to improve model data efficiency are quantified, specifically for: reuse of prediction models, reduction of training data duration, reduction of model data features, and online model training. A simple linear multi-layer perceptron model is shown to provide equivalent forecast accuracy to state-of-the-art models, with greater data efficiency and generalisability. The use of more than 2 years of training data for load prediction models provided no significant improvement in forecast accuracy. Forecast accuracy and data efficiency were improved simultaneously by using change-point analysis to screen training data. Reused models and those trained with 3 months of data had on average 10},
-  keywords = {Building energy optimization,Data requirements,Energy storage,Historical data,Machine learning,Model predictive control (MPC),Time-series forecasting}
+  urldate = {2024-08-06},
+  abstract = {Data is required to develop forecasting models for use in Model Predictive Control (MPC) schemes in building energy systems. However, data is costly to both collect and exploit. Determining cost optimal data usage strategies requires understanding of the forecast accuracy and resulting MPC operational performance it enables. This study investigates the performance of both simple and state-of-the-art machine learning prediction models for MPC in multi-building energy systems using a simulated case study with historic building energy data. The impact on forecast accuracy of measures to improve model data efficiency is quantified, specifically for: reuse of prediction models, reduction of training data duration, reduction of model data features, and online model training. A simple linear multi-layer perceptron model is shown to provide equivalent forecast accuracy to state-of-the-art models, with greater data efficiency and generalisability. The use of more than 2 years of training data for load prediction models provided no significant improvement in forecast accuracy. Forecast accuracy and data efficiency were improved simultaneously by using change-point analysis to screen training data. Reused models and those trained with 3 months of data had on average 10\% higher error than baseline, indicating that deploying MPC systems without prior data collection may be economic.},
+  copyright = {All rights reserved},
+  keywords = {Building energy optimization,Data requirements,Energy storage,Historical data,Machine learning,Model predictive control (MPC),Time-series forecasting},
+  file = {/Users/mal84/Zotero/storage/9BCRWNFY/S0378778824007217.html}
 }
+
+@misc{langtry2024ImpactDataUsage,
+  title = {Impact of Data Usage for Forecasting on Performance of Model Predictive Control in Buildings with Smart Energy Storage},
+  author = {Langtry, Max and Wichitwechkarn, Vijja and Ward, Rebecca and Zhuang, Chaoqun and Kreitmair, Monika J. and Makasis, Nikolas and Conti, Zack Xuereb and Choudhary, Ruchi},
+  year = {2024},
+  month = feb,
+  number = {arXiv:2402.12539},
+  eprint = {2402.12539},
+  primaryclass = {cs, eess},
+  publisher = {arXiv},
+  url = {http://arxiv.org/abs/2402.12539},
+  urldate = {2024-02-26},
+  abstract = {Data is required to develop forecasting models for use in Model Predictive Control (MPC) schemes in building energy systems. However, data usage incurs costs from both its collection and exploitation. Determining cost optimal data usage requires understanding of the forecast accuracy and resulting MPC operational performance it enables. This study investigates the performance of both simple and state-of-the-art machine learning prediction models for MPC in a multi-building energy system simulation using historic building energy data. The impact of data usage on forecast accuracy is quantified for the following data efficiency measures: reuse of prediction models, reduction of training data volumes, reduction of model data features, and online model training. A simple linear multi-layer perceptron model is shown to provide equivalent forecast accuracy to state-of-the-art models, with greater data efficiency and generalisability. The use of more than 2 years of training data for load prediction models provided no significant improvement in forecast accuracy. Forecast accuracy and data efficiency were improved simultaneously by using change-point analysis to screen training data. Reused models and those trained with 3 months of data had on average 10\% higher error than baseline, indicating that deploying MPC systems without prior data collection may be economic.},
+  archiveprefix = {arXiv},
+  copyright = {All rights reserved},
+  keywords = {Computer Science - Machine Learning,Electrical Engineering and Systems Science - Systems and Control},
+  file = {/Users/mal84/Zotero/storage/NMSBGB6P/Langtry et al. - 2024 - Impact of data usage for forecasting on performanc.pdf;/Users/mal84/Zotero/storage/N7V8WIQV/2402.html}
+}
+
+@misc{langtry2024QuantifyingBenefitLoad,
+  title = {Quantifying the Benefit of Load Uncertainty Reduction for the Design of District Energy Systems under Grid Constraints Using the {{Value}} of {{Information}}},
+  author = {Langtry, Max and Choudhary, Ruchi},
+  year = {2024},
+  month = dec,
+  number = {arXiv:2412.16105},
+  eprint = {2412.16105},
+  primaryclass = {eess},
+  publisher = {arXiv},
+  address = {(Submitted to Applied Energy)},
+  doi = {10.48550/arXiv.2412.16105},
+  url = {http://arxiv.org/abs/2412.16105},
+  urldate = {2025-01-07},
+  abstract = {Load uncertainty must be accounted for during design to ensure building energy systems can meet energy demands during operation. Reducing building load uncertainty allows for improved designs with less compromise to be identified, reducing the cost of decarbonizing energy usage. However, the building monitoring required to reduce load uncertainty is costly. This study quantifies the economic benefit of practical building monitoring for supporting energy system design decisions, to determine if its benefits outweigh its cost. Value of Information analysis (VoI) is a numerical framework for quantifying the benefit of uncertainty reduction to support decision making. An extension of the framework, termed 'On-Policy' VoI, is proposed, which admits complex decision making tasks where decision policies are required. This is applied to a case study district energy system design problem, where a Linear Program model is used to size solar-battery systems and grid connection capacity under uncertain building loads, modelled using historic electricity metering data. Load uncertainty is found to have a significant impact on both system operating costs ({\textbackslash}pm30\%) and the optimal system design ({\textbackslash}pm20\%). However, using building monitoring is found to reduce overall costs by less than 2\% on average, less than the cost of measurement, and is therefore not economically worthwhile. This provides the first numerical evidence to support the sufficiency of using standard building load profiles for energy system design. Further, reducing only uncertainty in mean load is found to provide all available decision support benefit, meaning using hourly measurement data provides no benefit for energy retrofit design.},
+  archiveprefix = {arXiv},
+  copyright = {All rights reserved},
+  keywords = {Computer Science - Systems and Control,Electrical Engineering and Systems Science - Systems and Control},
+  file = {/Users/mal84/Zotero/storage/NKB7X4PP/Langtry and Choudhary - 2024 - Quantifying the benefit of load uncertainty reduct.pdf;/Users/mal84/Zotero/storage/3IND4T2N/2412.html}
+}
+
+@article{langtry2024RationalisingDataCollection,
+  title = {Rationalising Data Collection for Supporting Decision Making in Building Energy Systems Using Value of Information Analysis},
+  author = {Langtry, Max and Zhuang, Chaoqun and Ward, Rebecca and Makasis, Nikolas and Kreitmair, Monika J. and Xuereb Conti, Zack and Di Francesco, Domenic and Choudhary, Ruchi},
+  year = {2024},
+  month = nov,
+  journal = {Journal of Building Performance Simulation},
+  pages = {1--17},
+  publisher = {Taylor \& Francis},
+  issn = {1940-1493},
+  doi = {10.1080/19401493.2024.2423827},
+  url = {https://doi.org/10.1080/19401493.2024.2423827},
+  urldate = {2025-01-06},
+  abstract = {The use of data collection to support decision making through the reduction of uncertainty is ubiquitous in the management, operation, and design of building energy systems. However, no existing studies in the building energy systems literature have quantified the economic benefits of data collection strategies to determine whether they are worth their cost. This work demonstrates that Value of Information analysis (VoI), a Bayesian Decision Analysis framework, provides a suitable methodology for quantifying the benefits of data collection. Three example decision problems in building energy systems are studied: air-source heat pump maintenance scheduling, ventilation scheduling for indoor air quality, and ground-source heat pump system design. Smart meters, occupancy monitoring systems, and ground thermal tests are shown to be economically beneficial for supporting these decisions respectively. It is proposed that further study of VoI in building energy systems would allow expenditure on data collection to be economized and prioritised, avoiding wastage.},
+  copyright = {All rights reserved},
+  keywords = {Bayesian decision analysis,Building energy management,Data collection,Uncertainty quantification,Value of Information},
+  file = {/Users/mal84/Zotero/storage/KL8RGHY6/Langtry et al. - Rationalising data collection for supporting decis.pdf}
+}
+
+@article{lu2025SelfattentionVariationalAutoencoderbased,
+  title = {Self-Attention Variational Autoencoder-Based Method for Incomplete Model Parameter Imputation of Digital Twin Building Energy Systems},
+  author = {Lu, Jie and Zhang, Chaobo and Li, Bozheng and Zhao, Yang and Choudhary, Ruchi and Langtry, Max},
+  year = {2025},
+  month = feb,
+  journal = {Energy and Buildings},
+  volume = {328},
+  pages = {115162},
+  issn = {0378-7788},
+  doi = {10.1016/j.enbuild.2024.115162},
+  url = {https://www.sciencedirect.com/science/article/pii/S0378778824012787},
+  urldate = {2025-03-02},
+  abstract = {Digital twin models serve as the most crucial foundation for estimating the expected conservation effects of building energy systems. The establishment of digital twin models relies heavily on the detailed design parameters of building energy systems, including component topology, power, and efficiency. However, a considerable number of existing buildings lack complete modeling parameters. It is challenging to impute the incomplete parameters for building energy systems, since the different building energy systems have different modeling parameters and different amounts of incomplete parameters. To address this challenge, a self-attention variational autoencoder-based method is proposed. Its basic idea is to employ the self-attention mechanism to identify the key parameters within the entire parameters, and to learn the relationships between the incomplete parameters and the key parameters. The method comprises three steps: feature embedding, model building, and supervised learning. The feature embedding is employed to represent the features of building energy systems, with each feature carrying a physical meaning. A self-attention variational autoencoder model is then applied to impute the incomplete parameters based on the available parameters and the relationship between the incomplete parameters and the key parameters. Supervised learning is adopted to train the model based on the principles of the evidence lower bound. The evaluations are conducted using 350 various practical building energy systems sourced from the excellent design atlas in China. Three representative incomplete parameter imputation methods are selected as baseline models for performance comparison. The results indicate that the proposed method exhibits high imputation accuracy, good flexibility, and good interpretability.},
+  copyright = {All rights reserved},
+  keywords = {Digital twin,Feature embedding,Incomplete model parameter imputation,Multi-head self-attention,Variational autoencoder},
+  file = {/Users/mal84/Zotero/storage/ERPHUJCN/S0378778824012787.html}
+}
+
+@misc{nagy2023CityLearnChallenge2023,
+  title = {The {{CityLearn Challenge}} 2023, {{NeurIPS}}},
+  author = {Nagy, Zoltan and Nweye, Kingsley and Mohanty, Sharada and Choudhary, Ruchi and Langtry, Max and Henze, Gregor and Drgona, Jan and Dey, Sourav and Capozzoli, Alfonso and Ouf, Mohamed},
+  year = {2023},
+  month = dec,
+  journal = {SlidesLive},
+  url = {https://neurips.cc/virtual/2023/competition/66590},
+  urldate = {2025-03-03},
+  abstract = {Professional Conference Recording},
+  copyright = {All rights reserved},
+  langid = {american},
+  annotation = {NeurIPS}
+}
+
+% ========================== end ==========================
