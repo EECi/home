@@ -192,6 +192,8 @@ sidebar:
 
 ### Visiting Researchers
 
+* Fabian Raisch, *PhD Student, Technical University of Munich, Germany, April 2025-May 2025*
+
 * Jie Lu, *PhD Student, Zhejiang University, China, Jan 2024-Jan 2025*
 
 * Joaquim Cebolla Alemany, *PhD Student, Universitat Politècnica de Catalunya-Barcelona Tech, Spain, March-May 2024*
