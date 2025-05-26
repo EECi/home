@@ -44,24 +44,19 @@ sidebar-people:
     url: /docs/people/ruchi/
   - title: "Bryn"
     url: /docs/people/bryn/
-  - title: "Mel"
-    url: /docs/people/mel/
-  - title: "Rebecca"
-    url: /docs/people/rebecca/
-  - title: "Monika"
-    url: /docs/people/monikak/
-  - title: "Nick"
-    url: /docs/people/nick/
-  - title: "Zack"
-    url: /docs/people/zack/
-  - title: "Chaoqun"
-    url: /docs/people/chaoqun/
-  - title: "Mingda"
-    url: /docs/people/mingda/
   - title: "Max"
     url: /docs/people/max/
   - title: "Vijja"
     url: /docs/people/pat/
+  - title: "Monty"
+    url: /docs/people/monty/
+  - title: "Danny"
+    url: /docs/people/danny/
+  - title: "Nmeso"
+    url: /docs/people/nmeso/
+  - title: "Haomin (Leo)"   
+    url: /docs/people/haomin/
+    
 
 # Create your own sidebar
 sidebar-urbanag:
