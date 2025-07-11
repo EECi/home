@@ -33,7 +33,7 @@ grad_student_gallery:
     alt: "Danny Lockwood"
     title: "Danny Lockwood"
   - url: /docs/people/nmeso/
-    image_path: /Images/ppl/
+    image_path: /Images/ppl/Nmeso.jpg
     alt: "Nmeso Egwuekwe"
     title: "Nmeso Egwuekwe"
   - url: /docs/people/haomin/
