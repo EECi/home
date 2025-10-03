@@ -28,10 +28,7 @@ grad_student_gallery:
     image_path: /Images/ppl/monty.jpg
     alt: "Monty Jackson"
     title: "Monty Jackson"
-  - url: /docs/people/danny/
-    image_path: /Images/ppl/djl.jpg
-    alt: "Danny Lockwood"
-    title: "Danny Lockwood"
+ 
   - url: /docs/people/nmeso/
     image_path: /Images/ppl/Nmeso.jpg
     alt: "Nmeso Egwuekwe"
@@ -65,6 +62,10 @@ alumni_gallery:
     image_path: /Images/ppl/CQZ.jpg
     alt: "Chaoqun Zhuang"
     title: "Chaoqun Zhuang"
+  - url: /docs/people/danny/
+    image_path: /Images/ppl/djl.jpg
+    alt: "Danny Lockwood"
+    title: "Danny Lockwood"
 collab_gallery:
   - url: https://www.agw.kit.edu/english/176_5131.php
     image_path: https://www.agw.kit.edu/img/Ingenieurgeologie/Foto_sw_2014_Katrin_Menbergjpg.jpg
