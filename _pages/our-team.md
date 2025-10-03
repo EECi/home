@@ -28,7 +28,6 @@ grad_student_gallery:
     image_path: /Images/ppl/monty.jpg
     alt: "Monty Jackson"
     title: "Monty Jackson"
- 
   - url: /docs/people/nmeso/
     image_path: /Images/ppl/Nmeso.jpg
     alt: "Nmeso Egwuekwe"
