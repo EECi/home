@@ -8,7 +8,7 @@ author: "Danny"
 ---
 ## Research interests
 
-In my PhD research, I am exploring new approaches to enhance building efficiency, focussed on building retrofits. My primary objective is to investigate the potential of glazing as an active and integrated element within a building's connected ecosystem, with the overarching goal of facilitating the achievement of net-zero carbon emissions.
+In my research, I am exploring new approaches to enhance building efficiency, focussed on building retrofits. My primary objective is to investigate the potential of glazing as an active and integrated element within a building's connected ecosystem, with the overarching goal of facilitating the achievement of net-zero carbon emissions.
 
 ## Background
 
