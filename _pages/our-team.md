@@ -192,6 +192,8 @@ sidebar:
 
 ### Visiting Researchers
 
+* Nicola Borgato, *PhD Student, Technical University of Padua, Italy, October 2025-March 2026*
+
 * Fabian Raisch, *PhD Student, Technical University of Munich, Germany, April 2025-May 2025*
 
 * Jie Lu, *PhD Student, Zhejiang University, China, Jan 2024-Jan 2025*
