@@ -8,10 +8,14 @@ author: "Monty"
 ---
 ## Research interests
 
-I research the energy performance and decarbonisation of healthcare estates, with a focus on hospitals in the UK. My work integrates building energy modelling, statistical analysis of large-scale operational datasets, and qualitative inquiry into organisational decision-making. A core aim of my research is to develop generalisable, archetype-based models and evidence-informed retrofit strategies that can be deployed at scale, improving both energy efficiency and resilience across complex healthcare infrastructure. This work sits at the interface of building physics, sustainability policy, and real-world estates management.
+My research examines the energy performance, decarbonisation, and resilience of healthcare estates, with a particular focus on NHS hospitals in the UK. It sits at the intersection of building energy modelling, analysis of large-scale operational datasets, and organisational decision-making, with an emphasis on how retrofit and investment decisions are shaped within complex and resource-constrained environments.
+
+A central objective of this work is the development of generalisable, archetype-based approaches for assessing hospital buildings at scale. This involves integrating quantitative modelling with qualitative insight to support evidence-based, risk-aware retrofit strategies. Increasingly, my research considers the role of digital tools, governance arrangements, and institutional practices in mediating how technical evidence is interpreted and acted upon in practice. Overall, the work bridges building physics, sustainability policy, and healthcare estates management, with a focus on scalability and real-world applicability.
 
 ## Background
 
-I trained in Architectural Engineering (BSc, University of Plymouth) before completing an MRes in Future Infrastructure and Built Environment at the University of Cambridge. I am currently a PhD Candidate in the Department of Engineering at Cambridge. My academic work is complemented by professional experience in the science, technology, and healthcare sectors, where I have contributed to data-driven energy assessments, decarbonisation strategies, and the evaluation of estate-wide retrofit opportunities. This combined technical and organisational perspective underpins my research approach, which seeks to produce insights that are analytically rigorous, operationally practical, and policy relevant.
+I trained in Architectural Engineering (BSc, University of Plymouth) before completing an MRes in Future Infrastructure and Built Environment at the University of Cambridge. I am currently a PhD Candidate in the Department of Engineering at Cambridge.
+
+My academic work is complemented by professional experience across the science, technology, and healthcare sectors, including work with a healthcare-focused technology startup developing data-driven tools for estates management and regulatory compliance. In these roles, I have contributed to large-scale energy assessments, decarbonisation strategies, and the evaluation of estate-wide retrofit opportunities. This combined technical and organisational perspective underpins my research approach, which seeks to produce insights that are analytically rigorous, operationally practical, and policy relevant.
 
 ## Publications
