@@ -44,17 +44,14 @@ sidebar-people:
     url: /docs/people/ruchi/
   - title: "Bryn"
     url: /docs/people/bryn/
-  - title: "Max"
-    url: /docs/people/max/
-  - title: "Vijja"
-    url: /docs/people/pat/
   - title: "Monty"
     url: /docs/people/monty/
   - title: "Nmeso"
     url: /docs/people/nmeso/
   - title: "Haomin (Leo)"   
     url: /docs/people/haomin/
-    
+  - title: "Eirini"   
+    url: /docs/people/eirini/
 
 # Create your own sidebar
 sidebar-urbanag:
