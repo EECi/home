@@ -250,3 +250,18 @@ Haomin:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin-in"
       url: "https://www.linkedin.com/in/haomin-luo-40856714b/"
+
+Eirini:
+  name: "Eirini Tsouknida"
+  bio: "Graduate Student, Neuro-environmental research for smarter energy building simulations"
+  avatar: "/Images/ppl/eirini.jpeg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:ekt38@cam.ac.uk"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "/home/docs/people/eirini/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin-in"
+      url: "https://www.linkedin.com/in/eirinitsouknida/"
