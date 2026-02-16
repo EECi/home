@@ -16,14 +16,6 @@ faculty_gallery:
 ra_gallery:
 
 grad_student_gallery:
-  - url: /docs/people/max/
-    image_path: /Images/ppl/mal.jpg
-    alt: "Max Langtry"
-    title: "Max Langtry"
-  - url: /docs/people/pat/
-    image_path: /Images/ppl/pat.jpg
-    alt: "Vijja Wichitwechkarn"
-    title: "Vijja Wichitwechkarn"
   - url: /docs/people/monty/
     image_path: /Images/ppl/monty.jpg
     alt: "Monty Jackson"
@@ -36,6 +28,10 @@ grad_student_gallery:
     image_path: /Images/ppl/Haomin LUO(Leo).jpg
     alt: "Haomin (Leo) Luo"
     title: "Haomin (Leo) Luo"
+  - url: /docs/people/eirini/
+    image_path: /Images/ppl/eirini.jpeg
+    alt: "Eirini Tsouknida"
+    title: "Eirini Tsouknida"
 alumni_gallery:
   - url: /docs/people/rebecca/
     image_path: /Images/ppl/rmw.jpg
@@ -65,6 +61,14 @@ alumni_gallery:
     image_path: /Images/ppl/djl.jpg
     alt: "Danny Lockwood"
     title: "Danny Lockwood"
+  - url: /docs/people/max/
+    image_path: /Images/ppl/mal.jpg
+    alt: "Max Langtry"
+    title: "Max Langtry"
+  - url: /docs/people/pat/
+    image_path: /Images/ppl/pat.jpg
+    alt: "Vijja Wichitwechkarn"
+    title: "Vijja Wichitwechkarn"
 collab_gallery:
   - url: https://www.agw.kit.edu/english/176_5131.php
     image_path: https://www.agw.kit.edu/img/Ingenieurgeologie/Foto_sw_2014_Katrin_Menbergjpg.jpg
@@ -139,6 +143,10 @@ sidebar:
 
 
 ### Past PhD Students
+
+* Max Langtry, *2022-2025 [now founding engineer at Stealth Startup, UK]*
+
+* Vijja Wichitwechkarn, *2021-2025 [now developing Startup in Robotics, UK]*
 
 * Mingda Yuan, *2017-2022 [now research fellow at UCL, UK]*
 
