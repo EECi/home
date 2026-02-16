@@ -146,7 +146,7 @@ sidebar:
 
 * Max Langtry, *2022-2025 [now founding engineer at Stealth Startup, UK]*
 
-* Vijja Wichitwechkarn, *2021-2025 [now developing Startup in Robotics, UK]*
+* Vijja Wichitwechkarn, *2021-2025 [now developing a Startup in Robotics, UK]*
 
 * Mingda Yuan, *2017-2022 [now research fellow at UCL, UK]*
 
