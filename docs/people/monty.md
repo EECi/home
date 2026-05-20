@@ -2,7 +2,7 @@
 layout: single
 title: Monty Jackson
 description: Personal website
-last_modified_at: 2023-10-04
+last_modified_at: 2026-05-20
 author_profile: true
 author: "Monty"
 ---
@@ -19,3 +19,5 @@ I trained in Architectural Engineering (BSc, University of Plymouth) before comp
 My academic work is complemented by professional experience across the science, technology, and healthcare sectors, including work with a healthcare-focused technology startup developing data-driven tools for estates management and regulatory compliance. In these roles, I have contributed to large-scale energy assessments, decarbonisation strategies, and the evaluation of estate-wide retrofit opportunities. This combined technical and organisational perspective underpins my research approach, which seeks to produce insights that are analytically rigorous, operationally practical, and policy relevant.
 
 ## Publications
+
+<script src="https://bibbase.org/show?bib=https%3A%2F%2Fraw.githubusercontent.com%2FEECi%2Fhome%2Fmain%2Fdocs%2Fpublications%2Fmonty.bib&commas=true&jsonp=1&filter=author_short:Jackson&folding=1"></script>
