@@ -116,11 +116,9 @@ sidebar:
   title: "Meet the team"
   nav: sidebar-people
 ---
-
 ## Faculty
 
 {% include gallery id="faculty_gallery" layout="third" %}
-
 
 ## Research associates
 
@@ -130,106 +128,63 @@ sidebar:
 
 {% include gallery id="grad_student_gallery" layout="third" %}
 
-
 ## Collaborators
+
 {% include gallery id="collab_gallery" layout="third"%}
 
 ## Alumni
-{% include gallery id="alumni_gallery" layout="third"%}
 
+{% include gallery id="alumni_gallery" layout="third"%}
 
 ### Past PhD Students
 
-* Max Langtry, *2022-2025 [now founding engineer at Stealth Startup, UK]*
-
-* Vijja Wichitwechkarn, *2021-2025 [now developing a Startup in Robotics, UK]*
-
-* Mingda Yuan, *2017-2022 [now research fellow at UCL, UK]*
-
-* Andre Paul Neto-Bradley, *2017-2021 [became PDRA at U. of Cambridge]*
-
-* Yohei Kiguchi, *2014-2021 [now CEO of Japan Energy Capital]*
-
-* Rebecca Ward (1/2 time), *2014-2021 [now PDRA at Turing]*
-
-* Melanie Jans-Singh, *2016-2020 [now researcher at BEIS, UK]*
-
-* Bryn Pickering , *2015-2019 [now Arup Official Fellow at University of Cambridge, and Senior Consultant at Arup]*
-
-* Adnan Mortada, *2013-2018 [now partner of Japan Energy Capital]*
-
-* Yi Zhang (co-supervisor with K. Soga), *2011-2015 [now researcher at Tsinghua-Berkeley Shenzhen Institute, China]*
-
-* Akomeno Omu, *2010-2014. [now Dean of Faculty at African Leadership University, Mauritius]*
-
-* Denis Garber (with co-supervisor K. Soga), *2010-2013. [now at WorleyParsons, Canada]*
-
+* Max Langtry, *2022-2025 [Founding engineer at a Startup in Optimisation, UK]*
+* Vijja Wichitwechkarn, *2021-2025 [Founder at a Startup in Robotics, UK]*
+* Mingda Yuan, *2017-2022 [Research fellow at Springer Nature]*
+* Andre Paul Neto-Bradley, *2017-2021 [Lead Energy Research Advisor at Department for Energy Security and Net Zero]*
+* Yohei Kiguchi, *2014-2021 [CEO of ENECHANGE]*
+* Rebecca Ward (1/2 time), *2014-2021 [PDRA at Turing; now retired]*
+* Melanie Jans-Singh, *2016-2020 [International Innovation Lead at Department for Energy Security and Net Zero]*
+* Bryn Pickering , *2015-2019 [Arup Official Fellow at University of Cambridge, and Senior Energy Systems Modeller at Open Energy Transition]*
+* Adnan Mortada, *2013-2018 [Partner of Japan Energy Capital]*
+* Yi Zhang (co-supervisor with K. Soga), *2011-2015 [Associate professor at Tsinghua-Berkeley Shenzhen Institute, China]*
+* Akomeno Omu, *2010-2014. [Director, Learning Research & Development at ALX_Africa]*
+* Denis Garber (with co-supervisor K. Soga), *2010-2013. [Regional Railway Works Engineer, Transport Canada]*
 * Adam Ryansek, *2009-2013. [now Asst. Prof. at U. of British Columbia, Canada]*
-
 * Adam Booth, *2009-2013. [now political activist and writer for Socialist Appeal, UK]*
-
 
 ### Past Research Associates
 
 * Dr. Nikolas Makasis, *2020-2023 [now Future Fellow at University of Surrey, UK]*
-
 * Dr. Monika J. Kreitmair, *2019-2023 [now Future Fellow at University of Surrey, UK]*
-
-* Dr. Andre Paul Neto-Bradley, *2021-2022 [now researcher at BEIS, UK]*
-
+* Dr. Andre Paul Neto-Bradley, *2021-2022 [Lead Energy Research Advisor at Department for Energy Security and Net Zero]*
 * Dr. Asal Bidarmaghz, *2017-2019 [now Asst. Prof. at UNSW Sydney, Australia]*
-
 * Tim Troendle, *2016-2017 [now senior researcher at ETH Zurich, Switzerland]*
-
 * Dr. Qi Li, *2016-2017 [now PDRA at Argonne National Lab, USA]*
-
 * Dr. Kathrin Menberg, *2014-2017 [now Asst. Prof. at Karlsruhe Institute of Technology, Germany]*
-
 * Dr. Adam Rysanek, *2013-2014. [now Asst. Prof. at U. of British Columbia, Canada]*
-
 * Dr. Wei Tian, *2011-2013. [now Professor at Tianjin U., China]*
-
 * Dr. Yeonsook Heo, *2010. [now Associate Professor at Korea University, S. Korea]*
-
 * Rosalia Pacheco Torres, *2012. [now Asst. Prof. at Polytechnic U. of Madrid, Spain]*
-
 
 ### Visiting Researchers
 
 * Nicola Borgato, *PhD Student, Technical University of Padua, Italy, October 2025-March 2026*
-
 * Fabian Raisch, *PhD Student, Technical University of Munich, Germany, April 2025-May 2025*
-
 * Jie Lu, *PhD Student, Zhejiang University, China, Jan 2024-Jan 2025*
-
 * Joaquim Cebolla Alemany, *PhD Student, Universitat Politècnica de Catalunya-Barcelona Tech, Spain, March-May 2024*
-
 * Dr. Rubén-Daniel Lopez Carreño, *Assistant Professor, Universitat Politècnica de Catalunya-Barcelona Tech, Spain, March-May 2024*
-
 * Dr. Cheryl Wong Sze Yin, *Scientist, Institute for Infocomm Research, Singapore, Oct-Nov 2019*
-
 * Dr. K. Menberg, *Assistant Professor, Karlsruhe Institute of Technology, Germany, July 2019*
-
 * Andrea Imaz, *Perkins & Will, UK, Jan-August 2019*
-
 * Dr. W. Choi, *Assistant Professor, U. of Tokyo, July 2019*
-
 * Holger Kessler, Ricky Terrington, Stephen Thorpe, *British Geological Survey, Oct 2017-March 2018*
-
 * Dr. W. Choi, *Post Doctoral Researcher, U. of Tokyo, June 2017*
-
 * Dr. H. Kikumoto, *Assistant Professor, U. of Tokyo, June 2017*
-
 * Olga Mikhaylova, *PhD Student, U. of Melbourne, Australia, Jan-March 2016*
-
 * Martin Kristensen, *PhD Student, Aarhus University, Denmark, Summer 2016*
-
 * Joris Doumouro, *Engineering Internship, Ecole Normale Superieure Paris-Saclay, France, 2015-16*
-
 * Rui Cheng, *PhD. Candidate, Tsinghua University, China, Oct 2013-March 2014*
-
 * Joakim Munkhammar, *PhD Candidate, Uppsala University, Sweden, April 2013*
-
 * Dr. Inanici, *Associate Professor, Dept. of Architecture, U. of Washington, Seattle, USA, August 2013*
-
 * Dr. Yohei Yamaguchi, *Assistant Professor, Urban Energy Systems, Osaka Univ., Japan, Dec 2012*
