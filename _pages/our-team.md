@@ -53,10 +53,6 @@ alumni_gallery:
     image_path: /Images/ppl/CQZ.jpg
     alt: "Chaoqun Zhuang"
     title: "Chaoqun Zhuang"
-  - url: /docs/people/danny/
-    image_path: /Images/ppl/djl.jpg
-    alt: "Danny Lockwood"
-    title: "Danny Lockwood"
   - url: /docs/people/max/
     image_path: /Images/ppl/mal.jpg
     alt: "Max Langtry"
