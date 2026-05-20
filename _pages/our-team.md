@@ -62,7 +62,7 @@ alumni_gallery:
     alt: "Vijja Wichitwechkarn"
     title: "Vijja Wichitwechkarn"
 collab_gallery:
-  - url: https://www.agw.kit.edu/english/176_5131.php
+  - url: https://ingeo.agw.kit.edu/english/21_96.php
     image_path: https://www.agw.kit.edu/img/Ingenieurgeologie/Foto_sw_2014_Katrin_Menbergjpg.jpg
     title: "Katrin Menberg"
     alt: "Katrin Menberg"
@@ -92,7 +92,7 @@ collab_gallery:
     title: "Ryozo Ooka"
     alt: "Ryozo Ooka"
     institute: "The University of Tokyo, Japan"
-  - url: https://betlab.oopy.io/8a1c26ac-9a32-4dc8-8334-b3f2840956d6
+  - url: https://betlab.oopy.io/b748a6eb-eb12-4884-9b5b-2dd1197086a4
     image_path: /Images/ppl/wonjun.png
     title: "Wonjun Choi"
     alt: "Wonjun Choi"
