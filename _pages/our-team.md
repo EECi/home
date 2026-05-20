@@ -3,7 +3,7 @@ layout: single
 title: Our team
 permalink: /our-team/
 description: An overview of the team
-last_modified_at: 2024-08-30
+last_modified_at: 2026-05-20
 faculty_gallery:
   - url: /docs/people/ruchi/
     image_path: /Images/ppl/Ruchi.png
@@ -24,10 +24,6 @@ grad_student_gallery:
     image_path: /Images/ppl/Nmeso.jpg
     alt: "Nmeso Egwuekwe"
     title: "Nmeso Egwuekwe"
-  - url: /docs/people/haomin/
-    image_path: /Images/ppl/Haomin LUO(Leo).jpg
-    alt: "Haomin (Leo) Luo"
-    title: "Haomin (Leo) Luo"
   - url: /docs/people/eirini/
     image_path: /Images/ppl/eirini.jpeg
     alt: "Eirini Tsouknida"
