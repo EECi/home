@@ -169,14 +169,14 @@ Vijja:
 Monty:
   name: "Monty Jackson"
   bio: "Graduate Student, Hospital Energy Decarbonisation"
-  avatar: "/Images/ppl/monty.jpg"
+  avatar: "/Images/ppl/monty.png"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:mj636@cam.ac.uk"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "/home/docs/people/monty/"
+      url: "https://montyjackson.github.io/"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin-in"
       url: "https://www.linkedin.com/in/monty-jackson/"

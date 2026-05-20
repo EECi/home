@@ -17,7 +17,7 @@ ra_gallery:
 
 grad_student_gallery:
   - url: /docs/people/monty/
-    image_path: /Images/ppl/monty.jpg
+    image_path: /Images/ppl/monty.png
     alt: "Monty Jackson"
     title: "Monty Jackson"
   - url: /docs/people/nmeso/
