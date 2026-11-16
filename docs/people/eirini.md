@@ -19,3 +19,5 @@ I am an Architect, holding a Master’s degree in Computational Urban Design fro
 Alongside professional practice, I have contributed to academia through teaching and mentoring at UCL and the University of Southampton. My work has been showcased internationally, including at the Venice Biennale and ARS Electronica. I am currently a PhD student in the Department of Engineering at Cambridge University.
 
 ## Publications
+
+<script src="https://bibbase.org/show?bib=https%3A%2F%2Fraw.githubusercontent.com%2FEECi%2Fhome%2Fmain%2Fdocs%2Fpublications%2Feirini.bib&commas=true&jsonp=1&folding=1"></script>

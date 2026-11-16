@@ -168,6 +168,7 @@ Vijja:
 
 Monty:
   name: "Monty Jackson"
+  orcid: "https://orcid.org/0009-0009-7842-2880"
   bio: "Graduate Student, Hospital Energy Decarbonisation"
   avatar: "/Images/ppl/monty.png"
   links:
@@ -253,6 +254,7 @@ Haomin:
 
 Eirini:
   name: "Eirini Tsouknida"
+  orcid: "https://orcid.org/0009-0004-0544-6674"
   bio: "Graduate Student, Neuro-environmental research for smarter energy building simulations"
   avatar: "/Images/ppl/eirini.jpeg"
   links:

@@ -8,6 +8,23 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
+/* Sidebar link labels: match the Bootstrap 2 ".label" badge style that BibBase
+   injects on pages with a publications list, so every profile looks the same
+   whether or not it embeds BibBase. */
+.author__urls span.label {
+  display: inline-block;
+  padding: 2px 4px;
+  font-size: 11.844px;
+  font-weight: bold;
+  line-height: 14px;
+  color: #ffffff;
+  vertical-align: baseline;
+  white-space: nowrap;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #999999;
+  border-radius: 3px;
+}
+
 /* Our image classes */
 /* Some sketchy CSS image classes */
 img.teamgallery {
