@@ -1,7 +1,7 @@
 ---
 layout: single
 title: EECinsights - A clean sweep at Oxford Energy Day 2026
-last_modified_at: 2026-11-19
+last_modified_at: 2026-10-02
 author: "Monty"
 author_profile: true
 read_time: true
