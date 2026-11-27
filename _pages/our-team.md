@@ -68,7 +68,7 @@ collab_gallery:
     alt: "Katrin Menberg"
     institute: "Karlsruhe Institute of Technology, Germany"
   - url: https://iihs.co.in/people/amir-bashir-bazaz-2/
-    image_path: https://iihs.co.in/wp-content/uploads/2017/11/Amir-Bezaz.jpg
+    image_path: /Images/ppl/amir.jpg
     title: "Amir Bazaz"
     alt: "Amir Bazaz"
     institute: "Indian Institute for Human Settlements, India"
